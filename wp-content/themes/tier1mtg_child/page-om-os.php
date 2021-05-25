@@ -19,8 +19,8 @@ get_header(); ?>
     <div id="primary" <?php generate_do_element_classes( 'content' ); ?>>
         <main id="main" <?php generate_do_element_classes( 'main' ); ?>>
             <div>
-                <p>Dette er event-siden</p>
-            </div>
+    <p>Dette er om-os-siden</p>
+</div>
         </main>
     </div>
 

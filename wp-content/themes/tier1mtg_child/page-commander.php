@@ -19,7 +19,7 @@ get_header(); ?>
     <div id="primary" <?php generate_do_element_classes( 'content' ); ?>>
         <main id="main" <?php generate_do_element_classes( 'main' ); ?>>
             <div>
-                <p>Dette er event-siden</p>
+                <p>Dette er Commander-siden</p>
             </div>
         </main>
     </div>
@@ -32,6 +32,6 @@ get_header(); ?>
 	 */
 	do_action( 'generate_after_primary_content_area' );
 
-    generate_construct_sidebars();
+	generate_construct_sidebars();
 
 	get_footer();
