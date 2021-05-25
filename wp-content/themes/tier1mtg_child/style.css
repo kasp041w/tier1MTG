@@ -7,3 +7,63 @@ Version: 1.0.0
 Description: Stylish Child Theme based on GeneratePress
 
 */
+
+
+/*FONTE PÅ HELE SITET*/
+
+h1 {
+    font-family: 'Cormorant', serif;
+    color: #272727;
+}
+h2 {
+    font-family: 'Cormorant', serif;
+    color: #272727;
+}
+h3 {
+    font-family: 'Cormorant', serif;
+    color: #272727;
+}
+p {
+    font-family: 'Assistant', sans-serif;
+    color: #272727;
+}
+button {
+    font-family: 'Cormorant', serif;
+}
+
+/*GENREL CSS*/
+
+body {
+    background-color: #F7F6E9;
+    margin: 0 auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+/*Fjerner side-bar*/
+
+.site-content .content-area {
+    width: 100%;
+}
+.is-right-sidebar {
+    width: 30%;
+    display: none;
+}
+
+/*HEADER STYLES*/
+
+.inside-header {
+    background-color: #272727;
+}
+.main-navigation .main-nav ul li a {
+    background-color: #272727;
+}
+
+/*Bokse i header*/
+
+.main-navigation .main-nav ul li a,
+.menu-toggle,
+.main-navigation .menu-bar-items {
+    font-family: 'Cormorant', serif;
+    color: #F7F6E9;
+}
