@@ -9,7 +9,7 @@ Description: Stylish Child Theme based on GeneratePress
 */
 
 
-/*FONTE PÅ HELE SITET*/
+/*---FONTE PÅ HELE SITET---*/
 
 h1 {
     font-family: 'Cormorant', serif;
@@ -31,11 +31,14 @@ button {
     font-family: 'Cormorant', serif;
 }
 
-/*GENREL CSS*/
+/*---GENREL CSS---*/
 
 body {
     background-color: #F7F6E9;
     margin: 0 auto;
+}
+main {
+    width: 100%;
     padding-left: 2rem;
     padding-right: 2rem;
 }
@@ -50,13 +53,27 @@ body {
     display: none;
 }
 
-/*HEADER STYLES*/
+/*---HEADER STYLES---*/
 
 .inside-header {
     background-color: #272727;
 }
 .main-navigation .main-nav ul li a {
     background-color: #272727;
+}
+.site-header {
+    background-color: #272727;
+}
+
+/*Burgermenu-baggrund*/
+
+.mobile-menu-control-wrapper .menu-toggle,
+.mobile-menu-control-wrapper .menu-toggle:hover,
+.mobile-menu-control-wrapper .menu-toggle:focus,
+.has-inline-mobile-toggle #site-navigation.toggled {
+    background-color: #272727;
+    font-size: 2rem;
+    color: #F7F6E9;
 }
 
 /*Bokse i header*/
@@ -66,4 +83,10 @@ body {
 .main-navigation .menu-bar-items {
     font-family: 'Cormorant', serif;
     color: #F7F6E9;
+    text-transform: uppercase;
+    border: 0;
 }
+
+/*Aktiv-status på menu/burgermenu-knapper*/
+
+.main-navigation .main-nav ul li[class*="current-menu-"] > a {}
