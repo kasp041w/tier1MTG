@@ -19,7 +19,7 @@ get_header(); ?>
     <div id="primary" <?php generate_do_element_classes( 'content' ); ?>>
         <main id="main" <?php generate_do_element_classes( 'main' ); ?>>
             <div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus veritatis quae quidem. Ab corporis, iure velit non repellat laudantium quod error natus pariatur unde. Ab quasi repellendus, sequi aspernatur aliquid?</p>
+                <p>Dette er event-siden</p>
             </div>
         </main>
     </div>
