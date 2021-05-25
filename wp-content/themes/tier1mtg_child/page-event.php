@@ -32,6 +32,6 @@ get_header(); ?>
 	 */
 	do_action( 'generate_after_primary_content_area' );
 
-
+<?php get_sidebar();
 
 	get_footer();
