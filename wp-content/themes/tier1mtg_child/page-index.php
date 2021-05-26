@@ -17,11 +17,52 @@ if ( ! defined( 'ABSPATH' ) ) {
 get_header(); ?>
 
 <style>
-    #first_section {
-        display: grid;
-        grid-auto-rows: 0.5fr 1fr;
+    main {
+        width: 100%;
+        padding-left: 0rem;
+        padding-right: 0rem;
     }
 
+    /*Styling af første sektion: nyeste kort*/
+    /*styling af singel kortene på forsiden*/
+
+    .titel_alternativ {
+        color: #F1F0E8;
+        margin-bottom: 0;
+    }
+
+    .pris_alternativ {
+        color: #AD9261;
+    }
+
+    .se_kort_knap {
+        position: absolute;
+        left: 58%;
+        bottom: 5%;
+        z-index: 40;
+    }
+
+    article {
+        position: relative;
+    }
+
+    .baggrund_kort {
+        position: absolute;
+        bottom: 0;
+        background-color: rgba(39, 39, 39, 0.96);
+        width: 100%;
+        padding: 20px;
+        height: 30%;
+        transition: .5s ease;
+        overflow: hidden;
+    }
+
+    .baggrund_kort:hover {
+        height: 0%;
+    }
+
+
+    /*Slider effekten, fungere både på mobil og destiop*/
     .figure_ny {
         cursor: pointer;
     }
@@ -50,17 +91,47 @@ get_header(); ?>
         display: none;
     }
 
+
+
+
+
+    /*styling af anden sektion: bliv en del af universet*/
+
+    .baggrundsbillede_anden_sektion {
+        background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/del_af_universet.png);
+        background-size: cover;
+        max-width: none;
+        height: 90vh;
+        width: 100%;
+    }
+
+    .baggrundsbillede_anden_sektion h1,
+    p {
+        color: #F1F0E8;
+        text-align: center;
+    }
+
+    #forside_anden_sektion_knap {
+        text-align: center;
+        color: #AD9261;
+    }
+
+
     /*desktop*/
     @media (min-width: 950px) {
-
-        .image-container {
-            margin: 0px 20px;
-            padding-left: 5vw;
-            padding-right: 5vw;
+        .til_kort_side_nav {
+            text-align: end;
         }
 
-        .image-container .figure_lyt {
-            flex-basis: 19%;
+        .image-container .figure_ny {
+            flex-basis: 27%;
+        }
+
+
+        /*styling af anden sektion: bliv en del af universet*/
+
+        .baggrundsbillede_anden_sektion {
+            height: 50%;
         }
 
 
@@ -77,6 +148,7 @@ get_header(); ?>
 
         <section id="first_section">
             <h1>NYESTE SINGLE</h1>
+            <h3 class="til_kort_side_nav">Se alle Single Cards →</h3>
             <div class="image-container">
                 <figure class="figure_ny">
                     <div class="new_single_kort"></div>
@@ -95,17 +167,29 @@ get_header(); ?>
                 </figure>
             </div>
         </section>
+
+        <section id="anden_sektion">
+            <div class="baggrundsbillede_anden_sektion">
+                <h1>BLIV EN DEL AF UNIVERSET</h1>
+                <p>Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. lorem Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text. lorem</p>
+                <button id="forside_anden_sektion_knap">LÆS MERE</button>
+            </div>
+        </section>
+
     </main>
 
 
     <template>
         <article>
-            <img src="" alt="" class="billede">
-            <div>
-                <h2 class="titel"></h2>
-                <h3 class="pris"></h3>
+            <div class="billed_placering">
+                <img src="" alt="" class="billede">
                 <button class="se_kort_knap">SE KORT</button>
             </div>
+            <div class="baggrund_kort">
+                <h2 class="titel_alternativ"></h2>
+                <h3 class="pris_alternativ"></h3>
+            </div>
+
         </article>
     </template>
 
@@ -147,8 +231,8 @@ get_header(); ?>
 
                 const klon = template.cloneNode(true).content; //Her klones template og udfyldes med data fra de tilfældige objekter
                 klon.querySelector(".billede").src = single.billede.guid;
-                klon.querySelector(".titel").innerHTML = single.title.rendered;
-                klon.querySelector(".pris").innerHTML = `${"Fra "}` + single.pris;
+                klon.querySelector(".titel_alternativ").innerHTML = single.title.rendered;
+                klon.querySelector(".pris_alternativ").innerHTML = `${"Fra "}` + single.pris;
 
                 // eventlisteners på hver enkelt artikel
                 klon.querySelector(".se_kort_knap").addEventListener("click", () => {
@@ -176,8 +260,8 @@ get_header(); ?>
 
                 const klon = template.cloneNode(true).content; //Her klones template og udfyldes med data fra de tilfældige objekter
                 klon.querySelector(".billede").src = single.billede.guid;
-                klon.querySelector(".titel").innerHTML = single.title.rendered;
-                klon.querySelector(".pris").innerHTML = `${"Fra "}` + single.pris;
+                klon.querySelector(".titel_alternativ").innerHTML = single.title.rendered;
+                klon.querySelector(".pris_alternativ").innerHTML = `${"Fra "}` + single.pris;
 
                 // eventlisteners på hver enkelt artikel
                 klon.querySelector(".se_kort_knap").addEventListener("click", () => {
@@ -205,8 +289,8 @@ get_header(); ?>
 
                 const klon = template.cloneNode(true).content; //Her klones template og udfyldes med data fra de tilfældige objekter
                 klon.querySelector(".billede").src = single.billede.guid;
-                klon.querySelector(".titel").innerHTML = single.title.rendered;
-                klon.querySelector(".pris").innerHTML = `${"Fra "}` + single.pris;
+                klon.querySelector(".titel_alternativ").innerHTML = single.title.rendered;
+                klon.querySelector(".pris_alternativ").innerHTML = `${"Fra "}` + single.pris;
 
                 // eventlisteners på hver enkelt artikel
                 klon.querySelector(".se_kort_knap").addEventListener("click", () => {
@@ -234,8 +318,8 @@ get_header(); ?>
 
                 const klon = template.cloneNode(true).content; //Her klones template og udfyldes med data fra de tilfældige objekter
                 klon.querySelector(".billede").src = single.billede.guid;
-                klon.querySelector(".titel").innerHTML = single.title.rendered;
-                klon.querySelector(".pris").innerHTML = `${"Fra "}` + single.pris;
+                klon.querySelector(".titel_alternativ").innerHTML = single.title.rendered;
+                klon.querySelector(".pris_alternativ").innerHTML = `${"Fra "}` + single.pris;
 
                 // eventlisteners på hver enkelt artikel
                 klon.querySelector(".se_kort_knap").addEventListener("click", () => {
