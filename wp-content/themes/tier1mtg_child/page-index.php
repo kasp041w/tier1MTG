@@ -17,10 +17,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 get_header(); ?>
 
 <style>
-    /*    styling af singel kortene på forsiden*/
+    /*Styling af første sektion: nyeste kort*/
+    /*styling af singel kortene på forsiden*/
 
     .titel_alternativ {
         color: #F1F0E8;
+        margin-bottom: 0;
     }
 
     .pris_alternativ {
@@ -28,7 +30,10 @@ get_header(); ?>
     }
 
     .se_kort_knap {
-        text-align: end;
+        position: absolute;
+        left: 58%;
+        bottom: 5%;
+        z-index: 40;
     }
 
     article {
@@ -80,6 +85,18 @@ get_header(); ?>
         display: none;
     }
 
+
+
+
+
+    /*styling af anden sektion: bliv en del af universet*/
+
+    .anden_sektion {
+        background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/del_af_universet.png);
+    }
+
+
+
     /*desktop*/
     @media (min-width: 950px) {
         .til_kort_side_nav {
@@ -123,17 +140,29 @@ get_header(); ?>
                 </figure>
             </div>
         </section>
+
+        <section id="anden_sektion">
+            <div>
+                <h1>BLIV EN DEL AF UNIVERSET</h1>
+                <p>Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. lorem Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text. lorem</p>
+                <button>LÆS MERE</button>
+            </div>
+        </section>
+
     </main>
 
 
     <template>
         <article>
-            <div class="billed_placering"><img src="" alt="" class="billede"></div>
+            <div class="billed_placering">
+                <img src="" alt="" class="billede">
+                <button class="se_kort_knap">SE KORT</button>
+            </div>
             <div class="baggrund_kort">
                 <h2 class="titel_alternativ"></h2>
                 <h3 class="pris_alternativ"></h3>
-                <button class="se_kort_knap">SE KORT</button>
             </div>
+
         </article>
     </template>
 
