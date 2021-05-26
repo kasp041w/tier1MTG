@@ -11,14 +11,22 @@ get_header(); ?>
 
 	/*FJERN MARGIN/PADDING PÅ SEKTIONER*/
 
-	.splash,
-	#top_sektion,
-	#tip_sektion,
-	#cardmarket_sektion #main .site-main {
-		margin: 0 auto;
+	main {
+		width: 100%;
 		padding-left: 0rem;
 		padding-right: 0rem;
 	}
+
+	/*.splash,
+	#top_sektion,
+	#tip_sektion,
+	#cardmarket_sektion #main .site-main
+	{
+		margin: 0 auto;
+		padding-left: 0rem;
+		padding-right: 0rem;
+	}*/
+
 
 	/*FARVER*/
 
