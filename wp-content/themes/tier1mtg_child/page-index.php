@@ -93,6 +93,10 @@ get_header(); ?>
 
     .anden_sektion {
         background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/del_af_universet.png);
+        background-size: cover;
+        max-width: none;
+        height: 30vh;
+        width: auto;
     }
 
 
