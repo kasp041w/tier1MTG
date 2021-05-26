@@ -34,7 +34,7 @@ get_header(); ?>
     .baggrund_kort {
         position: absolute;
         bottom: 0;
-        background-color: rgba(39, 39, 39, 0.9);
+        background-color: rgba(39, 39, 39, 0.96);
         width: 100%;
         padding: 20px;
         height: 30%;
@@ -43,7 +43,7 @@ get_header(); ?>
     }
 
     .baggrund_kort:hover {
-        height: 0%;
+        height: -10%;
     }
 
 
