@@ -16,6 +16,31 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 get_header(); ?>
 
+    <style>
+        /*---GRIDVIEW MOBIL*/
+
+        .one-container .site-main>:last-child,
+        .separate-containers .site-main>:last-child {
+            text-align: left;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(135px, 1fr));
+            max-width: 100vw;
+            grid-gap: 1rem;
+        }
+        /*---SINGLE CARDS---*/
+
+        img.billede {
+            border-radius: 5%;
+        }
+
+        img.billede:hoer {
+            transform: scale(1.08);
+            cursor: pointer;
+            transition: all 0.4s;
+        }
+
+    </style>
+
     <div id="primary" <?php generate_do_element_classes( 'content' ); ?>>
         <main id="main" <?php generate_do_element_classes( 'main' ); ?>>
 
