@@ -69,11 +69,11 @@ get_header(); ?>
                 </figure>
 
                 <figure class="figure_ny">
-                    <div class="new_single_kort"></div>
+                    <div class="new_single_kort2"></div>
                 </figure>
 
                 <figure class="figure_ny">
-                    <div class="new_single_kort"></div>
+                    <div class="new_single_kort3"></div>
                 </figure>
             </div>
         </section>
@@ -105,6 +105,7 @@ get_header(); ?>
             console.log("loadJson", newSingleKort);
             visNewSingleKort();
             visNewSingleKort1();
+
         }
         loadJson();
 
@@ -151,6 +152,8 @@ get_header(); ?>
                 //Definerer konstanter til senere brug i kloningen af template
                 const template = document.querySelector("template");
                 const container = document.querySelector(".new_single_kort1");
+                const container = document.querySelector(".new_single_kort2");
+                const container = document.querySelector(".new_single_kort3");
 
                 const klon = template.cloneNode(true).content; //Her klones template og udfyldes med data fra de tilfældige objekter
                 klon.querySelector(".billede").src = single.billede.guid;
