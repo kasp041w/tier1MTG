@@ -64,7 +64,8 @@ get_header(); ?>
 				<p>Tekst her om Commander-formatet. Blabjsndlks ifrdn ljiejr je rjwtnntndjfn erj shekj kje bkj bjkbgkj vkd kjdkj kjhekjr kjsh kjheskjt hhg kjhgkjh kjhkj hfkhdgl</p>
 			</div>
 			<div class="top_col_2">
-				<video src="https://www.youtube.com/watch?v=k70dmf3kQYU"></video>
+				<iframe width="420" height="315" src="https://www.youtube.com/watch?v=k70dmf3kQYU">
+				</iframe>
 			</div>
 		</section>
 		<section id="kort_sektion">
