@@ -208,7 +208,9 @@ get_header(); ?>
 
         <section id="first_section">
             <h1>NYESTE SINGLE</h1>
-            <h3 class="til_kort_side_nav">Se alle single cards →</h3>
+            <a href="http://kasperdyhl.dk/tier1mtg/produktside/">
+                <h3 class="til_kort_side_nav">Se alle single cards →</h3>
+            </a>
             <div class="image-container">
                 <figure class="figure_ny">
                     <div class="new_single_kort"></div>
@@ -280,7 +282,9 @@ get_header(); ?>
 
         <section id="fjerde_sektion">
             <h1>KOMMENDE EVENTS</h1>
-            <h3 class="til_kort_side_nav">Se alle events →</h3>
+            <a href="http://kasperdyhl.dk/tier1mtg/event/">
+                <h3 class="til_kort_side_nav">Se alle events →</h3>
+            </a>
             <div class="image-container">
                 <figure class="figure_ny">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/jeweled-bird.jpg" alt="Tier1MTG event">
