@@ -33,10 +33,10 @@ get_header(); ?>
 
     <template>
         <article>
-            <img src="" alt="">
+            <img src="" alt="" class="billede">
             <div>
-                <h2></h2>
-                <h3></h3>
+                <h2 class="titel"></h2>
+                <h3 class="pris"></h3>
                 <button class="se_kort_knap">SE KORT</button>
             </div>
         </article>
