@@ -129,11 +129,7 @@ get_header(); ?>
         }
 
 
-        /*styling af anden sektion: bliv en del af universet*/
 
-        .baggrundsbillede_anden_sektion {
-            height: 100%;
-        }
 
 
     }
