@@ -146,8 +146,7 @@ get_header(); ?>
         </section>
 
         <section id="anden_sektion">
-            <div>
-                <div class="baggrundsbillede_anden_sektion"></div>
+            <div class="baggrundsbillede_anden_sektion">
                 <h1>BLIV EN DEL AF UNIVERSET</h1>
                 <p>Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. lorem Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text. lorem</p>
                 <button>LÆS MERE</button>
