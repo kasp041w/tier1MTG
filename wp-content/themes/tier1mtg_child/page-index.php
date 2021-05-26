@@ -17,6 +17,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 get_header(); ?>
 
 <style>
+    main {
+        width: 100%;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
     /*Styling af første sektion: nyeste kort*/
     /*styling af singel kortene på forsiden*/
 
@@ -91,8 +97,12 @@ get_header(); ?>
 
     /*styling af anden sektion: bliv en del af universet*/
 
-    .anden_sektion {
+    .baggrundsbillede_anden_sektion {
         background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/del_af_universet.png);
+        background-size: cover;
+        max-width: none;
+        height: 50vh;
+        width: 100%;
     }
 
 
@@ -142,7 +152,7 @@ get_header(); ?>
         </section>
 
         <section id="anden_sektion">
-            <div>
+            <div class="baggrundsbillede_anden_sektion">
                 <h1>BLIV EN DEL AF UNIVERSET</h1>
                 <p>Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. lorem Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text. lorem</p>
                 <button>LÆS MERE</button>
