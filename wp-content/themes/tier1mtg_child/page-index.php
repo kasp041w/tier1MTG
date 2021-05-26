@@ -154,7 +154,15 @@ get_header(); ?>
         height: 0%;
     }
 
+    #fjerde_sektion img {
+        border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
+        width: 100%;
+    }
+
     /*styling af fjerde sektion*/
+
+
 
     #fjerde_sektion figcaption {
         position: absolute;
@@ -271,11 +279,11 @@ get_header(); ?>
         </section>
 
         <section id="fjerde_sektion">
-            <h1>NYESTE ACCESSORIES</h1>
+            <h1>KOMMENDE EVENTS</h1>
             <h3 class="til_kort_side_nav">Se alle events →</h3>
             <div class="image-container">
                 <figure class="figure_ny">
-                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/skab_acc.jpeg" alt="Gamegenic - Playmat Tube">
+                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/jeweled-bird.jpg" alt="Tier1MTG event">
                     <button class="se_kort_knap">LÆS MERE</button>
                     <figcaption>
                         <h2 class="h2_acc">Old School Game</h2>
@@ -287,7 +295,7 @@ get_header(); ?>
                 </figure>
 
                 <figure class="figure_ny">
-                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/box.jpeg" alt="Ultra Pro – Satin Tower Deck">
+                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/jeweled-bird.jpg" alt="">
                     <button class="se_kort_knap">LÆS MERE</button>
                     <figcaption>
                         <h2 class="h2_acc">Old School Game</h2>
@@ -299,7 +307,7 @@ get_header(); ?>
                 </figure>
 
                 <figure class="figure_ny">
-                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/tube.jpeg" alt="Ultra Pro - Boombox">
+                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/jeweled-bird.jpg" alt="Tier1MTG event">
                     <button class="se_kort_knap">LÆS MERE</button>
                     <figcaption>
                         <h2 class="h2_acc">Old School Game</h2>
