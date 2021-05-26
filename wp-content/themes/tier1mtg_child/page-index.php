@@ -120,7 +120,7 @@ get_header(); ?>
             randomSingleKort.forEach(single => {
                 //Definerer konstanter til senere brug i kloningen af template
                 const template = document.querySelector("template");
-                const container = document.querySelector(".new_single_kort");
+                const container = document.querySelector(".new_single_kort, .new_single_kort:nth-child(2), .new_single_kort:nth-child(3), .new_single_kort:nth-child(4)");
 
                 const klon = template.cloneNode(true).content; //Her klones template og udfyldes med data fra de tilfældige objekter
                 klon.querySelector(".billede").src = single.billede.guid;
