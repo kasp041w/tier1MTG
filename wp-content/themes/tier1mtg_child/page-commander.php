@@ -25,7 +25,11 @@ get_header(); ?>
 		padding-right: 2rem;
 	}
 
-	/*FARVER*/
+	/*FARVER OG DIVERSE*/
+
+	.site-header {
+		margin-bottom: 0;
+	}
 
 	#top_sektion {
 		background-color: #F5F5F5;
