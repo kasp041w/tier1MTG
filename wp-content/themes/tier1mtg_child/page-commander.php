@@ -17,6 +17,12 @@ get_header(); ?>
 		padding-right: 0rem;
 	}
 
+	h2,
+	p {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+
 	#kort_sektion,
 	#event_sektion,
 	#artikler {
@@ -38,8 +44,10 @@ get_header(); ?>
 	#top_sektion h2,
 	p {
 		color: #272727;
+	}
+
+	.playknap {
 		padding-left: 2rem;
-		padding-right: 2rem;
 	}
 
 	#cardmarket_sektion {
@@ -83,7 +91,7 @@ get_header(); ?>
 			<div class="tip_col_1">
 				<h2>Se Ugens Tip</h2>
 				<p>Tekst her om ugens tip</p>
-				<a href="https://www.youtube.com/watch?v=6p6LFFgYVKg" target="_blank" rel="noopener noreferrer"> <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/youtube_knap.png" alt="" alt="play knap"> </a>
+				<a href="https://www.youtube.com/watch?v=6p6LFFgYVKg" target="_blank" rel="noopener noreferrer" class="playknap"> <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/youtube_knap.png" alt="" alt="play knap"> </a>
 				<p>Se vores Commander-playliste på Youtube</p>
 			</div>
 			<div class="tip_col_2">
