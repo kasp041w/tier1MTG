@@ -7,10 +7,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 get_header(); ?>
 
 <style>
-	/*#main .site-main {
-		margin: 0 auto;
-	}*/
-
 	/*SEKTIONER OG FARVER*/
 
 	/*FJERN MARGIN/PADDING PÅ SEKTIONER*/
@@ -18,7 +14,7 @@ get_header(); ?>
 	.splash,
 	#top_sektion,
 	#tip_sektion,
-	#cardmarket_sektion {
+	#cardmarket_sektion #main .site-main {
 		margin: 0 auto;
 		padding-left: 0rem;
 		padding-right: 0rem;
