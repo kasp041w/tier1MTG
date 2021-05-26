@@ -27,9 +27,10 @@ get_header(); ?>
         color: #AD9261;
     }
 
-    article {
+    template {
         display: grid;
         grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
 
     .billed_placering {
