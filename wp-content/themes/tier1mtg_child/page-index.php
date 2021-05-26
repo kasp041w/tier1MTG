@@ -17,6 +17,23 @@ if ( ! defined( 'ABSPATH' ) ) {
 get_header(); ?>
 
 <style>
+    /*    styling af singel kortene på forsiden*/
+    .baggrund_kort {
+        background-color: rgba(39, 39, 39, 0.9);
+
+    }
+
+    .titel_alternativ {
+        color: #F1F0E8;
+    }
+
+    .pris_alternativ {
+        color: #AD9261;
+    }
+
+
+
+    /*Slider effekten, fungere både på mobil og destiop*/
     .figure_ny {
         cursor: pointer;
     }
@@ -94,9 +111,9 @@ get_header(); ?>
     <template>
         <article>
             <img src="" alt="" class="billede">
-            <div>
-                <h2 class="titel"></h2>
-                <h3 class="pris"></h3>
+            <div class="baggrund_kort">
+                <h2 class="titel_alternativ"></h2>
+                <h3 class="pris_alternativ"></h3>
                 <button class="se_kort_knap">SE KORT</button>
             </div>
         </article>
@@ -140,8 +157,8 @@ get_header(); ?>
 
                 const klon = template.cloneNode(true).content; //Her klones template og udfyldes med data fra de tilfældige objekter
                 klon.querySelector(".billede").src = single.billede.guid;
-                klon.querySelector(".titel").innerHTML = single.title.rendered;
-                klon.querySelector(".pris").innerHTML = `${"Fra "}` + single.pris;
+                klon.querySelector(".titel_alternativ").innerHTML = single.title.rendered;
+                klon.querySelector(".pris_alternativ").innerHTML = `${"Fra "}` + single.pris;
 
                 // eventlisteners på hver enkelt artikel
                 klon.querySelector(".se_kort_knap").addEventListener("click", () => {
@@ -169,8 +186,8 @@ get_header(); ?>
 
                 const klon = template.cloneNode(true).content; //Her klones template og udfyldes med data fra de tilfældige objekter
                 klon.querySelector(".billede").src = single.billede.guid;
-                klon.querySelector(".titel").innerHTML = single.title.rendered;
-                klon.querySelector(".pris").innerHTML = `${"Fra "}` + single.pris;
+                klon.querySelector(".titel_alternativ").innerHTML = single.title.rendered;
+                klon.querySelector(".pris_alternativ").innerHTML = `${"Fra "}` + single.pris;
 
                 // eventlisteners på hver enkelt artikel
                 klon.querySelector(".se_kort_knap").addEventListener("click", () => {
@@ -198,8 +215,8 @@ get_header(); ?>
 
                 const klon = template.cloneNode(true).content; //Her klones template og udfyldes med data fra de tilfældige objekter
                 klon.querySelector(".billede").src = single.billede.guid;
-                klon.querySelector(".titel").innerHTML = single.title.rendered;
-                klon.querySelector(".pris").innerHTML = `${"Fra "}` + single.pris;
+                klon.querySelector(".titel_alternativ").innerHTML = single.title.rendered;
+                klon.querySelector(".pris_alternativ").innerHTML = `${"Fra "}` + single.pris;
 
                 // eventlisteners på hver enkelt artikel
                 klon.querySelector(".se_kort_knap").addEventListener("click", () => {
@@ -227,8 +244,8 @@ get_header(); ?>
 
                 const klon = template.cloneNode(true).content; //Her klones template og udfyldes med data fra de tilfældige objekter
                 klon.querySelector(".billede").src = single.billede.guid;
-                klon.querySelector(".titel").innerHTML = single.title.rendered;
-                klon.querySelector(".pris").innerHTML = `${"Fra "}` + single.pris;
+                klon.querySelector(".titel_alternativ").innerHTML = single.title.rendered;
+                klon.querySelector(".pris_alternativ").innerHTML = `${"Fra "}` + single.pris;
 
                 // eventlisteners på hver enkelt artikel
                 klon.querySelector(".se_kort_knap").addEventListener("click", () => {
