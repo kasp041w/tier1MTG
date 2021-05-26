@@ -26,22 +26,19 @@ get_header(); ?>
     /*Styling af første sektion: nyeste kort*/
     /*styling af singel kortene på forsiden*/
 
-    .titel_alternativ {
-        padding-left: 5%;
-        padding-right: 5%;
-        padding-top: 5%;
+    .titel_alternativ,
+    class="h2_acc" {
         color: #F1F0E8;
-        font-size: 1.1rem;
+        font-size: 1.5rem;
         font-weight: bold;
         margin-bottom: 0;
     }
 
 
-    .pris_alternativ {
-        padding-left: 5%;
-        padding-right: 5%;
+    .pris_alternativ,
+    class="h3_acc" {
         color: #AD9261;
-        font-size: 0.7rem;
+        font-size: 1rem;
         margin-bottom: 0;
     }
 
@@ -239,8 +236,8 @@ get_header(); ?>
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/skab_acc.jpeg" alt="Gamegenic - Playmat Tube">
                     <button class="se_kort_knap">SE PRODUKT</button>
                     <figcaption>
-                        <h2>Gamegenic - Playmat Tube</h2>
-                        <h3>49,95 DKK</h3>
+                        <h2 class="h2_acc">Gamegenic - Playmat Tube</h2>
+                        <h3 class="h3_acc">49,95 DKK</h3>
                     </figcaption>
                 </figure>
 
@@ -248,8 +245,8 @@ get_header(); ?>
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/box.jpeg" alt="Ultra Pro – Satin Tower Deck">
                     <button class="se_kort_knap">SE PRODUKT</button>
                     <figcaption>
-                        <h2>Ultra Pro – Satin Tower Deck</h2>
-                        <h3>99,95 DKK</h3>
+                        <h2 class="h2_acc">Ultra Pro – Satin Tower Deck</h2>
+                        <h3 class="h3_acc">99,95 DKK</h3>
                     </figcaption>
                 </figure>
 
@@ -257,8 +254,8 @@ get_header(); ?>
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/tube.jpeg" alt="Ultra Pro - Boombox">
                     <button class="se_kort_knap">SE PRODUKT</button>
                     <figcaption>
-                        <h2>Ultra Pro - Boombox</h2>
-                        <h3>324,95 DKK</h3>
+                        <h2 class="h2_acc">Ultra Pro - Boombox</h2>
+                        <h3 class="h3_acc">324,95 DKK</h3>
                     </figcaption>
                 </figure>
 
@@ -266,8 +263,8 @@ get_header(); ?>
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/kort_ting.jpeg" alt="Secret Lair – Ultimate Edition">
                     <button class="se_kort_knap">SE PRODUKT</button>
                     <figcaption>
-                        <h2>Secret Lair – Ultimate Edition</h2>
-                        <h3>699,95 DKK</h3>
+                        <h2 class="h2_acc">Secret Lair – Ultimate Edition</h2>
+                        <h3 class="h3_acc">699,95 DKK</h3>
                     </figcaption>
                 </figure>
             </div>
@@ -281,10 +278,10 @@ get_header(); ?>
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/skab_acc.jpeg" alt="Gamegenic - Playmat Tube">
                     <button class="se_kort_knap">LÆS MERE</button>
                     <figcaption>
-                        <h2>Old School Game</h2>
-                        <h3>Dato: 23-06-2021</h3>
-                        <h3>Format: Commander</h3>
-                        <h3>Info: Glæd dig til vores kommende event hos Tier1MTG. Kom til hygge i trygge rammer, hvor du kan spille med andre og vinde fede præmier.<br><br>TIlmelding starter den 8. juli.
+                        <h2 class="h2_acc">Old School Game</h2>
+                        <h3 class="h3_acc">Dato: 23-06-2021</h3>
+                        <h3 class="h3_acc">Format: Commander</h3>
+                        <h3 class="h3_acc">Info: Glæd dig til vores kommende event hos Tier1MTG. Kom til hygge i trygge rammer, hvor du kan spille med andre og vinde fede præmier.<br><br>TIlmelding starter den 8. juli.
                         </h3>
                     </figcaption>
                 </figure>
@@ -293,10 +290,10 @@ get_header(); ?>
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/box.jpeg" alt="Ultra Pro – Satin Tower Deck">
                     <button class="se_kort_knap">LÆS MERE</button>
                     <figcaption>
-                        <h2>Old School Game</h2>
-                        <h3>Dato: 23-06-2021</h3>
-                        <h3>Format: Commander</h3>
-                        <h3>Info: Glæd dig til vores kommende event hos Tier1MTG. Kom til hygge i trygge rammer, hvor du kan spille med andre og vinde fede præmier.<br><br>TIlmelding starter den 8. juli.
+                        <h2 class="h2_acc">Old School Game</h2>
+                        <h3 class="h3_acc">Dato: 23-06-2021</h3>
+                        <h3 class="h3_acc">Format: Commander</h3>
+                        <h3 class="h3_acc">Info: Glæd dig til vores kommende event hos Tier1MTG. Kom til hygge i trygge rammer, hvor du kan spille med andre og vinde fede præmier.<br><br>TIlmelding starter den 8. juli.
                         </h3>
                     </figcaption>
                 </figure>
@@ -305,10 +302,10 @@ get_header(); ?>
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/tube.jpeg" alt="Ultra Pro - Boombox">
                     <button class="se_kort_knap">LÆS MERE</button>
                     <figcaption>
-                        <h2>Old School Game</h2>
-                        <h3>Dato: 23-06-2021</h3>
-                        <h3>Format: Commander</h3>
-                        <h3>Info: Glæd dig til vores kommende event hos Tier1MTG. Kom til hygge i trygge rammer, hvor du kan spille med andre og vinde fede præmier.<br><br>TIlmelding starter den 8. juli.
+                        <h2 class="h2_acc">Old School Game</h2>
+                        <h3 class="h3_acc">Dato: 23-06-2021</h3>
+                        <h3 class="h3_acc">Format: Commander</h3>
+                        <h3 class="h3_acc">Info: Glæd dig til vores kommende event hos Tier1MTG. Kom til hygge i trygge rammer, hvor du kan spille med andre og vinde fede præmier.<br><br>TIlmelding starter den 8. juli.
                         </h3>
                     </figcaption>
                 </figure>
