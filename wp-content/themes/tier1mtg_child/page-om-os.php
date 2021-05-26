@@ -24,6 +24,10 @@ get_header(); ?>
                 margin: 0 0 5wv 0;
             }
 
+            h3 {
+                margin-bottom: 5px;
+            }
+
             .col1 {
                 margin-bottom: 6vw;
             }
@@ -31,13 +35,49 @@ get_header(); ?>
             .ansatte {
                 overflow: auto;
                 white-space: nowrap;
+                margin-bottom: 100px;
             }
 
             .ansat {
                 display: inline-block;
+                margin: 3vw;
             }
 
-            @media (min-width: 1000px) {
+            /* Barens størrelse */
+            .ansatte::-webkit-scrollbar {
+                width: 10px;
+            }
+
+            /* Sporet den løber i */
+            .ansatte::-webkit-scrollbar-track {
+                box-shadow: 1px 0 5px grey;
+                border-radius: 10px;
+            }
+
+            /* Farve på bar + kant */
+            .ansatte::-webkit-scrollbar-thumb {
+                background: #95BFE2;
+                border-radius: 10px;
+            }
+
+            /*  hover */
+            .ansatte::-webkit-scrollbar-thumb:hover {
+                background: #CBBE23;
+            }
+
+
+            /*----------Desktop-------------*/
+            @media (min-width: 900px) {
+                .omOsTekstBoks {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    grid-gap: 5vw;
+                }
+
+            }
+
+            /*----------Desktop-------------*/
+            @media (min-width: 1200px) {
                 .ansatte {
                     white-space: normal;
                 }
