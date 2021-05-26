@@ -69,7 +69,7 @@ get_header(); ?>
 
         <section id="first_section">
             <h1>NYESTE SINGLE</h1>
-            <h3 class="til_kort_side_nav">Se alle Single Cards</h3>
+            <h3 class="til_kort_side_nav">Se alle Single Cards →</h3>
             <div class="image-container">
                 <figure class="figure_ny">
                     <div class="new_single_kort"></div>
