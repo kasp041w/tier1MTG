@@ -47,7 +47,9 @@ get_header(); ?>
 
     /*desktop*/
     @media (min-width: 950px) {
-
+        .til_kort_side_nav {
+            text-align: end;
+        }
 
         .image-container .figure_ny {
             flex-basis: 25%;
@@ -67,6 +69,7 @@ get_header(); ?>
 
         <section id="first_section">
             <h1>NYESTE SINGLE</h1>
+            <h3 class="til_kort_side_nav">Se alle Single Cards</h3>
             <div class="image-container">
                 <figure class="figure_ny">
                     <div class="new_single_kort"></div>
