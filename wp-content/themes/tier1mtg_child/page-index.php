@@ -97,7 +97,7 @@ get_header(); ?>
 
     /*styling af anden sektion: bliv en del af universet*/
 
-    .baggrundsbillede_anden_sektion {
+    #anden_sektion {
         background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/del_af_universet.png);
         background-size: cover;
         max-width: none;
@@ -109,6 +109,9 @@ get_header(); ?>
     p {
         color: #F1F0E8;
         text-align: center;
+        position: relative;
+        top: 50%;
+
     }
 
     #forside_anden_sektion_knap {
@@ -129,11 +132,7 @@ get_header(); ?>
         }
 
 
-        /*styling af anden sektion: bliv en del af universet*/
 
-        .baggrundsbillede_anden_sektion {
-            height: 100%;
-        }
 
 
     }
