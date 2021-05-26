@@ -17,11 +17,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 get_header(); ?>
 
 <style>
-    #first_section {
-        display: grid;
-        grid-auto-rows: 0.5fr 1fr;
-    }
-
     .figure_ny {
         cursor: pointer;
     }
@@ -53,14 +48,9 @@ get_header(); ?>
     /*desktop*/
     @media (min-width: 950px) {
 
-        .image-container {
-            margin: 0px 20px;
-            padding-left: 5vw;
-            padding-right: 5vw;
-        }
 
-        .image-container .figure_lyt {
-            flex-basis: 19%;
+        .image-container .figure_ny {
+            flex-basis: 25%;
         }
 
 
