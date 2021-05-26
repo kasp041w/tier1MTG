@@ -28,19 +28,18 @@ get_header(); ?>
     }
 
     article {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        position: relative;
     }
 
-    article img {
-        grid-column-start: 1;
-        grid-column-end: span 2;
-    }
+    .billed_placering {}
 
     .baggrund_kort {
+        position: absolute;
+        bottom: 0;
         background-color: rgba(39, 39, 39, 0.9);
-        grid-column-start: 2;
-        grid-column-end: span 1;
+        width: 100%;
+        padding: 20px;
+
 
     }
 
@@ -122,7 +121,7 @@ get_header(); ?>
 
     <template>
         <article>
-            <div><img src="" alt="" class="billede"></div>
+            <div class="billed_placering"><img src="" alt="" class="billede"></div>
             <div class="baggrund_kort">
                 <h2 class="titel_alternativ"></h2>
                 <h3 class="pris_alternativ"></h3>
