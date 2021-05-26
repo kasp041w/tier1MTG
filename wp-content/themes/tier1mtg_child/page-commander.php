@@ -9,7 +9,7 @@ get_header(); ?>
 <style>
 	/*SEKTIONER OG FARVER*/
 
-	/*FJERN MARGIN/PADDING PÅ SEKTIONER*/
+	/*FJERN MARGIN PÅ SEKTIONER*/
 
 	main {
 		width: 100%;
@@ -17,21 +17,19 @@ get_header(); ?>
 		padding-right: 0rem;
 	}
 
-	/*.splash,
-	#top_sektion,
-	#tip_sektion,
-	#cardmarket_sektion #main .site-main
-	{
-		margin: 0 auto;
-		padding-left: 0rem;
-		padding-right: 0rem;
-	}*/
-
+	#kort_sektion,
+	#event_sektion,
+	#artikler {
+		width: 100%;
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
 
 	/*FARVER*/
 
 	#top_sektion {
 		background-color: #F5F5F5;
+		margin-top: 0;
 	}
 
 	#top_sektion h2,
