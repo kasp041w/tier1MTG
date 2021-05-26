@@ -43,15 +43,27 @@ get_header(); ?>
             border-top-right-radius: 5%;
         }
 
-        .titel,
+        .titel {
+            padding-left: 5%;
+            color: #F1F0E8;
+            font-size: 1.3rem;
+            font-weight: bold;
+        }
+
         .lagertal {
             padding-left: 5%;
             color: #F1F0E8;
+            font-size: 0.75rem;
         }
 
         .pris {
             padding-left: 5%;
             color: #AD9261;
+        }
+        /*---FILTRERINGSNAVIGATION---*/
+
+        #filtrering {
+            display: none;
         }
 
     </style>
@@ -162,7 +174,7 @@ get_header(); ?>
                         const klon = skabelon.cloneNode(true).content;
                         klon.querySelector(".billede").src = single.billede.guid;
                         klon.querySelector(".titel").innerHTML = single.title.rendered;
-                        klon.querySelector(".pris").innerHTML = `${"Fra "}` + single.pris;
+                        klon.querySelector(".pris").innerHTML = `${"Fra "}` + single.pris + `${" DKK"}`;
                         klon.querySelector(".lagertal").innerHTML = single.lagertal + `${" på lager"}`;
 
                         // eventlisteners på hver enkelt artikel
