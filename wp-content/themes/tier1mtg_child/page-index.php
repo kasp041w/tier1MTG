@@ -27,21 +27,19 @@ get_header(); ?>
         color: #AD9261;
     }
 
-    template {
-        display: grid;
-        grid-template-rows: 1fr 1fr;
-        grid-template-columns: 1fr;
+    article {
+        position: relative;
     }
 
-    .billed_placering {
-        grid-row-start: 1;
-        grid-row-end: span 2;
-    }
+    .billed_placering {}
 
     .baggrund_kort {
+        position: absolute;
+        bottom: 0;
         background-color: rgba(39, 39, 39, 0.9);
-        grid-row-start: 2;
-        grid-row-end: span 1;
+        width: 100%;
+        padding: 20px;
+
 
     }
 
