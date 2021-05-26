@@ -21,6 +21,7 @@ get_header(); ?>
 
     .titel_alternativ {
         color: #F1F0E8;
+        margin-bottom: 0;
     }
 
     .pris_alternativ {
@@ -31,6 +32,7 @@ get_header(); ?>
         position: absolute;
         left: 58%;
         bottom: 5%;
+        z-index: 40;
     }
 
     article {
