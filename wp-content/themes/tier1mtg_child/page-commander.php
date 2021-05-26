@@ -7,13 +7,24 @@ if ( ! defined( 'ABSPATH' ) ) {
 get_header(); ?>
 
 <style>
-	#main .site-main {
+	/*#main .site-main {
 		margin: 0 auto;
-	}
+	}*/
 
 	/*SEKTIONER OG FARVER*/
 
-	.splash {}
+	/*FJERN MARGIN/PADDING PÅ SEKTIONER*/
+
+	.splash,
+	#top_sektion,
+	#tip_sektion,
+	#cardmarket_sektion {
+		margin: 0 auto;
+		padding-left: 0rem;
+		padding-right: 0rem;
+	}
+
+	/*FARVER*/
 
 	#top_sektion {
 		background-color: #F5F5F5;
@@ -35,13 +46,6 @@ get_header(); ?>
 	#cardmarket_sektion p {
 		color: #AD9261;
 	}
-
-	/*#kort_sektion,
-	#event_sektion,
-	#artikler {
-		background-color: #F7F6E9; - ER I STYLE.CSS
-		color: #272727;
-	}*/
 
 </style>
 
