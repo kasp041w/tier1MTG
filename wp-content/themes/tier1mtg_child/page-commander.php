@@ -63,9 +63,7 @@ get_header(); ?>
 			<div class="tip_col_1">
 				<h2>Se Ugens Tip</h2>
 				<p>Tekst her om ugens tip</p>
-				<button>
-					<img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/youtube_knap.png" alt="play knap">
-				</button>
+				<a href="https://www.youtube.com/watch?v=6p6LFFgYVKg"> <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/youtube_knap.png" alt="" alt="play knap"> </a>
 				<p>Se vores Commander-playliste på Youtube</p>
 			</div>
 			<div class="tip_col_2">
