@@ -17,6 +17,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 get_header(); ?>
 
 <style>
+    main {
+        width: 100%;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
     /*Styling af første sektion: nyeste kort*/
     /*styling af singel kortene på forsiden*/
 
@@ -95,7 +101,7 @@ get_header(); ?>
         background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/del_af_universet.png);
         background-size: cover;
         max-width: none;
-        height: 30vh;
+        height: 50vh;
         width: 100%;
     }
 
