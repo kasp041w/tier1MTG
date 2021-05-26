@@ -90,3 +90,11 @@ main {
 /*Aktiv-status på menu/burgermenu-knapper*/
 
 .main-navigation .main-nav ul li[class*="current-menu-"] > a {}
+.one-container .site-main>:last-child,
+.separate-containers .site-main>:last-child {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    max-width: 100vw;
+    grid-gap: 2rem;
+}
