@@ -27,12 +27,22 @@ get_header(); ?>
     /*styling af singel kortene på forsiden*/
 
     .titel_alternativ {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 5%;
         color: #F1F0E8;
+        font-size: 1.1rem;
+        font-weight: bold;
         margin-bottom: 0;
     }
 
+
     .pris_alternativ {
+        padding-left: 5%;
+        padding-right: 5%;
         color: #AD9261;
+        font-size: 0.7rem;
+        margin-bottom: 0;
     }
 
     .se_kort_knap {
