@@ -112,7 +112,8 @@ get_header(); ?>
     }
 
     #forside_anden_sektion_knap {
-        text-align: center;
+        position: relative;
+        left: 50%;
         color: #AD9261;
     }
 
@@ -131,7 +132,7 @@ get_header(); ?>
         /*styling af anden sektion: bliv en del af universet*/
 
         .baggrundsbillede_anden_sektion {
-            height: 50%;
+            height: 100%;
         }
 
 
