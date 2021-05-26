@@ -18,10 +18,6 @@ get_header(); ?>
 
 <style>
     /*    styling af singel kortene på forsiden*/
-    .baggrund_kort {
-        background-color: rgba(39, 39, 39, 0.9);
-
-    }
 
     .titel_alternativ {
         color: #F1F0E8;
@@ -31,6 +27,22 @@ get_header(); ?>
         color: #AD9261;
     }
 
+    article {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    article img {
+        grid-column-start: 1;
+        grid-column-end: span 2;
+    }
+
+    .baggrund_kort {
+        background-color: rgba(39, 39, 39, 0.9);
+        grid-column-start: 2;
+        grid-column-end: span 1;
+
+    }
 
 
     /*Slider effekten, fungere både på mobil og destiop*/
@@ -110,7 +122,7 @@ get_header(); ?>
 
     <template>
         <article>
-            <img src="" alt="" class="billede">
+            <div><img src="" alt="" class="billede"></div>
             <div class="baggrund_kort">
                 <h2 class="titel_alternativ"></h2>
                 <h3 class="pris_alternativ"></h3>
