@@ -16,6 +16,39 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 get_header(); ?>
 
+<style>
+    .figure_ny {
+        cursor: pointer;
+    }
+
+    /*    lyt vidre styling */
+
+    .image-container {
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+    }
+
+    .image-container .figure_ny {
+        flex-basis: 90%;
+        flex-shrink: 0;
+        scroll-snap-align: center;
+    }
+
+
+
+    .image-container {
+        display: flex;
+        gap: 20px;
+        padding: 20px;
+    }
+
+
+    /*desktop*/
+    @media (min-width: 950px) {}
+
+</style>
+
+
 <div id="primary" <?php generate_do_element_classes( 'content' ); ?>>
     <main id="main" <?php generate_do_element_classes( 'main' ); ?>>
         <div>
@@ -24,10 +57,11 @@ get_header(); ?>
 
         <section id="first_section">
             <h1>NYESTE SINGLE</h1>
-            <div class="new_single_kort"></div>
+            <div class="image-container"></div>
+            <figure class="figure_ny">
+                <div class="new_single_kort"></div>
+            </figure>
         </section>
-
-
     </main>
 
 
@@ -67,7 +101,8 @@ get_header(); ?>
             const other1 = newSingleKort[Math.floor(Math.random() * newSingleKort.length)];
             const other2 = newSingleKort[Math.floor(Math.random() * newSingleKort.length)];
             const other3 = newSingleKort[Math.floor(Math.random() * newSingleKort.length)];
-            const randomSingleKort = [other1, other2, other3];
+            const other4 = newSingleKort[Math.floor(Math.random() * newSingleKort.length)];
+            const randomSingleKort = [other1, other2, other3, other4];
             console.log(randomSingleKort);
 
             randomSingleKort.forEach(single => {
