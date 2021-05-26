@@ -45,9 +45,11 @@ get_header(); ?>
 
         .titel {
             padding-left: 5%;
+            padding-top: 5%;
             color: #F1F0E8;
             font-size: 1.3rem;
             font-weight: bold;
+            margin-bottom: 0;
         }
 
         .lagertal {
@@ -59,12 +61,15 @@ get_header(); ?>
         .pris {
             padding-left: 5%;
             color: #AD9261;
+            font-size: 0.9rem;
         }
         /*---FILTRERINGSNAVIGATION---*/
 
         #filtrering {
             display: none;
         }
+
+        .right-box {}
 
     </style>
 
@@ -87,9 +92,14 @@ get_header(); ?>
         <template>
             <article class="single_kort">
                 <img src="" alt="" class="billede">
-                <h3 class="titel"></h3>
-                <p class="pris"></p>
-                <p class="lagertal"></p>
+                <div class="left-box">
+                    <h3 class="titel"></h3>
+                    <p class="pris"></p>
+                </div>
+                <div class="right-box">
+                    <p class="lagertal"></p>
+                    <button>hej</button>
+                </div>
             </article>
         </template>
 
