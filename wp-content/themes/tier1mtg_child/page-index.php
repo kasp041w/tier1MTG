@@ -39,10 +39,12 @@ get_header(); ?>
         background-color: rgba(39, 39, 39, 0.9);
         width: 100%;
         padding: 20px;
-
-
+        height: 30%;
     }
 
+    .baggrund_kort:hover {
+        height: 100%;
+    }
 
     /*Slider effekten, fungere både på mobil og destiop*/
     .figure_ny {
