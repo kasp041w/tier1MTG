@@ -29,18 +29,18 @@ get_header(); ?>
 
     article {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
     }
 
     article img {
-        grid-column-start: 1;
-        grid-column-end: span 2;
+        grid-row-start: 1;
+        grid-row-end: span 2;
     }
 
     .baggrund_kort {
         background-color: rgba(39, 39, 39, 0.9);
-        grid-column-start: 2;
-        grid-column-end: span 1;
+        grid-row-start: 2;
+        grid-row-end: span 1;
 
     }
 
