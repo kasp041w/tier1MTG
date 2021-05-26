@@ -32,12 +32,12 @@ get_header(); ?>
 		color: #AD9261;
 	}
 
-	#kort_sektion,
+	/*#kort_sektion,
 	#event_sektion,
 	#artikler {
-		background-color: #F7F6E9;
+		background-color: #F7F6E9; - ER I STYLE.CSS
 		color: #272727;
-	}
+	}*/
 
 </style>
 
@@ -45,7 +45,6 @@ get_header(); ?>
 	<main id="main" <?php generate_do_element_classes( 'main' ); ?>>
 		<img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/commander_splach.png" alt="commander splash billede" class="splash">
 		<section id="top_sektion">
-			<h1>Commander</h1>
 			<div class="top_col_1">
 				<h2>Hvad er Commander?</h2>
 				<p>Tekst her om Commander-formatet. Blabjsndlks ifrdn ljiejr je rjwtnntndjfn erj shekj kje bkj bjkbgkj vkd kjdkj kjhekjr kjsh kjheskjt hhg kjhgkjh kjhkj hfkhdgl</p>
