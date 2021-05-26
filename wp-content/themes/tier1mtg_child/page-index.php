@@ -61,6 +61,18 @@ get_header(); ?>
             <figure class="figure_ny">
                 <div class="new_single_kort"></div>
             </figure>
+
+            <figure class="figure_ny">
+                <div class="new_single_kort"></div>
+            </figure>
+
+            <figure class="figure_ny">
+                <div class="new_single_kort"></div>
+            </figure>
+
+            <figure class="figure_ny">
+                <div class="new_single_kort"></div>
+            </figure>
         </section>
     </main>
 
@@ -99,10 +111,8 @@ get_header(); ?>
 
             //Genererer et nyt array af tilfældige objekter fra det komplette array
             const other1 = newSingleKort[Math.floor(Math.random() * newSingleKort.length)];
-            const other2 = newSingleKort[Math.floor(Math.random() * newSingleKort.length)];
-            const other3 = newSingleKort[Math.floor(Math.random() * newSingleKort.length)];
-            const other4 = newSingleKort[Math.floor(Math.random() * newSingleKort.length)];
-            const randomSingleKort = [other1, other2, other3, other4];
+
+            const randomSingleKort = [other1];
             console.log(randomSingleKort);
 
             randomSingleKort.forEach(single => {
