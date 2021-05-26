@@ -96,7 +96,7 @@ get_header(); ?>
         background-size: cover;
         max-width: none;
         height: 30vh;
-        width: auto;
+        width: 100%;
     }
 
 
