@@ -119,6 +119,30 @@ get_header(); ?>
     }
 
 
+
+
+    .image-container figure {
+        position: relative;
+    }
+
+    figcaption {
+        position: absolute;
+        bottom: 0;
+        background-color: rgba(39, 39, 39, 0.96);
+        width: 100%;
+        padding: 20px;
+        height: 30%;
+        transition: .5s ease;
+        overflow: hidden;
+    }
+
+    figcaption:hover {
+        height: 0%;
+    }
+
+
+
+
     /*desktop*/
     @media (min-width: 950px) {
         .til_kort_side_nav {
@@ -146,7 +170,7 @@ get_header(); ?>
 
         <section id="first_section">
             <h1>NYESTE SINGLE</h1>
-            <h3 class="til_kort_side_nav">Se alle Single Cards →</h3>
+            <h3 class="til_kort_side_nav">Se alle single cards →</h3>
             <div class="image-container">
                 <figure class="figure_ny">
                     <div class="new_single_kort"></div>
@@ -176,11 +200,11 @@ get_header(); ?>
 
         <section id="trejde_sektion">
             <h1>NYESTE ACCESSORIES</h1>
-            <h3 class="til_kort_side_nav">Se alle Single Cards →</h3>
+            <h3 class="til_kort_side_nav">Se alle accessories →</h3>
             <div class="image-container">
                 <figure class="figure_ny">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/skab_acc.jpeg" alt="Gamegenic - Playmat Tube">
-                    <button>SE PRODUKT</button>
+                    <button class="se_kort_knap">SE PRODUKT</button>
                     <figcaption>
                         <h2>Gamegenic - Playmat Tube</h2>
                         <h3>49,95 DKK</h3>
@@ -189,6 +213,7 @@ get_header(); ?>
 
                 <figure class="figure_ny">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/box.jpeg" alt="Ultra Pro – Satin Tower Deck">
+                    <button class="se_kort_knap">SE PRODUKT</button>
                     <figcaption>
                         <h2>Ultra Pro – Satin Tower Deck</h2>
                         <h3>99,95 DKK</h3>
@@ -197,6 +222,7 @@ get_header(); ?>
 
                 <figure class="figure_ny">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/tube.jpeg" alt="Ultra Pro - Boombox">
+                    <button class="se_kort_knap">SE PRODUKT</button>
                     <figcaption>
                         <h2>Ultra Pro - Boombox</h2>
                         <h3>324,95 DKK</h3>
@@ -205,6 +231,7 @@ get_header(); ?>
 
                 <figure class="figure_ny">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/kort_ting.jpeg" alt="Secret Lair – Ultimate Edition">
+                    <button class="se_kort_knap">SE PRODUKT</button>
                     <figcaption>
                         <h2>Secret Lair – Ultimate Edition</h2>
                         <h3>699,95 DKK</h3>
