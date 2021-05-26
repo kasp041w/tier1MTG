@@ -18,11 +18,8 @@ get_header(); ?>
 
 <style>
     #first_section {
-        text-align: left;
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(135px, 1fr));
-        max-width: 100vw;
-        grid-gap: 1rem;
+        grid-auto-rows: 0.5fr 1fr;
     }
 
     .figure_ny {
