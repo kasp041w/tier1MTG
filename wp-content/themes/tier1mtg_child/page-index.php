@@ -16,15 +16,92 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 get_header(); ?>
 
-    <div id="primary" <?php generate_do_element_classes( 'content' ); ?>>
-        <main id="main" <?php generate_do_element_classes( 'main' ); ?>>
-            <div>
-                <p>Dette er forsiden</p>
-            </div>
-        </main>
-    </div>
+<div id="primary" <?php generate_do_element_classes( 'content' ); ?>>
+    <main id="main" <?php generate_do_element_classes( 'main' ); ?>>
+        <div>
+            <p>Dette er forsiden</p>
+        </div>
 
-    <?php
+        <section id="first_section">
+            <h1>NYESTE SINGLE</h1>
+            <div class="new_single_kort"></div>
+        </section>
+
+
+    </main>
+
+
+    <template>
+        <article>
+            <img src="" alt="">
+            <div>
+                <h2></h2>
+                <h3></h3>
+                <button class="se_kort_knap">SE KORT</button>
+            </div>
+        </article>
+    </template>
+
+
+    <script>
+        let singles;
+
+        // url til wp rest api/database
+        const url = "http://kasperdyhl.dk/tier1mtg/wp-json/wp/v2/single?per_page=100";
+
+
+        async function loadJson() {
+            const JsonData = await fetch(url);
+            newSingleKort = await JsonData.json();
+            console.log("loadJson", newSingleKort);
+            visNewSingleKort();
+        }
+        loadJson();
+
+
+        //Her i funktioen genereres tre tilfeldeig podcast og sættes ind i HTML under sektionen, nye podcasts episoder
+        function visNewSingleKort() {
+            console.log("visNewPodcast");
+
+            //Genererer et nyt array af tilfældige objekter fra det komplette array
+            const other1 = newSingleKort[Math.floor(Math.random() * newSingleKort.length)];
+            const other2 = newSingleKort[Math.floor(Math.random() * newSingleKort.length)];
+            const other3 = newSingleKort[Math.floor(Math.random() * newSingleKort.length)];
+            const randomSingleKort = [other1, other2, other3];
+            console.log(randomSingleKort);
+
+            randomSingleKort.forEach(single => {
+                //Definerer konstanter til senere brug i kloningen af template
+                const template = document.querySelector("template");
+                const container = document.querySelector(".new_single_kort");
+
+
+                const klon = template.cloneNode(true).content; //Her klones template og udfyldes med data fra de tilfældige objekter
+                klon.querySelector(".billede").src = single.billede.guid;
+                klon.querySelector(".titel").innerHTML = single.title.rendered;
+                klon.querySelector(".pris").innerHTML = `${"Fra "}` + single.pris;
+
+                // eventlisteners på hver enkelt artikel
+                klon.querySelector(".se_kort_knap").addEventListener("click", () => {
+                    location.href = single.link;
+                })
+
+                container.appendChild(klon);
+            })
+
+        }
+
+    </script>
+
+
+
+
+
+
+
+</div>
+
+<?php
 	/**
 	 * generate_after_primary_content_area hook.
 	 *
