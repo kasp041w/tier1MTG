@@ -29,7 +29,7 @@ get_header(); ?>
 
     article {
         display: grid;
-        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 
     article img {
