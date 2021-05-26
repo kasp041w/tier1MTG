@@ -33,12 +33,6 @@ get_header(); ?>
             border-radius: 5%;
         }
 
-        img.billede:hoer {
-            transform: scale(1.08);
-            cursor: pointer;
-            transition: all 0.4s;
-        }
-
     </style>
 
     <div id="primary" <?php generate_do_element_classes( 'content' ); ?>>
