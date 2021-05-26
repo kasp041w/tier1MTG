@@ -46,7 +46,20 @@ get_header(); ?>
     }
 
     /*desktop*/
-    @media (min-width: 950px) {}
+    @media (min-width: 950px) {
+
+        .image-container {
+            margin: 0px 20px;
+            padding-left: 5vw;
+            padding-right: 5vw;
+        }
+
+        .image-container .figure_lyt {
+            flex-basis: 19%;
+        }
+
+
+    }
 
 </style>
 
