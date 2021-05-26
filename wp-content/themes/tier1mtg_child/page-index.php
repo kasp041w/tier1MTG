@@ -31,8 +31,6 @@ get_header(); ?>
         position: relative;
     }
 
-    .billed_placering {}
-
     .baggrund_kort {
         position: absolute;
         bottom: 0;
@@ -45,8 +43,7 @@ get_header(); ?>
     }
 
     .baggrund_kort:hover {
-        height: 100%;
-
+        height: 0%;
     }
 
 
