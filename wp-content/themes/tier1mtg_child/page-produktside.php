@@ -122,7 +122,7 @@ get_header(); ?>
                         const klon = skabelon.cloneNode(true).content;
                         klon.querySelector(".billede").src = single.billede.guid;
                         klon.querySelector(".titel").innerHTML = single.title.rendered;
-                        klon.querySelector(".pris").innerHTML = single.pris;
+                        klon.querySelector(".pris").innerHTML = `${"Fra "}` + single.pris;
                         klon.querySelector(".lagertal").innerHTML = single.lagertal + `${" på lager"}`;
 
                         // eventlisteners på hver enkelt artikel
