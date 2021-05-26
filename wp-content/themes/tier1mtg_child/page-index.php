@@ -160,10 +160,9 @@ get_header(); ?>
         width: 100%;
     }
 
+
+
     /*styling af fjerde sektion*/
-
-
-
     #fjerde_sektion figcaption {
         position: absolute;
         bottom: 0;
@@ -177,7 +176,21 @@ get_header(); ?>
 
     #fjerde_sektion figcaption:hover {
         height: 100%;
+
     }
+
+    /*styling af femte sektion*/
+    .forside_femte_sektion {
+        background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/om_os_forside.png);
+        background-size: cover;
+        max-width: none;
+        height: 100vh;
+        width: 100%;
+    }
+
+
+
+
 
 
 
@@ -192,6 +205,33 @@ get_header(); ?>
         }
 
 
+        /*styling af femte sektion*/
+        .forside_femte_sektion {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-auto-rows: 1fr 1fr;
+        }
+
+        .left {
+            grid-column-start: 1;
+            grid-column-end: span 1;
+            grid-row-start: 1;
+            grid-row-end: span 1;
+        }
+
+        .right {
+            grid-column-start: 2;
+            grid-column-end: span 1;
+            grid-row-start: 1;
+            grid-row-end: span 1;
+        }
+
+        .bottom {
+            grid-column-start: 1;
+            grid-column-end: span 2;
+            grid-row-start: 2;
+            grid-row-end: span 1;
+        }
 
 
 
@@ -324,6 +364,26 @@ get_header(); ?>
             </div>
         </section>
 
+
+        <section id="femte_sektion">
+            <div class="forside_femte_sektion">
+                <div class="left">
+                    <img src="" alt="">
+                </div>
+                <div class="rigtht">
+                    <h2>HVEM ER TIER1MTG</h2>
+                    <p>
+                        Tier1MTG Alt i Magic <br><br> Tier1MTG er startet af Allan Asmussen og Dan Sønderskov 2 gamle venner der er vokset op sammen og har spillet magic siden 1994. <br><br>Vores Vision er at kunne levere magickort til spilleren på tværs af alle formater, at gøre det nemt for spilleren, ved salg online på vores hjemmeside, Magiccardmarket og ude fysisk på events. Til markedspriser og hurtig leveringstid.
+                    </p>
+                    <button class="se_kort_knap">LÆS MERE</button>
+                </div>
+                <div class="bottom">
+                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/twitch_knap.png" alt="link til twitch">
+                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/youtube_knap.png" alt="link til youtube">
+                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/facebook_knap.png" alt="link til facebook">
+                </div>
+            </div>
+        </section>
     </main>
 
 
