@@ -17,11 +17,35 @@ if ( ! defined( 'ABSPATH' ) ) {
 get_header(); ?>
 
 <style>
-    #first_section {
-        display: grid;
-        grid-auto-rows: 0.5fr 1fr;
+    /*    styling af singel kortene på forsiden*/
+
+    .titel_alternativ {
+        color: #F1F0E8;
     }
 
+    .pris_alternativ {
+        color: #AD9261;
+    }
+
+    article {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    article img {
+        grid-column-start: 1;
+        grid-column-end: span 2;
+    }
+
+    .baggrund_kort {
+        background-color: rgba(39, 39, 39, 0.9);
+        grid-column-start: 2;
+        grid-column-end: span 1;
+
+    }
+
+
+    /*Slider effekten, fungere både på mobil og destiop*/
     .figure_ny {
         cursor: pointer;
     }
@@ -52,15 +76,12 @@ get_header(); ?>
 
     /*desktop*/
     @media (min-width: 950px) {
-
-        .image-container {
-            margin: 0px 20px;
-            padding-left: 5vw;
-            padding-right: 5vw;
+        .til_kort_side_nav {
+            text-align: end;
         }
 
-        .image-container .figure_lyt {
-            flex-basis: 19%;
+        .image-container .figure_ny {
+            flex-basis: 25%;
         }
 
 
@@ -77,6 +98,7 @@ get_header(); ?>
 
         <section id="first_section">
             <h1>NYESTE SINGLE</h1>
+            <h3 class="til_kort_side_nav">Se alle Single Cards →</h3>
             <div class="image-container">
                 <figure class="figure_ny">
                     <div class="new_single_kort"></div>
@@ -100,10 +122,10 @@ get_header(); ?>
 
     <template>
         <article>
-            <img src="" alt="" class="billede">
-            <div>
-                <h2 class="titel"></h2>
-                <h3 class="pris"></h3>
+            <div><img src="" alt="" class="billede"></div>
+            <div class="baggrund_kort">
+                <h2 class="titel_alternativ"></h2>
+                <h3 class="pris_alternativ"></h3>
                 <button class="se_kort_knap">SE KORT</button>
             </div>
         </article>
@@ -147,8 +169,8 @@ get_header(); ?>
 
                 const klon = template.cloneNode(true).content; //Her klones template og udfyldes med data fra de tilfældige objekter
                 klon.querySelector(".billede").src = single.billede.guid;
-                klon.querySelector(".titel").innerHTML = single.title.rendered;
-                klon.querySelector(".pris").innerHTML = `${"Fra "}` + single.pris;
+                klon.querySelector(".titel_alternativ").innerHTML = single.title.rendered;
+                klon.querySelector(".pris_alternativ").innerHTML = `${"Fra "}` + single.pris;
 
                 // eventlisteners på hver enkelt artikel
                 klon.querySelector(".se_kort_knap").addEventListener("click", () => {
@@ -176,8 +198,8 @@ get_header(); ?>
 
                 const klon = template.cloneNode(true).content; //Her klones template og udfyldes med data fra de tilfældige objekter
                 klon.querySelector(".billede").src = single.billede.guid;
-                klon.querySelector(".titel").innerHTML = single.title.rendered;
-                klon.querySelector(".pris").innerHTML = `${"Fra "}` + single.pris;
+                klon.querySelector(".titel_alternativ").innerHTML = single.title.rendered;
+                klon.querySelector(".pris_alternativ").innerHTML = `${"Fra "}` + single.pris;
 
                 // eventlisteners på hver enkelt artikel
                 klon.querySelector(".se_kort_knap").addEventListener("click", () => {
@@ -205,8 +227,8 @@ get_header(); ?>
 
                 const klon = template.cloneNode(true).content; //Her klones template og udfyldes med data fra de tilfældige objekter
                 klon.querySelector(".billede").src = single.billede.guid;
-                klon.querySelector(".titel").innerHTML = single.title.rendered;
-                klon.querySelector(".pris").innerHTML = `${"Fra "}` + single.pris;
+                klon.querySelector(".titel_alternativ").innerHTML = single.title.rendered;
+                klon.querySelector(".pris_alternativ").innerHTML = `${"Fra "}` + single.pris;
 
                 // eventlisteners på hver enkelt artikel
                 klon.querySelector(".se_kort_knap").addEventListener("click", () => {
@@ -234,8 +256,8 @@ get_header(); ?>
 
                 const klon = template.cloneNode(true).content; //Her klones template og udfyldes med data fra de tilfældige objekter
                 klon.querySelector(".billede").src = single.billede.guid;
-                klon.querySelector(".titel").innerHTML = single.title.rendered;
-                klon.querySelector(".pris").innerHTML = `${"Fra "}` + single.pris;
+                klon.querySelector(".titel_alternativ").innerHTML = single.title.rendered;
+                klon.querySelector(".pris_alternativ").innerHTML = `${"Fra "}` + single.pris;
 
                 // eventlisteners på hver enkelt artikel
                 klon.querySelector(".se_kort_knap").addEventListener("click", () => {
