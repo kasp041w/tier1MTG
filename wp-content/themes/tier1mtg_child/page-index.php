@@ -27,12 +27,22 @@ get_header(); ?>
     /*styling af singel kortene på forsiden*/
 
     .titel_alternativ {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 5%;
         color: #F1F0E8;
+        font-size: 1.1rem;
+        font-weight: bold;
         margin-bottom: 0;
     }
 
+
     .pris_alternativ {
+        padding-left: 5%;
+        padding-right: 5%;
         color: #AD9261;
+        font-size: 0.7rem;
+        margin-bottom: 0;
     }
 
     .se_kort_knap {
@@ -40,6 +50,13 @@ get_header(); ?>
         left: 58%;
         bottom: 5%;
         z-index: 40;
+    }
+
+    .billede {
+        border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
+        width: 100%;
+        height: 55%;
     }
 
     article {
@@ -119,7 +136,7 @@ get_header(); ?>
     }
 
 
-
+    /*styling af trejde sektion*/
 
     .image-container figure {
         position: relative;
@@ -140,6 +157,22 @@ get_header(); ?>
         height: 0%;
     }
 
+    /*styling af fjerde sektion*/
+
+    #fjerde_sektion figcaption {
+        position: absolute;
+        bottom: 0;
+        background-color: rgba(39, 39, 39, 0.96);
+        width: 100%;
+        padding: 20px;
+        height: 30%;
+        transition: .5s ease;
+        overflow: hidden;
+    }
+
+    #fjerde_sektion figcaption:hover {
+        height: 100%;
+    }
 
 
 
@@ -235,6 +268,48 @@ get_header(); ?>
                     <figcaption>
                         <h2>Secret Lair – Ultimate Edition</h2>
                         <h3>699,95 DKK</h3>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section id="fjerde_sektion">
+            <h1>NYESTE ACCESSORIES</h1>
+            <h3 class="til_kort_side_nav">Se alle events →</h3>
+            <div class="image-container">
+                <figure class="figure_ny">
+                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/skab_acc.jpeg" alt="Gamegenic - Playmat Tube">
+                    <button class="se_kort_knap">LÆS MERE</button>
+                    <figcaption>
+                        <h2>Old School Game</h2>
+                        <h3>Dato: 23-06-2021</h3>
+                        <h3>Format: Commander</h3>
+                        <h3>Info: Glæd dig til vores kommende event hos Tier1MTG. Kom til hygge i trygge rammer, hvor du kan spille med andre og vinde fede præmier.<br><br>TIlmelding starter den 8. juli.
+                        </h3>
+                    </figcaption>
+                </figure>
+
+                <figure class="figure_ny">
+                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/box.jpeg" alt="Ultra Pro – Satin Tower Deck">
+                    <button class="se_kort_knap">LÆS MERE</button>
+                    <figcaption>
+                        <h2>Old School Game</h2>
+                        <h3>Dato: 23-06-2021</h3>
+                        <h3>Format: Commander</h3>
+                        <h3>Info: Glæd dig til vores kommende event hos Tier1MTG. Kom til hygge i trygge rammer, hvor du kan spille med andre og vinde fede præmier.<br><br>TIlmelding starter den 8. juli.
+                        </h3>
+                    </figcaption>
+                </figure>
+
+                <figure class="figure_ny">
+                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/tube.jpeg" alt="Ultra Pro - Boombox">
+                    <button class="se_kort_knap">LÆS MERE</button>
+                    <figcaption>
+                        <h2>Old School Game</h2>
+                        <h3>Dato: 23-06-2021</h3>
+                        <h3>Format: Commander</h3>
+                        <h3>Info: Glæd dig til vores kommende event hos Tier1MTG. Kom til hygge i trygge rammer, hvor du kan spille med andre og vinde fede præmier.<br><br>TIlmelding starter den 8. juli.
+                        </h3>
                     </figcaption>
                 </figure>
             </div>
