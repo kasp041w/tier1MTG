@@ -265,7 +265,7 @@ get_header(); ?>
 
         <section id="fjerde_sektion">
             <h1>NYESTE ACCESSORIES</h1>
-            <h3 class="til_kort_side_nav">Se alle accessories →</h3>
+            <h3 class="til_kort_side_nav">Se alle events →</h3>
             <div class="image-container">
                 <figure class="figure_ny">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/skab_acc.jpeg" alt="Gamegenic - Playmat Tube">
