@@ -132,8 +132,8 @@ get_header(); ?>
             <div class="baggrund_kort">
                 <h2 class="titel_alternativ"></h2>
                 <h3 class="pris_alternativ"></h3>
-                <button class="se_kort_knap">SE KORT</button>
             </div>
+            <button class="se_kort_knap">SE KORT</button>
         </article>
     </template>
 
