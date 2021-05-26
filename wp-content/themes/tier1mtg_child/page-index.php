@@ -28,7 +28,9 @@ get_header(); ?>
     }
 
     .se_kort_knap {
-        text-align: end;
+        position: absolute;
+        left: 58%;
+        bottom: 5%;
     }
 
     article {
