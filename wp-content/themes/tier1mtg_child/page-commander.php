@@ -7,6 +7,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 get_header(); ?>
 
 <style>
+	#main .site-main {
+		margin: 0 auto;
+	}
+
 	/*SEKTIONER OG FARVER*/
 
 	.splash {}
@@ -50,7 +54,7 @@ get_header(); ?>
 				<p>Tekst her om Commander-formatet. Blabjsndlks ifrdn ljiejr je rjwtnntndjfn erj shekj kje bkj bjkbgkj vkd kjdkj kjhekjr kjsh kjheskjt hhg kjhgkjh kjhkj hfkhdgl</p>
 			</div>
 			<div class="top_col_2">
-				<video src=""></video>
+				<video src="https://www.youtube.com/watch?v=k70dmf3kQYU"></video>
 			</div>
 		</section>
 		<section id="kort_sektion">
@@ -63,7 +67,7 @@ get_header(); ?>
 			<div class="tip_col_1">
 				<h2>Se Ugens Tip</h2>
 				<p>Tekst her om ugens tip</p>
-				<a href="https://www.youtube.com/watch?v=6p6LFFgYVKg"> <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/youtube_knap.png" alt="" alt="play knap"> </a>
+				<a href="https://www.youtube.com/watch?v=6p6LFFgYVKg" target="_blank" rel="noopener noreferrer"> <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/youtube_knap.png" alt="" alt="play knap"> </a>
 				<p>Se vores Commander-playliste på Youtube</p>
 			</div>
 			<div class="tip_col_2">
