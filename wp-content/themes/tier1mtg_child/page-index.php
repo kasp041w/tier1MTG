@@ -17,6 +17,14 @@ if ( ! defined( 'ABSPATH' ) ) {
 get_header(); ?>
 
 <style>
+    #first_section {
+        text-align: left;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(135px, 1fr));
+        max-width: 100vw;
+        grid-gap: 1rem;
+    }
+
     .figure_ny {
         cursor: pointer;
     }
@@ -35,16 +43,31 @@ get_header(); ?>
     }
 
 
-
     .image-container {
         display: flex;
         gap: 20px;
         padding: 20px;
     }
 
+    .remove_object {
+        display: none;
+    }
 
     /*desktop*/
-    @media (min-width: 950px) {}
+    @media (min-width: 950px) {
+
+        .image-container {
+            margin: 0px 20px;
+            padding-left: 5vw;
+            padding-right: 5vw;
+        }
+
+        .image-container .figure_lyt {
+            flex-basis: 19%;
+        }
+
+
+    }
 
 </style>
 
@@ -57,10 +80,23 @@ get_header(); ?>
 
         <section id="first_section">
             <h1>NYESTE SINGLE</h1>
-            <div class="image-container"></div>
-            <figure class="figure_ny">
-                <div class="new_single_kort"></div>
-            </figure>
+            <div class="image-container">
+                <figure class="figure_ny">
+                    <div class="new_single_kort"></div>
+                </figure>
+
+                <figure class="figure_ny">
+                    <div class="new_single_kort1"></div>
+                </figure>
+
+                <figure class="figure_ny">
+                    <div class="new_single_kort2"></div>
+                </figure>
+
+                <figure class="figure_ny">
+                    <div class="new_single_kort3"></div>
+                </figure>
+            </div>
         </section>
     </main>
 
@@ -89,26 +125,114 @@ get_header(); ?>
             newSingleKort = await JsonData.json();
             console.log("loadJson", newSingleKort);
             visNewSingleKort();
+            visNewSingleKort1();
+            visNewSingleKort2();
+            visNewSingleKort3();
+
         }
         loadJson();
 
 
         //Her i funktioen genereres tre tilfeldeig podcast og sættes ind i HTML under sektionen, nye podcasts episoder
         function visNewSingleKort() {
-            console.log("visNewPodcast");
+            console.log("visNewSingleKort");
 
             //Genererer et nyt array af tilfældige objekter fra det komplette array
             const other1 = newSingleKort[Math.floor(Math.random() * newSingleKort.length)];
-            const other2 = newSingleKort[Math.floor(Math.random() * newSingleKort.length)];
-            const other3 = newSingleKort[Math.floor(Math.random() * newSingleKort.length)];
-            const other4 = newSingleKort[Math.floor(Math.random() * newSingleKort.length)];
-            const randomSingleKort = [other1, other2, other3, other4];
+            const randomSingleKort = [other1];
             console.log(randomSingleKort);
 
             randomSingleKort.forEach(single => {
                 //Definerer konstanter til senere brug i kloningen af template
                 const template = document.querySelector("template");
                 const container = document.querySelector(".new_single_kort");
+
+
+                const klon = template.cloneNode(true).content; //Her klones template og udfyldes med data fra de tilfældige objekter
+                klon.querySelector(".billede").src = single.billede.guid;
+                klon.querySelector(".titel").innerHTML = single.title.rendered;
+                klon.querySelector(".pris").innerHTML = `${"Fra "}` + single.pris;
+
+                // eventlisteners på hver enkelt artikel
+                klon.querySelector(".se_kort_knap").addEventListener("click", () => {
+                    location.href = single.link;
+                })
+
+                container.appendChild(klon);
+            })
+
+        }
+
+        function visNewSingleKort1() {
+            console.log("visNewSingleKort1");
+
+            //Genererer et nyt array af tilfældige objekter fra det komplette array
+            const other1 = newSingleKort[Math.floor(Math.random() * newSingleKort.length)];
+            const randomSingleKort = [other1];
+            console.log(randomSingleKort);
+
+            randomSingleKort.forEach(single => {
+                //Definerer konstanter til senere brug i kloningen af template
+                const template = document.querySelector("template");
+                const container = document.querySelector(".new_single_kort1");
+
+
+                const klon = template.cloneNode(true).content; //Her klones template og udfyldes med data fra de tilfældige objekter
+                klon.querySelector(".billede").src = single.billede.guid;
+                klon.querySelector(".titel").innerHTML = single.title.rendered;
+                klon.querySelector(".pris").innerHTML = `${"Fra "}` + single.pris;
+
+                // eventlisteners på hver enkelt artikel
+                klon.querySelector(".se_kort_knap").addEventListener("click", () => {
+                    location.href = single.link;
+                })
+
+                container.appendChild(klon);
+            })
+
+        }
+
+        function visNewSingleKort2() {
+            console.log("visNewSingleKort2");
+
+            //Genererer et nyt array af tilfældige objekter fra det komplette array
+            const other1 = newSingleKort[Math.floor(Math.random() * newSingleKort.length)];
+            const randomSingleKort = [other1];
+            console.log(randomSingleKort);
+
+            randomSingleKort.forEach(single => {
+                //Definerer konstanter til senere brug i kloningen af template
+                const template = document.querySelector("template");
+                const container = document.querySelector(".new_single_kort2");
+
+
+                const klon = template.cloneNode(true).content; //Her klones template og udfyldes med data fra de tilfældige objekter
+                klon.querySelector(".billede").src = single.billede.guid;
+                klon.querySelector(".titel").innerHTML = single.title.rendered;
+                klon.querySelector(".pris").innerHTML = `${"Fra "}` + single.pris;
+
+                // eventlisteners på hver enkelt artikel
+                klon.querySelector(".se_kort_knap").addEventListener("click", () => {
+                    location.href = single.link;
+                })
+
+                container.appendChild(klon);
+            })
+
+        }
+
+        function visNewSingleKort3() {
+            console.log("visNewSingleKort3");
+
+            //Genererer et nyt array af tilfældige objekter fra det komplette array
+            const other1 = newSingleKort[Math.floor(Math.random() * newSingleKort.length)];
+            const randomSingleKort = [other1];
+            console.log(randomSingleKort);
+
+            randomSingleKort.forEach(single => {
+                //Definerer konstanter til senere brug i kloningen af template
+                const template = document.querySelector("template");
+                const container = document.querySelector(".new_single_kort3");
 
 
                 const klon = template.cloneNode(true).content; //Her klones template og udfyldes med data fra de tilfældige objekter
