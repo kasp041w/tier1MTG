@@ -31,6 +31,9 @@ get_header(); ?>
 
         img.billede {
             border-radius: 5%;
+            width: 100%;
+            height: 55%;
+            object-fit: cover
         }
 
     </style>
@@ -52,7 +55,7 @@ get_header(); ?>
 
         <!-- Visning af Single-kort -->
         <template>
-            <article>
+            <article class="single_kort">
                 <img src="" alt="" class="billede">
                 <h3 class="titel"></h3>
                 <p class="pris"></p>
@@ -145,7 +148,7 @@ get_header(); ?>
                         klon.querySelector(".lagertal").innerHTML = single.lagertal + `${" på lager"}`;
 
                         // eventlisteners på hver enkelt artikel
-                        klon.querySelector("article").addEventListener("click", () => {
+                        klon.querySelector(".single_kort").addEventListener("click", () => {
                             location.href = single.link;
                         })
 
