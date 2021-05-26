@@ -27,20 +27,27 @@ get_header(); ?>
         color: #AD9261;
     }
 
+    .se_kort_knap {
+        text-align: end;
+    }
+
     article {
         position: relative;
     }
 
-    .billed_placering {}
-
     .baggrund_kort {
         position: absolute;
         bottom: 0;
-        background-color: rgba(39, 39, 39, 0.9);
+        background-color: rgba(39, 39, 39, 0.96);
         width: 100%;
         padding: 20px;
+        height: 30%;
+        transition: .5s ease;
+        overflow: hidden;
+    }
 
-
+    .baggrund_kort:hover {
+        height: 0%;
     }
 
 
@@ -80,7 +87,7 @@ get_header(); ?>
         }
 
         .image-container .figure_ny {
-            flex-basis: 25%;
+            flex-basis: 27%;
         }
 
 
