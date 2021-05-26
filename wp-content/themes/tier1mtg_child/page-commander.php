@@ -18,18 +18,18 @@ get_header(); ?>
 	}
 
 	h1,
-	p {
+	p,
+	a,
+	.playknap {
 		padding-left: 2rem;
 		padding-right: 2rem;
 	}
 
-	#kort_sektion,
+	/*#kort_sektion,
 	#event_sektion,
 	#artikler {
 		width: 100%;
-		/*padding-left: 2rem;
-		padding-right: 2rem;*/
-	}
+	}*/
 
 	/*FARVER OG DIVERSE*/
 
@@ -46,24 +46,18 @@ get_header(); ?>
 		color: #272727;
 	}
 
-	.playknap {
-		padding-left: 2rem;
-	}
-
 	#cardmarket_sektion {
 		background-color: #272727;
 	}
 
 	#cardmarket_sektion h1 {
 		color: #F5F5F5;
-		padding-left: 8rem;
-		padding-right: 8rem;
+		padding-left: 30%;
 	}
 
 	#cardmarket_sektion p {
 		color: #AD9261;
-		padding-left: 10rem;
-		padding-right: 10rem;
+		align-content: center;
 	}
 
 </style>
