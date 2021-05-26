@@ -27,18 +27,19 @@ get_header(); ?>
 
 	/*FARVER OG DIVERSE*/
 
-	.site-header {
+	/* VIRKER IKKE .site-header {
 		margin-bottom: 0;
-	}
+	}*/
 
 	#top_sektion {
 		background-color: #F5F5F5;
-		margin-top: 0;
 	}
 
 	#top_sektion h2,
 	p {
 		color: #272727;
+		padding-left: 2rem;
+		padding-right: 2rem;
 	}
 
 	#cardmarket_sektion {
@@ -47,10 +48,14 @@ get_header(); ?>
 
 	#cardmarket_sektion h2 {
 		color: #F5F5F5;
+		padding-left: 8rem;
+		padding-right: 8rem;
 	}
 
 	#cardmarket_sektion p {
 		color: #AD9261;
+		padding-left: 10rem;
+		padding-right: 10rem;
 	}
 
 </style>
