@@ -104,13 +104,14 @@ get_header(); ?>
             newSingleKort = await JsonData.json();
             console.log("loadJson", newSingleKort);
             visNewSingleKort();
+            visNewSingleKort1();
         }
         loadJson();
 
 
         //Her i funktioen genereres tre tilfeldeig podcast og sættes ind i HTML under sektionen, nye podcasts episoder
         function visNewSingleKort() {
-            console.log("visNewPodcast");
+            console.log("visNewSingleKort");
 
             //Genererer et nyt array af tilfældige objekter fra det komplette array
             const other1 = newSingleKort[Math.floor(Math.random() * newSingleKort.length)];
@@ -138,8 +139,8 @@ get_header(); ?>
 
         }
 
-        function visNewSingleKort() {
-            console.log("visNewPodcast");
+        function visNewSingleKort1() {
+            console.log("visNewSingleKort1");
 
             //Genererer et nyt array af tilfældige objekter fra det komplette array
             const other1 = newSingleKort[Math.floor(Math.random() * newSingleKort.length)];
@@ -149,7 +150,6 @@ get_header(); ?>
             randomSingleKort.forEach(single => {
                 //Definerer konstanter til senere brug i kloningen af template
                 const template = document.querySelector("template");
-
                 const container = document.querySelector(".new_single_kort1");
 
                 const klon = template.cloneNode(true).content; //Her klones template og udfyldes med data fra de tilfældige objekter
