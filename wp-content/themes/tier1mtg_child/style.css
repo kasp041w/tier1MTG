@@ -90,6 +90,9 @@ main {
 /*Aktiv-status på menu/burgermenu-knapper*/
 
 .main-navigation .main-nav ul li[class*="current-menu-"] > a {}
+
+/*--GRID-VIEW PÅ PRODUKTER---*/
+
 .one-container .site-main>:last-child,
 .separate-containers .site-main>:last-child {
     text-align: center;
