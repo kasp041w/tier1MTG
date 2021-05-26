@@ -20,7 +20,8 @@ get_header(); ?>
 	h1,
 	p,
 	a,
-	.playknap {
+	.playknap,
+	iframe {
 		padding-left: 2rem;
 		padding-right: 2rem;
 	}
@@ -44,6 +45,10 @@ get_header(); ?>
 	#top_sektion h1,
 	p {
 		color: #272727;
+	}
+
+	#tip_sektion {
+		background-image: url("http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/commander_baggrund.png")
 	}
 
 	#cardmarket_sektion {
@@ -80,7 +85,6 @@ get_header(); ?>
 			<a href="http://kasperdyhl.dk/tier1mtg/produktside/">Se alle single cards</a>
 		</section>
 		<section id="tip_sektion">
-			<img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/commander_baggrund.png" alt="grafik" class="tip_baggrund">
 			<div class="tip_col_1">
 				<h1>Se Ugens Tip</h1>
 				<p>Tekst her om ugens tip</p>
