@@ -48,7 +48,8 @@ get_header(); ?>
 	}
 
 	#tip_sektion {
-		background-image: url("http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/commander_baggrund.png")
+		background-image: url("http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/commander_baggrund.png");
+		background-size: cover;
 	}
 
 	#cardmarket_sektion {
