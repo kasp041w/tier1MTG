@@ -27,7 +27,7 @@ get_header(); ?>
     /*styling af singel kortene på forsiden*/
 
     .titel_alternativ,
-    class="h2_acc" {
+    .class="h2_acc" {
         color: #F1F0E8;
         font-size: 1.5rem;
         font-weight: bold;
@@ -36,7 +36,7 @@ get_header(); ?>
 
 
     .pris_alternativ,
-    class="h3_acc" {
+    .class="h3_acc" {
         color: #AD9261;
         font-size: 1rem;
         margin-bottom: 0;
