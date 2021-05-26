@@ -43,8 +43,15 @@ get_header(); ?>
             border-top-right-radius: 5%;
         }
 
-        .title .pris .lagertal {
+        .titel,
+        .lagertal {
             padding-left: 5%;
+            color: #F1F0E8;
+        }
+
+        .pris {
+            padding-left: 5%;
+            color: #AD9261;
         }
 
     </style>
