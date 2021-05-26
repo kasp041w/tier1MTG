@@ -42,6 +42,13 @@ get_header(); ?>
         z-index: 40;
     }
 
+    .billede {
+        border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
+        width: 100%;
+        height: 55%;
+    }
+
     article {
         position: relative;
     }
