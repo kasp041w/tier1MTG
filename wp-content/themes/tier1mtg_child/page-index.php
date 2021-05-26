@@ -35,13 +35,15 @@ get_header(); ?>
     }
 
 
-
     .image-container {
         display: flex;
         gap: 20px;
         padding: 20px;
     }
 
+    .remove_object {
+        display: none;
+    }
 
     /*desktop*/
     @media (min-width: 950px) {}
