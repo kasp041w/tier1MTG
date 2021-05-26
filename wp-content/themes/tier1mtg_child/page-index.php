@@ -32,7 +32,7 @@ get_header(); ?>
         grid-template-rows: 1fr 1fr;
     }
 
-    article img {
+    .billed_placering {
         grid-row-start: 1;
         grid-row-end: span 2;
     }
@@ -122,7 +122,7 @@ get_header(); ?>
 
     <template>
         <article>
-            <div><img src="" alt="" class="billede"></div>
+            <div class="billed_placering"><img src="" alt="" class="billede"></div>
             <div class="baggrund_kort">
                 <h2 class="titel_alternativ"></h2>
                 <h3 class="pris_alternativ"></h3>
