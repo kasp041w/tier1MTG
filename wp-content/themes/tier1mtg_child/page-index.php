@@ -101,10 +101,20 @@ get_header(); ?>
         background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/del_af_universet.png);
         background-size: cover;
         max-width: none;
-        height: 50vh;
+        height: 90vh;
         width: 100%;
     }
 
+    .baggrundsbillede_anden_sektion h1,
+    p {
+        color: #F1F0E8;
+        text-align: center;
+    }
+
+    #forside_anden_sektion_knap {
+        text-align: center;
+        color: #AD9261;
+    }
 
 
     /*desktop*/
@@ -115,6 +125,13 @@ get_header(); ?>
 
         .image-container .figure_ny {
             flex-basis: 27%;
+        }
+
+
+        /*styling af anden sektion: bliv en del af universet*/
+
+        .baggrundsbillede_anden_sektion {
+            height: 50%;
         }
 
 
@@ -155,7 +172,7 @@ get_header(); ?>
             <div class="baggrundsbillede_anden_sektion">
                 <h1>BLIV EN DEL AF UNIVERSET</h1>
                 <p>Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. lorem Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text. lorem</p>
-                <button>LÆS MERE</button>
+                <button id="forside_anden_sektion_knap">LÆS MERE</button>
             </div>
         </section>
 
