@@ -27,6 +27,10 @@ get_header(); ?>
         color: #AD9261;
     }
 
+    .se_kort_knap {
+        text-align: end;
+    }
+
     article {
         position: relative;
     }
@@ -43,7 +47,7 @@ get_header(); ?>
     }
 
     .baggrund_kort:hover {
-        height: -10%;
+        height: 0%;
     }
 
 
