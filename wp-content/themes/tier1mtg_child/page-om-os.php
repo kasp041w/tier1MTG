@@ -20,7 +20,28 @@ get_header(); ?>
     <main id="main" <?php generate_do_element_classes( 'main' ); ?>>
 
         <style>
-            border-right:;
+            h1 {
+                margin: 0 0 5wv 0;
+            }
+
+            .col1 {
+                margin-bottom: 6vw;
+            }
+
+            .ansatte {
+                overflow: auto;
+                white-space: nowrap;
+            }
+
+            .ansat {
+                display: inline-block;
+            }
+
+            @media (min-width: 1000px) {
+                .ansatte {
+                    white-space: normal;
+                }
+            }
 
         </style>
 
@@ -44,19 +65,19 @@ get_header(); ?>
 
         <div class="ansatte">
 
-            <div class="ansat1">
-                <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Group-943-e1622033319413.png" alt="Dan">
+            <div class="ansat">
+                <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Group-943.png" alt="Dan">
                 <h3>Dan Sønderskov</h3>
                 <p>GRUNDLÆGGER / DIREKTØR</p>
             </div>
 
-            <div class="ansat2">
+            <div class="ansat">
                 <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Group-944.png" alt="Allan">
                 <h3>Allan Asmussen</h3>
                 <p>GRUNDLÆGGER / SALG</p>
             </div>
 
-            <div class="ansat3">
+            <div class="ansat">
                 <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Group-945.png" alt="Maria">
                 <h3>Maria Sønderskov</h3>
                 <p>FINANS / LOGISIK</p>
