@@ -27,8 +27,8 @@ get_header(); ?>
 	#event_sektion,
 	#artikler {
 		width: 100%;
-		padding-left: 2rem;
-		padding-right: 2rem;
+		/*padding-left: 2rem;
+		padding-right: 2rem;*/
 	}
 
 	/*FARVER OG DIVERSE*/
