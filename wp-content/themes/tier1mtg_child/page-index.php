@@ -128,12 +128,15 @@ get_header(); ?>
 
     <template>
         <article>
-            <div class="billed_placering"><img src="" alt="" class="billede"></div>
+            <div class="billed_placering">
+                <img src="" alt="" class="billede">
+                <button class="se_kort_knap">SE KORT</button>
+            </div>
             <div class="baggrund_kort">
                 <h2 class="titel_alternativ"></h2>
                 <h3 class="pris_alternativ"></h3>
             </div>
-            <button class="se_kort_knap">SE KORT</button>
+
         </article>
     </template>
 
