@@ -30,10 +30,21 @@ get_header(); ?>
         /*---SINGLE CARDS---*/
 
         img.billede {
-            border-radius: 5%;
+            border-top-left-radius: 5%;
+            border-top-right-radius: 5%;
             width: 100%;
             height: 55%;
             object-fit: cover
+        }
+
+        .single_kort {
+            background-color: #272727;
+            border-top-left-radius: 5%;
+            border-top-right-radius: 5%;
+        }
+
+        .title .pris .lagertal {
+            padding-left: 5%;
         }
 
     </style>
