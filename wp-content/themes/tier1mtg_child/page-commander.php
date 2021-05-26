@@ -57,7 +57,7 @@ get_header(); ?>
 
 	#cardmarket_sektion p {
 		color: #AD9261;
-		align-content: center;
+		text-align: center;
 	}
 
 </style>
@@ -71,14 +71,13 @@ get_header(); ?>
 				<p>Tekst her om Commander-formatet. Blabjsndlks ifrdn ljiejr je rjwtnntndjfn erj shekj kje bkj bjkbgkj vkd kjdkj kjhekjr kjsh kjheskjt hhg kjhgkjh kjhkj hfkhdgl</p>
 			</div>
 			<div class="top_col_2">
-				<iframe width="200" height="auto" src="https://www.youtube.com/watch?v=k70dmf3kQYU">
+				<iframe width="420" height="315" src="https://www.youtube.com/embed/k70dmf3kQYU">
 				</iframe>
 			</div>
 		</section>
 		<section id="kort_sektion">
 			<h1>Kort du ikke må gå glip af</h1>
 			<a href="http://kasperdyhl.dk/tier1mtg/produktside/">Se alle single cards</a>
-
 		</section>
 		<section id="tip_sektion">
 			<img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/commander_baggrund.png" alt="grafik" class="tip_baggrund">
