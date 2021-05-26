@@ -40,11 +40,15 @@ get_header(); ?>
         width: 100%;
         padding: 20px;
         height: 30%;
+        transition: .5s ease;
+        overflow: hidden;
     }
 
     .baggrund_kort:hover {
         height: 100%;
+
     }
+
 
     /*Slider effekten, fungere både på mobil og destiop*/
     .figure_ny {
@@ -82,7 +86,7 @@ get_header(); ?>
         }
 
         .image-container .figure_ny {
-            flex-basis: 25%;
+            flex-basis: 27%;
         }
 
 
