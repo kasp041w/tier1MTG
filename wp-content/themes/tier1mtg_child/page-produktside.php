@@ -45,38 +45,56 @@ get_header(); ?>
 
         .titel {
             padding-left: 5%;
+            padding-right: 5%;
             padding-top: 5%;
             color: #F1F0E8;
-            font-size: 1.3rem;
+            font-size: 1.1rem;
             font-weight: bold;
             margin-bottom: 0;
         }
 
         .lagertal {
             padding-left: 5%;
+            padding-right: 5%;
+            padding-top: 5%;
             color: #F1F0E8;
             font-size: 0.75rem;
+            margin-bottom: 0;
         }
 
         .pris {
             padding-left: 5%;
+            padding-right: 5%;
             color: #AD9261;
-            font-size: 0.9rem;
+            font-size: 0.7rem;
+            margin-bottom: 0;
         }
         /*---FILTRERINGSNAVIGATION---*/
 
-        #filtrering {
+        .filtrering {
             display: none;
         }
 
-        .right-box {}
+        .filter_knapper {
+            width: 100%;
+            margin: 0.1rem;
+            display: inline;
+        }
+
+        .filter {
+            width: 100%;
+            margin: 0.1rem;
+            display: inline;
+        }
 
     </style>
 
     <div id="primary" <?php generate_do_element_classes( 'content' ); ?>>
         <main id="main" <?php generate_do_element_classes( 'main' ); ?>>
 
-            <nav id="filtrering">
+
+            <button id="visKategorier">Klik her</button>
+            <nav class="filtrering">
                 <button class="filter_knapper" data-single="alle">Alle</button>
             </nav>
 
@@ -92,14 +110,9 @@ get_header(); ?>
         <template>
             <article class="single_kort">
                 <img src="" alt="" class="billede">
-                <div class="left-box">
-                    <h3 class="titel"></h3>
-                    <p class="pris"></p>
-                </div>
-                <div class="right-box">
-                    <p class="lagertal"></p>
-                    <button>hej</button>
-                </div>
+                <h3 class="titel"></h3>
+                <p class="pris"></p>
+                <p class="lagertal"></p>
             </article>
         </template>
 
@@ -135,27 +148,37 @@ get_header(); ?>
                 categories = await catData.json();
                 console.log(categories);
 
+                //Viser kategorierne i en pop-up menu i mobilversion
+                document.querySelector("#visKategorier").addEventListener("mousedown", visFilter);
+
                 visSingles();
                 opretKnapper();
             }
+
 
             function opretKnapper() {
                 console.log("opretKnapper virker");
 
                 categories.forEach(cat => {
-                    document.querySelector("#filtrering").innerHTML += `<button class="filter" data-single="${cat.id}">${cat.name}</button>`
+                    document.querySelector(".filtrering").innerHTML += `<button class="filter" data-single="${cat.id}">${cat.name}</button>`
                 })
+
                 addEventListenersToButtons();
             }
+
 
             function addEventListenersToButtons() {
                 console.log("lytTilKnapper virker");
 
-                document.querySelectorAll("#filtrering button").forEach(elm => {
+                document.querySelectorAll(".filtrering button").forEach(elm => {
                     elm.addEventListener("click", filtrering);
                 })
             };
 
+            //Viser kategorierne i en pop-up menu i mobilversion
+            function visFilter() {
+                document.querySelector(".filtrering").classList.toggle("filter_knapper");
+            }
 
             function filtrering() {
                 filterSingle = this.dataset.single;
