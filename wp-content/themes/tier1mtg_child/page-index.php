@@ -59,22 +59,23 @@ get_header(); ?>
 
         <section id="first_section">
             <h1>NYESTE SINGLE</h1>
-            <div class="image-container"></div>
-            <figure class="figure_ny">
-                <div class="new_single_kort"></div>
-            </figure>
+            <div class="image-container">
+                <figure class="figure_ny">
+                    <div class="new_single_kort"></div>
+                </figure>
 
-            <figure class="figure_ny">
-                <div class="new_single_kort"></div>
-            </figure>
+                <figure class="figure_ny">
+                    <div class="new_single_kort"></div>
+                </figure>
 
-            <figure class="figure_ny">
-                <div class="new_single_kort"></div>
-            </figure>
+                <figure class="figure_ny">
+                    <div class="new_single_kort"></div>
+                </figure>
 
-            <figure class="figure_ny">
-                <div class="new_single_kort"></div>
-            </figure>
+                <figure class="figure_ny">
+                    <div class="new_single_kort"></div>
+                </figure>
+            </div>
         </section>
     </main>
 
@@ -108,35 +109,6 @@ get_header(); ?>
 
 
         //Her i funktioen genereres tre tilfeldeig podcast og sættes ind i HTML under sektionen, nye podcasts episoder
-        function visNewSingleKort() {
-            console.log("visNewPodcast");
-
-            //Genererer et nyt array af tilfældige objekter fra det komplette array
-            const other1 = newSingleKort[Math.floor(Math.random() * newSingleKort.length)];
-            const randomSingleKort = [other1];
-            console.log(randomSingleKort);
-
-            randomSingleKort.forEach(single => {
-                //Definerer konstanter til senere brug i kloningen af template
-                const template = document.querySelector("template");
-                const container = document.querySelector(".new_single_kort");
-
-                const klon = template.cloneNode(true).content; //Her klones template og udfyldes med data fra de tilfældige objekter
-                klon.querySelector(".billede").src = single.billede.guid;
-                klon.querySelector(".titel").innerHTML = single.title.rendered;
-                klon.querySelector(".pris").innerHTML = `${"Fra "}` + single.pris;
-
-                // eventlisteners på hver enkelt artikel
-                klon.querySelector(".se_kort_knap").addEventListener("click", () => {
-                    location.href = single.link;
-                })
-
-                container.appendChild(klon);
-            })
-
-        }
-
-
         function visNewSingleKort() {
             console.log("visNewPodcast");
 
