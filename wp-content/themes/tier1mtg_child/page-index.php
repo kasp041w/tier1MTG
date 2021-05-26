@@ -105,6 +105,8 @@ get_header(); ?>
             console.log("loadJson", newSingleKort);
             visNewSingleKort();
             visNewSingleKort1();
+            visNewSingleKort2();
+            visNewSingleKort3();
 
         }
         loadJson();
@@ -152,8 +154,65 @@ get_header(); ?>
                 //Definerer konstanter til senere brug i kloningen af template
                 const template = document.querySelector("template");
                 const container = document.querySelector(".new_single_kort1");
+
+
+                const klon = template.cloneNode(true).content; //Her klones template og udfyldes med data fra de tilfældige objekter
+                klon.querySelector(".billede").src = single.billede.guid;
+                klon.querySelector(".titel").innerHTML = single.title.rendered;
+                klon.querySelector(".pris").innerHTML = `${"Fra "}` + single.pris;
+
+                // eventlisteners på hver enkelt artikel
+                klon.querySelector(".se_kort_knap").addEventListener("click", () => {
+                    location.href = single.link;
+                })
+
+                container.appendChild(klon);
+            })
+
+        }
+
+        function visNewSingleKort2() {
+            console.log("visNewSingleKort2");
+
+            //Genererer et nyt array af tilfældige objekter fra det komplette array
+            const other1 = newSingleKort[Math.floor(Math.random() * newSingleKort.length)];
+            const randomSingleKort = [other1];
+            console.log(randomSingleKort);
+
+            randomSingleKort.forEach(single => {
+                //Definerer konstanter til senere brug i kloningen af template
+                const template = document.querySelector("template");
                 const container = document.querySelector(".new_single_kort2");
+
+
+                const klon = template.cloneNode(true).content; //Her klones template og udfyldes med data fra de tilfældige objekter
+                klon.querySelector(".billede").src = single.billede.guid;
+                klon.querySelector(".titel").innerHTML = single.title.rendered;
+                klon.querySelector(".pris").innerHTML = `${"Fra "}` + single.pris;
+
+                // eventlisteners på hver enkelt artikel
+                klon.querySelector(".se_kort_knap").addEventListener("click", () => {
+                    location.href = single.link;
+                })
+
+                container.appendChild(klon);
+            })
+
+        }
+
+        function visNewSingleKort3() {
+            console.log("visNewSingleKort3");
+
+            //Genererer et nyt array af tilfældige objekter fra det komplette array
+            const other1 = newSingleKort[Math.floor(Math.random() * newSingleKort.length)];
+            const randomSingleKort = [other1];
+            console.log(randomSingleKort);
+
+            randomSingleKort.forEach(single => {
+                //Definerer konstanter til senere brug i kloningen af template
+                const template = document.querySelector("template");
                 const container = document.querySelector(".new_single_kort3");
+
 
                 const klon = template.cloneNode(true).content; //Her klones template og udfyldes med data fra de tilfældige objekter
                 klon.querySelector(".billede").src = single.billede.guid;
