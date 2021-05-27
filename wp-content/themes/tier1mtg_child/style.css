@@ -137,6 +137,8 @@ html {
     background-color: #272727;
 }
 
+
+
 .main-navigation ul ul {
     display: inline-flex;
     /* box-shadow: 1px 1px 0 rgb(0 0 0 / 10%); */
@@ -161,6 +163,10 @@ html {
     margin: 0px 120px 0px 0px;
     width: 100%;
     text-align: center;
+}
+
+.main-navigation:not(.toggled) ul li.sfHover > ul {
+    width: 100%;
 }
 
 /*Burgermenu-baggrund*/
