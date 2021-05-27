@@ -28,6 +28,11 @@ get_header(); ?>
                 margin-bottom: 5px;
             }
 
+            #omOs {
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+
             .col1 {
                 margin-bottom: 6vw;
             }
