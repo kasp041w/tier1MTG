@@ -58,9 +58,8 @@ get_header(); ?>
 
         .se_kort_knap {
             position: absolute;
-            left: 33%;
+            left: 40%;
             bottom: 3%;
-            z-index: 40;
         }
 
         .titel {
@@ -126,6 +125,7 @@ get_header(); ?>
             color: #F1F0E8;
             padding-left: 10vw;
             padding-right: 10vw;
+            z-index: 4;
         }
 
         .luk-display {
@@ -171,10 +171,10 @@ get_header(); ?>
         <main id="main" <?php generate_do_element_classes( 'main' ); ?>>
 
             <section id="nav-mobil">
-                <button id="visKategorier">☰
+                <button id="visKategorier" class="knapper_dark">☰
                     <p>Kategorier</p>
                 </button>
-                <button id="visFilter">⇆
+                <button id="visFilter" class="knapper_dark">⇆
                     <p>Filtrering</p>
                 </button>
                 <nav class="filtrering">
