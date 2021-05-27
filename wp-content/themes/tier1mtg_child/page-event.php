@@ -87,28 +87,13 @@ get_header(); ?>
         overflow: hidden;
     }
 
-    .event_anden_sektion_container:hover .event_anden_text_felt {
+    .event_indhold:hover .event_anden_text_felt {
         height: 100%;
         border-top-left-radius: 5%;
         border-top-right-radius: 5%;
     }
 
-    .event_anden_text_felt1 {
-        position: absolute;
-        bottom: 0;
-        background-color: rgba(39, 39, 39, 0.96);
-        width: 100%;
-        padding: 20px;
-        height: 30%;
-        transition: .5s ease;
-        overflow: hidden;
-    }
 
-    .event_anden_sektion_container:hover .event_anden_text_felt1 {
-        height: 100%;
-        border-top-left-radius: 5%;
-        border-top-right-radius: 5%;
-    }
 
 
 
@@ -147,7 +132,7 @@ get_header(); ?>
                 <div class="event_indhold">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/jeweled-bird.jpg" alt="Tier1MTG event">
                     <button class="event_mere_knap knapper_dark">LÆS MERE</button>
-                    <div class="event_anden_text_felt1">
+                    <div class="event_anden_text_felt">
                         <h2 class="h2_acc">Old School Game</h2>
                         <h3 class="h3_acc">Dato: 23-06-2021</h3>
                         <h3 class="h3_acc">Format: Commander</h3>
