@@ -206,7 +206,7 @@ get_header(); ?>
         background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/forside-om_os1.png);
         background-size: cover;
         max-width: none;
-        height: 80vh;
+        height: 90vh;
         width: 100%;
     }
 
@@ -219,10 +219,28 @@ get_header(); ?>
         padding: 0px 20px 0px 20px;
     }
 
+    .forside_femte_sektion .bottom {
+        margin-top: 40%;
+    }
+
     .forside_femte_sektion_knap {
         position: absolute;
-        left: 58%;
-        bottom: 50%;
+        z-index: 40;
+    }
+
+    /*SJETTE SEKTION*/
+    .forside_sjette_sektion_grid {
+        position: relative;
+        max-width: 1200px;
+        margin: 0 0 auto 0;
+    }
+
+    .forside_sjette_sektion_grid .left {
+        text-align: center;
+    }
+
+    .forside_sjette_sektion_knap {
+        place-self: center;
         z-index: 40;
     }
 
@@ -240,12 +258,10 @@ get_header(); ?>
 
 
 
-
         /*ANDEN SEKTION*/
 
         #forside_anden_sektion {
             height: 50vh;
-
         }
 
         .forside_anden_sektion_tekst {
@@ -255,12 +271,12 @@ get_header(); ?>
 
 
 
-        /*styling af femte sektion*/
+        /*FEMTE SEKTIONstyling af femte sektion*/
         .forside_femte_sektion {
             display: grid;
             grid-template-columns: 1fr 1fr;
             grid-auto-rows: 1fr 0.5fr;
-            grid-row-gap: 20px;
+            grid-row-gap: 50px;
         }
 
         .forside_femte_sektion .left {
@@ -284,10 +300,15 @@ get_header(); ?>
             grid-row-start: 2;
             grid-row-end: span 1;
             place-self: center;
+            margin: 0%;
         }
 
 
-
+        /*SJETTE SEKTION*/
+        .forside_sjette_sektion_grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
 
 
     }
@@ -297,9 +318,6 @@ get_header(); ?>
 
 <div id="primary" <?php generate_do_element_classes( 'content' ); ?>>
     <main id="main" <?php generate_do_element_classes( 'main' ); ?>>
-        <div>
-            <p>Dette er forsiden</p>
-        </div>
 
         <section id="forside_first_section">
             <h1>NYESTE SINGLE</h1>
@@ -437,6 +455,21 @@ get_header(); ?>
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/facebook_knap.png" alt="link til facebook">
                 </div>
             </div>
+        </section>
+
+        <section id="forside_sjette_sektion">
+            <div class="forside_sjette_sektion_grid">
+                <div class="left">
+                    <h1>VI ER OGSÅ PÅ CARDMARKET</h1>
+                    <p>Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. lorem Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text. lorem</p>
+                    <button class="forside_sjette_sektion_knap">LÆS MERE</button>
+                </div>
+                <div class="right">
+                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/lotos.png" alt="MTG lotos">
+                </div>
+            </div>
+
+
         </section>
     </main>
 
