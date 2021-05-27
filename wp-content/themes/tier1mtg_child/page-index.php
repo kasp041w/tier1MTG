@@ -58,7 +58,7 @@ get_header(); ?>
     /*Styling af hovereffekten på kort og produkter så den sorte bremme forsvinder med mus over bilelde*/
     article {
         position: relative;
-        height: 55%;
+        height: 34rem;
     }
 
     .baggrund_kort {
