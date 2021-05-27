@@ -20,14 +20,38 @@ get_header(); ?>
     .knap_se_kort {
         background-color: #AD9261;
         color: #272727;
-        border-radius: 10%;
+        border-radius: 28px;
+        padding: 12px 20px 12px 20px;
+        font-weight: bold;
+    }
+
+    .knap_se_kort:hover {
+        background-color: #F1F0E8;
+        color: #AD9261;
     }
 
     .knap_leas_nu {}
 
-    .knap_se_produkt {}
+    .knap_se_produkt {
+        background-color: #AD9261;
+        color: #272727;
+        border-radius: 28px;
+        padding: 12px 20px 12px 20px;
+        font-weight: bold;
+    }
 
-    .knap_leas_mere {}
+    .knap_leas_mere {
+        background-color: #AD9261;
+        color: #272727;
+        border-radius: 28px;
+        padding: 12px 20px 12px 20px;
+        font-weight: bold;
+    }
+
+    .knap_leas_mere:hover {
+        background-color: #F1F0E8;
+        color: #AD9261;
+    }
 
     .knap_send {}
 
@@ -360,7 +384,7 @@ get_header(); ?>
             <div class="forside_anden_sektion_tekst">
                 <h1 class="forside_anden_sektion_styl">BLIV EN DEL AF UNIVERSET</h1>
                 <p class="forside_anden_sektion_styl">Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. lorem Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text. lorem</p>
-                <button id="forside_anden_sektion_knap">LÆS MERE</button>
+                <button id="forside_anden_sektion_knap knap_leas_mere">LÆS MERE</button>
             </div>
         </section>
 
@@ -370,7 +394,7 @@ get_header(); ?>
             <div class="forside_image-container">
                 <figure class="forside_figure_ny">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/skab_acc.jpeg" alt="Gamegenic - Playmat Tube">
-                    <button class="se_kort_knap knap_se_kort">SE PRODUKT</button>
+                    <button class="se_kort_knap knap_se_produkt">SE PRODUKT</button>
                     <figcaption class="trejde_sektion_figcuption">
                         <h2 class="h2_acc">Gamegenic - Playmat Tube</h2>
                         <h3 class="h3_acc">49,95 DKK</h3>
@@ -379,7 +403,7 @@ get_header(); ?>
 
                 <figure class="forside_figure_ny">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/box.jpeg" alt="Ultra Pro – Satin Tower Deck">
-                    <button class="se_kort_knap">SE PRODUKT</button>
+                    <button class="se_kort_knap knap_se_produkt">SE PRODUKT</button>
                     <figcaption class="trejde_sektion_figcuption">
                         <h2 class="h2_acc">Ultra Pro – Satin Tower Deck</h2>
                         <h3 class="h3_acc">99,95 DKK</h3>
@@ -388,7 +412,7 @@ get_header(); ?>
 
                 <figure class="forside_figure_ny">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/tube.jpeg" alt="Ultra Pro - Boombox">
-                    <button class="se_kort_knap">SE PRODUKT</button>
+                    <button class="se_kort_knap knap_se_produkt">SE PRODUKT</button>
                     <figcaption class="trejde_sektion_figcuption">
                         <h2 class="h2_acc">Ultra Pro - Boombox</h2>
                         <h3 class="h3_acc">324,95 DKK</h3>
@@ -397,7 +421,7 @@ get_header(); ?>
 
                 <figure class="forside_figure_ny">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/kort_ting.jpeg" alt="Secret Lair – Ultimate Edition">
-                    <button class="se_kort_knap">SE PRODUKT</button>
+                    <button class="se_kort_knap knap_se_produkt">SE PRODUKT</button>
                     <figcaption class="trejde_sektion_figcuption">
                         <h2 class="h2_acc">Secret Lair – Ultimate Edition</h2>
                         <h3 class="h3_acc">699,95 DKK</h3>
@@ -414,7 +438,7 @@ get_header(); ?>
             <div class="forside_image-container">
                 <figure class="forside_figure_ny">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/jeweled-bird.jpg" alt="Tier1MTG event">
-                    <button class="se_kort_knap">LÆS MERE</button>
+                    <button class="se_kort_knap knap_leas_mere">LÆS MERE</button>
                     <figcaption class="fjerde_sektion_figcuption">
                         <h2 class="h2_acc">Old School Game</h2>
                         <h3 class="h3_acc">Dato: 23-06-2021</h3>
@@ -426,7 +450,7 @@ get_header(); ?>
 
                 <figure class="forside_figure_ny">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/jeweled-bird.jpg" alt="">
-                    <button class="se_kort_knap">LÆS MERE</button>
+                    <button class="se_kort_knap knap_leas_mere">LÆS MERE</button>
                     <figcaption class="fjerde_sektion_figcuption">
                         <h2 class="h2_acc">Old School Game</h2>
                         <h3 class="h3_acc">Dato: 23-06-2021</h3>
@@ -438,7 +462,7 @@ get_header(); ?>
 
                 <figure class="forside_figure_ny">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/jeweled-bird.jpg" alt="Tier1MTG event">
-                    <button class="se_kort_knap">LÆS MERE</button>
+                    <button class="se_kort_knap knap_leas_mere">LÆS MERE</button>
                     <figcaption class="fjerde_sektion_figcuption">
                         <h2 class="h2_acc">Old School Game</h2>
                         <h3 class="h3_acc">Dato: 23-06-2021</h3>
@@ -460,7 +484,7 @@ get_header(); ?>
                     <p>
                         Tier1MTG Alt i Magic <br><br> Tier1MTG er startet af Allan Asmussen og Dan Sønderskov 2 gamle venner der er vokset op sammen og har spillet magic siden 1994. <br><br>Vores Vision er at kunne levere magickort til spilleren på tværs af alle formater, at gøre det nemt for spilleren, ved salg online på vores hjemmeside, Magiccardmarket og ude fysisk på events. Til markedspriser og hurtig leveringstid.
                     </p>
-                    <button class="forside_femte_sektion_knap">LÆS MERE</button>
+                    <button class="forside_femte_sektion_knap knap_leas_mere">LÆS MERE</button>
                 </div>
                 <div class="bottom">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/twitch_knap.png" alt="link til twitch">
@@ -491,7 +515,7 @@ get_header(); ?>
         <article>
             <div class="billed_placering">
                 <img src="" alt="" class="billede">
-                <button class="se_kort_knap">SE KORT</button>
+                <button class="se_kort_knap knap_se_kort">SE KORT</button>
             </div>
             <div class="baggrund_kort">
                 <h2 class="titel_alternativ"></h2>
