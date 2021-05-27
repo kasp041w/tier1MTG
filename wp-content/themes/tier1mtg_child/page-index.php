@@ -270,7 +270,7 @@ get_header(); ?>
             grid-row-end: span 1;
         }
 
-        .forside_femte_sektion .right {
+        .forside_femte_sektion .rigtht {
             grid-column-start: 2;
             grid-column-end: span 1;
             grid-row-start: 1;
