@@ -156,6 +156,10 @@ html {
     padding: 20px 0px 20px 0px;
 }
 
+.main-navigation .main-nav ul ul li a {
+    padding: 50px;
+    width: 100%;
+}
 
 /*Burgermenu-baggrund*/
 
