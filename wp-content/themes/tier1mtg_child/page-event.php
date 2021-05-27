@@ -22,8 +22,9 @@ get_header(); ?>
         background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/events_splach-e1622017884631.png);
         background-size: cover;
         max-width: none;
-        height: 100vh;
+        height: 45vh;
         width: 100%;
+        background-position: 50%;
     }
 
 
@@ -117,7 +118,15 @@ get_header(); ?>
         text-align: center;
     }
 
-    @media (min-width: 950px) {}
+    @media (min-width: 950px) {
+
+        /*FØRTE SEKTION*/
+        #event_firste_sektion .event_splach {
+
+            height: 90vh;
+
+        }
+    }
 
 </style>
 
