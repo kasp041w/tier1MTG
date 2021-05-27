@@ -17,6 +17,10 @@ get_header(); ?>
 		padding-right: 0rem;
 	}
 
+	section {
+		margin-bottom: 5vw;
+	}
+
 	h1,
 	p,
 	a,
@@ -25,12 +29,6 @@ get_header(); ?>
 		padding-left: 2rem;
 		padding-right: 2rem;
 	}
-
-	/*#kort_sektion,
-	#event_sektion,
-	#artikler {
-		width: 100%;
-	}*/
 
 	/*FARVER OG DIVERSE*/
 
@@ -58,12 +56,56 @@ get_header(); ?>
 
 	#cardmarket_sektion h1 {
 		color: #F5F5F5;
-		padding-left: 30%;
+		text-align: center;
 	}
 
 	#cardmarket_sektion p {
 		color: #AD9261;
 		text-align: center;
+	}
+
+	.knap_cardmarket {
+		align-items: center;
+	}
+
+
+	/*MEDIA QUERIES*/
+
+	@media only screen and (min-width: 800px) {
+
+		/*GRID PÅ TOPSEKTION*/
+		#top_sektion {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
+			grid-template-rows: 1fr;
+		}
+
+		.top_col_1 {
+			grid-column: 1/3;
+			grid-row: 1;
+		}
+
+		.top_col_2 {
+			grid-column: 3/3;
+			grid-row: 1;
+		}
+
+		/*GRID PÅ UGENS TIP-SEKTION*/
+		#tip_sektion {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
+			grid-template-rows: 1fr;
+		}
+
+		.tip_col_1 {
+			grid-column: 1/3;
+			grid-row: 1;
+		}
+
+		.tip_col_2 {
+			grid-column: 3/3;
+			grid-row: 1;
+		}
 	}
 
 </style>
@@ -93,7 +135,8 @@ get_header(); ?>
 				<p>Se vores Commander-playliste på Youtube</p>
 			</div>
 			<div class="tip_col_2">
-				<video src=""></video>
+				<iframe width="420" height="315" src="https://www.youtube.com/embed/Js6hJ_4K5CU">
+				</iframe>
 			</div>
 		</section>
 		<section id="event_sektion">
@@ -109,7 +152,7 @@ get_header(); ?>
 		<section id="cardmarket_sektion">
 			<h1>Vi er også på Cardmarket</h1>
 			<p>Tekst om Cardmarket her</p>
-			<button>Læs mere</button>
+			<button class="knap_cardmarket">Læs mere</button>
 		</section>
 	</main>
 </div>
