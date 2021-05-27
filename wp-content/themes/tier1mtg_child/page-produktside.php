@@ -26,10 +26,13 @@ get_header(); ?>
             padding-left: 1.2rem;
             padding-bottom: 1.2rem;
         }
+
+        .site-header {
+            z-index: 5;
+        }
         /*---GRIDVIEW MOBIL*/
 
-        .one-container .site-main>:last-child,
-        .separate-containers .site-main>:last-child {
+        #single_oversigt {
             text-align: left;
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(135px, 1fr));
@@ -50,6 +53,14 @@ get_header(); ?>
             background-color: #272727;
             border-top-left-radius: 5%;
             border-top-right-radius: 5%;
+            position: relative;
+        }
+
+        .se_kort_knap {
+            position: absolute;
+            left: 33%;
+            bottom: 3%;
+            z-index: 40;
         }
 
         .titel {
@@ -105,17 +116,53 @@ get_header(); ?>
         }
 
         .sidebar-display {
-            position: relative;
-            height: 100%;
+            position: absolute;
+            height: 130%;
             width: 100vw;
             background-color: #272727;
-            top: 19%;
+            top: 10%;
             left: 0px;
-            display: flex;
+            display: block;
+            color: #F1F0E8;
+            padding-left: 10vw;
+            padding-right: 10vw;
+        }
+
+        .luk-display {
+            position: absolute;
+            top: 0%;
+            left: 82%;
+        }
+
+        .visSidebar h2 {
+            color: #F1F0E8;
+            text-transform: uppercase;
+        }
+
+        .visSidebar label {
+            font-family: 'Assistant', sans-serif;
+            color: #F1F0E8;
+        }
+
+        .opdeling {
+            background-color: #F1F0E8;
+            height: 0.1%;
+            width: 80vw;
+        }
+
+        .search-knap {
+            font-family: 'Cormorant', serif;
+            color: #F1F0E8;
         }
 
         #nav-mobil {
-            z-index: 50;
+            text-align: right;
+        }
+
+        #nav-mobil p {
+            margin: 0;
+            font-family: 'Cormorant', serif;
+            color: #F1F0E8;
         }
 
     </style>
@@ -124,15 +171,120 @@ get_header(); ?>
         <main id="main" <?php generate_do_element_classes( 'main' ); ?>>
 
             <section id="nav-mobil">
-                <button id="visKategorier">☰</button>
-                <button id="visFilter">⇆</button>
+                <button id="visKategorier">☰
+                    <p>Kategorier</p>
+                </button>
+                <button id="visFilter">⇆
+                    <p>Filtrering</p>
+                </button>
                 <nav class="filtrering">
                     <button class="filter_knapper" data-single="alle">Alle</button>
                 </nav>
             </section>
 
             <section class="visSidebar">
-                <div class="sidebar-display"></div>
+                <div class="sidebar-display">
+                    <button id="luk-knap" class="luk-display">×
+                    </button>
+                    <h2>Sortér efter</h2>
+                    <input type="checkbox">
+                    <label>Nyeste
+                    </label>
+                    <br>
+                    <input type="checkbox">
+                    <label>Navn A-Z
+                    </label>
+                    <br>
+                    <input type="checkbox">
+                    <label>Navn Z-A
+                    </label>
+                    <br>
+                    <div class="opdeling"></div>
+                    <br>
+                    <h2>Pris</h2>
+                    <input type="checkbox">
+                    <label>Fra lavest til højst
+                    </label>
+                    <br>
+                    <input type="checkbox">
+                    <label>Fra højst til lavest
+                    </label>
+                    <br>
+                    <div class="opdeling"></div>
+                    <br>
+                    <h2>Farveidentiet</h2>
+                    <input type="checkbox">
+                    <label>Rød
+                    </label>
+                    <br>
+                    <input type="checkbox">
+                    <label>Grøn
+                    </label>
+                    <br>
+                    <input type="checkbox">
+                    <label>Blå
+                    </label>
+                    <br>
+                    <input type="checkbox">
+                    <label>Sort
+                    </label>
+                    <br>
+                    <input type="checkbox">
+                    <label>Hvid
+                    </label>
+                    <br>
+                    <input type="checkbox">
+                    <label>Colorless
+                    </label>
+                    <br>
+                    <div class="opdeling"></div>
+                    <br>
+                    <h2>Korttype</h2>
+                    <input type="checkbox">
+                    <label>Creature
+                    </label>
+                    <br>
+                    <input type="checkbox">
+                    <label>Instant
+                    </label>
+                    <br>
+                    <input type="checkbox">
+                    <label>Sorcery
+                    </label>
+                    <br>
+                    <input type="checkbox">
+                    <label>Artifact
+                    </label>
+                    <br>
+                    <input type="checkbox">
+                    <label>Land
+                    </label>
+                    <br>
+                    <input type="checkbox">
+                    <label>Planeswalker
+                    </label>
+                    <br>
+                    <div class="opdeling"></div>
+                    <br>
+                    <h2>Ekstra</h2>
+                    <input type="checkbox">
+                    <label>Foil
+                    </label>
+                    <br>
+                    <input type="checkbox">
+                    <label>Signed
+                    </label>
+                    <br>
+                    <input type="checkbox">
+                    <label>Altered
+                    </label>
+                    <br>
+                    <div class="opdeling"></div>
+                    <br>
+                    <input class="search-knap" type="submit" value="Søg">
+                    <br>
+
+                </div>
             </section>
 
             <section id="single_cat_overskrift">
@@ -140,6 +292,10 @@ get_header(); ?>
             </section>
 
             <section id="single_oversigt"></section>
+
+            <section>
+                <div>Hent flere</div>
+            </section>
 
         </main>
 
@@ -150,6 +306,9 @@ get_header(); ?>
                 <h3 class="titel"></h3>
                 <p class="pris"></p>
                 <p class="lagertal"></p>
+                <br>
+                <button class="se_kort_knap knapper_dark">Se kort</button>
+                <br>
             </article>
         </template>
 
@@ -188,6 +347,7 @@ get_header(); ?>
                 //Viser kategorierne i en pop-up menu i mobilversion
                 document.querySelector("#visKategorier").addEventListener("mousedown", visKategorier);
                 document.querySelector("#visFilter").addEventListener("mousedown", visFilter);
+                document.querySelector("#luk-knap").addEventListener("mousedown", visFilter);
 
                 visSingles();
                 opretKnapper();

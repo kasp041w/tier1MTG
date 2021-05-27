@@ -15,28 +15,24 @@ h1 {
     font-family: 'Cormorant', serif;
     color: #272727;
 }
-
 h2 {
     font-family: 'Cormorant', serif;
     color: #272727;
 }
-
 h3 {
     font-family: 'Cormorant', serif;
     color: #272727;
 }
-
 p {
     font-family: 'Assistant', sans-serif;
     color: #272727;
 }
-
 button {
     font-family: 'Cormorant', serif;
 }
 
-
 /*----KNAPPER-----*/
+
 .knapper_dark {
     background-color: #AD9261;
     color: #272727;
@@ -44,13 +40,10 @@ button {
     padding: 12px 20px 12px 20px;
     font-weight: bold;
 }
-
 .knapper_dark:hover {
     background-color: #F1F0E8;
     color: #AD9261;
 }
-
-
 .knapper_light {
     background-color: #AD9261;
     color: #F1F0E8;
@@ -58,13 +51,10 @@ button {
     padding: 12px 20px 12px 20px;
     font-weight: bold;
 }
-
 .knapper_light:hover {
     background-color: #F1F0E8;
     color: #AD9261;
 }
-
-
 
 /*---GENREL CSS---*/
 
@@ -72,15 +62,12 @@ body {
     background-color: #F1F0E8;
     margin: 0 auto;
 }
-
 main {
     width: 100%;
 }
-
 html {
     scroll-behavior: smooth;
 }
-
 .grid-container {
     margin-left: auto;
     margin-right: auto;
@@ -93,7 +80,6 @@ html {
     width: 100vw;
     margin: 0 auto;
 }
-
 .is-right-sidebar {
     width: 30%;
     display: none;
@@ -104,11 +90,9 @@ html {
 .inside-header {
     background-color: #272727;
 }
-
 .main-navigation .main-nav ul li a {
     background-color: #272727;
 }
-
 .site-header {
     background-color: #272727;
 }
