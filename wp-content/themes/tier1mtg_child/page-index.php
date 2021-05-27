@@ -209,7 +209,6 @@ get_header(); ?>
         width: 100%;
     }
 
-
     .forside_femte_sektion {
         max-width: 1200px;
         margin: 0 auto;
