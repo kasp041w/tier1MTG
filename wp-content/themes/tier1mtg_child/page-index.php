@@ -160,7 +160,7 @@ get_header(); ?>
         overflow: hidden;
     }
 
-    #trejde_sektion .figure_ny:hover #trejde_sektion figcaption {
+    .figure_ny:hover #trejde_sektion figcaption {
         height: 0%;
         padding: 0px 20px 0px 20px;
     }
@@ -192,7 +192,7 @@ get_header(); ?>
         overflow: hidden;
     }
 
-    figcaption .figure_ny:hover #fjerde_sektion figcaption {
+    .figure_ny:hover #fjerde_sektion figcaption {
         height: 100%;
     }
 
