@@ -69,11 +69,11 @@ get_header(); ?>
         padding: 20px;
         height: 30%;
         transition: .5s ease;
-        /*        overflow: hidden;*/
+        overflow: hidden;
     }
 
     article:hover .baggrund_kort {
-        height: 0%;
+        height: -10%;
 
     }
 
