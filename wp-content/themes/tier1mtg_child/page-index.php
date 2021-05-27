@@ -201,7 +201,7 @@ get_header(); ?>
     }
 
     /*FEMTE SEKTION: styling af femte sektion*/
-    .forside_femte_sektion {
+    #forside_femte_sektion {
         background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/om_os_forside.png);
         background-size: cover;
         max-width: none;
@@ -209,6 +209,10 @@ get_header(); ?>
         width: 100%;
     }
 
+
+    .forside_femte_sektion {
+        max-width: 1200px;
+    }
 
     .forside_femte_sektion .bottom img {
         padding: 0px 20px 0px 20px;
@@ -249,7 +253,7 @@ get_header(); ?>
         .forside_femte_sektion {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            grid-auto-rows: 1fr 1fr;
+            grid-auto-rows: 1fr 0.5fr;
         }
 
         .forside_femte_sektion .left {
