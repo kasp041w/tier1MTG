@@ -242,12 +242,10 @@ get_header(); ?>
 
 
 
-
         /*ANDEN SEKTION*/
 
         #forside_anden_sektion {
             height: 50vh;
-
         }
 
         .forside_anden_sektion_tekst {
@@ -257,7 +255,7 @@ get_header(); ?>
 
 
 
-        /*styling af femte sektion*/
+        /*FEMTE SEKTIONstyling af femte sektion*/
         .forside_femte_sektion {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -290,7 +288,11 @@ get_header(); ?>
         }
 
 
-
+        /*SJETTE SEKTION*/
+        .forside_sjette_sektion_grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
 
 
     }
@@ -437,6 +439,21 @@ get_header(); ?>
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/facebook_knap.png" alt="link til facebook">
                 </div>
             </div>
+        </section>
+
+        <section id="forside_sjette_sektion">
+            <div class="forside_sjette_sektion_grid">
+                <div class="left">
+                    <h1>VI ER OGSÅ PÅ CARDMARKET</h1>
+                    <p>Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. lorem Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text. lorem</p>
+                    <button class="forside_sjette_sektion_knap">LÆS MERE</button>
+                </div>
+                <div class="right">
+                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/lotos.png" alt="MTG lotos">
+                </div>
+            </div>
+
+
         </section>
     </main>
 
