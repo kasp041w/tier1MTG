@@ -19,17 +19,18 @@ get_header(); ?>
     <style>
         /*--- GENEREL ---*/
 
-        .site-content .content-area {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding-right: 1.2rem;
-            padding-left: 1.2rem;
-            padding-bottom: 1.2rem;
-            padding-top: 1.2rem;
-        }
-
         .site-header {
             z-index: 5;
+        }
+
+        .separate-containers .site-main {
+            margin: 0;
+        }
+
+        .page-header,
+        .sidebar .widget,
+        .site-main>* {
+            margin: 0;
         }
         /*---GRIDVIEW MOBIL*/
 
@@ -39,6 +40,21 @@ get_header(); ?>
             grid-template-columns: repeat(auto-fill, minmax(135px, 1fr));
             max-width: 100vw;
             grid-gap: 1rem;
+            padding-right: 1.2rem;
+            padding-left: 1.2rem;
+            padding-bottom: 1.2rem;
+            padding-top: 1.2rem;
+        }
+
+        #single_cat_overskrift {
+            padding-right: 1.2rem;
+            padding-left: 1.2rem;
+            padding-top: 1.2rem;
+        }
+
+        #produktliste {
+            max-width: 1200px;
+            margin: 0 auto;
         }
         /*---SINGLE CARDS---*/
 
@@ -47,7 +63,7 @@ get_header(); ?>
             border-top-right-radius: 5%;
             width: 100%;
             height: 55%;
-            object-fit: cover
+            object-fit: contain;
         }
 
         .single_kort {
@@ -59,7 +75,7 @@ get_header(); ?>
 
         .se_kort_knap {
             position: absolute;
-            left: 40%;
+            left: 5%;
             bottom: 3%;
         }
 
@@ -103,12 +119,9 @@ get_header(); ?>
 
         .filter {
             width: 48%;
+            height: auto;
             margin: 0.1rem;
             display: inline-block;
-        }
-
-        .overflow-body {
-            overflow: hidden;
         }
 
         .visSidebar {
@@ -158,6 +171,14 @@ get_header(); ?>
 
         #nav-mobil {
             text-align: right;
+            padding: 1rem;
+            background-color: #272727;
+            width: 100%;
+        }
+
+        #visFilter,
+        visKategorier {
+            margin-bottom: 0.5rem;
         }
 
     </style>
@@ -166,20 +187,17 @@ get_header(); ?>
         <main id="main" <?php generate_do_element_classes( 'main' ); ?>>
 
             <section id="nav-mobil">
-                <button id="visKategorier" class="knapper_dark">☰
-                    <p>Kategorier</p>
-                </button>
-                <button id="visFilter" class="knapper_dark">⇆
-                    <p>Filtrering</p>
-                </button>
+                <button id="visKategorier" class="knapper_dark">☰</button>
+                <button id="visFilter" class="knapper_dark">⇆</button>
                 <nav class="filtrering">
                     <button class="filter_knapper knapper_light" data-single="alle">Alle</button>
                 </nav>
             </section>
 
+
             <section class="visSidebar">
                 <div class="sidebar-display">
-                    <button id="luk-knap" class="luk-display">×
+                    <button id="luk-knap" class="luk-display knapper_dark">×
                     </button>
                     <h2>Sortér efter</h2>
                     <input type="checkbox">
@@ -282,15 +300,13 @@ get_header(); ?>
                 </div>
             </section>
 
-            <section id="single_cat_overskrift">
-                <h1>Alle</h1>
-            </section>
+            <div id="produktliste">
+                <section id="single_cat_overskrift">
+                    <h1>Alle</h1>
+                </section>
 
-            <section id="single_oversigt"></section>
-
-            <section>
-                <div>Hent flere</div>
-            </section>
+                <section id="single_oversigt"></section>
+            </div>
 
         </main>
 
