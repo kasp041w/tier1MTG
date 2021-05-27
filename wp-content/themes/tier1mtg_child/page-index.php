@@ -219,6 +219,12 @@ get_header(); ?>
         padding: 0px 20px 0px 20px;
     }
 
+    .forside_femte_sektion_knap {
+        position: absolute;
+        left: 58%;
+        bottom: 50%;
+        z-index: 40;
+    }
 
 
 
@@ -423,7 +429,7 @@ get_header(); ?>
                     <p>
                         Tier1MTG Alt i Magic <br><br> Tier1MTG er startet af Allan Asmussen og Dan Sønderskov 2 gamle venner der er vokset op sammen og har spillet magic siden 1994. <br><br>Vores Vision er at kunne levere magickort til spilleren på tværs af alle formater, at gøre det nemt for spilleren, ved salg online på vores hjemmeside, Magiccardmarket og ude fysisk på events. Til markedspriser og hurtig leveringstid.
                     </p>
-                    <button class="se_kort_knap">LÆS MERE</button>
+                    <button class="forside_femte_sektion_knap">LÆS MERE</button>
                 </div>
                 <div class="bottom">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/twitch_knap.png" alt="link til twitch">
