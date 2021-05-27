@@ -122,7 +122,7 @@ get_header(); ?>
         width: 100%;
     }
 
-    .forside_anden_sektion_tekst .forside_anden_sektion_tekst {
+    .forside_anden_sektion_styl {
         color: #F1F0E8;
         text-align: center;
     }
@@ -309,8 +309,8 @@ get_header(); ?>
 
         <section id="forside_anden_sektion">
             <div class="forside_anden_sektion_tekst">
-                <h1 class="forside_anden_sektion_tekst">BLIV EN DEL AF UNIVERSET</h1>
-                <p class="forside_anden_sektion_tekst">Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. lorem Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text. lorem</p>
+                <h1 class="forside_anden_sektion_styl">BLIV EN DEL AF UNIVERSET</h1>
+                <p class="forside_anden_sektion_styl">Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. lorem Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text. lorem</p>
                 <button id="forside_anden_sektion_knap">LÆS MERE</button>
             </div>
         </section>
