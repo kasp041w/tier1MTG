@@ -26,17 +26,51 @@ get_header(); ?>
         width: 100%;
     }
 
+
+    /*ANDEN SEKTION*/
+    /* grid og siden styling*/
+    #event_anden_sektion .event_anden_sektion_container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        max-width: 100vw;
+        grid-gap: 1rem;
+    }
+
+    #event_anden_sektion {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    /*Knapper, img og fonte*/
+    .event_mere_knap {
+        position: absolute;
+        left: 58%;
+        bottom: 5%;
+        z-index: 40;
+    }
+
+
+    .h2_acc {
+        color: #F1F0E8;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+
+    .h3_acc {
+        color: #AD9261;
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+
     .event_anden_sektion_container img {
         border-top-left-radius: 5%;
         border-top-right-radius: 5%;
         width: 100%;
     }
 
+    /*Hover effekts*/
 
-    #event_anden_sektion {
-        max-width: 1200px;
-        margin: 0 auto;
-    }
 
     .event_indhold {
         position: relative;
@@ -59,35 +93,21 @@ get_header(); ?>
         border-top-right-radius: 5%;
     }
 
-    #event_anden_sektion .event_anden_sektion_container {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        max-width: 100vw;
-        grid-gap: 1rem;
-    }
-
-
-    .event_mere_knap {
+    .event_anden_text_felt1 {
         position: absolute;
-        left: 58%;
-        bottom: 5%;
-        z-index: 40;
+        bottom: 0;
+        background-color: rgba(39, 39, 39, 0.96);
+        width: 100%;
+        padding: 20px;
+        height: 30%;
+        transition: .5s ease;
+        overflow: hidden;
     }
 
-
-    .h2_acc {
-        color: #F1F0E8;
-        font-size: 1.5rem;
-        font-weight: bold;
-        margin-bottom: 0;
-    }
-
-
-
-    .h3_acc {
-        color: #AD9261;
-        font-size: 1rem;
-        margin-bottom: 0;
+    .event_anden_sektion_container:hover .event_anden_text_felt1 {
+        height: 100%;
+        border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
     }
 
 
@@ -127,7 +147,7 @@ get_header(); ?>
                 <div class="event_indhold">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/jeweled-bird.jpg" alt="Tier1MTG event">
                     <button class="event_mere_knap knapper_dark">LÆS MERE</button>
-                    <div class="event_anden_text_felt">
+                    <div class="event_anden_text_felt1">
                         <h2 class="h2_acc">Old School Game</h2>
                         <h3 class="h3_acc">Dato: 23-06-2021</h3>
                         <h3 class="h3_acc">Format: Commander</h3>
