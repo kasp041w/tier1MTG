@@ -20,7 +20,7 @@ get_header(); ?>
     <main id="main" <?php generate_do_element_classes( 'main' ); ?>>
 
         <style>
-            #omOs h1 {
+            #omOs h2 {
                 margin: 0 0 5wv 0;
             }
 
@@ -29,9 +29,10 @@ get_header(); ?>
             }
 
 
-            section #omOs {
+            #omOs {
                 max-width: 1200px;
-                margin: 0 auto;
+                margin: 8vw auto;
+                padding: 0 3vw;
             }
 
             .omOsCol1 {
@@ -93,7 +94,7 @@ get_header(); ?>
                 margin: 10px auto;
             }
 
-            #kontaktOs h2 {
+            #kontaktOs h1 {
                 color: white;
                 margin-top: 150px;
                 max-width: 500px;
@@ -116,12 +117,40 @@ get_header(); ?>
                 margin: 0 auto;
             }
 
+            #serviceInfo {
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 0 3vw;
+            }
+
+            #serviceInfo {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                max-width: 100vw;
+                grid-gap: 2rem;
+                text-align: center;
+                margin: 10vw auto 12vw auto;
+            }
+
+            .serviceInfo_billed {
+                width: 100px;
+                margin: 0 auto;
+            }
+
             /*----------Desktop-------------*/
             @media (min-width: 900px) {
                 .omOsTekstBoks {
                     display: grid;
                     grid-template-columns: 1fr 1fr;
                     grid-gap: 5vw;
+                }
+
+                #serviceInfo {
+                    grid-template-columns: 1fr 1fr 1fr 1fr;
+                }
+
+                .serviceInfo_billed {
+                    width: 150px;
                 }
 
             }
@@ -137,51 +166,53 @@ get_header(); ?>
 
 
 
-        <section id="omOs"></section>
+        <section id="omOs">
 
-        <h1>Om os</h1>
-        <div class="omOsTekstBoks">
-            <div class="omOsCol1">simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                <br>
-                <br>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-            </div>
-            <div class="omOsCol2">simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                <br>
-                <br>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-            </div>
-        </div>
-
-
-
-        <div class="ansatte">
-
-            <div class="ansat">
-                <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Group-943.png" alt="Dan">
-                <h3>Dan Sønderskov</h3>
-                <p>GRUNDLÆGGER / DIREKTØR</p>
-            </div>
-
-            <div class="ansat">
-                <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Group-944.png" alt="Allan">
-                <h3>Allan Asmussen</h3>
-                <p>GRUNDLÆGGER / SALG</p>
-            </div>
-
-            <div class="ansat">
-                <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Group-945.png" alt="Maria">
-                <h3>Maria Sønderskov</h3>
-                <p>FINANS / LOGISIK</p>
+            <h2>Om os</h2>
+            <div class="omOsTekstBoks">
+                <div class="omOsCol1">simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    <br>
+                    <br>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </div>
+                <div class="omOsCol2">simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    <br>
+                    <br>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </div>
             </div>
 
 
 
-        </div>
+            <div class="ansatte">
+
+                <div class="ansat">
+                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Group-943.png" alt="Dan">
+                    <h3>Dan Sønderskov</h3>
+                    <p>GRUNDLÆGGER / DIREKTØR</p>
+                </div>
+
+                <div class="ansat">
+                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Group-944.png" alt="Allan">
+                    <h3>Allan Asmussen</h3>
+                    <p>GRUNDLÆGGER / SALG</p>
+                </div>
+
+                <div class="ansat">
+                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Group-945.png" alt="Maria">
+                    <h3>Maria Sønderskov</h3>
+                    <p>FINANS / LOGISIK</p>
+                </div>
+
+
+
+            </div>
+
+        </section>
 
 
         <section id="kontaktOs">
 
 
-            <h2>KONTAKT OS</h2>
+            <h1>KONTAKT OS</h1>
             <p>Har du spørgsmål vedrørende køb og salg af Magic the gathering Cards, er du velkommen til at skrive i formularen neden for. Du er også velkommen til at kontakte os, hvis du har andre spørgsmål.
                 <br>
                 <br>Vi glæder os til at høre fra dig!
@@ -226,23 +257,23 @@ get_header(); ?>
 
         <section id="serviceInfo">
 
-            <div class="serviceInfo_1">
-                <img src="" alt="">
+            <div class="serviceInfo_billed">
+                <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Levering.png" alt="Levering logo">
                 <h4>Hurtig levering</h4>
             </div>
 
-            <div class="serviceInfo_2">
-                <img src="" alt="">
+            <div class="serviceInfo_billed">
+                <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Mail.png" alt="Mail Logo">
                 <h4>Hurtig levering</h4>
             </div>
 
-            <div class="serviceInfo_3">
-                <img src="" alt="">
+            <div class="serviceInfo_billed">
+                <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Betaling.png" alt="Betaling logo">
                 <h4>Hurtig levering</h4>
             </div>
 
-            <div class="serviceInfo_4">
-                <img src="" alt="">
+            <div class="serviceInfo_billed">
+                <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Tier1.png" alt="Tier1 cardmarket">
                 <h4>Hurtig levering</h4>
             </div>
 
