@@ -98,17 +98,12 @@ get_header(); ?>
 
 
     /*TREJDE SEKTION*/
-    .event_trejde_baggrund {
+    #event_trejde_sektion {
         background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/bjerg_baggrund.png);
         background-size: cover;
         max-width: none;
         height: 100vh;
         width: 100%;
-
-    }
-
-
-    #event_trejde_sektion {
         display: grid;
     }
 
