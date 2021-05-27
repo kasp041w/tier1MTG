@@ -23,8 +23,19 @@ get_header(); ?>
         padding-right: 0rem;
     }
 
+    /*Sektionernes margin og max-width*/
+    #forside_first_section,
+    #forside_trejde_sektion,
+    #forside_fjerde_sektion,
+    .forside_femte_sektion {
+        max-width: 1200px;
+        margin: 70px auto;
+    }
+
+
     /*FØRSTE SEKTION: nyeste kort*/
     /*styling af singel kortene på forsiden*/
+
     .titel_alternativ,
     .h2_acc {
         color: #F1F0E8;
@@ -52,13 +63,12 @@ get_header(); ?>
         border-top-left-radius: 5%;
         border-top-right-radius: 5%;
         width: 100%;
-
+        height: 34rem;
     }
 
     /*Styling af hovereffekten på kort og produkter så den sorte bremme forsvinder med mus over bilelde*/
     article {
         position: relative;
-        height: 34rem;
     }
 
     .baggrund_kort {
@@ -99,11 +109,6 @@ get_header(); ?>
     }
 
 
-    #forside_first_section {
-        max-width: 1200px;
-        margin: 0 auto;
-    }
-
 
     /*ANDEN SEKTION: bliv en del af universet*/
 
@@ -131,13 +136,6 @@ get_header(); ?>
 
 
     /*TREJDE SKETION: styling af trejde sektion*/
-
-    #forside_trejde_sektion {
-        max-width: 1200px;
-        margin: 0 auto;
-    }
-
-
     /*Styling af hovereffekten på kort så den sorte bremme forsvinder med mus over bilelde*/
     .forside_image-container figure {
         position: relative;
@@ -163,12 +161,6 @@ get_header(); ?>
 
 
     /*FJERDE SEKTION: styling af fjerde sektion*/
-
-    #forside_fjerde_sektion {
-        max-width: 1200px;
-        margin: 0 auto;
-    }
-
     #forside_fjerde_sektion img {
         border-top-left-radius: 5%;
         border-top-right-radius: 5%;
@@ -200,11 +192,6 @@ get_header(); ?>
         max-width: none;
         height: 90vh;
         width: 100%;
-    }
-
-    .forside_femte_sektion {
-        max-width: 1200px;
-        margin: 0 auto;
     }
 
     .forside_femte_sektion .bottom img {
