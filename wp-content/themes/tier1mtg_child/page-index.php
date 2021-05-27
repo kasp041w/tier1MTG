@@ -181,7 +181,7 @@ get_header(); ?>
         width: 100%;
     }
 
-    #fjerde_sektion figcaption {
+    .fjerde_sektion_figcuption {
         position: absolute;
         bottom: 0;
         background-color: rgba(39, 39, 39, 0.96);
@@ -192,7 +192,7 @@ get_header(); ?>
         overflow: hidden;
     }
 
-    .figure_ny:hover #fjerde_sektion figcaption {
+    .figure_ny:hover .fjerde_sektion_figcuption {
         height: 100%;
     }
 
@@ -346,7 +346,7 @@ get_header(); ?>
                 <figure class="figure_ny">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/jeweled-bird.jpg" alt="Tier1MTG event">
                     <button class="se_kort_knap">LÆS MERE</button>
-                    <figcaption>
+                    <figcaption class="fjerde_sektion_figcuption">
                         <h2 class="h2_acc">Old School Game</h2>
                         <h3 class="h3_acc">Dato: 23-06-2021</h3>
                         <h3 class="h3_acc">Format: Commander</h3>
@@ -358,7 +358,7 @@ get_header(); ?>
                 <figure class="figure_ny">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/jeweled-bird.jpg" alt="">
                     <button class="se_kort_knap">LÆS MERE</button>
-                    <figcaption>
+                    <figcaption class="fjerde_sektion_figcuption">
                         <h2 class="h2_acc">Old School Game</h2>
                         <h3 class="h3_acc">Dato: 23-06-2021</h3>
                         <h3 class="h3_acc">Format: Commander</h3>
@@ -370,7 +370,7 @@ get_header(); ?>
                 <figure class="figure_ny">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/jeweled-bird.jpg" alt="Tier1MTG event">
                     <button class="se_kort_knap">LÆS MERE</button>
-                    <figcaption>
+                    <figcaption class="fjerde_sektion_figcuption">
                         <h2 class="h2_acc">Old School Game</h2>
                         <h3 class="h3_acc">Dato: 23-06-2021</h3>
                         <h3 class="h3_acc">Format: Commander</h3>
