@@ -39,7 +39,7 @@ get_header(); ?>
 
     /*FORSIDE SPLASH*/
 
-    #.forside_splach .forside_splach_container {
+    #forside_splach .forside_splach_container {
         background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/del_af_universet.png);
         background-size: cover;
         max-width: none;
