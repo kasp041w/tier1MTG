@@ -252,6 +252,8 @@ get_header(); ?>
 
         #nav-desk {
             display: block;
+            background-color: #272727;
+            width: 100%;
         }
 
         .filtrering-desk {
