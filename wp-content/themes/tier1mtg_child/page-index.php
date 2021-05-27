@@ -23,9 +23,8 @@ get_header(); ?>
         padding-right: 0rem;
     }
 
-    /*Styling af første sektion: nyeste kort*/
+    /*FØRSTE SEKTION: nyeste kort*/
     /*styling af singel kortene på forsiden*/
-
     .titel_alternativ,
     .h2_acc {
         color: #F1F0E8;
@@ -56,6 +55,7 @@ get_header(); ?>
         height: 55%;
     }
 
+    /*Styling af hovereffekten på kort og produkter så den sorte bremme forsvinder med mus over bilelde*/
     article {
         position: relative;
     }
@@ -71,32 +71,31 @@ get_header(); ?>
         overflow: hidden;
     }
 
-    .billed_placering:hover .baggrund_kort {
+    article:hover .baggrund_kort {
         height: 0%;
+        padding: 0px 20px 0px 20px;
 
     }
 
 
-    /*Slider effekten, fungere både på mobil og destiop*/
-    .figure_ny {
+    /*Slider opsætning, fungere både på mobil og destiop*/
+    .forside_figure_ny {
         cursor: pointer;
     }
 
-    /*    lyt vidre styling */
-
-    .image-container {
+    .forside_image-container {
         overflow-x: scroll;
         scroll-snap-type: x mandatory;
     }
 
-    .image-container .figure_ny {
+    .forside_image-container .forside_figure_ny {
         flex-basis: 90%;
         flex-shrink: 0;
         scroll-snap-align: center;
     }
 
 
-    .image-container {
+    .forside_image-container {
         display: flex;
         gap: 20px;
         padding: 20px;
@@ -107,15 +106,15 @@ get_header(); ?>
     }
 
 
-    #first_section {
+    #forside_first_section {
         max-width: 1200px;
         margin: 0 auto;
     }
 
 
-    /*styling af anden sektion: bliv en del af universet*/
+    /*ANDEN SEKTION: bliv en del af universet*/
 
-    .baggrundsbillede_anden_sektion {
+    #forside_anden_sektion {
         background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/del_af_universet.png);
         background-size: cover;
         max-width: none;
@@ -123,32 +122,36 @@ get_header(); ?>
         width: 100%;
     }
 
-    .baggrundsbillede_anden_sektion h1,
-    p {
+    .forside_anden_sektion_tekst .forside_anden_sektion_tekst {
         color: #F1F0E8;
         text-align: center;
-
     }
+
+    .forside_anden_sektion_tekst {
+        display: grid;
+    }
+
 
     #forside_anden_sektion_knap {
-        position: relative;
-        left: 50%;
         color: #AD9261;
+        place-self: center;
     }
 
 
-    /*styling af trejde sektion*/
+    /*TREJDE SKETION: styling af trejde sektion*/
 
-    #trejde_sektion {
+    #forside_trejde_sektion {
         max-width: 1200px;
         margin: 0 auto;
     }
 
-    .image-container figure {
+
+    /*Styling af hovereffekten på kort så den sorte bremme forsvinder med mus over bilelde*/
+    .forside_image-container figure {
         position: relative;
     }
 
-    figcaption {
+    .trejde_sektion_figcuption {
         position: absolute;
         bottom: 0;
         background-color: rgba(39, 39, 39, 0.96);
@@ -159,26 +162,28 @@ get_header(); ?>
         overflow: hidden;
     }
 
-    figcaption:hover {
+    .forside_figure_ny:hover .trejde_sektion_figcuption {
         height: 0%;
+        padding: 0px 20px 0px 20px;
     }
 
-    #fjerde_sektion img {
+
+
+
+    /*FJERDE SEKTION: styling af fjerde sektion*/
+
+    #forside_fjerde_sektion {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    #forside_fjerde_sektion img {
         border-top-left-radius: 5%;
         border-top-right-radius: 5%;
         width: 100%;
     }
 
-
-
-    /*styling af fjerde sektion*/
-
-    #fjerde_sektion {
-        max-width: 1200px;
-        margin: 0 auto;
-    }
-
-    #fjerde_sektion figcaption {
+    .fjerde_sektion_figcuption {
         position: absolute;
         bottom: 0;
         background-color: rgba(39, 39, 39, 0.96);
@@ -189,12 +194,13 @@ get_header(); ?>
         overflow: hidden;
     }
 
-    #fjerde_sektion figcaption:hover {
+    .forside_figure_ny:hover .fjerde_sektion_figcuption {
         height: 100%;
-
+        border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
     }
 
-    /*styling af femte sektion*/
+    /*FEMTE SEKTION: styling af femte sektion*/
     .forside_femte_sektion {
         background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/om_os_forside.png);
         background-size: cover;
@@ -215,9 +221,25 @@ get_header(); ?>
             text-align: end;
         }
 
-        .image-container .figure_ny {
+        .forside_image-container .forside_figure_ny {
             flex-basis: 27%;
         }
+
+
+
+
+        /*ANDEN SEKTION*/
+
+        #forside_anden_sektion {
+            height: 50vh;
+
+        }
+
+        .forside_anden_sektion_tekst {
+            padding: 90px 0px;
+            margin: 0px 290px;
+        }
+
 
 
         /*styling af femte sektion*/
@@ -261,73 +283,73 @@ get_header(); ?>
             <p>Dette er forsiden</p>
         </div>
 
-        <section id="first_section">
+        <section id="forside_first_section">
             <h1>NYESTE SINGLE</h1>
             <a href="http://kasperdyhl.dk/tier1mtg/produktside/">
                 <h3 class="til_kort_side_nav">Se alle single cards →</h3>
             </a>
-            <div class="image-container">
-                <figure class="figure_ny">
+            <div class="forside_image-container">
+                <figure class="forside_figure_ny">
                     <div class="new_single_kort"></div>
                 </figure>
 
-                <figure class="figure_ny">
+                <figure class="forside_figure_ny">
                     <div class="new_single_kort1"></div>
                 </figure>
 
-                <figure class="figure_ny">
+                <figure class="forside_figure_ny">
                     <div class="new_single_kort2"></div>
                 </figure>
 
-                <figure class="figure_ny">
+                <figure class="forside_figure_ny">
                     <div class="new_single_kort3"></div>
                 </figure>
             </div>
         </section>
 
-        <section id="anden_sektion">
-            <div class="baggrundsbillede_anden_sektion">
-                <h1>BLIV EN DEL AF UNIVERSET</h1>
-                <p>Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. lorem Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text. lorem</p>
+        <section id="forside_anden_sektion">
+            <div class="forside_anden_sektion_tekst">
+                <h1 class="forside_anden_sektion_tekst">BLIV EN DEL AF UNIVERSET</h1>
+                <p class="forside_anden_sektion_tekst">Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. lorem Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text. lorem</p>
                 <button id="forside_anden_sektion_knap">LÆS MERE</button>
             </div>
         </section>
 
-        <section id="trejde_sektion">
+        <section id="forside_trejde_sektion">
             <h1>NYESTE ACCESSORIES</h1>
             <h3 class="til_kort_side_nav">Se alle accessories →</h3>
-            <div class="image-container">
-                <figure class="figure_ny">
+            <div class="forside_image-container">
+                <figure class="forside_figure_ny">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/skab_acc.jpeg" alt="Gamegenic - Playmat Tube">
                     <button class="se_kort_knap">SE PRODUKT</button>
-                    <figcaption>
+                    <figcaption class="trejde_sektion_figcuption">
                         <h2 class="h2_acc">Gamegenic - Playmat Tube</h2>
                         <h3 class="h3_acc">49,95 DKK</h3>
                     </figcaption>
                 </figure>
 
-                <figure class="figure_ny">
+                <figure class="forside_figure_ny">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/box.jpeg" alt="Ultra Pro – Satin Tower Deck">
                     <button class="se_kort_knap">SE PRODUKT</button>
-                    <figcaption>
+                    <figcaption class="trejde_sektion_figcuption">
                         <h2 class="h2_acc">Ultra Pro – Satin Tower Deck</h2>
                         <h3 class="h3_acc">99,95 DKK</h3>
                     </figcaption>
                 </figure>
 
-                <figure class="figure_ny">
+                <figure class="forside_figure_ny">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/tube.jpeg" alt="Ultra Pro - Boombox">
                     <button class="se_kort_knap">SE PRODUKT</button>
-                    <figcaption>
+                    <figcaption class="trejde_sektion_figcuption">
                         <h2 class="h2_acc">Ultra Pro - Boombox</h2>
                         <h3 class="h3_acc">324,95 DKK</h3>
                     </figcaption>
                 </figure>
 
-                <figure class="figure_ny">
+                <figure class="forside_figure_ny">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/kort_ting.jpeg" alt="Secret Lair – Ultimate Edition">
                     <button class="se_kort_knap">SE PRODUKT</button>
-                    <figcaption>
+                    <figcaption class="trejde_sektion_figcuption">
                         <h2 class="h2_acc">Secret Lair – Ultimate Edition</h2>
                         <h3 class="h3_acc">699,95 DKK</h3>
                     </figcaption>
@@ -335,16 +357,16 @@ get_header(); ?>
             </div>
         </section>
 
-        <section id="fjerde_sektion">
+        <section id="forside_fjerde_sektion">
             <h1>KOMMENDE EVENTS</h1>
             <a href="http://kasperdyhl.dk/tier1mtg/event/">
                 <h3 class="til_kort_side_nav">Se alle events →</h3>
             </a>
-            <div class="image-container">
-                <figure class="figure_ny">
+            <div class="forside_image-container">
+                <figure class="forside_figure_ny">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/jeweled-bird.jpg" alt="Tier1MTG event">
                     <button class="se_kort_knap">LÆS MERE</button>
-                    <figcaption>
+                    <figcaption class="fjerde_sektion_figcuption">
                         <h2 class="h2_acc">Old School Game</h2>
                         <h3 class="h3_acc">Dato: 23-06-2021</h3>
                         <h3 class="h3_acc">Format: Commander</h3>
@@ -353,10 +375,10 @@ get_header(); ?>
                     </figcaption>
                 </figure>
 
-                <figure class="figure_ny">
+                <figure class="forside_figure_ny">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/jeweled-bird.jpg" alt="">
                     <button class="se_kort_knap">LÆS MERE</button>
-                    <figcaption>
+                    <figcaption class="fjerde_sektion_figcuption">
                         <h2 class="h2_acc">Old School Game</h2>
                         <h3 class="h3_acc">Dato: 23-06-2021</h3>
                         <h3 class="h3_acc">Format: Commander</h3>
@@ -365,10 +387,10 @@ get_header(); ?>
                     </figcaption>
                 </figure>
 
-                <figure class="figure_ny">
+                <figure class="forside_figure_ny">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/jeweled-bird.jpg" alt="Tier1MTG event">
                     <button class="se_kort_knap">LÆS MERE</button>
-                    <figcaption>
+                    <figcaption class="fjerde_sektion_figcuption">
                         <h2 class="h2_acc">Old School Game</h2>
                         <h3 class="h3_acc">Dato: 23-06-2021</h3>
                         <h3 class="h3_acc">Format: Commander</h3>
@@ -379,7 +401,7 @@ get_header(); ?>
             </div>
         </section>
 
-        <section id="femte_sektion">
+        <section id="forside_femte_sektion">
             <div class="forside_femte_sektion">
                 <div class="left">
                     <img src="" alt="">
