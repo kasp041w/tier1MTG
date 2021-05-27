@@ -224,7 +224,7 @@ get_header(); ?>
     }
 
     .forside_femte_sektion_knap {
-        position: absolute;
+        place-self: center;
         z-index: 40;
     }
 
@@ -238,7 +238,7 @@ get_header(); ?>
     }
 
     .forside_sjette_sektion_knap {
-        position: absolute;
+        place-self: center;
         z-index: 40;
     }
 
