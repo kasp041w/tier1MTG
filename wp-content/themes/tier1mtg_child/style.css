@@ -173,3 +173,14 @@ html {
 .main-navigation .main-nav ul li[class*="current-menu-"] > a {}
 
 /*--GRID-VIEW PÅ PRODUKTER---*/
+
+/*FOOTER*/
+.site-footer .footer-widgets-container .inner-padding {
+    padding: 0 90px 0 90px;
+}
+
+.site-footer .footer-widgets-container .inside-footer-widgets {
+    margin-left: 0px;
+    margin: 0 0px;
+    place-self: center;
+}
