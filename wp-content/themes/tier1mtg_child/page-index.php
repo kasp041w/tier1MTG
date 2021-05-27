@@ -52,12 +52,13 @@ get_header(); ?>
         border-top-left-radius: 5%;
         border-top-right-radius: 5%;
         width: 100%;
-        height: 55%;
+
     }
 
     /*Styling af hovereffekten på kort og produkter så den sorte bremme forsvinder med mus over bilelde*/
     article {
         position: relative;
+        height: 34rem;
     }
 
     .baggrund_kort {
