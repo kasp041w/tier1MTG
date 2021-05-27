@@ -18,13 +18,20 @@ get_header(); ?>
 	}
 
 	section {
-		margin-bottom: 5vw;
+		margin-bottom: 10vw;
+	}
+
+	commander_kort_sektion,
+	commander_event_sektion,
+	commander_artikler {
+		max-width: 1200px;
+		margin: 0 auto;
 	}
 
 	h1,
 	p,
 	a,
-	.playknap,
+	.commander_playknap,
 	iframe {
 		padding-left: 2rem;
 		padding-right: 2rem;
@@ -168,7 +175,7 @@ get_header(); ?>
 			<div class="commander_tip_col_1">
 				<h1>Se Ugens Tip</h1>
 				<p>Tekst her om ugens tip. In id pretium est. Aenean vehicula arcu nunc, et sodales ante finibus in. Proin sed tellus varius, consectetur leo sit amet, gravida velit. Vivamus ac eleifend sem. Suspendisse mattis dolor lorem, id venenatis odio venenatis quis. Sed sit amet finibus mauris. Phasellus id elementum velit. Nulla facilisi. Cras elementum gravida pulvinar.</p>
-				<a href="https://www.youtube.com/watch?v=6p6LFFgYVKg" target="_blank" rel="noopener noreferrer" class="playknap"> <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/youtube_knap.png" alt="play knap"> </a>
+				<a href="https://www.youtube.com/watch?v=6p6LFFgYVKg" target="_blank" rel="noopener noreferrer" class="commander_playknap"> <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/youtube_knap.png" alt="play knap"> </a>
 				<p>Se vores Commander-playliste på Youtube</p>
 			</div>
 			<div class="commander_tip_col_2">
