@@ -49,6 +49,9 @@ get_header(); ?>
         z-index: 40;
     }
 
+    #event_anden_sektion .top {
+        text-align: center;
+    }
 
     .h2_acc {
         color: #F1F0E8;
@@ -70,8 +73,6 @@ get_header(); ?>
     }
 
     /*Hover effekts*/
-
-
     .event_indhold {
         position: relative;
     }
@@ -94,8 +95,19 @@ get_header(); ?>
     }
 
 
+    /*TREJDE SEKTION*/
+    #event_trejde_sektion {
+        background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/bjerg_baggrund.png);
+        background-size: cover;
+        max-width: none;
+        height: 100vh;
+        width: 100%;
+    }
 
-
+    .event_trejde_container {
+        place-self: center center;
+        text-align: center;
+    }
 
 
     @media (min-width: 950px) {}
@@ -113,7 +125,7 @@ get_header(); ?>
 
         <section id="event_anden_sektion">
             <div class="top">
-                <h1>Vores events</h1>
+                <h1>VORES EVENTS </h1>
                 <p>Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
             </div>
             <div class="event_anden_sektion_container">
@@ -188,7 +200,14 @@ get_header(); ?>
 
             </div>
         </section>
-        <section id="event_trejde_sektion"></section>
+        <section id="event_trejde_sektion">
+            <div class="event_trejde_container">
+                <h1>LIVE STREAMING</h1>
+                <p>Dummy text of the printing and typesetting industry. Lorem Ipsum has been thery's standard dummy text.</p>
+                <iframe width="420" height="315" src="https://www.youtube.com/embed/k70dmf3kQYU">
+                </iframe>
+            </div>
+        </section>
         <section id="event_fjerde_sektion"></section>
 
 
