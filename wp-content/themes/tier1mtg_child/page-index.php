@@ -106,7 +106,10 @@ get_header(); ?>
     }
 
 
-
+    #first_section {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
 
 
     /*styling af anden sektion: bliv en del af universet*/
@@ -134,6 +137,11 @@ get_header(); ?>
 
 
     /*styling af trejde sektion*/
+
+    #trejde_sektion {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
 
     .image-container figure {
         position: relative;
@@ -163,6 +171,12 @@ get_header(); ?>
 
 
     /*styling af fjerde sektion*/
+
+    #fjerde_sektion {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
     #fjerde_sektion figcaption {
         position: absolute;
         bottom: 0;
