@@ -131,6 +131,11 @@ html {
     background-color: #272727;
 }
 
+.main-navigation .main-nav ul li[class*="current-menu-"] > a {
+    color: #AD9261;
+    text-decoration: underline 2px;
+}
+
 /*Burgermenu-baggrund*/
 
 .mobile-menu-control-wrapper .menu-toggle,
@@ -140,6 +145,7 @@ html {
     background-color: #272727;
     font-size: 2rem;
     color: #F7F6E9;
+    font-weight: bold;
 }
 
 /*Bokse i header*/
