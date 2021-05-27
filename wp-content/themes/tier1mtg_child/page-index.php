@@ -212,6 +212,7 @@ get_header(); ?>
 
     .forside_femte_sektion {
         max-width: 1200px;
+        margin: 0 auto;
     }
 
     .forside_femte_sektion .bottom img {
