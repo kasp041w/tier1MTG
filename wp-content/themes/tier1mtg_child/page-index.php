@@ -17,6 +17,17 @@ if ( ! defined( 'ABSPATH' ) ) {
 get_header(); ?>
 
 <style>
+
+    .knap_se_kort{
+
+    }
+
+
+
+
+
+
+
     main {
         width: 100%;
         padding-left: 0rem;
@@ -101,9 +112,10 @@ get_header(); ?>
         padding: 20px;
     }
 
+/*
     .remove_object {
-        display: none;
-    }
+    display: none;
+    }*/
 
 
     #forside_first_section {
