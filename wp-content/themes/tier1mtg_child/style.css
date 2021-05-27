@@ -169,6 +169,10 @@ html {
     width: 100%;
 }
 
+.main-navigation .main-nav ul li[class*="current-menu-"] > a {
+    background-color: #272727;
+}
+
 /*Burgermenu-baggrund*/
 
 .mobile-menu-control-wrapper .menu-toggle,
