@@ -264,10 +264,19 @@ get_header(); ?>
     }
 
     .forside_sjette_sektion_knap {
+        background-color: #AD9261;
+        color: #F1F0E8;
+        border-radius: 28px;
+        padding: 12px 20px 12px 20px;
+        font-weight: bold;
         place-self: center;
         z-index: 40;
     }
 
+    .forside_sjette_sektion_knap:hover {
+        background-color: #AD9261;
+        color: #F1F0E8;
+    }
 
 
     /*desktop*/
@@ -489,7 +498,7 @@ get_header(); ?>
                 <div class="left">
                     <h1>VI ER OGSÅ PÅ CARDMARKET</h1>
                     <p>Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. lorem Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text. lorem</p>
-                    <button class="forside_sjette_sektion_knap knapper_dark">LÆS MERE</button>
+                    <button class="forside_sjette_sektion_knap">LÆS MERE</button>
                 </div>
                 <div class="right">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/lotos.png" alt="MTG lotos">
