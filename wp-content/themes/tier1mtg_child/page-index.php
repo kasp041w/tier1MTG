@@ -310,7 +310,9 @@ get_header(); ?>
             grid-template-columns: 1fr 1fr;
         }
 
-
+        .forside_sjette_sektion_grid .left {
+            margin: 20px;
+        }
     }
 
 </style>
