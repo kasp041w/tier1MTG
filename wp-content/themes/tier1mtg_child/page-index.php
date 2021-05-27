@@ -465,7 +465,7 @@ get_header(); ?>
                     <button class="forside_sjette_sektion_knap">LÆS MERE</button>
                 </div>
                 <div class="right">
-                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/lotos.png" alt="MTG lotos">
+                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/lotos1.png" alt="MTG lotos">
                 </div>
             </div>
 
