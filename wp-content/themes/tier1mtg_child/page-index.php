@@ -224,13 +224,15 @@ get_header(); ?>
     }
 
     .forside_femte_sektion_knap {
-        place-self: center;
+        position: absolute;
         z-index: 40;
     }
 
     /*SJETTE SEKTION*/
     .forside_sjette_sektion_grid {
         position: relative;
+        max-width: 1200px;
+        margin: 0 0 auto 0;
     }
 
     .forside_sjette_sektion_grid .left {
