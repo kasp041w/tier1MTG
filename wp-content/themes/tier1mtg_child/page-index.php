@@ -231,8 +231,6 @@ get_header(); ?>
     /*SJETTE SEKTION*/
     .forside_sjette_sektion_grid {
         position: relative;
-        max-width: 1200px;
-        margin: 0 0 auto 0;
     }
 
     .forside_sjette_sektion_grid .left {
@@ -310,7 +308,9 @@ get_header(); ?>
             grid-template-columns: 1fr 1fr;
         }
 
-
+        .forside_sjette_sektion_grid .left {
+            place-self: center;
+        }
     }
 
 </style>
