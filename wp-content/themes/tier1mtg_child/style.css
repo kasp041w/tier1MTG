@@ -139,39 +139,6 @@ html {
 
 
 
-.main-navigation ul ul {
-    display: inline-flex;
-    /* box-shadow: 1px 1px 0 rgb(0 0 0 / 10%); */
-    float: left;
-    position: absolute;
-    right: -505px;
-    opacity: 0;
-    left: -20px;
-    z-index: 99999;
-    width: auto;
-    text-align: left;
-    top: auto;
-    transition: opacity 80ms linear;
-    transition-delay: 0s;
-    pointer-events: none;
-    height: 0;
-    overflow: hidden;
-}
-
-.main-navigation .main-nav ul ul li a {
-    padding: 30px;
-    margin: 0px 120px 0px 0px;
-    width: 100%;
-    text-align: center;
-}
-
-.main-navigation:not(.toggled) ul li.sfHover > ul {
-    width: 100%;
-}
-
-.main-navigation .main-nav ul li[class*="current-menu-"] > a {
-    background-color: #272727;
-}
 
 /*Burgermenu-baggrund*/
 
