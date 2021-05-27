@@ -28,7 +28,8 @@ get_header(); ?>
                 margin-bottom: 5px;
             }
 
-            #omOs {
+
+            section #omOs {
                 max-width: 1200px;
                 margin: 0 auto;
             }
@@ -38,16 +39,19 @@ get_header(); ?>
             }
 
             .ansatte {
-                overflow: auto;
-                white-space: nowrap;
-                margin-bottom: 100px;
+                display: flex;
+                overflow-x: scroll;
+                scroll-snap-type: x mandatory;
+
             }
 
             .ansat {
-                display: inline-block;
                 margin: 3vw;
                 text-align: center;
+                scroll-snap-align: center;
+                flex-shrink: 0;
             }
+
 
             /* Barens størrelse */
             .ansatte::-webkit-scrollbar {
@@ -76,20 +80,39 @@ get_header(); ?>
                 background-size: cover;
                 height: 100vh;
                 width: 100%;
+                height: auto;
+                max-height: 112vh;
                 text-align: center;
-                padding-top: 100px;
+                padding-top: 130px;
+                padding-bottom: 110px;
             }
 
             #kontaktOs p {
-                color: white;
+                color: #AD9261;
                 max-width: 500px;
-                margin: 0 auto;
+                margin: 10px auto;
             }
 
             #kontaktOs h2 {
                 color: white;
                 margin-top: 150px;
                 max-width: 500px;
+                margin: 0 auto;
+            }
+
+            textarea {
+                margin: 10px auto 10px auto;
+                width: 75vw;
+            }
+
+            input {
+                margin: 10px auto 10px auto;
+                width: 75vw;
+            }
+
+            .kontaktFormular {
+                max-width: 700px;
+                text-align: center;
                 margin: 0 auto;
             }
 
@@ -160,11 +183,46 @@ get_header(); ?>
 
             <h2>KONTAKT OS</h2>
             <p>Har du spørgsmål vedrørende køb og salg af Magic the gathering Cards, er du velkommen til at skrive i formularen neden for. Du er også velkommen til at kontakte os, hvis du har andre spørgsmål.
+                <br>
                 <br>Vi glæder os til at høre fra dig!
             </p>
 
-            <div class="kontaktFormular"></div>
+
+            <div class="kontaktFormular">
+
+                <!-- Fornavn -->
+                <div class="form-felt">
+                    <label for="">
+                        <input type="text" placeholder="Fornavn" name="fornavn">
+                    </label>
+                </div>
+
+                <!-- Efternavn -->
+                <div class="form-felt">
+                    <label for="">
+                        <input type="text" placeholder="Efternavn" name="efternavn">
+                    </label>
+                </div>
+
+                <!-- Mailadressee -->
+                <div class="form-felt">
+                    <label for="">
+                        <input type="text" placeholder="Mailadresse" name="mailadresse">
+                    </label>
+                </div>
+
+                <!-- Skrive felt -->
+                <div class="form-felt-skrivHer">
+                    <label for="">
+                        <textarea name="skrivHer" placeholder="Skriv hér" id="" cols="1" rows="6"></textarea>
+                    </label>
+                </div>
+                <button class="formKnap">Send</button>
+
+            </div>
         </section>
+
+
 
         <section id="serviceInfo">
 
