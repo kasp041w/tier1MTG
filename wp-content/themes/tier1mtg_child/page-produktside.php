@@ -96,17 +96,43 @@ get_header(); ?>
             display: inline-block;
         }
 
+        .overflow-body {
+            overflow: hidden;
+        }
+
+        .visSidebar {
+            display: none;
+        }
+
+        .sidebar-display {
+            position: relative;
+            height: 100%;
+            width: 100vw;
+            background-color: #272727;
+            top: 19%;
+            left: 0px;
+            display: flex;
+        }
+
+        #nav-mobil {
+            z-index: 50;
+        }
+
     </style>
 
     <div id="primary" <?php generate_do_element_classes( 'content' ); ?>>
         <main id="main" <?php generate_do_element_classes( 'main' ); ?>>
 
             <section id="nav-mobil">
-                <button id="visKategorier">≡</button>
+                <button id="visKategorier">☰</button>
                 <button id="visFilter">⇆</button>
                 <nav class="filtrering">
                     <button class="filter_knapper" data-single="alle">Alle</button>
                 </nav>
+            </section>
+
+            <section class="visSidebar">
+                <div class="sidebar-display"></div>
             </section>
 
             <section id="single_cat_overskrift">
@@ -160,7 +186,8 @@ get_header(); ?>
                 console.log(categories);
 
                 //Viser kategorierne i en pop-up menu i mobilversion
-                document.querySelector("#visKategorier").addEventListener("mousedown", visFilter);
+                document.querySelector("#visKategorier").addEventListener("mousedown", visKategorier);
+                document.querySelector("#visFilter").addEventListener("mousedown", visFilter);
 
                 visSingles();
                 opretKnapper();
@@ -187,9 +214,15 @@ get_header(); ?>
             };
 
             //Viser kategorierne i en pop-up menu i mobilversion
-            function visFilter() {
+            function visKategorier() {
                 document.querySelector(".filtrering").classList.toggle("filter_knapper");
             }
+
+            //Viser filterne i en pop-up menu i mobilversion
+            function visFilter() {
+                document.querySelector(".visSidebar").classList.toggle("sidebar-display");
+            }
+
 
             function filtrering() {
                 filterSingle = this.dataset.single;
