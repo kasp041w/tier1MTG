@@ -194,6 +194,8 @@ get_header(); ?>
 
     .figure_ny:hover .fjerde_sektion_figcuption {
         height: 100%;
+        border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
     }
 
     /*FEMTE SEKTION: styling af femte sektion*/
