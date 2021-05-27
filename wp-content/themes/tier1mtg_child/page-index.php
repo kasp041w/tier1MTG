@@ -115,7 +115,6 @@ get_header(); ?>
     /*ANDEN SEKTION: bliv en del af universet*/
 
     #forside_anden_sektion {
-        display: grid;
         background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/del_af_universet.png);
         background-size: cover;
         max-width: none;
@@ -127,6 +126,10 @@ get_header(); ?>
     p {
         color: #F1F0E8;
         text-align: center;
+    }
+
+    . .forside_anden_sektion_tekst {
+        display: grid;
     }
 
 
