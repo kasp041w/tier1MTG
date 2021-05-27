@@ -220,10 +220,24 @@ get_header(); ?>
     }
 
     .forside_femte_sektion .bottom {
-        margin: 40%;
+        margin-top: 40%;
     }
 
     .forside_femte_sektion_knap {
+        position: absolute;
+        z-index: 40;
+    }
+
+    /*SJETTE SEKTION*/
+    .forside_sjette_sektion_grid {
+        position: relative;
+    }
+
+    .forside_sjette_sektion_grid .left {
+        text-align: center;
+    }
+
+    .forside_sjette_sektion_knap {
         position: absolute;
         z-index: 40;
     }
