@@ -159,8 +159,7 @@ get_header(); ?>
     }
 
 
-    #forside_anden_sektion_knap {
-        color: #AD9261;
+    .forside_anden_sektion_knap {
         place-self: center;
     }
 
@@ -375,7 +374,7 @@ get_header(); ?>
             <div class="forside_anden_sektion_tekst">
                 <h1 class="forside_anden_sektion_styl">BLIV EN DEL AF UNIVERSET</h1>
                 <p class="forside_anden_sektion_styl">Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. lorem Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text. lorem</p>
-                <button id="forside_anden_sektion_knap knapper_dark">LÆS MERE</button>
+                <button class="forside_anden_sektion_knap knapper_dark">LÆS MERE</button>
             </div>
         </section>
 
