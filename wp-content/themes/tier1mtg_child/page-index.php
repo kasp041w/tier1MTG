@@ -122,7 +122,7 @@ get_header(); ?>
         width: 100%;
     }
 
-    .baggrundsbillede_anden_sektion h1,
+    .forside_anden_sektion_tekst h1,
     p {
         color: #F1F0E8;
         text-align: center;
@@ -233,6 +233,11 @@ get_header(); ?>
 
         }
 
+        .forside_anden_sektion_tekst {
+            padding: 90px 0px;
+            margin: 0px 290px;
+        }
+
 
 
         /*styling af femte sektion*/
@@ -301,7 +306,7 @@ get_header(); ?>
         </section>
 
         <section id="forside_anden_sektion">
-            <div class="baggrundsbillede_anden_sektion">
+            <div class="forside_anden_sektion_tekst">
                 <h1>BLIV EN DEL AF UNIVERSET</h1>
                 <p>Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. lorem Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text. lorem</p>
                 <button id="forside_anden_sektion_knap">LÆS MERE</button>
