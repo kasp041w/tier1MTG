@@ -210,6 +210,9 @@ get_header(); ?>
     }
 
 
+    .forside_femte_sektion .bottom img {
+        padding: 0px 20px 0px 20px;
+    }
 
 
 
@@ -249,26 +252,29 @@ get_header(); ?>
             grid-auto-rows: 1fr 1fr;
         }
 
-        .left {
+        .forside_femte_sektion .left {
             grid-column-start: 1;
             grid-column-end: span 1;
             grid-row-start: 1;
             grid-row-end: span 1;
         }
 
-        .right {
+        .forside_femte_sektion .right {
             grid-column-start: 2;
             grid-column-end: span 1;
             grid-row-start: 1;
             grid-row-end: span 1;
         }
 
-        .bottom {
+        .forside_femte_sektion .bottom {
             grid-column-start: 1;
             grid-column-end: span 2;
             grid-row-start: 2;
             grid-row-end: span 1;
+            place-self: center;
         }
+
+
 
 
 
