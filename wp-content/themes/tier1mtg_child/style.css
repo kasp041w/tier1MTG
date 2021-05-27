@@ -184,3 +184,8 @@ html {
     margin: 0 0px;
     place-self: center;
 }
+
+.site-info {
+    color: #ffffff;
+    background-color: #272727;
+}
