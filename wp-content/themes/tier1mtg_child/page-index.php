@@ -72,7 +72,7 @@ get_header(); ?>
         /*        overflow: hidden;*/
     }
 
-    .billed_placering:hover .baggrund_kort {
+    article:hover .baggrund_kort {
         height: 0%;
 
     }
