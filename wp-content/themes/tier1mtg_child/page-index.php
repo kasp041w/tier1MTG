@@ -143,19 +143,13 @@ get_header(); ?>
         margin: 0 auto;
     }
 
-    #fjerde_sektion img {
-        border-top-left-radius: 5%;
-        border-top-right-radius: 5%;
-        width: 100%;
-    }
-
 
     /*Styling af hovereffekten på kort så den sorte bremme forsvinder med mus over bilelde*/
     .image-container figure {
         position: relative;
     }
 
-    figcaption {
+    #trejde_sektion figcaption {
         position: absolute;
         bottom: 0;
         background-color: rgba(39, 39, 39, 0.96);
@@ -166,7 +160,7 @@ get_header(); ?>
         overflow: hidden;
     }
 
-    .figure_ny:hover figcaption {
+    #trejde_sektion .figure_ny:hover #trejde_sektion figcaption {
         height: 0%;
         padding: 0px 20px 0px 20px;
     }
@@ -181,6 +175,12 @@ get_header(); ?>
         margin: 0 auto;
     }
 
+    #fjerde_sektion img {
+        border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
+        width: 100%;
+    }
+
     #fjerde_sektion figcaption {
         position: absolute;
         bottom: 0;
@@ -192,7 +192,7 @@ get_header(); ?>
         overflow: hidden;
     }
 
-    .figure_ny:hover #fjerde_sektion figcaption {
+    figcaption .figure_ny:hover #fjerde_sektion figcaption {
         height: 100%;
     }
 
