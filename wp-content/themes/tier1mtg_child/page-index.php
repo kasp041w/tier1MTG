@@ -222,7 +222,6 @@ get_header(); ?>
 
 
 
-
     /*desktop*/
     @media (min-width: 950px) {
         .til_kort_side_nav {
