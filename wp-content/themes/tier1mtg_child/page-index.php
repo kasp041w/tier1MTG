@@ -32,6 +32,9 @@ get_header(); ?>
         margin: 70px auto;
     }
 
+    h1 {
+        margin-bottom: 20px;
+    }
 
     /*FØRSTE SEKTION: nyeste kort*/
     /*styling af singel kortene på forsiden*/
