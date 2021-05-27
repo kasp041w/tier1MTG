@@ -260,15 +260,17 @@ get_header(); ?>
             grid-template-columns: 1fr 1fr 1fr 1fr;
         }
 
+        /*
         .filter_knapper {
-            width: 48%;
+        width: 48%;
         }
+*/
 
 
 
         /*IDAS FORSØG PÅ AT LAVE FILTERINGS KNAPPERNE*/
         .filter {
-            width: none;
+            width: 98%;
         }
 
         .filtrering-desk {
