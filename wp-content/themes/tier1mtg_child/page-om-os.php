@@ -20,11 +20,11 @@ get_header(); ?>
     <main id="main" <?php generate_do_element_classes( 'main' ); ?>>
 
         <style>
-            h1 {
+            #omOs h1 {
                 margin: 0 0 5wv 0;
             }
 
-            h3 {
+            .ansatte h3 {
                 margin-bottom: 5px;
             }
 
@@ -33,7 +33,7 @@ get_header(); ?>
                 margin: 0 auto;
             }
 
-            .col1 {
+            .omOsCol1 {
                 margin-bottom: 6vw;
             }
 
@@ -46,6 +46,7 @@ get_header(); ?>
             .ansat {
                 display: inline-block;
                 margin: 3vw;
+                text-align: center;
             }
 
             /* Barens størrelse */
@@ -70,6 +71,27 @@ get_header(); ?>
                 background: #CBBE23;
             }
 
+            #kontaktOs {
+                background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/kontakt_baggrund.png);
+                background-size: cover;
+                height: 100vh;
+                width: 100%;
+                text-align: center;
+                padding-top: 100px;
+            }
+
+            #kontaktOs p {
+                color: white;
+                max-width: 500px;
+                margin: 0 auto;
+            }
+
+            #kontaktOs h2 {
+                color: white;
+                margin-top: 150px;
+                max-width: 500px;
+                margin: 0 auto;
+            }
 
             /*----------Desktop-------------*/
             @media (min-width: 900px) {
@@ -96,11 +118,11 @@ get_header(); ?>
 
         <h1>Om os</h1>
         <div class="omOsTekstBoks">
-            <div class="col1">simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            <div class="omOsCol1">simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                 <br>
                 <br>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
             </div>
-            <div class="col2">simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            <div class="omOsCol2">simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                 <br>
                 <br>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
             </div>
@@ -133,14 +155,16 @@ get_header(); ?>
         </div>
 
 
-        <section id="kontaktOs"></section>
+        <section id="kontaktOs">
 
-        <h2>KONTAKT OS</h2>
-        <p>Har du spørgsmål vedrørende køb og salg af Magic the gathering Cards, er du velkommen til at skrive i formularen neden for. Du er også velkommen til at kontakte os, hvis du har andre spørgsmål.
-            <br>Vi glæder os til at høre fra dig!
-        </p>
 
-        <div class="kontaktFormular"></div>
+            <h2>KONTAKT OS</h2>
+            <p>Har du spørgsmål vedrørende køb og salg af Magic the gathering Cards, er du velkommen til at skrive i formularen neden for. Du er også velkommen til at kontakte os, hvis du har andre spørgsmål.
+                <br>Vi glæder os til at høre fra dig!
+            </p>
+
+            <div class="kontaktFormular"></div>
+        </section>
 
         <section id="serviceInfo">
 
