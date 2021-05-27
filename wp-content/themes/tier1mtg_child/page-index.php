@@ -71,7 +71,7 @@ get_header(); ?>
         overflow: hidden;
     }
 
-    .baggrund_kort:hover {
+    .billede:hover .baggrund_kort: {
         height: 0%;
     }
 
@@ -377,7 +377,6 @@ get_header(); ?>
                 </figure>
             </div>
         </section>
-
 
         <section id="femte_sektion">
             <div class="forside_femte_sektion">
