@@ -55,7 +55,9 @@ get_header(); ?>
     @media (min-width: 950px) {
         #event_anden_sektion .event_anden_sektion_container {
             display: grid;
-            grid-template-rows: 0.5fr 1fr 1fr;
+            grid-template-columns: repeat(auto-fill, minmax(135px, 1fr));
+            max-width: 100vw;
+            grid-gap: 1rem;
         }
     }
 
@@ -81,7 +83,6 @@ get_header(); ?>
                     <div class="left">
                         <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/jeweled-bird.jpg" alt="Tier1MTG event">
                         <button class="se_kort_knap knapper_dark">LÆS MERE</button>
-
                         <div class="event_anden_text_felt">
                             <h2 class="h2_acc">Old School Game</h2>
                             <h3 class="h3_acc">Dato: 23-06-2021</h3>
@@ -89,9 +90,8 @@ get_header(); ?>
                             <h3 class="h3_acc">Info: Glæd dig til vores kommende event hos Tier1MTG. Kom til hygge i trygge rammer, hvor du kan spille med andre og vinde fede præmier.<br><br>TIlmelding starter den 8. juli.
                             </h3>
                         </div>
-
-
                     </div>
+
                     <div class="midt"></div>
                     <div class="right"></div>
 
