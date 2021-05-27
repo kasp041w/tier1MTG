@@ -65,7 +65,7 @@ get_header(); ?>
 	}
 
 	.knap_cardmarket {
-		align-items: center;
+		align-content: center;
 	}
 
 
@@ -153,7 +153,7 @@ get_header(); ?>
 		<section id="top_sektion">
 			<div class="top_col_1">
 				<h1>Hvad er Commander?</h1>
-				<p>Tekst her om Commander-formatet. Blabjsndlks ifrdn ljiejr je rjwtnntndjfn erj shekj kje bkj bjkbgkj vkd kjdkj kjhekjr kjsh kjheskjt hhg kjhgkjh kjhkj hfkhdgl</p>
+				<p>Tekst her om Commander-formatet. Etiam justo erat, pellentesque vel lacus vel, tincidunt pellentesque nisl. Integer auctor nibh eget lorem aliquet, pulvinar efficitur augue ullamcorper. Interdum et malesuada fames ac ante ipsum primis in faucibus. In id pretium est. Aenean vehicula arcu nunc, et sodales ante finibus in. Proin sed tellus varius, consectetur leo sit amet, gravida velit. Vivamus ac eleifend sem. Suspendisse mattis dolor lorem, id venenatis odio venenatis quis. Sed sit amet finibus mauris. Phasellus id elementum velit. Nulla facilisi. Cras elementum gravida pulvinar.</p>
 			</div>
 			<div class="top_col_2">
 				<iframe width="420" height="315" src="https://www.youtube.com/embed/k70dmf3kQYU">
@@ -167,7 +167,7 @@ get_header(); ?>
 		<section id="tip_sektion">
 			<div class="tip_col_1">
 				<h1>Se Ugens Tip</h1>
-				<p>Tekst her om ugens tip</p>
+				<p>Tekst her om ugens tip. In id pretium est. Aenean vehicula arcu nunc, et sodales ante finibus in. Proin sed tellus varius, consectetur leo sit amet, gravida velit. Vivamus ac eleifend sem. Suspendisse mattis dolor lorem, id venenatis odio venenatis quis. Sed sit amet finibus mauris. Phasellus id elementum velit. Nulla facilisi. Cras elementum gravida pulvinar.</p>
 				<a href="https://www.youtube.com/watch?v=6p6LFFgYVKg" target="_blank" rel="noopener noreferrer" class="playknap"> <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/youtube_knap.png" alt="play knap"> </a>
 				<p>Se vores Commander-playliste på Youtube</p>
 			</div>
