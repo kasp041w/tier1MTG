@@ -274,8 +274,8 @@ get_header(); ?>
     }
 
     .forside_sjette_sektion_knap:hover {
-        background-color: #AD9261;
-        color: #F1F0E8;
+        background-color: #272727;
+        color: #AD9261;
     }
 
 
