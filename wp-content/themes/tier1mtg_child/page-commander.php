@@ -195,8 +195,8 @@ get_header(); ?>
 		</section>
 		<section id="commander_cardmarket_sektion">
 			<h1>Vi er også på Cardmarket</h1>
-			<p>Tekst om Cardmarket her</p>
-			<button class="commander_knap_cardmarket">Læs mere</button>
+			<p>Tekst om Cardmarket her. Nulla mollis nisi in turpis interdum, nec feugiat dui suscipit. Praesent dapibus tristique justo et dictum. Fusce vel tellus a mauris interdum pulvinar. Vivamus nec lacinia lorem. Nullam commodo dictum ornare. Nunc sit amet turpis vehicula turpis maximus venenatis eu vel mi. Duis a blandit elit, non pulvinar ante. Fusce venenatis est at urna scelerisque interdum. Donec in dignissim lacus, in ullamcorper dolor. Aenean sollicitudin diam vitae elit condimentum maximus. Praesent aliquam, massa ut ultricies commodo, tellus ex varius ante, sed luctus nulla diam eu nunc.</p>
+			<button class="commander_knap_cardmarket" <a href="https://www.cardmarket.com/en/Magic"></a>>Læs mere</button>
 		</section>
 	</main>
 </div>
