@@ -131,10 +131,8 @@ get_header(); ?>
 
 
     #forside_anden_sektion_knap {
-        /*        position: relative;*/
-        left: 50%;
         color: #AD9261;
-        place-self: center center;
+        place-self: center;
     }
 
 
