@@ -64,6 +64,10 @@ get_header(); ?>
 		text-align: center;
 	}
 
+	.knap_cardmarket {
+		align-items: center;
+	}
+
 
 	/*MEDIA QUERIES*/
 
@@ -148,7 +152,7 @@ get_header(); ?>
 		<section id="cardmarket_sektion">
 			<h1>Vi er også på Cardmarket</h1>
 			<p>Tekst om Cardmarket her</p>
-			<button>Læs mere</button>
+			<button class="knap_cardmarket">Læs mere</button>
 		</section>
 	</main>
 </div>
