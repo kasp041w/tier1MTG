@@ -192,8 +192,10 @@ get_header(); ?>
         overflow: hidden;
     }
 
-    .image-container:hover #fjerde_sektion figcaption {
+    #fjerde_sektion .image-container:hover #fjerde_sektion figcaption {
         height: 100%;
+
+        padding: 0px 20px 0px 20px;
 
     }
 
