@@ -17,41 +17,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 get_header(); ?>
 
 <style>
-    .knapper_dark {
-        background-color: #AD9261;
-        color: #272727;
-        border-radius: 28px;
-        padding: 12px 20px 12px 20px;
-        font-weight: bold;
-    }
-
-    .knapper_dark:hover {
-        background-color: #F1F0E8;
-        color: #AD9261;
-    }
-
-
-    .knapper_light {
-        background-color: #AD9261;
-        color: #F1F0E8;
-        border-radius: 28px;
-        padding: 12px 20px 12px 20px;
-        font-weight: bold;
-    }
-
-    .knapper_light:hover {
-        background-color: #F1F0E8;
-        color: #AD9261;
-    }
-
-
-
-
-
-
-
-
-
     main {
         width: 100%;
         padding-left: 0rem;
