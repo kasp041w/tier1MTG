@@ -23,9 +23,8 @@ get_header(); ?>
         padding-right: 0rem;
     }
 
-    /*Styling af første sektion: nyeste kort*/
+    /*FØRSTE SEKTION: nyeste kort*/
     /*styling af singel kortene på forsiden*/
-
     .titel_alternativ,
     .h2_acc {
         color: #F1F0E8;
@@ -79,12 +78,10 @@ get_header(); ?>
     }
 
 
-    /*Slider effekten, fungere både på mobil og destiop*/
+    /*Slider opsætning, fungere både på mobil og destiop*/
     .figure_ny {
         cursor: pointer;
     }
-
-    /*    lyt vidre styling */
 
     .image-container {
         overflow-x: scroll;
@@ -115,7 +112,7 @@ get_header(); ?>
     }
 
 
-    /*styling af anden sektion: bliv en del af universet*/
+    /*ANDEN SEKTION: bliv en del af universet*/
 
     .baggrundsbillede_anden_sektion {
         background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/del_af_universet.png);
@@ -129,8 +126,8 @@ get_header(); ?>
     p {
         color: #F1F0E8;
         text-align: center;
-
     }
+
 
     #forside_anden_sektion_knap {
         position: relative;
@@ -139,13 +136,21 @@ get_header(); ?>
     }
 
 
-    /*styling af trejde sektion*/
+    /*TREJDE SKETION: styling af trejde sektion*/
 
     #trejde_sektion {
         max-width: 1200px;
         margin: 0 auto;
     }
 
+    #fjerde_sektion img {
+        border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
+        width: 100%;
+    }
+
+
+    /*Styling af hovereffekten på kort så den sorte bremme forsvinder med mus over bilelde*/
     .image-container figure {
         position: relative;
     }
@@ -161,19 +166,15 @@ get_header(); ?>
         overflow: hidden;
     }
 
-    figcaption:hover {
+    .image-container:hover figcaption {
         height: 0%;
-    }
-
-    #fjerde_sektion img {
-        border-top-left-radius: 5%;
-        border-top-right-radius: 5%;
-        width: 100%;
+        padding: 0px 20px 0px 20px;
     }
 
 
 
-    /*styling af fjerde sektion*/
+
+    /*FJERDE SEKTION: styling af fjerde sektion*/
 
     #fjerde_sektion {
         max-width: 1200px;
@@ -191,12 +192,12 @@ get_header(); ?>
         overflow: hidden;
     }
 
-    #fjerde_sektion figcaption:hover {
+    .image-container:hover #fjerde_sektion figcaption {
         height: 100%;
 
     }
 
-    /*styling af femte sektion*/
+    /*FEMTE SEKTION: styling af femte sektion*/
     .forside_femte_sektion {
         background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/om_os_forside.png);
         background-size: cover;
