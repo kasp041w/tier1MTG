@@ -32,6 +32,11 @@ get_header(); ?>
         width: 100%;
     }
 
+
+    .event_anden_sektion_container {
+        position: relative;
+    }
+
     .event_anden_text_felt {
         position: absolute;
         bottom: 0;
