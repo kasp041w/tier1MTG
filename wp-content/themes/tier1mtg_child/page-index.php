@@ -74,7 +74,7 @@ get_header(); ?>
 
     article:hover .baggrund_kort {
         height: 0%;
-        padding: 0px;
+        padding: 0px 20px 0px 20px;
 
     }
 
