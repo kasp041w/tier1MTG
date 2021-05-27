@@ -128,7 +128,7 @@ get_header(); ?>
         text-align: center;
     }
 
-    . .forside_anden_sektion_tekst {
+    .forside_anden_sektion_tekst {
         display: grid;
     }
 
