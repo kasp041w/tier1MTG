@@ -26,13 +26,13 @@ get_header(); ?>
         width: 100%;
     }
 
-    #forside_fjerde_sektion img {
+    .event_anden_sektion_container img {
         border-top-left-radius: 5%;
         border-top-right-radius: 5%;
         width: 100%;
     }
 
-    .fjerde_sektion_figcuption {
+    .event_anden_text_felt {
         position: absolute;
         bottom: 0;
         background-color: rgba(39, 39, 39, 0.96);
@@ -43,7 +43,7 @@ get_header(); ?>
         overflow: hidden;
     }
 
-    .forside_figure_ny:hover .fjerde_sektion_figcuption {
+    .event_anden_sektion_container:hover .event_anden_text_felt {
         height: 100%;
         border-top-left-radius: 5%;
         border-top-right-radius: 5%;
@@ -55,7 +55,7 @@ get_header(); ?>
     @media (min-width: 950px) {
         #event_anden_sektion .event_anden_sektion_container {
             display: grid;
-            grid-template-rows: 1fr 1fr 1fr;
+            grid-template-rows: 0.5fr 1fr 1fr;
         }
     }
 
@@ -77,17 +77,27 @@ get_header(); ?>
                     <p>Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
                 </div>
                 <div class="mellem">
-                    <figure class="forside_figure_ny">
+
+                    <div class="left">
                         <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/jeweled-bird.jpg" alt="Tier1MTG event">
                         <button class="se_kort_knap knapper_dark">LÆS MERE</button>
-                        <figcaption class="fjerde_sektion_figcuption">
+
+                        <div class="event_anden_text_felt">
                             <h2 class="h2_acc">Old School Game</h2>
                             <h3 class="h3_acc">Dato: 23-06-2021</h3>
                             <h3 class="h3_acc">Format: Commander</h3>
                             <h3 class="h3_acc">Info: Glæd dig til vores kommende event hos Tier1MTG. Kom til hygge i trygge rammer, hvor du kan spille med andre og vinde fede præmier.<br><br>TIlmelding starter den 8. juli.
                             </h3>
-                        </figcaption>
-                    </figure>
+                        </div>
+
+
+                    </div>
+                    <div class="midt"></div>
+                    <div class="right"></div>
+
+
+
+
 
                     <figure class="forside_figure_ny">
                         <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/jeweled-bird.jpg" alt="">
