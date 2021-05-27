@@ -25,6 +25,7 @@ get_header(); ?>
             padding-right: 1.2rem;
             padding-left: 1.2rem;
             padding-bottom: 1.2rem;
+            padding-top: 1.2rem;
         }
 
         .site-header {
@@ -159,12 +160,6 @@ get_header(); ?>
             text-align: right;
         }
 
-        #nav-mobil p {
-            margin: 0;
-            font-family: 'Cormorant', serif;
-            color: #F1F0E8;
-        }
-
     </style>
 
     <div id="primary" <?php generate_do_element_classes( 'content' ); ?>>
@@ -178,7 +173,7 @@ get_header(); ?>
                     <p>Filtrering</p>
                 </button>
                 <nav class="filtrering">
-                    <button class="filter_knapper" data-single="alle">Alle</button>
+                    <button class="filter_knapper knapper_light" data-single="alle">Alle</button>
                 </nav>
             </section>
 
@@ -358,7 +353,7 @@ get_header(); ?>
                 console.log("opretKnapper virker");
 
                 categories.forEach(cat => {
-                    document.querySelector(".filtrering").innerHTML += `<button class="filter" data-single="${cat.id}">${cat.name}</button>`
+                    document.querySelector(".filtrering").innerHTML += `<button class="filter knapper_light" data-single="${cat.id}">${cat.name}</button>`
                 })
 
                 addEventListenersToButtons();

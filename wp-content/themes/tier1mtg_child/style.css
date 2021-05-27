@@ -43,6 +43,7 @@ a {
     border-radius: 20px;
     padding: 12px 20px 12px 20px;
     font-weight: bold;
+    font-family: 'Cormorant', serif;
 }
 .knapper_dark:hover {
     background-color: #F1F0E8;
@@ -54,6 +55,7 @@ a {
     border-radius: 20px;
     padding: 12px 20px 12px 20px;
     font-weight: bold;
+    font-family: 'Cormorant', serif;
 }
 .knapper_light:hover {
     background-color: #F1F0E8;
