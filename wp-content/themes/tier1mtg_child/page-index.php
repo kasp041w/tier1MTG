@@ -150,7 +150,7 @@ get_header(); ?>
         background-color: rgba(39, 39, 39, 0.96);
         width: 100%;
         padding: 20px;
-        height: 30%;
+        height: 40%;
         transition: .5s ease;
         overflow: hidden;
     }
@@ -159,6 +159,14 @@ get_header(); ?>
         height: 0%;
         padding: 0px 20px 0px 20px;
     }
+
+    .trejde_sektion_knap {
+        position: absolute;
+        left: 49%;
+        bottom: 5%;
+        z-index: 40;
+    }
+
 
 
 
@@ -349,7 +357,7 @@ get_header(); ?>
             <div class="forside_image-container">
                 <figure class="forside_figure_ny">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/skab_acc.jpeg" alt="Gamegenic - Playmat Tube">
-                    <button class="se_kort_knap knapper_dark">SE PRODUKT</button>
+                    <button class="trejde_sektion_knap knapper_dark">SE PRODUKT</button>
                     <figcaption class="trejde_sektion_figcuption">
                         <h2 class="h2_acc">Gamegenic - Playmat Tube</h2>
                         <h3 class="h3_acc">49,95 DKK</h3>
@@ -358,7 +366,7 @@ get_header(); ?>
 
                 <figure class="forside_figure_ny">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/box.jpeg" alt="Ultra Pro – Satin Tower Deck">
-                    <button class="se_kort_knap knapper_dark">SE PRODUKT</button>
+                    <button class="trejde_sektion_knap knapper_dark">SE PRODUKT</button>
                     <figcaption class="trejde_sektion_figcuption">
                         <h2 class="h2_acc">Ultra Pro – Satin Tower Deck</h2>
                         <h3 class="h3_acc">99,95 DKK</h3>
@@ -367,7 +375,7 @@ get_header(); ?>
 
                 <figure class="forside_figure_ny">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/tube.jpeg" alt="Ultra Pro - Boombox">
-                    <button class="se_kort_knap knapper_dark">SE PRODUKT</button>
+                    <button class="trejde_sektion_knap knapper_dark">SE PRODUKT</button>
                     <figcaption class="trejde_sektion_figcuption">
                         <h2 class="h2_acc">Ultra Pro - Boombox</h2>
                         <h3 class="h3_acc">324,95 DKK</h3>
