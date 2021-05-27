@@ -72,7 +72,7 @@ get_header(); ?>
 	}
 
 	.commander_knap_cardmarket {
-		align-content: center;
+		align-self: center;
 	}
 
 
@@ -159,7 +159,7 @@ get_header(); ?>
 		<img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/commander_splach.png" alt="commander splash billede" class="commander_splash">
 		<section id="commander_top_sektion">
 			<div class="commander_top_col_1">
-				<h1>Hvad er Commander?</h1>
+				<h1>HVAD ER COMMANDER?</h1>
 				<p>Tekst her om Commander-formatet. Etiam justo erat, pellentesque vel lacus vel, tincidunt pellentesque nisl. Integer auctor nibh eget lorem aliquet, pulvinar efficitur augue ullamcorper. Interdum et malesuada fames ac ante ipsum primis in faucibus. In id pretium est. Aenean vehicula arcu nunc, et sodales ante finibus in. Proin sed tellus varius, consectetur leo sit amet, gravida velit. Vivamus ac eleifend sem. Suspendisse mattis dolor lorem, id venenatis odio venenatis quis. Sed sit amet finibus mauris. Phasellus id elementum velit. Nulla facilisi. Cras elementum gravida pulvinar.</p>
 			</div>
 			<div class="commander_top_col_2">
@@ -168,12 +168,12 @@ get_header(); ?>
 			</div>
 		</section>
 		<section id="commander_kort_sektion">
-			<h1>Kort du ikke må gå glip af</h1>
+			<h1>KORT DU IKKE MÅ GÅ GLIP AF</h1>
 			<a href="http://kasperdyhl.dk/tier1mtg/produktside/">Se alle single cards</a>
 		</section>
 		<section id="commander_tip_sektion">
 			<div class="commander_tip_col_1">
-				<h1>Se Ugens Tip</h1>
+				<h1>SE UGENS TIP</h1>
 				<p>Tekst her om ugens tip. In id pretium est. Aenean vehicula arcu nunc, et sodales ante finibus in. Proin sed tellus varius, consectetur leo sit amet, gravida velit. Vivamus ac eleifend sem. Suspendisse mattis dolor lorem, id venenatis odio venenatis quis. Sed sit amet finibus mauris. Phasellus id elementum velit. Nulla facilisi. Cras elementum gravida pulvinar.</p>
 				<a href="https://www.youtube.com/watch?v=6p6LFFgYVKg" target="_blank" rel="noopener noreferrer" class="commander_playknap"> <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/youtube_knap.png" alt="play knap"> </a>
 				<p>Se vores Commander-playliste på Youtube</p>
@@ -184,20 +184,19 @@ get_header(); ?>
 			</div>
 		</section>
 		<section id="commander_event_sektion">
-			<h1>Skal du være med næste gang?</h1>
+			<h1>SKAL DU VÆRE MED NÆSTE GANG?</h1>
 			<a href="">Se alle vores Commander-events</a>
 			<!--			billedgalleri ind her - hvordan? -->
 		</section>
 		<section id="commander_artikler">
-			<h1>Det nyeste om Commander</h1>
+			<h1>DET NYESTE OM COMMANDER?</h1>
 			<p>Hold dig opdateret på det nyeste inden for Commander-formatet</p>
 			<!--			Events ind her - hvordan?-->
 		</section>
 		<section id="commander_cardmarket_sektion">
-			<h1>Vi er også på Cardmarket</h1>
+			<h1>VI ER OGSÅ PÅ CARDMARKET</h1>
 			<p>Tekst om Cardmarket her. Nulla mollis nisi in turpis interdum, nec feugiat dui suscipit. Praesent dapibus tristique justo et dictum. Fusce vel tellus a mauris interdum pulvinar. Vivamus nec lacinia lorem. Nullam commodo dictum ornare. Nunc sit amet turpis vehicula turpis maximus venenatis eu vel mi. Duis a blandit elit, non pulvinar ante. Fusce venenatis est at urna scelerisque interdum. Donec in dignissim lacus, in ullamcorper dolor. Aenean sollicitudin diam vitae elit condimentum maximus. Praesent aliquam, massa ut ultricies commodo, tellus ex varius ante, sed luctus nulla diam eu nunc.</p>
-			<button class="commander_knap_cardmarket" onclick="https://www.cardmarket.com/en/Magic">Læs mere</button>
-			<a href=""></a>
+			<button class="commander_knap_cardmarket">Læs mere</button>
 		</section>
 	</main>
 </div>
