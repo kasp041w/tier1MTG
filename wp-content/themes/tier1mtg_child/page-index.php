@@ -17,10 +17,19 @@ if ( ! defined( 'ABSPATH' ) ) {
 get_header(); ?>
 
 <style>
-
-    .knap_se_kort{
-
+    .knap_se_kort {
+        background-color: #AD9261;
+        color: #272727;
+        border-radius: 10%;
     }
+
+    .knap_leas_nu {}
+
+    .knap_se_produkt {}
+
+    .knap_leas_mere {}
+
+    .knap_send {}
 
 
 
@@ -97,6 +106,9 @@ get_header(); ?>
     .forside_image-container {
         overflow-x: scroll;
         scroll-snap-type: x mandatory;
+        display: flex;
+        gap: 20px;
+        padding: 20px;
     }
 
     .forside_image-container .forside_figure_ny {
@@ -104,18 +116,6 @@ get_header(); ?>
         flex-shrink: 0;
         scroll-snap-align: center;
     }
-
-
-    .forside_image-container {
-        display: flex;
-        gap: 20px;
-        padding: 20px;
-    }
-
-/*
-    .remove_object {
-    display: none;
-    }*/
 
 
     #forside_first_section {
@@ -370,7 +370,7 @@ get_header(); ?>
             <div class="forside_image-container">
                 <figure class="forside_figure_ny">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/skab_acc.jpeg" alt="Gamegenic - Playmat Tube">
-                    <button class="se_kort_knap">SE PRODUKT</button>
+                    <button class="se_kort_knap knap_se_kort">SE PRODUKT</button>
                     <figcaption class="trejde_sektion_figcuption">
                         <h2 class="h2_acc">Gamegenic - Playmat Tube</h2>
                         <h3 class="h3_acc">49,95 DKK</h3>
