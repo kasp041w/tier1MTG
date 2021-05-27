@@ -36,6 +36,7 @@ button {
 body {
     background-color: #F7F6E9;
     margin: 0 auto;
+    max-width: 1200px;
 }
 main {
     width: 100%;
