@@ -18,6 +18,14 @@ get_header(); ?>
 
     <style>
         /*--- GENEREL ---*/
+
+        .site-content .content-area {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding-right: 1.2rem;
+            padding-left: 1.2rem;
+            padding-bottom: 1.2rem;
+        }
         /*---GRIDVIEW MOBIL*/
 
         .one-container .site-main>:last-child,
@@ -27,9 +35,6 @@ get_header(); ?>
             grid-template-columns: repeat(auto-fill, minmax(135px, 1fr));
             max-width: 100vw;
             grid-gap: 1rem;
-            padding-left: 1.2rem;
-            padding-right: 1.2rem;
-            padding-bottom: 1.2rem;
         }
         /*---SINGLE CARDS---*/
 
@@ -97,8 +102,8 @@ get_header(); ?>
         <main id="main" <?php generate_do_element_classes( 'main' ); ?>>
 
             <section id="nav-mobil">
-                <button id="visKategorier">⇆</button>
-                <button id="visFilter">≡</button>
+                <button id="visKategorier">≡</button>
+                <button id="visFilter">⇆</button>
                 <nav class="filtrering">
                     <button class="filter_knapper" data-single="alle">Alle</button>
                 </nav>
