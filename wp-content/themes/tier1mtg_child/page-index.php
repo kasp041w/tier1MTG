@@ -201,17 +201,30 @@ get_header(); ?>
     }
 
     /*FEMTE SEKTION: styling af femte sektion*/
-    .forside_femte_sektion {
-        background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/om_os_forside.png);
+    #forside_femte_sektion {
+        position: relative;
+        background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/forside-om_os1.png);
         background-size: cover;
         max-width: none;
-        height: 100vh;
+        height: 80vh;
         width: 100%;
     }
 
+    .forside_femte_sektion {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
 
+    .forside_femte_sektion .bottom img {
+        padding: 0px 20px 0px 20px;
+    }
 
-
+    .forside_femte_sektion_knap {
+        position: absolute;
+        left: 58%;
+        bottom: 50%;
+        z-index: 40;
+    }
 
 
 
@@ -246,29 +259,34 @@ get_header(); ?>
         .forside_femte_sektion {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            grid-auto-rows: 1fr 1fr;
+            grid-auto-rows: 1fr 0.5fr;
+            grid-row-gap: 20px;
         }
 
-        .left {
+        .forside_femte_sektion .left {
             grid-column-start: 1;
             grid-column-end: span 1;
             grid-row-start: 1;
             grid-row-end: span 1;
         }
 
-        .right {
+        .forside_femte_sektion .right {
             grid-column-start: 2;
             grid-column-end: span 1;
             grid-row-start: 1;
             grid-row-end: span 1;
+            padding-top: 15%;
         }
 
-        .bottom {
+        .forside_femte_sektion .bottom {
             grid-column-start: 1;
             grid-column-end: span 2;
             grid-row-start: 2;
             grid-row-end: span 1;
+            place-self: center;
         }
+
+
 
 
 
@@ -411,7 +429,7 @@ get_header(); ?>
                     <p>
                         Tier1MTG Alt i Magic <br><br> Tier1MTG er startet af Allan Asmussen og Dan Sønderskov 2 gamle venner der er vokset op sammen og har spillet magic siden 1994. <br><br>Vores Vision er at kunne levere magickort til spilleren på tværs af alle formater, at gøre det nemt for spilleren, ved salg online på vores hjemmeside, Magiccardmarket og ude fysisk på events. Til markedspriser og hurtig leveringstid.
                     </p>
-                    <button class="se_kort_knap">LÆS MERE</button>
+                    <button class="forside_femte_sektion_knap">LÆS MERE</button>
                 </div>
                 <div class="bottom">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/twitch_knap.png" alt="link til twitch">
