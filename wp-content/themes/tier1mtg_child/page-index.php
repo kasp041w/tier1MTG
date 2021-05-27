@@ -114,7 +114,7 @@ get_header(); ?>
 
     /*ANDEN SEKTION: bliv en del af universet*/
 
-    .baggrundsbillede_anden_sektion {
+    #forside_anden_sektion {
         background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/del_af_universet.png);
         background-size: cover;
         max-width: none;
@@ -222,6 +222,17 @@ get_header(); ?>
         .forside_image-container .forside_figure_ny {
             flex-basis: 27%;
         }
+
+
+
+
+        /*ANDEN SEKTION*/
+
+        #forside_anden_sektion {
+            height: 50vh;
+
+        }
+
 
 
         /*styling af femte sektion*/
