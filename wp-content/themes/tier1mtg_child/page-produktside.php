@@ -107,6 +107,10 @@ get_header(); ?>
         }
         /*---FILTRERINGSNAVIGATION---*/
 
+        #nav-desk {
+            display: none;
+        }
+
         .filtrering {
             display: none;
         }
@@ -177,7 +181,7 @@ get_header(); ?>
         }
 
         #visFilter,
-        visKategorier {
+        #visKategorier {
             margin-bottom: 0.5rem;
         }
         /*---TABLET---*/
@@ -210,6 +214,37 @@ get_header(); ?>
                 bottom: 0%;
                 margin: 1rem;
             }
+            #visKategorier {
+                display: none;
+            }
+            .filtrering {
+                display: none;
+            }
+            .luk-display {
+                left: 10%;
+            }
+            .sidebar-display {
+                width: 50%;
+                padding-right: 0;
+                top: 20%;
+            }
+            .opdeling {
+                width: 30vw;
+            }
+            #nav-mobil {
+                text-align: left;
+            }
+            #nav-desk {
+                display: block;
+            }
+            .filtrering-desk {
+                width: 100vw;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+            }
+            .filter_knapper {
+                width: 48%;
+            }
         }
 
     </style>
@@ -224,10 +259,15 @@ get_header(); ?>
                     <button class="filter_knapper knapper_light" data-single="alle">Alle</button>
                 </nav>
             </section>
+            <section id="nav-desk">
+                <nav class="filtrering-desk">
+                    <button class="filter_knapper knapper_light" data-single="alle">Alle</button>
+                </nav>
+            </section>
 
 
             <section class="visSidebar">
-                <div class="sidebar-display">
+                <div class="t">
                     <button id="luk-knap" class="luk-display knapper_dark">×
                     </button>
                     <h2>Sortér efter</h2>
@@ -401,6 +441,7 @@ get_header(); ?>
 
                 categories.forEach(cat => {
                     document.querySelector(".filtrering").innerHTML += `<button class="filter knapper_light" data-single="${cat.id}">${cat.name}</button>`
+                    document.querySelector(".filtrering-desk").innerHTML += `<button class="filter knapper_light" data-single="${cat.id}">${cat.name}</button>`
                 })
 
                 addEventListenersToButtons();
@@ -411,6 +452,9 @@ get_header(); ?>
                 console.log("lytTilKnapper virker");
 
                 document.querySelectorAll(".filtrering button").forEach(elm => {
+                    elm.addEventListener("click", filtrering);
+                })
+                document.querySelectorAll(".filtrering-desk button").forEach(elm => {
                     elm.addEventListener("click", filtrering);
                 })
             };
