@@ -56,6 +56,7 @@ get_header(); ?>
         height: 55%;
     }
 
+    /*Styling af hovereffekten på kort og produkter så den sorte bremme forsvinder med mus over bilelde*/
     article {
         position: relative;
     }
@@ -68,7 +69,7 @@ get_header(); ?>
         padding: 20px;
         height: 30%;
         transition: .5s ease;
-        overflow: hidden;
+        /*        overflow: hidden;*/
     }
 
     .billed_placering:hover .baggrund_kort {
