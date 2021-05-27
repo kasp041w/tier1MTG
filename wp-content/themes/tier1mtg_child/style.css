@@ -142,8 +142,9 @@ html {
     /* box-shadow: 1px 1px 0 rgb(0 0 0 / 10%); */
     float: left;
     position: absolute;
-    right: 99px;
+    right: -505px;
     opacity: 0;
+    left: -20px;
     z-index: 99999;
     width: auto;
     text-align: left;
@@ -153,12 +154,13 @@ html {
     pointer-events: none;
     height: 0;
     overflow: hidden;
-    padding: 20px 0px 20px 0px;
 }
 
 .main-navigation .main-nav ul ul li a {
-    padding: 50px;
+    padding: 30px;
+    margin: 0px 120px 0px 0px;
     width: 100%;
+    text-align: center;
 }
 
 /*Burgermenu-baggrund*/
