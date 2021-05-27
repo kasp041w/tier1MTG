@@ -73,7 +73,7 @@ get_header(); ?>
 
     .billed_placering:hover .baggrund_kort {
         height: 0%;
-        display: none;
+
     }
 
 
