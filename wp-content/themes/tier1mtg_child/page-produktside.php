@@ -39,7 +39,7 @@ get_header(); ?>
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(135px, 1fr));
             max-width: 100vw;
-            grid-gap: 1rem;
+            grid-gap: 2rem;
             padding-right: 1.2rem;
             padding-left: 1.2rem;
             padding-bottom: 1.2rem;
@@ -84,7 +84,7 @@ get_header(); ?>
             padding-right: 5%;
             padding-top: 5%;
             color: #F1F0E8;
-            font-size: 1.1rem;
+            font-size: 1.5rem;
             font-weight: bold;
             margin-bottom: 0;
         }
@@ -102,7 +102,7 @@ get_header(); ?>
             padding-left: 5%;
             padding-right: 5%;
             color: #AD9261;
-            font-size: 0.7rem;
+            font-size: 1rem;
             margin-bottom: 0;
         }
         /*---FILTRERINGSNAVIGATION---*/
@@ -179,6 +179,37 @@ get_header(); ?>
         #visFilter,
         visKategorier {
             margin-bottom: 0.5rem;
+        }
+        /*---TABLET---*/
+
+        @media screen and (max-width: 949px) and (min-width: 500px) {
+            #single_oversigt {
+                grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            }
+        }
+        /*---DESKTOP---*/
+
+        @media (min-width: 950px) {
+            #single_oversigt {
+                grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            }
+            img.billede {
+                object-fit: cover;
+                height: 76%;
+            }
+            .pris {
+                font-size: 1rem;
+            }
+            .lagertal {
+                font-size: 0.8rem;
+            }
+            .se_kort_knap {
+                position: absolute;
+                left: 54%;
+                top: 84%;
+                bottom: 0%;
+                margin: 1rem;
+            }
         }
 
     </style>
