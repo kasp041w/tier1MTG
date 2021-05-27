@@ -310,6 +310,7 @@ get_header(); ?>
 
         .forside_sjette_sektion_grid .left {
             place-self: center;
+            margin-left: 15%;
         }
     }
 
