@@ -33,7 +33,7 @@ get_header(); ?>
     }
 
 
-    .event_anden_sektion_container {
+    .event_indhold {
         position: relative;
     }
 
@@ -81,7 +81,7 @@ get_header(); ?>
                 <p>Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
             </div>
             <div class="event_anden_sektion_container">
-                <div class="left">
+                <div class="event_indhold">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/jeweled-bird.jpg" alt="Tier1MTG event">
                     <button class="se_kort_knap knapper_dark">LÆS MERE</button>
                     <div class="event_anden_text_felt">
@@ -93,7 +93,7 @@ get_header(); ?>
                     </div>
                 </div>
 
-                <div class="left">
+                <div class="event_indhold">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/jeweled-bird.jpg" alt="Tier1MTG event">
                     <button class="se_kort_knap knapper_dark">LÆS MERE</button>
                     <div class="event_anden_text_felt">
@@ -104,7 +104,7 @@ get_header(); ?>
                         </h3>
                     </div>
                 </div>
-                <div class="left">
+                <div class="event_indhold">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/jeweled-bird.jpg" alt="Tier1MTG event">
                     <button class="se_kort_knap knapper_dark">LÆS MERE</button>
                     <div class="event_anden_text_felt">
@@ -115,7 +115,7 @@ get_header(); ?>
                         </h3>
                     </div>
                 </div>
-                <div class="left">
+                <div class="event_indhold">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/jeweled-bird.jpg" alt="Tier1MTG event">
                     <button class="se_kort_knap knapper_dark">LÆS MERE</button>
                     <div class="event_anden_text_felt">
@@ -126,7 +126,7 @@ get_header(); ?>
                         </h3>
                     </div>
                 </div>
-                <div class="left">
+                <div class="event_indhold">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/jeweled-bird.jpg" alt="Tier1MTG event">
                     <button class="se_kort_knap knapper_dark">LÆS MERE</button>
                     <div class="event_anden_text_felt">
@@ -137,7 +137,7 @@ get_header(); ?>
                         </h3>
                     </div>
                 </div>
-                <div class="left">
+                <div class="event_indhold">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/jeweled-bird.jpg" alt="Tier1MTG event">
                     <button class="se_kort_knap knapper_dark">LÆS MERE</button>
                     <div class="event_anden_text_felt">
