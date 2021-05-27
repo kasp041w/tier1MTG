@@ -17,6 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 get_header(); ?>
 
     <style>
+        /*--- GENEREL ---*/
         /*---GRIDVIEW MOBIL*/
 
         .one-container .site-main>:last-child,
@@ -26,6 +27,9 @@ get_header(); ?>
             grid-template-columns: repeat(auto-fill, minmax(135px, 1fr));
             max-width: 100vw;
             grid-gap: 1rem;
+            padding-left: 1.2rem;
+            padding-right: 1.2rem;
+            padding-bottom: 1.2rem;
         }
         /*---SINGLE CARDS---*/
 
