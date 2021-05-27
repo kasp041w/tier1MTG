@@ -98,12 +98,17 @@ get_header(); ?>
 
 
     /*TREJDE SEKTION*/
-    #event_trejde_sektion {
+    .event_trejde_baggrund {
         background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/bjerg_baggrund.png);
         background-size: cover;
         max-width: none;
         height: 100vh;
         width: 100%;
+
+    }
+
+
+    #event_trejde_sektion {
         display: grid;
     }
 
@@ -213,10 +218,11 @@ get_header(); ?>
                         </h3>
                     </div>
                 </div>
-
             </div>
         </section>
+
         <section id="event_trejde_sektion">
+            <div class="event_trejde_baggrund"></div>
             <div class="event_trejde_container">
                 <h1>LIVE STREAMING</h1>
                 <p>Dummy text of the printing and typesetting industry. Lorem Ipsum has been thery's standard dummy text.</p>
@@ -224,6 +230,7 @@ get_header(); ?>
                 </iframe>
             </div>
         </section>
+
         <section id="event_fjerde_sektion">
             <h1>FØLG MED PÅ ANDRE KANALER</h1>
             <div class="event_sociale_medier">
