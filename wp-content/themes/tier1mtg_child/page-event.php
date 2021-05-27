@@ -33,6 +33,11 @@ get_header(); ?>
     }
 
 
+    #event_anden_sektion {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
     .event_indhold {
         position: relative;
     }
@@ -54,13 +59,39 @@ get_header(); ?>
         border-top-right-radius: 5%;
     }
 
-
     #event_anden_sektion .event_anden_sektion_container {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
         max-width: 100vw;
         grid-gap: 1rem;
     }
+
+
+    .event_mere_knap {
+        position: absolute;
+        left: 58%;
+        bottom: 5%;
+        z-index: 40;
+    }
+
+
+    .h2_acc {
+        color: #F1F0E8;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+
+
+
+    .h3_acc {
+        color: #AD9261;
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+
+
+
 
     @media (min-width: 950px) {}
 
@@ -83,7 +114,7 @@ get_header(); ?>
             <div class="event_anden_sektion_container">
                 <div class="event_indhold">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/jeweled-bird.jpg" alt="Tier1MTG event">
-                    <button class="se_kort_knap knapper_dark">LÆS MERE</button>
+                    <button class="event_mere_knap knapper_dark">LÆS MERE</button>
                     <div class="event_anden_text_felt">
                         <h2 class="h2_acc">Old School Game</h2>
                         <h3 class="h3_acc">Dato: 23-06-2021</h3>
@@ -95,7 +126,19 @@ get_header(); ?>
 
                 <div class="event_indhold">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/jeweled-bird.jpg" alt="Tier1MTG event">
-                    <button class="se_kort_knap knapper_dark">LÆS MERE</button>
+                    <button class="event_mere_knap knapper_dark">LÆS MERE</button>
+                    <div class="event_anden_text_felt">
+                        <h2 class="h2_acc">Old School Game</h2>
+                        <h3 class="h3_acc">Dato: 23-06-2021</h3>
+                        <h3 class="h3_acc">Format: Commander</h3>
+                        <h3 class="h3_acc">Info: Glæd dig til vores kommende event hos Tier1MTG. Kom til hygge i trygge rammer, hvor du kan spille med andre og vinde fede præmier.<br><br>TIlmelding starter den 8. juli.
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="event_indhold">
+                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/jeweled-bird.jpg" alt="Tier1MTG event">
+                    <button class="event_mere_knap knapper_dark">LÆS MERE</button>
                     <div class="event_anden_text_felt">
                         <h2 class="h2_acc">Old School Game</h2>
                         <h3 class="h3_acc">Dato: 23-06-2021</h3>
@@ -106,7 +149,7 @@ get_header(); ?>
                 </div>
                 <div class="event_indhold">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/jeweled-bird.jpg" alt="Tier1MTG event">
-                    <button class="se_kort_knap knapper_dark">LÆS MERE</button>
+                    <button class="event_mere_knap knapper_dark">LÆS MERE</button>
                     <div class="event_anden_text_felt">
                         <h2 class="h2_acc">Old School Game</h2>
                         <h3 class="h3_acc">Dato: 23-06-2021</h3>
@@ -117,7 +160,7 @@ get_header(); ?>
                 </div>
                 <div class="event_indhold">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/jeweled-bird.jpg" alt="Tier1MTG event">
-                    <button class="se_kort_knap knapper_dark">LÆS MERE</button>
+                    <button class="event_mere_knap knapper_dark">LÆS MERE</button>
                     <div class="event_anden_text_felt">
                         <h2 class="h2_acc">Old School Game</h2>
                         <h3 class="h3_acc">Dato: 23-06-2021</h3>
@@ -128,18 +171,7 @@ get_header(); ?>
                 </div>
                 <div class="event_indhold">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/jeweled-bird.jpg" alt="Tier1MTG event">
-                    <button class="se_kort_knap knapper_dark">LÆS MERE</button>
-                    <div class="event_anden_text_felt">
-                        <h2 class="h2_acc">Old School Game</h2>
-                        <h3 class="h3_acc">Dato: 23-06-2021</h3>
-                        <h3 class="h3_acc">Format: Commander</h3>
-                        <h3 class="h3_acc">Info: Glæd dig til vores kommende event hos Tier1MTG. Kom til hygge i trygge rammer, hvor du kan spille med andre og vinde fede præmier.<br><br>TIlmelding starter den 8. juli.
-                        </h3>
-                    </div>
-                </div>
-                <div class="event_indhold">
-                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/jeweled-bird.jpg" alt="Tier1MTG event">
-                    <button class="se_kort_knap knapper_dark">LÆS MERE</button>
+                    <button class="event_mere_knap knapper_dark">LÆS MERE</button>
                     <div class="event_anden_text_felt">
                         <h2 class="h2_acc">Old School Game</h2>
                         <h3 class="h3_acc">Dato: 23-06-2021</h3>
