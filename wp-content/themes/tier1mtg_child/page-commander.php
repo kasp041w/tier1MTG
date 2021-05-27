@@ -76,6 +76,43 @@ get_header(); ?>
 		/*GRID PÅ TOPSEKTION*/
 		#top_sektion {
 			display: grid;
+			grid-template-columns: 1fr 1fr;
+			grid-template-rows: 1fr;
+		}
+
+		.top_col_1 {
+			grid-column: 1/2;
+			grid-row: 1;
+		}
+
+		.top_col_2 {
+			grid-column: 2/2;
+			grid-row: 1;
+		}
+
+		/*GRID PÅ UGENS TIP-SEKTION*/
+		#tip_sektion {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			grid-template-rows: 1fr;
+		}
+
+		.tip_col_1 {
+			grid-column: 1/2;
+			grid-row: 1;
+		}
+
+		.tip_col_2 {
+			grid-column: 2/2;
+			grid-row: 1;
+		}
+	}
+
+	@media only screen and (min-width: 1200px) {
+
+		/*GRID PÅ TOPSEKTION*/
+		#top_sektion {
+			display: grid;
 			grid-template-columns: 1fr 1fr 1fr;
 			grid-template-rows: 1fr;
 		}
