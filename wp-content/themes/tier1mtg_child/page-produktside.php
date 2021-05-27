@@ -76,15 +76,15 @@ get_header(); ?>
         }
 
         .filter_knapper {
-            width: 100%;
+            width: 96.5%;
             margin: 0.1rem;
             display: inline;
         }
 
         .filter {
-            width: 100%;
+            width: 48%;
             margin: 0.1rem;
-            display: inline;
+            display: inline-block;
         }
 
     </style>
@@ -92,11 +92,13 @@ get_header(); ?>
     <div id="primary" <?php generate_do_element_classes( 'content' ); ?>>
         <main id="main" <?php generate_do_element_classes( 'main' ); ?>>
 
-
-            <button id="visKategorier">Klik her</button>
-            <nav class="filtrering">
-                <button class="filter_knapper" data-single="alle">Alle</button>
-            </nav>
+            <section id="nav-mobil">
+                <button id="visKategorier">⇆</button>
+                <button id="visFilter">≡</button>
+                <nav class="filtrering">
+                    <button class="filter_knapper" data-single="alle">Alle</button>
+                </nav>
+            </section>
 
             <section id="single_cat_overskrift">
                 <h1>Alle</h1>
@@ -182,6 +184,7 @@ get_header(); ?>
 
             function filtrering() {
                 filterSingle = this.dataset.single;
+                document.querySelector(".filtrering").classList.toggle("filter_knapper");
 
                 console.log("filterSingle");
                 visSingles();
@@ -197,6 +200,17 @@ get_header(); ?>
 
                 // ryd ekst. indhold:
                 dest.innerHTML = "";
+
+                //Sorter singles efter navn
+                singles.sort(function(a, b) {
+                    if (a.title.rendered < b.title.rendered) {
+                        return -1;
+                    }
+                    if (a.title.rendered > b.title.rendered) {
+                        return 1;
+                    }
+                    return 0;
+                })
 
                 // loop igennem json (single)
                 singles.forEach(single => {
