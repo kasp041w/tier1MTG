@@ -26,12 +26,13 @@ get_header(); ?>
         width: 100%;
     }
 
-    /*Styling af hovereffekten på kort og produkter så den sorte bremme forsvinder med mus over bilelde*/
-    article {
-        position: relative;
+    #forside_fjerde_sektion img {
+        border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
+        width: 100%;
     }
 
-    .baggrund_kort {
+    .fjerde_sektion_figcuption {
         position: absolute;
         bottom: 0;
         background-color: rgba(39, 39, 39, 0.96);
@@ -42,30 +43,10 @@ get_header(); ?>
         overflow: hidden;
     }
 
-    article:hover .baggrund_kort {
-        height: 0%;
-        padding: 0px 20px 0px 20px;
-
-    }
-
-
-    /*Slider opsætning, fungere både på mobil og destiop*/
-    .forside_figure_ny {
-        cursor: pointer;
-    }
-
-    .forside_image-container {
-        overflow-x: scroll;
-        scroll-snap-type: x mandatory;
-        display: flex;
-        gap: 20px;
-        padding: 20px;
-    }
-
-    .forside_image-container .forside_figure_ny {
-        flex-basis: 90%;
-        flex-shrink: 0;
-        scroll-snap-align: center;
+    .forside_figure_ny:hover .fjerde_sektion_figcuption {
+        height: 100%;
+        border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
     }
 
 
