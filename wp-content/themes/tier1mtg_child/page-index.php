@@ -206,7 +206,7 @@ get_header(); ?>
         background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/forside-om_os1.png);
         background-size: cover;
         max-width: none;
-        height: 80vh;
+        height: 90vh;
         width: 100%;
     }
 
@@ -219,10 +219,12 @@ get_header(); ?>
         padding: 0px 20px 0px 20px;
     }
 
+    .forside_femte_sektion .bottom {
+        margin: 40%;
+    }
+
     .forside_femte_sektion_knap {
         position: absolute;
-        left: 58%;
-        bottom: 50%;
         z-index: 40;
     }
 
@@ -260,7 +262,7 @@ get_header(); ?>
             display: grid;
             grid-template-columns: 1fr 1fr;
             grid-auto-rows: 1fr 0.5fr;
-            grid-row-gap: 20px;
+            grid-row-gap: 50px;
         }
 
         .forside_femte_sektion .left {
@@ -284,6 +286,7 @@ get_header(); ?>
             grid-row-start: 2;
             grid-row-end: span 1;
             place-self: center;
+            margin: 0%;
         }
 
 
@@ -297,9 +300,6 @@ get_header(); ?>
 
 <div id="primary" <?php generate_do_element_classes( 'content' ); ?>>
     <main id="main" <?php generate_do_element_classes( 'main' ); ?>>
-        <div>
-            <p>Dette er forsiden</p>
-        </div>
 
         <section id="forside_first_section">
             <h1>NYESTE SINGLE</h1>
