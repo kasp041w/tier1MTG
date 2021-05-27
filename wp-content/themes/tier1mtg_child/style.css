@@ -134,6 +134,26 @@ html {
 .main-navigation .main-nav ul li[class*="current-menu-"] > a {
     color: #AD9261;
     text-decoration: underline 2px;
+    background-color: #272727;
+}
+
+.main-navigation ul ul {
+    display: inline-flex;
+    /* box-shadow: 1px 1px 0 rgb(0 0 0 / 10%); */
+    float: left;
+    position: absolute;
+    left: -99999px;
+    opacity: 0;
+    z-index: 99999;
+    width: auto;
+    text-align: left;
+    top: auto;
+    transition: opacity 80ms linear;
+    transition-delay: 0s;
+    pointer-events: none;
+    height: 0;
+    overflow: hidden;
+    padding: 20px 0px 20px 0px;
 }
 
 /*Burgermenu-baggrund*/
