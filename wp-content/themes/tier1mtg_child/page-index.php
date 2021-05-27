@@ -36,6 +36,19 @@ get_header(); ?>
         margin-bottom: 20px;
     }
 
+
+    /*FORSIDE SPLASH*/
+
+    #.forside_splach .forside_splach_container {
+        background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/del_af_universet.png);
+        background-size: cover;
+        max-width: none;
+        height: 100vh;
+        width: 100%;
+    }
+
+
+
     /*FØRSTE SEKTION: nyeste kort*/
     /*styling af singel kortene på forsiden*/
 
@@ -318,6 +331,10 @@ get_header(); ?>
 
 <div id="primary" <?php generate_do_element_classes( 'content' ); ?>>
     <main id="main" <?php generate_do_element_classes( 'main' ); ?>>
+
+        <section id="forside_splach">
+            <div class="forside_splach_container"></div>
+        </section>
 
         <section id="forside_first_section">
             <h1>NYESTE SINGLE</h1>
