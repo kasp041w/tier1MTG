@@ -443,7 +443,7 @@ get_header(); ?>
                     <img src="" alt="">
                 </div>
                 <div class="rigtht">
-                    <h2>HVEM ER TIER1MTG</h2>
+                    <h1>HVEM ER TIER1MTG</h1>
                     <p>
                         Tier1MTG Alt i Magic <br><br> Tier1MTG er startet af Allan Asmussen og Dan Sønderskov 2 gamle venner der er vokset op sammen og har spillet magic siden 1994. <br><br>Vores Vision er at kunne levere magickort til spilleren på tværs af alle formater, at gøre det nemt for spilleren, ved salg online på vores hjemmeside, Magiccardmarket og ude fysisk på events. Til markedspriser og hurtig leveringstid.
                     </p>
