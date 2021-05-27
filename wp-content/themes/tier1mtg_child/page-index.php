@@ -26,13 +26,20 @@ get_header(); ?>
     /*Styling af første sektion: nyeste kort*/
     /*styling af singel kortene på forsiden*/
 
-    .titel_alternativ {
+    .titel_alternativ,
+    .h2_acc {
         color: #F1F0E8;
+        font-size: 1.5rem;
+        font-weight: bold;
         margin-bottom: 0;
     }
 
-    .pris_alternativ {
+
+    .pris_alternativ,
+    .h3_acc {
         color: #AD9261;
+        font-size: 1rem;
+        margin-bottom: 0;
     }
 
     .se_kort_knap {
@@ -40,6 +47,13 @@ get_header(); ?>
         left: 58%;
         bottom: 5%;
         z-index: 40;
+    }
+
+    .billede {
+        border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
+        width: 100%;
+        height: 55%;
     }
 
     article {
@@ -109,12 +123,75 @@ get_header(); ?>
     p {
         color: #F1F0E8;
         text-align: center;
+
     }
 
     #forside_anden_sektion_knap {
-        text-align: center;
+        position: relative;
+        left: 50%;
         color: #AD9261;
     }
+
+
+    /*styling af trejde sektion*/
+
+    .image-container figure {
+        position: relative;
+    }
+
+    figcaption {
+        position: absolute;
+        bottom: 0;
+        background-color: rgba(39, 39, 39, 0.96);
+        width: 100%;
+        padding: 20px;
+        height: 30%;
+        transition: .5s ease;
+        overflow: hidden;
+    }
+
+    figcaption:hover {
+        height: 0%;
+    }
+
+    #fjerde_sektion img {
+        border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
+        width: 100%;
+    }
+
+
+
+    /*styling af fjerde sektion*/
+    #fjerde_sektion figcaption {
+        position: absolute;
+        bottom: 0;
+        background-color: rgba(39, 39, 39, 0.96);
+        width: 100%;
+        padding: 20px;
+        height: 30%;
+        transition: .5s ease;
+        overflow: hidden;
+    }
+
+    #fjerde_sektion figcaption:hover {
+        height: 100%;
+
+    }
+
+    /*styling af femte sektion*/
+    .forside_femte_sektion {
+        background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/om_os_forside.png);
+        background-size: cover;
+        max-width: none;
+        height: 100vh;
+        width: 100%;
+    }
+
+
+
+
+
 
 
     /*desktop*/
@@ -128,11 +205,34 @@ get_header(); ?>
         }
 
 
-        /*styling af anden sektion: bliv en del af universet*/
-
-        .baggrundsbillede_anden_sektion {
-            height: 50%;
+        /*styling af femte sektion*/
+        .forside_femte_sektion {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-auto-rows: 1fr 1fr;
         }
+
+        .left {
+            grid-column-start: 1;
+            grid-column-end: span 1;
+            grid-row-start: 1;
+            grid-row-end: span 1;
+        }
+
+        .right {
+            grid-column-start: 2;
+            grid-column-end: span 1;
+            grid-row-start: 1;
+            grid-row-end: span 1;
+        }
+
+        .bottom {
+            grid-column-start: 1;
+            grid-column-end: span 2;
+            grid-row-start: 2;
+            grid-row-end: span 1;
+        }
+
 
 
     }
@@ -148,7 +248,9 @@ get_header(); ?>
 
         <section id="first_section">
             <h1>NYESTE SINGLE</h1>
-            <h3 class="til_kort_side_nav">Se alle Single Cards →</h3>
+            <a href="http://kasperdyhl.dk/tier1mtg/produktside/">
+                <h3 class="til_kort_side_nav">Se alle single cards →</h3>
+            </a>
             <div class="image-container">
                 <figure class="figure_ny">
                     <div class="new_single_kort"></div>
@@ -176,6 +278,112 @@ get_header(); ?>
             </div>
         </section>
 
+        <section id="trejde_sektion">
+            <h1>NYESTE ACCESSORIES</h1>
+            <h3 class="til_kort_side_nav">Se alle accessories →</h3>
+            <div class="image-container">
+                <figure class="figure_ny">
+                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/skab_acc.jpeg" alt="Gamegenic - Playmat Tube">
+                    <button class="se_kort_knap">SE PRODUKT</button>
+                    <figcaption>
+                        <h2 class="h2_acc">Gamegenic - Playmat Tube</h2>
+                        <h3 class="h3_acc">49,95 DKK</h3>
+                    </figcaption>
+                </figure>
+
+                <figure class="figure_ny">
+                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/box.jpeg" alt="Ultra Pro – Satin Tower Deck">
+                    <button class="se_kort_knap">SE PRODUKT</button>
+                    <figcaption>
+                        <h2 class="h2_acc">Ultra Pro – Satin Tower Deck</h2>
+                        <h3 class="h3_acc">99,95 DKK</h3>
+                    </figcaption>
+                </figure>
+
+                <figure class="figure_ny">
+                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/tube.jpeg" alt="Ultra Pro - Boombox">
+                    <button class="se_kort_knap">SE PRODUKT</button>
+                    <figcaption>
+                        <h2 class="h2_acc">Ultra Pro - Boombox</h2>
+                        <h3 class="h3_acc">324,95 DKK</h3>
+                    </figcaption>
+                </figure>
+
+                <figure class="figure_ny">
+                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/kort_ting.jpeg" alt="Secret Lair – Ultimate Edition">
+                    <button class="se_kort_knap">SE PRODUKT</button>
+                    <figcaption>
+                        <h2 class="h2_acc">Secret Lair – Ultimate Edition</h2>
+                        <h3 class="h3_acc">699,95 DKK</h3>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section id="fjerde_sektion">
+            <h1>KOMMENDE EVENTS</h1>
+            <a href="http://kasperdyhl.dk/tier1mtg/event/">
+                <h3 class="til_kort_side_nav">Se alle events →</h3>
+            </a>
+            <div class="image-container">
+                <figure class="figure_ny">
+                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/jeweled-bird.jpg" alt="Tier1MTG event">
+                    <button class="se_kort_knap">LÆS MERE</button>
+                    <figcaption>
+                        <h2 class="h2_acc">Old School Game</h2>
+                        <h3 class="h3_acc">Dato: 23-06-2021</h3>
+                        <h3 class="h3_acc">Format: Commander</h3>
+                        <h3 class="h3_acc">Info: Glæd dig til vores kommende event hos Tier1MTG. Kom til hygge i trygge rammer, hvor du kan spille med andre og vinde fede præmier.<br><br>TIlmelding starter den 8. juli.
+                        </h3>
+                    </figcaption>
+                </figure>
+
+                <figure class="figure_ny">
+                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/jeweled-bird.jpg" alt="">
+                    <button class="se_kort_knap">LÆS MERE</button>
+                    <figcaption>
+                        <h2 class="h2_acc">Old School Game</h2>
+                        <h3 class="h3_acc">Dato: 23-06-2021</h3>
+                        <h3 class="h3_acc">Format: Commander</h3>
+                        <h3 class="h3_acc">Info: Glæd dig til vores kommende event hos Tier1MTG. Kom til hygge i trygge rammer, hvor du kan spille med andre og vinde fede præmier.<br><br>TIlmelding starter den 8. juli.
+                        </h3>
+                    </figcaption>
+                </figure>
+
+                <figure class="figure_ny">
+                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/jeweled-bird.jpg" alt="Tier1MTG event">
+                    <button class="se_kort_knap">LÆS MERE</button>
+                    <figcaption>
+                        <h2 class="h2_acc">Old School Game</h2>
+                        <h3 class="h3_acc">Dato: 23-06-2021</h3>
+                        <h3 class="h3_acc">Format: Commander</h3>
+                        <h3 class="h3_acc">Info: Glæd dig til vores kommende event hos Tier1MTG. Kom til hygge i trygge rammer, hvor du kan spille med andre og vinde fede præmier.<br><br>TIlmelding starter den 8. juli.
+                        </h3>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+
+
+        <section id="femte_sektion">
+            <div class="forside_femte_sektion">
+                <div class="left">
+                    <img src="" alt="">
+                </div>
+                <div class="rigtht">
+                    <h2>HVEM ER TIER1MTG</h2>
+                    <p>
+                        Tier1MTG Alt i Magic <br><br> Tier1MTG er startet af Allan Asmussen og Dan Sønderskov 2 gamle venner der er vokset op sammen og har spillet magic siden 1994. <br><br>Vores Vision er at kunne levere magickort til spilleren på tværs af alle formater, at gøre det nemt for spilleren, ved salg online på vores hjemmeside, Magiccardmarket og ude fysisk på events. Til markedspriser og hurtig leveringstid.
+                    </p>
+                    <button class="se_kort_knap">LÆS MERE</button>
+                </div>
+                <div class="bottom">
+                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/twitch_knap.png" alt="link til twitch">
+                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/youtube_knap.png" alt="link til youtube">
+                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/facebook_knap.png" alt="link til facebook">
+                </div>
+            </div>
+        </section>
     </main>
 
 
