@@ -120,6 +120,14 @@ get_header(); ?>
 		padding: 20px;
 	}
 
+	.h2_acc {
+		color: #F5F5F5;
+	}
+
+	.h3_acc {
+		color: #AD9261;
+	}
+
 	/*VIDEOER*/
 
 	iframe {
@@ -271,10 +279,10 @@ get_header(); ?>
 					<img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Intersection-123.png" alt="Tier1MTG event">
 					<button class="event_mere_knap knapper_dark">LÆS MERE</button>
 					<figcaption class="fjerde_sektion_figcuption">
-						<h2 class="h2_acc">Old School Game</h2>
+						<h2 class="h2_acc">Commander Game</h2>
 						<h3 class="h3_acc">Dato: 23-06-2021</h3>
 						<h3 class="h3_acc">Format: Commander</h3>
-						<h3 class="h3_acc">Info: Glæd dig til vores kommende event hos Tier1MTG. Kom til hygge i trygge rammer, hvor du kan spille med andre og vinde fede præmier.<br><br>TIlmelding starter den 8. juli.
+						<h3 class="h3_acc">Info: Glæd dig til vores kommende event hos Tier1MTG. Kom til hygge i trygge rammer, hvor du kan spille med andre og vinde fede præmier.<br><br>Tilmelding starter den 8. juni.
 						</h3>
 					</figcaption>
 				</figure>
@@ -283,10 +291,10 @@ get_header(); ?>
 					<img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Intersection-123.png" alt="">
 					<button class="event_mere_knap knapper_dark">LÆS MERE</button>
 					<figcaption class="fjerde_sektion_figcuption">
-						<h2 class="h2_acc">Old School Game</h2>
-						<h3 class="h3_acc">Dato: 23-06-2021</h3>
+						<h2 class="h2_acc">High score Alpha</h2>
+						<h3 class="h3_acc">Dato: 14-07-2021</h3>
 						<h3 class="h3_acc">Format: Commander</h3>
-						<h3 class="h3_acc">Info: Glæd dig til vores kommende event hos Tier1MTG. Kom til hygge i trygge rammer, hvor du kan spille med andre og vinde fede præmier.<br><br>TIlmelding starter den 8. juli.
+						<h3 class="h3_acc">Info: Glæd dig til vores kommende event hos Tier1MTG. Kom til hygge i trygge rammer, hvor du kan spille med andre og vinde fede præmier.<br><br>Tilmelding starter den 8. juli.
 						</h3>
 					</figcaption>
 				</figure>
@@ -295,10 +303,10 @@ get_header(); ?>
 					<img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Intersection-123.png" alt="Tier1MTG event">
 					<button class="event_mere_knap knapper_dark">LÆS MERE</button>
 					<figcaption class="fjerde_sektion_figcuption">
-						<h2 class="h2_acc">Old School Game</h2>
-						<h3 class="h3_acc">Dato: 23-06-2021</h3>
+						<h2 class="h2_acc">Tier1 Commander Gonzo</h2>
+						<h3 class="h3_acc">Dato: 03-08-2021</h3>
 						<h3 class="h3_acc">Format: Commander</h3>
-						<h3 class="h3_acc">Info: Glæd dig til vores kommende event hos Tier1MTG. Kom til hygge i trygge rammer, hvor du kan spille med andre og vinde fede præmier.<br><br>TIlmelding starter den 8. juli.
+						<h3 class="h3_acc">Info: Glæd dig til vores kommende event hos Tier1MTG. Kom til hygge i trygge rammer, hvor du kan spille med andre og vinde fede præmier.<br><br>Tilmelding starter den 18. juli.
 						</h3>
 					</figcaption>
 				</figure>
