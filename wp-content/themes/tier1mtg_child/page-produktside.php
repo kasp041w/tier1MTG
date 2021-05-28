@@ -427,12 +427,13 @@ get_header(); ?>
 
 
 
+        <!--
         <section class="visSidebar">
             <div class="t">
-                <!--
+
                 <button id="luk-knap" class="luk-display knapper_dark">×
                 </button>
--->
+
                 <h2>Sortér efter</h2>
                 <input type="checkbox">
                 <label>Nyeste
@@ -532,6 +533,7 @@ get_header(); ?>
                 <br>
             </div>
         </section>
+-->
 
         <div id="produktliste">
             <section id="single_cat_overskrift">
