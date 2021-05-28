@@ -157,6 +157,12 @@ get_header(); ?>
 			grid-column: 3/3;
 			grid-row: 1;
 		}
+
+		/*CARDMARKET SEKTION*/
+		#commander_cardmarket_sektion p {
+			padding-left: 25vw;
+			padding-right: 25vw;
+		}
 	}
 
 </style>
