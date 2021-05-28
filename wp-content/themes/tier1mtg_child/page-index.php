@@ -421,7 +421,7 @@ get_header(); ?>
             </a>
             <div class="forside_image-container">
                 <figure class="forside_figure_ny">
-                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/jeweled-bird.jpg" alt="Tier1MTG event">
+                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Intersection-123.png" alt="Tier1MTG event">
                     <button class="event_mere_knap knapper_dark">LÆS MERE</button>
                     <figcaption class="fjerde_sektion_figcuption">
                         <h2 class="h2_acc">Old School Game</h2>
@@ -433,7 +433,7 @@ get_header(); ?>
                 </figure>
 
                 <figure class="forside_figure_ny">
-                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/jeweled-bird.jpg" alt="">
+                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Intersection-123.png" alt="">
                     <button class="event_mere_knap knapper_dark">LÆS MERE</button>
                     <figcaption class="fjerde_sektion_figcuption">
                         <h2 class="h2_acc">Old School Game</h2>
@@ -445,7 +445,7 @@ get_header(); ?>
                 </figure>
 
                 <figure class="forside_figure_ny">
-                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/jeweled-bird.jpg" alt="Tier1MTG event">
+                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Intersection-123.png" alt="Tier1MTG event">
                     <button class="event_mere_knap knapper_dark">LÆS MERE</button>
                     <figcaption class="fjerde_sektion_figcuption">
                         <h2 class="h2_acc">Old School Game</h2>
