@@ -146,7 +146,7 @@ get_header(); ?>
         color: #F1F0E8;
         padding-left: 10vw;
         padding-right: 10vw;
-        z-index: 4;
+        z-index: 30;
     }
 
     .luk-display {
@@ -462,7 +462,7 @@ get_header(); ?>
             //Viser kategorierne i en pop-up menu i mobilversion
             document.querySelector("#visKategorier").addEventListener("mousedown", visKategorier);
             document.querySelector("#visFilter").addEventListener("mousedown", visFilter);
-//            document.querySelector("#luk-knap").addEventListener("mousedown", visFilter);
+            //            document.querySelector("#luk-knap").addEventListener("mousedown", visFilter);
 
             visSingles();
             opretKnapper();
