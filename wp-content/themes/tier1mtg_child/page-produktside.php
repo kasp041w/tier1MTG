@@ -108,16 +108,6 @@ get_header(); ?>
         margin-bottom: 0;
     }
 
-    /*
-    BREMMEN UNDER FILTRERINGEN
-    #produkt_filter_bremme {
-        background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/filter_kolonne.png);
-        background-size: cover;
-        max-width: none;
-        height: 30vh;
-        width: 100%;
-    }
-*/
 
     /*---FILTRERINGSNAVIGATION---*/
     /*Knappernen */
