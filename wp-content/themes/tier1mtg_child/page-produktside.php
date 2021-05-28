@@ -302,6 +302,116 @@ get_header(); ?>
         </section>
 
 
+        <section id="produkt_filter_bremme">
+            <div class="produkt_filter_container">
+                <div class="left">
+                    <h2>Farveidentiet</h2>
+                    <input type="checkbox">
+                    <label>Rød
+                    </label>
+                    <br>
+                    <input type="checkbox">
+                    <label>Grøn
+                    </label>
+                    <br>
+                    <input type="checkbox">
+                    <label>Blå
+                    </label>
+                    <br>
+                    <input type="checkbox">
+                    <label>Sort
+                    </label>
+                    <br>
+                    <input type="checkbox">
+                    <label>Hvid
+                    </label>
+                    <br>
+                    <input type="checkbox">
+                    <label>Colorless
+                    </label>
+                    <br>
+                    <div class="opdeling"></div>
+                    <br>
+                    <h2>Korttype</h2>
+                    <input type="checkbox">
+                    <label>Creature
+                    </label>
+                    <br>
+                    <input type="checkbox">
+                    <label>Instant
+                    </label>
+                    <br>
+                    <input type="checkbox">
+                    <label>Sorcery
+                    </label>
+                    <br>
+                    <input type="checkbox">
+                    <label>Artifact
+                    </label>
+                    <br>
+                    <input type="checkbox">
+                    <label>Land
+                    </label>
+                    <br>
+                    <input type="checkbox">
+                    <label>Planeswalker
+                    </label>
+                    <br>
+                    <div class="opdeling"></div>
+                    <br>
+                    <h2>Ekstra</h2>
+                    <input type="checkbox">
+                    <label>Foil
+                    </label>
+                    <br>
+                    <input type="checkbox">
+                    <label>Signed
+                    </label>
+                    <br>
+                    <input type="checkbox">
+                    <label>Altered
+                    </label>
+                    <br>
+                    <div class="opdeling"></div>
+                    <br>
+                    <input class="search-knap" type="submit" value="Søg">
+                    <br>
+                </div>
+                <div class="middle">
+                    <h3>PRODUKTER: 24</h3>
+                </div>
+                <div class="right">
+                    <h2>Sortér efter</h2>
+                    <input type="checkbox">
+                    <label>Nyeste
+                    </label>
+                    <br>
+                    <input type="checkbox">
+                    <label>Navn A-Z
+                    </label>
+                    <br>
+                    <input type="checkbox">
+                    <label>Navn Z-A
+                    </label>
+                    <br>
+                    <div class="opdeling"></div>
+                    <br>
+                    <h2>Pris</h2>
+                    <input type="checkbox">
+                    <label>Fra lavest til højst
+                    </label>
+                    <br>
+                    <input type="checkbox">
+                    <label>Fra højst til lavest
+                    </label>
+                    <br>
+                    <div class="opdeling"></div>
+                    <br>
+                </div>
+            </div>
+        </section>
+
+
 
         <section class="visSidebar">
             <div class="t">
@@ -406,7 +516,6 @@ get_header(); ?>
                 <br>
                 <input class="search-knap" type="submit" value="Søg">
                 <br>
-
             </div>
         </section>
 
