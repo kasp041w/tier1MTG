@@ -83,8 +83,18 @@ get_header(); ?>
 
 	/*VIDEOER*/
 
-	iframe {
-		place-self: center;
+	.commander_wrapper {
+		position: relative;
+		height: 0;
+	}
+
+	.commander_wrapper iframe {
+		/*place-self: center;*/
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
 	}
 
 	/*KNAPPER OG LINKS*/
@@ -188,8 +198,10 @@ get_header(); ?>
 				<p>Tekst her om Commander-formatet. Etiam justo erat, pellentesque vel lacus vel, tincidunt pellentesque nisl. Integer auctor nibh eget lorem aliquet, pulvinar efficitur augue ullamcorper. Interdum et malesuada fames ac ante ipsum primis in faucibus. In id pretium est. Aenean vehicula arcu nunc, et sodales ante finibus in. Proin sed tellus varius, consectetur leo sit amet, gravida velit. Vivamus ac eleifend sem. Suspendisse mattis dolor lorem, id venenatis odio venenatis quis. Sed sit amet finibus mauris. Phasellus id elementum velit. Nulla facilisi. Cras elementum gravida pulvinar.</p>
 			</div>
 			<div class="commander_top_col_2">
-				<iframe width="420" height="315" src="https://www.youtube.com/embed/k70dmf3kQYU">
-				</iframe>
+				<div class="commander_wrapper">
+					<iframe width="420" height="315" src="https://www.youtube.com/embed/k70dmf3kQYU">
+					</iframe>
+				</div>
 			</div>
 		</section>
 		<section id="commander_kort_sektion">
@@ -204,7 +216,7 @@ get_header(); ?>
 				<p>Se vores Commander-playliste på Youtube</p>
 			</div>
 			<div class="commander_tip_col_2">
-				<iframe width=100% height=auto src="https://www.youtube.com/embed/Js6hJ_4K5CU">
+				<iframe width="420" height="315" src="https://www.youtube.com/embed/Js6hJ_4K5CU">
 				</iframe>
 			</div>
 		</section>
