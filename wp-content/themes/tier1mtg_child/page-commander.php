@@ -105,6 +105,10 @@ get_header(); ?>
 
 	@media only screen and (min-width: 800px) {
 
+		section {
+			padding-bottom: 6vw;
+		}
+
 		/*GRID PÅ TOPSEKTION*/
 		#commander_top_sektion {
 			display: grid;
@@ -140,9 +144,17 @@ get_header(); ?>
 			grid-row: 1;
 			padding-top: 10vw;
 		}
+
+		/*#commander_cardmarket_sektion {
+			padding-bottom: 6vw;
+		}*/
 	}
 
 	@media only screen and (min-width: 1200px) {
+
+		section {
+			padding-bottom: 4vw;
+		}
 
 		/*TILPASNING AF PADDING PÅ UGENS TIP-SEKTION*/
 		.commander_tip_col_1 {
@@ -158,6 +170,10 @@ get_header(); ?>
 			padding-left: 25vw;
 			padding-right: 25vw;
 		}
+
+		/*#commander_cardmarket_sektion {
+			padding-bottom: 4vw;
+		}*/
 	}
 
 </style>
