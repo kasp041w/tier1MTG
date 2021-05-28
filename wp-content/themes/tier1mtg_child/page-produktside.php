@@ -307,6 +307,7 @@ get_header(); ?>
         <section id="nav-mobil">
             <button id="visKategorier" class="knapper_dark">☰</button>
             <button id="visFilter" class="knapper_dark">⇆</button>
+            <button id="visFilter_right" class="knapper_dark">1</button>
             <nav class="filtrering">
                 <button class="filter_knapper knapper_light" data-single="alle">Alle</button>
             </nav>
@@ -590,6 +591,7 @@ get_header(); ?>
             //Viser kategorierne i en pop-up menu i mobilversion
             document.querySelector("#visKategorier").addEventListener("mousedown", visKategorier);
             document.querySelector("#visFilter").addEventListener("mousedown", visFilter);
+            document.querySelector("#visFilter_right").addEventListener("mousedown", visFilter_right);
             //            document.querySelector("#luk-knap").addEventListener("mousedown", visFilter);
 
             visSingles();
@@ -628,9 +630,12 @@ get_header(); ?>
         //Viser filterne i en pop-up menu i mobilversion
         function visFilter() {
             document.querySelector(".visSidebar_left").classList.toggle("sidebar-display_left");
-            document.querySelector(".visSidebar_right").classList.toggle("sidebar-display_right");
+
         }
 
+        function visFilter_right() {
+            document.querySelector(".visSidebar_right").classList.toggle("sidebar-display_right");
+        }
 
 
         function filtrering() {
