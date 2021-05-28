@@ -77,6 +77,10 @@ get_header(); ?>
 	}
 
 	/*EVENT SEKTION STYLING*/
+	.forside_image-container figure {
+		position: relative;
+	}
+
 	#forside_fjerde_sektion img {
 		border-top-left-radius: 5%;
 		border-top-right-radius: 5%;
