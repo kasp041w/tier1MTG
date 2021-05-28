@@ -255,6 +255,7 @@ get_header(); ?>
         }
 
         #visFilter_right {
+            grid-column-start: 3;
             place-self: center end;
         }
 
@@ -338,9 +339,9 @@ get_header(); ?>
         </section>
 
         <section id="nav-mobil">
-            <button id="visKategorier" class="knapper_dark">☰</button>
-            <button id="visFilter" class="knapper_dark">⇆</button>
-            <button id="visFilter_right" class="knapper_dark">1</button>
+            <button id="visKategorier" class="knapper_dark">KATEGORI ☰</button>
+            <button id="visFilter" class="knapper_dark">FILTER ⇆</button>
+            <button id="visFilter_right" class="knapper_dark">SORTER EFTER ⋎</button>
             <nav class="filtrering">
                 <button class="filter_knapper knapper_light" data-single="alle">Alle</button>
             </nav>
