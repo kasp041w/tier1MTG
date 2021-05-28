@@ -262,12 +262,6 @@ get_header(); ?>
             grid-template-columns: 1fr 1fr 1fr 1fr;
         }
 
-        /*
-        .filter_knapper {
-        width: 48%;
-        }
-*/
-
 
 
         /*IDAS FORSØG PÅ AT LAVE FILTERINGS KNAPPERNE*/
@@ -280,7 +274,6 @@ get_header(); ?>
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
             grid-template-rows: 1fr 1fr;
-
             margin: 0 auto;
             max-width: 1200px;
         }
