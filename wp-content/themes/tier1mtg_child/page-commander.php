@@ -389,7 +389,7 @@ get_header(); ?>
 					<img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Intersection-123.png" alt="Tier1MTG event">
 					<button class="event_mere_knap knapper_dark">LÆS MERE</button>
 					<figcaption class="fjerde_sektion_figcuption">
-						<h2 class="h2_acc">Tier1 Commander Gonzo</h2>
+						<h2 class="h2_acc">Tier1 Gonzo</h2>
 						<h3 class="h3_acc">Dato: 03-08-2021</h3>
 						<h3 class="h3_acc">Format: Commander</h3>
 						<h3 class="h3_acc">Info: Glæd dig til vores kommende event hos Tier1MTG. Kom til hygge i trygge rammer, hvor du kan spille med andre og vinde fede præmier.<br><br>Tilmelding starter den 18. juli.
@@ -398,7 +398,47 @@ get_header(); ?>
 				</figure>
 			</div>
 		</section>
+		<section id="commander_artikler">
+			<h1>LÆS DET NYESTE OM COMMANDER</h1>
+			<p>Hold dig opdateret på det nyeste inden for Commander-formatet på vores blog</p>
+			<!--			Events ind her - hvordan?-->
+			<a href="">
+				<h3 class="til_kort_side_nav">Se alle artikler →</h3>
+			</a>
+			<div class="forside_image-container">
+				<figure class="forside_figure_event">
+					<img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Intersection-123.png" alt="Tier1MTG event">
+					<button class="event_mere_knap knapper_dark">LÆS MERE</button>
+					<figcaption class="fjerde_sektion_figcuption">
+						<h2 class="h2_acc">Hvilken type spiller er du?</h2>
+						<h3 class="h3_acc">Find den Magic-strategi, der passer bedst til din spillestil.</h3>
+					</figcaption>
+				</figure>
 
+				<figure class="forside_figure_event">
+					<img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Intersection-123.png" alt="">
+					<button class="event_mere_knap knapper_dark">LÆS MERE</button>
+					<figcaption class="fjerde_sektion_figcuption">
+						<h2 class="h2_acc">Det bedste fra Strixhaven</h2>
+						<h3 class="h3_acc">Tjek dine yndlings Commander-kort ud fra de nyeste sæt.</h3>
+					</figcaption>
+				</figure>
+
+				<figure class="forside_figure_event">
+					<img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Intersection-123.png" alt="Tier1MTG event">
+					<button class="event_mere_knap knapper_dark">LÆS MERE</button>
+					<figcaption class="fjerde_sektion_figcuption">
+						<h2 class="h2_acc">Sådan laver du et deck</h2>
+						<h3 class="h3_acc">Se vores anbefalinger til kort, som du kan lave Commander-decks med.</h3>
+					</figcaption>
+				</figure>
+			</div>
+		</section>
+		<section id="commander_cardmarket_sektion">
+			<h1>VI ER OGSÅ PÅ CARDMARKET</h1>
+			<p>Tekst om Cardmarket her. Nulla mollis nisi in turpis interdum, nec feugiat dui suscipit. Praesent dapibus tristique justo et dictum. Fusce vel tellus a mauris interdum pulvinar. Vivamus nec lacinia lorem. Nullam commodo dictum ornare. Nunc sit amet turpis vehicula turpis maximus venenatis eu vel mi. Duis a blandit elit, non pulvinar ante. Fusce venenatis est at urna scelerisque interdum. Donec in dignissim lacus, in ullamcorper dolor. Aenean sollicitudin diam vitae elit condimentum maximus. Praesent aliquam, massa ut ultricies commodo, tellus ex varius ante, sed luctus nulla diam eu nunc.</p>
+			<button class="commander_knap_cardmarket">Læs mere</button>
+		</section>
 	</main>
 
 	<!--SKABELON TIL SINGLES - KORT DU IKKE MÅ GÅ GLIP AF-->
