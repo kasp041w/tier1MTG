@@ -186,7 +186,7 @@ get_header(); ?>
 				<p>Tekst her om Commander-formatet. Etiam justo erat, pellentesque vel lacus vel, tincidunt pellentesque nisl. Integer auctor nibh eget lorem aliquet, pulvinar efficitur augue ullamcorper. Interdum et malesuada fames ac ante ipsum primis in faucibus. In id pretium est. Aenean vehicula arcu nunc, et sodales ante finibus in. Proin sed tellus varius, consectetur leo sit amet, gravida velit. Vivamus ac eleifend sem. Suspendisse mattis dolor lorem, id venenatis odio venenatis quis. Sed sit amet finibus mauris. Phasellus id elementum velit. Nulla facilisi. Cras elementum gravida pulvinar.</p>
 			</div>
 			<div class="commander_top_col_2">
-				<iframe width="420" height="315" src="https://www.youtube.com/embed/k70dmf3kQYU">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/k70dmf3kQYU">
 				</iframe>
 			</div>
 		</section>
