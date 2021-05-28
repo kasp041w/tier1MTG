@@ -56,8 +56,7 @@ get_header(); ?>
 		width: 100%;
 	}
 
-	.commander_tip_col_1,
-	.commander_tip_col_2 {
+	.commander_tip_col_1 {
 		padding-top: 10vw;
 	}
 
@@ -119,11 +118,13 @@ get_header(); ?>
 		.commander_tip_col_1 {
 			grid-column: 1/2;
 			grid-row: 1;
+			padding-top: 10vw;
 		}
 
 		.commander_tip_col_2 {
 			grid-column: 2/2;
 			grid-row: 1;
+			padding-top: 10vw;
 		}
 	}
 
@@ -156,11 +157,13 @@ get_header(); ?>
 		.commander_tip_col_1 {
 			grid-column: 1/3;
 			grid-row: 1;
+			padding-top: 13vw;
 		}
 
 		.commander_tip_col_2 {
 			grid-column: 3/3;
 			grid-row: 1;
+			padding-top: 15vw;
 		}
 
 		/*CARDMARKET SEKTION*/
