@@ -132,8 +132,9 @@ get_header(); ?>
         background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/del_af_universet.png);
         background-size: cover;
         max-width: none;
-        height: 90vh;
+        height: 75vh;
         width: 100%;
+        margin: 130px 0 90px 0;
     }
 
     .forside_anden_sektion_styl {
@@ -143,6 +144,7 @@ get_header(); ?>
 
     .forside_anden_sektion_tekst {
         display: grid;
+        padding: 16vh 0;
     }
 
 
@@ -249,7 +251,7 @@ get_header(); ?>
     }
 
     /*----- så blomsten i bunden går i ét med footer-----*/
-    section #forside_sjette_sektion {
+    section .forside_sjette_sektion_grid {
         margin-bottom: -6px;
     }
 
@@ -284,7 +286,7 @@ get_header(); ?>
         /*ANDEN SEKTION*/
 
         #forside_anden_sektion {
-            height: 50vh;
+            height: 57vh;
         }
 
         .forside_anden_sektion_tekst {
