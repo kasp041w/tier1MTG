@@ -85,8 +85,19 @@ get_header(); ?>
 	/*KNAPPER OG LINKS*/
 
 	/*VIRKER IKKE?*/
-	.commander_knap_cardmarket {
+	button .commander_knap_cardmarket {
 		place-self: center;
+		background-color: #AD9261;
+		color: #272727;
+		border-radius: 20px;
+		padding: 12px 20px 12px 20px;
+		font-weight: bold;
+		font-family: 'Cormorant', serif;
+	}
+
+	.commander_knap_cardmarket:hover {
+		background-color: #F1F0E8;
+		color: #AD9261;
 	}
 
 	/*MEDIA QUERIES*/
