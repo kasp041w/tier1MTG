@@ -124,6 +124,13 @@ get_header(); ?>
 		.commander_top_col_2 {
 			grid-column: 2/2;
 			grid-row: 1;
+			padding-right: 0;
+		}
+
+		iframe {
+			place-self: right;
+			width: "800";
+			height: "450";
 		}
 
 		/*GRID PÅ UGENS TIP-SEKTION*/
@@ -154,6 +161,12 @@ get_header(); ?>
 
 		section {
 			padding-bottom: 4vw;
+		}
+
+		iframe {
+			place-self: right;
+			width: "960";
+			height: "574";
 		}
 
 		/*TILPASNING AF PADDING PÅ UGENS TIP-SEKTION*/
