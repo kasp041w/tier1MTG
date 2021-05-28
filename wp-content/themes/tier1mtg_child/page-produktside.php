@@ -140,7 +140,6 @@ get_header(); ?>
         height: 130%;
         width: 100vw;
         background-color: #272727;
-        top: 25%;
         left: 0px;
         display: block;
         color: #F1F0E8;
@@ -239,8 +238,11 @@ get_header(); ?>
         .sidebar-display {
             width: 50%;
             padding-right: 0;
-            top: 20%;
+            margin-top: 90px;
+
         }
+
+
 
         .opdeling {
             width: 30vw;
@@ -301,8 +303,10 @@ get_header(); ?>
 
         <section class="visSidebar">
             <div class="t">
+<!--
                 <button id="luk-knap" class="luk-display knapper_dark">×
                 </button>
+-->
                 <h2>Sortér efter</h2>
                 <input type="checkbox">
                 <label>Nyeste
