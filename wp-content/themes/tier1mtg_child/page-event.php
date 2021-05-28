@@ -27,6 +27,10 @@ get_header(); ?>
         background-position: 50%;
     }
 
+    #event_anden_sektion .top {
+        margin: 8vw auto;
+        max-width: 600px
+    }
 
     /*ANDEN SEKTION*/
     /* grid og siden styling*/
@@ -40,7 +44,10 @@ get_header(); ?>
     #event_anden_sektion,
     #event_fjerde_sektion {
         max-width: 1200px;
-        margin: 0 auto;
+        margin: 40px auto;
+        padding: 0 4vw;
+        text-align: center;
+
     }
 
     /*Knapper, img og fonte*/
@@ -102,30 +109,49 @@ get_header(); ?>
         background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/bjerg_baggrund.png);
         background-size: cover;
         max-width: none;
-        height: 130vh;
+        height: 100vh;
         width: 100%;
         display: grid;
+        margin-top: 90px;
     }
 
     .event_trejde_container {
         place-self: center center;
         text-align: center;
         color: white;
+        margin: 3wv;
     }
+
+    .event_trejde_container h1,
+    .event_trejde_container p {
+        color: white;
+    }
+
+    .event_trejde_container iframe {
+        width: 100%;
+        margin: 1wv
+    }
+
 
 
     /*FJERDE SEKTION*/
     .event_sociale_medier {
         text-align: center;
+        margin: 50px auto 150px auto;
+        gap: 5vw;
+        display: flex;
+        justify-content: center;
     }
 
     @media (min-width: 950px) {
 
         /*FØRTE SEKTION*/
         #event_firste_sektion .event_splach {
-
             height: 90vh;
+        }
 
+        #event_trejde_sektion {
+            height: 130vh;
         }
     }
 
