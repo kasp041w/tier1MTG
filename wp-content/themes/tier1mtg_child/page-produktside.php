@@ -284,7 +284,7 @@ get_header(); ?>
 
         #nav-mobil {
             display: grid;
-            grid-template-columns: 1fr 0.5fr 0.5fr;
+            grid-template-columns: 1fr 0.5fr 0.3fr;
             text-align: left
         }
 
@@ -319,6 +319,7 @@ get_header(); ?>
             padding: 12px 20px 12px 20px;
             font-weight: bold;
             font-family: 'Cormorant', serif;
+            font-size: 1rem;
         }
 
         .knapper_dark_filter:hover {
