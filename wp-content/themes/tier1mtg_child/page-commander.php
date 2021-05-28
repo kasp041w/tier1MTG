@@ -204,7 +204,7 @@ get_header(); ?>
 				<p>Se vores Commander-playliste på Youtube</p>
 			</div>
 			<div class="commander_tip_col_2">
-				<iframe width="420" height="315" src="https://www.youtube.com/embed/Js6hJ_4K5CU">
+				<iframe width=100% height=auto src="https://www.youtube.com/embed/Js6hJ_4K5CU">
 				</iframe>
 			</div>
 		</section>
