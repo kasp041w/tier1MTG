@@ -18,7 +18,7 @@ get_header(); ?>
 	}
 
 	section {
-		margin-bottom: 15vw;
+		padding-bottom: 15vw;
 	}
 
 	commander_kort_sektion,
