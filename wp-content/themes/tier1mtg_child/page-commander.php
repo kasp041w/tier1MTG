@@ -62,7 +62,7 @@ get_header(); ?>
 
 	#commander_cardmarket_sektion {
 		background-color: #272727;
-		margin-bottom: 20vw;
+		padding-bottom: 20vw;
 	}
 
 	#commander_cardmarket_sektion h1 {
