@@ -63,16 +63,15 @@ get_header(); ?>
 	#commander_cardmarket_sektion {
 		background-color: #272727;
 		padding-bottom: 20vw;
+		text-align: center;
 	}
 
 	#commander_cardmarket_sektion h1 {
 		color: #F5F5F5;
-		text-align: center;
 	}
 
 	#commander_cardmarket_sektion p {
 		color: #AD9261;
-		text-align: center;
 		padding-left: 15vw;
 		padding-right: 15vw;
 	}
