@@ -249,7 +249,7 @@ get_header(); ?>
     }
 
     /*----- så blomsten i bunden går i ét med footer-----*/
-    section #forside_sjette_sektion {
+    section .forside_sjette_sektion_grid {
         margin-bottom: -6px;
     }
 
