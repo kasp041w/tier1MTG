@@ -85,7 +85,7 @@ get_header(); ?>
 	/*KNAPPER OG LINKS*/
 
 	/*VIRKER IKKE?*/
-	button .commander_knap_cardmarket {
+	.commander_knap_cardmarket {
 		place-self: center;
 		background-color: #AD9261;
 		color: #272727;
