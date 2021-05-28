@@ -166,7 +166,7 @@ get_header(); ?>
         z-index: 30;
     }
 
-    produkt_nav_h3 {
+    .produkt_nav_h3 {
         display: none;
     }
 
@@ -263,8 +263,13 @@ get_header(); ?>
             place-self: center end;
         }
 
+        .produkt_nav_h3 {
+            display: block;
+        }
 
-
+        .produkt_nav_h3 h3 {
+            color: #F1F0E8;
+        }
 
         /* FILTRERING DROPDOWN: styling af dropdown*/
 
