@@ -51,14 +51,14 @@ get_header(); ?>
     }
 
     /*Knapper, img og fonte*/
-    .event_mere_knap {
-        position: absolute;
-        left: 68%;
-        bottom: 5%;
-        z-index: 40;
-        font-size: 10px;
-        padding: 6px 10px 6px 10px;
-    }
+   /* .event_mere_knap {
+ position: absolute;
+ left: 68%;
+ bottom: 5%;
+ z-index: 40;
+ font-size: 10px;
+ padding: 6px 10px 6px 10px;
+ }*/
 
     #event_anden_sektion .top {
         text-align: center;
