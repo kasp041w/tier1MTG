@@ -85,7 +85,7 @@ get_header(); ?>
 
 	/*KNAPPER OG LINKS*/
 
-	button .commander_knap_cardmarket {
+	.commander_knap_cardmarket {
 		background-color: #AD9261;
 		color: #272727;
 		border-radius: 20px;
