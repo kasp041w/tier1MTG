@@ -108,6 +108,15 @@ get_header(); ?>
         margin-bottom: 0;
     }
 
+    /*BREMMEN UNDER FILTRERINGEN */
+    #produkt_filter_bremme {
+        background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/filter_kolonne.png);
+        background-size: cover;
+        max-width: none;
+        height: 30vh;
+        width: 100%;
+    }
+
     /*---FILTRERINGSNAVIGATION---*/
     /*Knappernen */
     .knapper_dark_kategori {
@@ -286,11 +295,6 @@ get_header(); ?>
             display: grid;
             grid-template-columns: 1fr 0.5fr 0.3fr;
             text-align: left;
-            background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/filter_kolonne.png);
-            background-size: cover;
-            max-width: none;
-            height: 100vh;
-            width: 100%;
         }
 
         #visFilter {
@@ -398,6 +402,8 @@ get_header(); ?>
             margin: 0 auto;
             max-width: 1200px;
         }
+
+
 
     }
 
