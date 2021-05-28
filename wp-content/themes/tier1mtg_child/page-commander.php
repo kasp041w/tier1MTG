@@ -87,6 +87,10 @@ get_header(); ?>
 		place-self: center;
 	}
 
+	/*KNAPPER OG LINKS*/
+
+
+
 	/*MEDIA QUERIES*/
 
 	@media only screen and (min-width: 800px) {
@@ -157,13 +161,13 @@ get_header(); ?>
 		.commander_tip_col_1 {
 			grid-column: 1/3;
 			grid-row: 1;
-			padding-top: 13vw;
+			padding-top: 12vw;
 		}
 
 		.commander_tip_col_2 {
 			grid-column: 3/3;
 			grid-row: 1;
-			padding-top: 15vw;
+			padding-top: 12vw;
 		}
 
 		/*CARDMARKET SEKTION*/
@@ -190,7 +194,7 @@ get_header(); ?>
 		</section>
 		<section id="commander_kort_sektion">
 			<h1>KORT DU IKKE MÅ GÅ GLIP AF</h1>
-			<a href="http://kasperdyhl.dk/tier1mtg/produktside/">Se alle single cards</a>
+			<a href="http://kasperdyhl.dk/tier1mtg/produktside/" class="commander_singles">Se alle single cards &#8594;</a>
 		</section>
 		<section id="commander_tip_sektion">
 			<div class="commander_tip_col_1">
