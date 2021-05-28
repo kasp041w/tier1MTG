@@ -20,7 +20,7 @@ get_header(); ?>
     <main id="main" <?php generate_do_element_classes( 'main' ); ?>>
 
         <style>
-            #omOs h2 {
+            #omOs h1 {
                 margin: 0 0 5wv 0;
             }
 
@@ -186,7 +186,7 @@ get_header(); ?>
 
                 <div class="ansat">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Group-943.png" alt="Dan">
-                    <h3>Dan Sønderskov</h3>
+                    <h1>Dan Sønderskov</h1>
                     <p>GRUNDLÆGGER / DIREKTØR</p>
                 </div>
 
