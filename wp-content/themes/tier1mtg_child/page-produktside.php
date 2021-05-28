@@ -140,7 +140,7 @@ get_header(); ?>
         height: 130%;
         width: 100vw;
         background-color: #272727;
-        top: 10%;
+        top: 25%;
         left: 0px;
         display: block;
         color: #F1F0E8;
@@ -462,7 +462,7 @@ get_header(); ?>
             //Viser kategorierne i en pop-up menu i mobilversion
             document.querySelector("#visKategorier").addEventListener("mousedown", visKategorier);
             document.querySelector("#visFilter").addEventListener("mousedown", visFilter);
-            document.querySelector("#luk-knap").addEventListener("mousedown", visFilter);
+//            document.querySelector("#luk-knap").addEventListener("mousedown", visFilter);
 
             visSingles();
             opretKnapper();
