@@ -18,7 +18,7 @@ get_header(); ?>
 	}
 
 	section {
-		margin-bottom: 10vw;
+		margin-bottom: 15vw;
 	}
 
 	commander_kort_sektion,
@@ -62,6 +62,7 @@ get_header(); ?>
 
 	#commander_cardmarket_sektion {
 		background-color: #272727;
+		margin-bottom: 20vw;
 	}
 
 	#commander_cardmarket_sektion h1 {
