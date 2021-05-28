@@ -132,39 +132,12 @@ get_header(); ?>
 
 	@media only screen and (min-width: 1200px) {
 
-		/*GRID PÅ TOPSEKTION*/
-		/*#commander_top_sektion {
-			display: grid;
-			grid-template-columns: 1fr 1fr 1fr;
-			grid-template-rows: 1fr;
-		}
-
-		.commander_top_col_1 {
-			grid-column: 1/3;
-			grid-row: 1;
-		}
-
-		.commander_top_col_2 {
-			grid-column: 3/3;
-			grid-row: 1;
-		}*/
-
-		/*GRID PÅ UGENS TIP-SEKTION*/
-		#commander_tip_sektion {
-			display: grid;
-			grid-template-columns: 1fr 1fr 1fr;
-			grid-template-rows: 1fr;
-		}
-
+		/*TILPASNING AF PADDING PÅ UGENS TIP-SEKTION*/
 		.commander_tip_col_1 {
-			grid-column: 1/3;
-			grid-row: 1;
 			padding-top: 12vw;
 		}
 
 		.commander_tip_col_2 {
-			grid-column: 3/3;
-			grid-row: 1;
 			padding-top: 12vw;
 		}
 
