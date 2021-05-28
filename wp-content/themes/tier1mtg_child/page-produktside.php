@@ -250,7 +250,7 @@ get_header(); ?>
 
         #nav-mobil {
             display: grid;
-            grid-template-columns: 1fr 0.5fr 0.5fr;
+            grid-template-columns: 1fr 0.5fr 1fr;
             text-align: left
         }
 
@@ -350,9 +350,7 @@ get_header(); ?>
 
         <section id="nav-mobil">
             <button id="visKategorier" class="knapper_dark">KATEGORI ☰</button>
-            <div class="hej">
-                <h3>FILTER</h3> <button id="visFilter" class="knapper_dark"> ⇆</button>
-            </div>
+            <button id="visFilter" class="knapper_dark">FILTER ⇆</button>
             <div class="produkt_nav_h3">
                 <h3>PRODUKTER: 24</h3>
             </div>
