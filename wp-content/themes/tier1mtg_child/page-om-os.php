@@ -79,10 +79,8 @@ get_header(); ?>
             #kontaktOs {
                 background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/kontakt_baggrund.png);
                 background-size: cover;
-                height: 100vh;
                 width: 100%;
                 height: auto;
-                max-height: 112vh;
                 text-align: center;
                 padding-top: 130px;
                 padding-bottom: 110px;
@@ -250,7 +248,7 @@ get_header(); ?>
                         <textarea name="skrivHer" placeholder="Skriv hér" id="" cols="1" rows="6"></textarea>
                     </label>
                 </div>
-                <button class="formKnap">Send</button>
+                <button class="formKnap knapper_light">Send</button>
 
             </div>
         </section>
