@@ -86,7 +86,7 @@ get_header(); ?>
 
 	/*VIRKER IKKE?*/
 	.commander_knap_cardmarket {
-		align-self: center;
+		place-self: center;
 	}
 
 	/*MEDIA QUERIES*/
@@ -175,7 +175,7 @@ get_header(); ?>
 				<p>Se vores Commander-playliste på Youtube</p>
 			</div>
 			<div class="commander_tip_col_2">
-				<iframe width="420" height="315" src="https://www.youtube.com/embed/Js6hJ_4K5CU">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/Js6hJ_4K5CU">
 				</iframe>
 			</div>
 		</section>
