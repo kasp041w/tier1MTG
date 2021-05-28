@@ -84,7 +84,7 @@ get_header(); ?>
 	}
 
 	.fjerde_sektion_figcuption {
-		position: absolute;
+		/*position: absolute;*/
 		bottom: 0;
 		background-color: rgba(39, 39, 39, 0.96);
 		width: 100%;
@@ -168,6 +168,17 @@ get_header(); ?>
 			padding-top: 10vw;
 		}
 
+		/*EVENT SEKTION*/
+
+		.til_kort_side_nav {
+			text-align: end;
+		}
+
+		.forside_image-container .forside_figure_ny {
+			flex-basis: 27%;
+		}
+
+		/*CARDMARKET SEKTION*/
 		#commander_cardmarket_sektion {
 			padding-bottom: 6vw;
 		}
