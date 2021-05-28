@@ -144,7 +144,7 @@ html {
 
 .main-navigation .main-nav ul ul ui:hover > a,
 .main-navigation .main-nav ul ul ui:focus > a,
-.main-navigation .main-nav ul ul ui:sfhover > a {
+.main-navigation .main-nav ul ul ui.sfhover > a {
     color: #AD9261;
     background-color: #272727;
 }
@@ -172,7 +172,7 @@ html {
     text-transform: uppercase;
     border: 0;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 }
 
 .main-navigation .main-nav ul ul li a {
