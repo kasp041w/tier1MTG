@@ -108,7 +108,8 @@ get_header(); ?>
         margin-bottom: 0;
     }
 
-    /*BREMMEN UNDER FILTRERINGEN */
+    /*
+    BREMMEN UNDER FILTRERINGEN
     #produkt_filter_bremme {
         background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/filter_kolonne.png);
         background-size: cover;
@@ -116,6 +117,7 @@ get_header(); ?>
         height: 30vh;
         width: 100%;
     }
+*/
 
     /*---FILTRERINGSNAVIGATION---*/
     /*Knappernen */
@@ -431,6 +433,7 @@ get_header(); ?>
 
         <section id="produkt_filter_bremme">
             <div class="produkt_filter_container">
+                <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/filter_kolonne.png" alt="">
                 <div class="left visSidebar_left">
                     <h2>Farveidentiet</h2>
                     <input type="checkbox">
