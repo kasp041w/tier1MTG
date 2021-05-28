@@ -31,6 +31,13 @@ h3 {
     font-size: 1rem;
 }
 
+h4 {
+    font-family: 'Cormorant', serif;
+    color: #272727;
+    font-weight: bold;
+    font-size: 0.75rem;
+}
+
 p {
     font-family: 'Assistant', sans-serif;
     color: #272727;
@@ -73,6 +80,15 @@ a {
 .knapper_light:hover {
     background-color: #F1F0E8;
     color: #AD9261;
+}
+
+.event_mere_knap {
+    position: absolute;
+    left: 68%;
+    bottom: 5%;
+    z-index: 40;
+    font-size: 10px;
+    padding: 6px 10px 6px 10px;
 }
 
 /*---GENREL CSS---*/
@@ -202,4 +218,17 @@ html {
 .site-info {
     color: #ffffff;
     background-color: #272727;
+}
+
+
+
+
+@media (min-width: 950px) {
+
+    /*--------- Knapper----------*/
+    .event_mere_knap {
+        left: 68%;
+        font-size: 12px;
+        padding: 8px 15px 8px 15px;
+    }
 }
