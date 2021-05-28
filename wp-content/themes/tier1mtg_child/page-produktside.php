@@ -268,6 +268,13 @@ get_header(); ?>
         }
 
 
+        /*Grid visning af filter bremmen*/
+
+        .produkt_filter_container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
 
         .opdeling {
             width: 30vw;
