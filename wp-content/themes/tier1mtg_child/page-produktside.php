@@ -131,7 +131,11 @@ get_header(); ?>
         display: inline-block;
     }
 
-    .visSidebar {
+    .visSidebar_left {
+        display: none;
+    }
+
+    .visSidebar_right {
         display: none;
     }
 
@@ -235,7 +239,14 @@ get_header(); ?>
             left: 10%;
         }
 
-        .sidebar-display {
+        .sidebar-display_left {
+            width: 50%;
+            padding-right: 0;
+            margin-top: 90px;
+
+        }
+
+        .sidebar-display_right {
             width: 50%;
             padding-right: 0;
             margin-top: 90px;
@@ -296,6 +307,7 @@ get_header(); ?>
         <section id="nav-mobil">
             <button id="visKategorier" class="knapper_dark">☰</button>
             <button id="visFilter" class="knapper_dark">⇆</button>
+            <button id="visFilter_right" class="knapper_dark">1</button>
             <nav class="filtrering">
                 <button class="filter_knapper knapper_light" data-single="alle">Alle</button>
             </nav>
@@ -304,7 +316,7 @@ get_header(); ?>
 
         <section id="produkt_filter_bremme">
             <div class="produkt_filter_container">
-                <div class="left visSidebar">
+                <div class="left visSidebar_left">
                     <h2>Farveidentiet</h2>
                     <input type="checkbox">
                     <label>Rød
@@ -378,11 +390,11 @@ get_header(); ?>
                     <br>
                 </div>
 
-                <div class="middle visSidebar">
+                <div class="middle">
                     <h3>PRODUKTER: 24</h3>
                 </div>
 
-                <div class="right visSidebar">
+                <div class="right visSidebar_right">
                     <h2>Sortér efter</h2>
                     <input type="checkbox">
                     <label>Nyeste
@@ -415,12 +427,13 @@ get_header(); ?>
 
 
 
+        <!--
         <section class="visSidebar">
             <div class="t">
-                <!--
+
                 <button id="luk-knap" class="luk-display knapper_dark">×
                 </button>
--->
+
                 <h2>Sortér efter</h2>
                 <input type="checkbox">
                 <label>Nyeste
@@ -520,6 +533,7 @@ get_header(); ?>
                 <br>
             </div>
         </section>
+-->
 
         <div id="produktliste">
             <section id="single_cat_overskrift">
@@ -579,6 +593,7 @@ get_header(); ?>
             //Viser kategorierne i en pop-up menu i mobilversion
             document.querySelector("#visKategorier").addEventListener("mousedown", visKategorier);
             document.querySelector("#visFilter").addEventListener("mousedown", visFilter);
+            document.querySelector("#visFilter_right").addEventListener("mousedown", visFilter_right);
             //            document.querySelector("#luk-knap").addEventListener("mousedown", visFilter);
 
             visSingles();
@@ -616,7 +631,12 @@ get_header(); ?>
 
         //Viser filterne i en pop-up menu i mobilversion
         function visFilter() {
-            document.querySelector(".visSidebar").classList.toggle("sidebar-display");
+            document.querySelector(".visSidebar_left").classList.toggle("sidebar-display_left");
+
+        }
+
+        function visFilter_right() {
+            document.querySelector(".visSidebar_right").classList.toggle("sidebar-display_right");
         }
 
 
