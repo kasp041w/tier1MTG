@@ -132,7 +132,7 @@ get_header(); ?>
         background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/del_af_universet.png);
         background-size: cover;
         max-width: none;
-        height: 90vh;
+        height: 75vh;
         width: 100%;
     }
 
@@ -143,6 +143,7 @@ get_header(); ?>
 
     .forside_anden_sektion_tekst {
         display: grid;
+        padding: 16vh 0;
     }
 
 
