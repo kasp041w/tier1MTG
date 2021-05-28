@@ -126,6 +126,12 @@ get_header(); ?>
 			grid-row: 1;
 		}
 
+		iframe {
+			place-self: right;
+			width: "800";
+			height: "450";
+		}
+
 		/*GRID PÅ UGENS TIP-SEKTION*/
 		#commander_tip_sektion {
 			display: grid;
