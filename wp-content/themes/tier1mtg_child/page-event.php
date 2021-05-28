@@ -46,6 +46,7 @@ get_header(); ?>
         max-width: 1200px;
         margin: 40px auto;
         padding: 0 4vw;
+        text-align: center;
 
     }
 
