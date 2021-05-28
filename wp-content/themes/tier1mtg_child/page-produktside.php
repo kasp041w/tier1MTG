@@ -308,6 +308,7 @@ get_header(); ?>
             font-family: 'Cormorant', serif;
             color: #F1F0E8;
             margin: 0;
+            font-size: 0.83ram;
         }
 
 
