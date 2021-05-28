@@ -214,7 +214,7 @@ get_header(); ?>
         background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/forside-om_os1.png);
         background-size: cover;
         max-width: none;
-        height: 90vh;
+        height: 100vh;
         width: 100%;
     }
 
@@ -282,6 +282,10 @@ get_header(); ?>
 
 
         /*FEMTE SEKTIONstyling af femte sektion*/
+        #forside_femte_sektion {
+            height: 90vh;
+        }
+
         .forside_femte_sektion {
             display: grid;
             grid-template-columns: 1fr 1fr;
