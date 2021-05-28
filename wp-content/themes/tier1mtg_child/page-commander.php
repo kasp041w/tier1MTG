@@ -68,8 +68,11 @@ get_header(); ?>
 	#commander_cardmarket_sektion p {
 		color: #AD9261;
 		text-align: center;
+		padding-left: 15vw;
+		padding-right: 15vw;
 	}
 
+	/*VIRKER IKKE?*/
 	.commander_knap_cardmarket {
 		align-self: center;
 	}
