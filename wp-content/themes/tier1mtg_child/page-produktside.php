@@ -110,7 +110,7 @@ get_header(); ?>
 
     /*---FILTRERINGSNAVIGATION---*/
     /*Knappernen */
-    .knapper_dark_katagori {
+    .knapper_dark_kategori {
         background-color: #AD9261;
         color: #272727;
         border-radius: 20px;
@@ -120,7 +120,7 @@ get_header(); ?>
         font-size: 0.83rem;
     }
 
-    .knapper_dark_katagori:hover {
+    .knapper_dark_kategori:hover {
         background-color: #F1F0E8;
         color: #AD9261;
     }
