@@ -378,11 +378,11 @@ get_header(); ?>
                     <br>
                 </div>
 
-                <div class="middle">
+                <div class="middle visSidebar">
                     <h3>PRODUKTER: 24</h3>
                 </div>
 
-                <div class="right">
+                <div class="right visSidebar">
                     <h2>Sortér efter</h2>
                     <input type="checkbox">
                     <label>Nyeste
