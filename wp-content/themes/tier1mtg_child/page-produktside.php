@@ -139,7 +139,21 @@ get_header(); ?>
         display: none;
     }
 
-    .sidebar-display {
+    .sidebar-display_left {
+        position: absolute;
+        height: 130%;
+        width: 100vw;
+        background-color: #272727;
+        left: 0px;
+        display: block;
+        color: #F1F0E8;
+        padding-left: 10vw;
+        padding-right: 10vw;
+        z-index: 30;
+    }
+
+
+    .sidebar-display_right {
         position: absolute;
         height: 130%;
         width: 100vw;
