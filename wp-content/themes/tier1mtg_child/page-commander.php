@@ -56,7 +56,7 @@ get_header(); ?>
         background-image: url("http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/commander_baggrund.png");
         background-size: cover;
         max-width: none;
-        height: 70vh;
+        height: 110vh;
         width: 100%;
     }
 
