@@ -48,6 +48,58 @@ get_header(); ?>
 		color: #272727;
 	}
 
+	/*KORT DU IKKE MÅ GÅ GLIP AF-SEKTION*/
+	.titel_alternativ,
+	.h2_acc {
+		color: #F1F0E8;
+		font-size: 1.5rem;
+		font-weight: bold;
+		margin-bottom: 0;
+	}
+
+	.pris_alternativ,
+	.h3_acc {
+		color: #AD9261;
+		font-size: 1rem;
+		margin-bottom: 0;
+	}
+
+	.se_kort_knap {
+		position: absolute;
+		left: 58%;
+		bottom: 5%;
+		z-index: 40;
+	}
+
+	.billede {
+		border-top-left-radius: 5%;
+		border-top-right-radius: 5%;
+		width: 100%;
+		height: 34rem;
+	}
+
+	/*Styling af hovereffekten på kort og produkter så den sorte bremme forsvinder med mus over bilelde*/
+	article {
+		position: relative;
+	}
+
+	.baggrund_kort {
+		position: absolute;
+		bottom: 0;
+		background-color: rgba(39, 39, 39, 0.96);
+		width: 100%;
+		padding: 20px;
+		height: 30%;
+		transition: .5s ease;
+		overflow: hidden;
+	}
+
+	article:hover .baggrund_kort {
+		height: 0%;
+		padding: 0px 20px 0px 20px;
+
+	}
+
 	#commander_tip_sektion {
 		background-image: url("http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/commander_baggrund.png");
 		background-size: cover;
@@ -253,9 +305,28 @@ get_header(); ?>
 				</iframe>
 			</div>
 		</section>
-		<section id="commander_kort_sektion">
+		<section id="forside_first_section">
 			<h1>KORT DU IKKE MÅ GÅ GLIP AF</h1>
-			<a href="http://kasperdyhl.dk/tier1mtg/produktside/" class="commander_singles">Se alle single cards &#8594;</a>
+			<a href="http://kasperdyhl.dk/tier1mtg/produktside/">
+				<h3 class="til_kort_side_nav">Se alle single cards →</h3>
+			</a>
+			<div class="forside_image-container">
+				<figure class="forside_figure_ny">
+					<div class="new_single_kort"></div>
+				</figure>
+
+				<figure class="forside_figure_ny">
+					<div class="new_single_kort1"></div>
+				</figure>
+
+				<figure class="forside_figure_ny">
+					<div class="new_single_kort2"></div>
+				</figure>
+
+				<figure class="forside_figure_ny">
+					<div class="new_single_kort3"></div>
+				</figure>
+			</div>
 		</section>
 		<section id="commander_tip_sektion">
 			<div class="commander_tip_col_1">
