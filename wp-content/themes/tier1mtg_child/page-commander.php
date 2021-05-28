@@ -87,7 +87,8 @@ get_header(); ?>
 
 	/*VIRKER IKKE?*/
 	.commander_knap_cardmarket {
-		place-self: center;
+		margin: auto;
+		width: inherit;
 		background-color: #AD9261;
 		color: #272727;
 		border-radius: 20px;
@@ -127,12 +128,6 @@ get_header(); ?>
 			padding-right: 0;
 		}
 
-		iframe {
-			place-self: right;
-			width: "800";
-			height: "450";
-		}
-
 		/*GRID PÅ UGENS TIP-SEKTION*/
 		#commander_tip_sektion {
 			display: grid;
@@ -161,12 +156,6 @@ get_header(); ?>
 
 		section {
 			padding-bottom: 4vw;
-		}
-
-		iframe {
-			place-self: right;
-			width: "960";
-			height: "574";
 		}
 
 		/*TILPASNING AF PADDING PÅ UGENS TIP-SEKTION*/
