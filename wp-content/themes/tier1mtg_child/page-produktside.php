@@ -250,11 +250,11 @@ get_header(); ?>
             text-align: left
         }
 
-        .visFilter {
+        #visFilter {
             place-self: center start;
         }
 
-        .visFilter_right {
+        #visFilter_right {
             place-self: center end;
         }
 
