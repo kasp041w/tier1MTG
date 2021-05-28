@@ -131,7 +131,11 @@ get_header(); ?>
         display: inline-block;
     }
 
-    .visSidebar {
+    .visSidebar_left {
+        display: none;
+    }
+
+    .visSidebar_right {
         display: none;
     }
 
@@ -235,7 +239,14 @@ get_header(); ?>
             left: 10%;
         }
 
-        .sidebar-display {
+        .sidebar-display_left {
+            width: 50%;
+            padding-right: 0;
+            margin-top: 90px;
+
+        }
+
+        .sidebar-display_right {
             width: 50%;
             padding-right: 0;
             margin-top: 90px;
@@ -304,7 +315,7 @@ get_header(); ?>
 
         <section id="produkt_filter_bremme">
             <div class="produkt_filter_container">
-                <div class="left visSidebar">
+                <div class="left visSidebar_left">
                     <h2>Farveidentiet</h2>
                     <input type="checkbox">
                     <label>Rød
@@ -378,11 +389,11 @@ get_header(); ?>
                     <br>
                 </div>
 
-                <div class="middle visSidebar">
+                <div class="middle">
                     <h3>PRODUKTER: 24</h3>
                 </div>
 
-                <div class="right visSidebar">
+                <div class="right visSidebar_right">
                     <h2>Sortér efter</h2>
                     <input type="checkbox">
                     <label>Nyeste
@@ -616,8 +627,10 @@ get_header(); ?>
 
         //Viser filterne i en pop-up menu i mobilversion
         function visFilter() {
-            document.querySelector(".visSidebar").classList.toggle("sidebar-display");
+            document.querySelector(".visSidebar_left").classList.toggle("sidebar-display_left");
+            document.querySelector(".visSidebar_right").classList.toggle("sidebar-display_right");
         }
+
 
 
         function filtrering() {
