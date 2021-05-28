@@ -109,6 +109,22 @@ get_header(); ?>
     }
 
     /*---FILTRERINGSNAVIGATION---*/
+    /*Knappernen */
+    .knapper_dark_katagori {
+        background-color: #AD9261;
+        color: #272727;
+        border-radius: 20px;
+        padding: 12px 20px 12px 20px;
+        font-weight: bold;
+        font-family: 'Cormorant', serif;
+        font-size: 0.83rem;
+    }
+
+    .knapper_dark_katagori:hover {
+        background-color: #F1F0E8;
+        color: #AD9261;
+    }
+
 
 
     .knapper_dark_filter {
@@ -118,6 +134,7 @@ get_header(); ?>
         padding: 12px 20px 12px 20px;
         font-weight: bold;
         font-family: 'Cormorant', serif;
+        font-size: 0.83rem;
     }
 
     .knapper_dark_filter:hover {
@@ -308,6 +325,9 @@ get_header(); ?>
             color: #AD9261;
         }
 
+        .knapper_dark_katagori {
+            font-size: 1.2rem;
+        }
 
         /* FILTRERING DROPDOWN: styling af dropdown*/
 
@@ -386,7 +406,7 @@ get_header(); ?>
         </section>
 
         <section id="nav-mobil">
-            <button id="visKategorier" class="knapper_dark">KATEGORI ☰</button>
+            <button id="visKategorier" class="knapper_dark_kategori">KATEGORI ☰</button>
             <button id="visFilter" class="knapper_dark_filter">FILTER ⇆</button>
             <div class="produkt_nav_h3">
                 <h3>PRODUKTER: 24</h3>
