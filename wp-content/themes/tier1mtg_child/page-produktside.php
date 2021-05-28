@@ -166,6 +166,10 @@ get_header(); ?>
         z-index: 30;
     }
 
+    produkt_nav_h3 {
+        display: none;
+    }
+
     .luk-display {
         position: absolute;
         top: 0%;
@@ -341,6 +345,9 @@ get_header(); ?>
         <section id="nav-mobil">
             <button id="visKategorier" class="knapper_dark">KATEGORI ☰</button>
             <button id="visFilter" class="knapper_dark">FILTER ⇆</button>
+            <div class="produkt_nav_h3">
+                <h3>PRODUKTER: 24</h3>
+            </div>
             <button id="visFilter_right" class="knapper_dark">SORTER EFTER ⋎</button>
             <nav class="filtrering">
                 <button class="filter_knapper knapper_light" data-single="alle">Alle</button>
@@ -422,10 +429,6 @@ get_header(); ?>
                     <br>
                     <input class="search-knap" type="submit" value="Søg">
                     <br>
-                </div>
-
-                <div class="middle">
-                    <h3>PRODUKTER: 24</h3>
                 </div>
 
                 <div class="right visSidebar_right">
