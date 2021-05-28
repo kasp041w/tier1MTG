@@ -248,6 +248,11 @@ get_header(); ?>
         text-align: center;
     }
 
+    /*----- så blomsten i bunden går i ét med footer-----*/
+    section #forside_sjette_sektion {
+        margin-bottom: -6px;
+    }
+
     .forside_sjette_sektion_knap {
         background-color: #AD9261;
         color: #F1F0E8;
