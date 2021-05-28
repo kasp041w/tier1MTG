@@ -295,6 +295,7 @@ get_header(); ?>
             display: grid;
             grid-template-columns: 1fr 0.5fr 0.3fr;
             text-align: left;
+            padding-bottom: 0;
         }
 
         #visFilter {
@@ -381,11 +382,6 @@ get_header(); ?>
             width: 100%;
         }
 
-        .filtrering-desk {
-            width: 100vw;
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
-        }
 
 
 
@@ -396,11 +392,13 @@ get_header(); ?>
 
         .filtrering-desk {
             width: 98%;
+            width: 100vw;
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
             grid-template-rows: 1fr 1fr;
             margin: 0 auto;
             max-width: 1200px;
+            padding-top: 30px;
         }
 
 
