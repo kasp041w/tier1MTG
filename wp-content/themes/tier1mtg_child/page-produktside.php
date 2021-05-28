@@ -241,6 +241,28 @@ get_header(); ?>
             margin: 1rem;
         }
 
+
+        /*FILTRERING: styling af filtrerings sektionen med grid i bremmen*/
+
+        #nav-mobil {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            text-align: left
+        }
+
+        .visFilter {
+            place-self: center start;
+        }
+
+        .visFilter_right {
+            place-self: center end;
+        }
+
+
+
+
+        /* FILTRERING DROPDOWN: styling af dropdown*/
+
         #visKategorier {
             display: none;
         }
@@ -268,21 +290,11 @@ get_header(); ?>
         }
 
 
-        /*Grid visning af filter bremmen*/
-
-        .produkt_filter_container {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-        }
-
 
         .opdeling {
             width: 30vw;
         }
 
-        #nav-mobil {
-            text-align: left;
-        }
 
         #nav-desk {
             display: block;
