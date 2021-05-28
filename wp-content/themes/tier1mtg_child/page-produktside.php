@@ -289,6 +289,8 @@ get_header(); ?>
             padding: 12px 20px 12px 20px;
             font-weight: bold;
             font-family: 'Cormorant', serif;
+            color: #F1F0E8;
+            margin: 0;
         }
 
 
