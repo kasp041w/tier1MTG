@@ -100,6 +100,15 @@ get_header(); ?>
 		border-top-right-radius: 5%;
 	}
 
+	.commander_event_knap {
+		position: absolute;
+		left: 68%;
+		bottom: 5%;
+		z-index: 40;
+		font-size: 10px;
+		padding: 6px 10px 6px 10px;
+	}
+
 	/*VIDEOER*/
 
 	iframe {
@@ -241,60 +250,50 @@ get_header(); ?>
 				</iframe>
 			</div>
 		</section>
-		<section id="commander_event_sektion">
-			<h1>SKAL DU VÆRE MED NÆSTE GANG?</h1>
+		<section id="forside_fjerde_sektion">
+			<h1>KOMMENDE EVENTS</h1>
 			<a href="http://kasperdyhl.dk/tier1mtg/event/">
 				<h3 class="til_kort_side_nav">Se alle events →</h3>
 			</a>
-			<!--			billedgalleri ind her -->
 			<div class="forside_image-container">
-				<figure class="forside_figure_ny">
+				<figure class="forside_figure_event">
 					<img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Intersection-123.png" alt="Tier1MTG event">
 					<button class="event_mere_knap knapper_dark">LÆS MERE</button>
 					<figcaption class="fjerde_sektion_figcuption">
-						<h2 class="h2_acc">Commander Game</h2>
+						<h2 class="h2_acc">Old School Game</h2>
 						<h3 class="h3_acc">Dato: 23-06-2021</h3>
 						<h3 class="h3_acc">Format: Commander</h3>
-						<h3 class="h3_acc">Info: Glæd dig til vores kommende event hos Tier1MTG. Kom til hygge i trygge rammer, hvor du kan spille med andre og vinde fede præmier.<br><br>Tilmelding starter den 8. juni.
+						<h3 class="h3_acc">Info: Glæd dig til vores kommende event hos Tier1MTG. Kom til hygge i trygge rammer, hvor du kan spille med andre og vinde fede præmier.<br><br>TIlmelding starter den 8. juli.
 						</h3>
 					</figcaption>
 				</figure>
 
-				<figure class="forside_figure_ny">
-					<img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Intersection-123.png" alt="Tier1MTG event">
+				<figure class="forside_figure_event">
+					<img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Intersection-123.png" alt="">
 					<button class="event_mere_knap knapper_dark">LÆS MERE</button>
 					<figcaption class="fjerde_sektion_figcuption">
-						<h2 class="h2_acc">Tier1 Con Crazy Deck</h2>
-						<h3 class="h3_acc">Dato: 14-07-2021</h3>
+						<h2 class="h2_acc">Old School Game</h2>
+						<h3 class="h3_acc">Dato: 23-06-2021</h3>
 						<h3 class="h3_acc">Format: Commander</h3>
-						<h3 class="h3_acc">Info: Glæd dig til vores kommende event hos Tier1MTG. Kom til hygge i trygge rammer, hvor du kan spille med andre og vinde fede præmier.<br><br>Tilmelding starter den 8. juli.
+						<h3 class="h3_acc">Info: Glæd dig til vores kommende event hos Tier1MTG. Kom til hygge i trygge rammer, hvor du kan spille med andre og vinde fede præmier.<br><br>TIlmelding starter den 8. juli.
 						</h3>
 					</figcaption>
 				</figure>
 
-				<figure class="forside_figure_ny">
+				<figure class="forside_figure_event">
 					<img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Intersection-123.png" alt="Tier1MTG event">
 					<button class="event_mere_knap knapper_dark">LÆS MERE</button>
 					<figcaption class="fjerde_sektion_figcuption">
-						<h2 class="h2_acc">Super Commander Upcoming</h2>
-						<h3 class="h3_acc">Dato: 03-08-2021</h3>
+						<h2 class="h2_acc">Old School Game</h2>
+						<h3 class="h3_acc">Dato: 23-06-2021</h3>
 						<h3 class="h3_acc">Format: Commander</h3>
-						<h3 class="h3_acc">Info: Glæd dig til vores kommende event hos Tier1MTG. Kom til hygge i trygge rammer, hvor du kan spille med andre og vinde fede præmier.<br><br>Tilmelding starter den 18. juli.
+						<h3 class="h3_acc">Info: Glæd dig til vores kommende event hos Tier1MTG. Kom til hygge i trygge rammer, hvor du kan spille med andre og vinde fede præmier.<br><br>TIlmelding starter den 8. juli.
 						</h3>
 					</figcaption>
 				</figure>
 			</div>
 		</section>
-		<section id="commander_artikler">
-			<h1>DET NYESTE OM COMMANDER?</h1>
-			<p>Hold dig opdateret på det nyeste inden for Commander-formatet</p>
-			<!--			Events ind her - hvordan?-->
-		</section>
-		<section id="commander_cardmarket_sektion">
-			<h1>VI ER OGSÅ PÅ CARDMARKET</h1>
-			<p>Tekst om Cardmarket her. Nulla mollis nisi in turpis interdum, nec feugiat dui suscipit. Praesent dapibus tristique justo et dictum. Fusce vel tellus a mauris interdum pulvinar. Vivamus nec lacinia lorem. Nullam commodo dictum ornare. Nunc sit amet turpis vehicula turpis maximus venenatis eu vel mi. Duis a blandit elit, non pulvinar ante. Fusce venenatis est at urna scelerisque interdum. Donec in dignissim lacus, in ullamcorper dolor. Aenean sollicitudin diam vitae elit condimentum maximus. Praesent aliquam, massa ut ultricies commodo, tellus ex varius ante, sed luctus nulla diam eu nunc.</p>
-			<button class="commander_knap_cardmarket">Læs mere</button>
-		</section>
+
 	</main>
 </div>
 
