@@ -168,7 +168,7 @@ get_header(); ?>
 
         <section id="omOs">
 
-            <h2>Om os</h2>
+            <h1>Om os</h1>
             <div class="omOsTekstBoks">
                 <div class="omOsCol1">simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                     <br>
@@ -186,7 +186,7 @@ get_header(); ?>
 
                 <div class="ansat">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Group-943.png" alt="Dan">
-                    <h1>Dan Sønderskov</h1>
+                    <h3>Dan Sønderskov</h3>
                     <p>GRUNDLÆGGER / DIREKTØR</p>
                 </div>
 
