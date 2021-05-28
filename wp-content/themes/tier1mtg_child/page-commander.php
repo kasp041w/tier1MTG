@@ -56,6 +56,11 @@ get_header(); ?>
 		width: 100%;
 	}
 
+	.commander_tip_col_1,
+	.commander_tip_col_2 {
+		padding-top: 10vw;
+	}
+
 	#commander_cardmarket_sektion {
 		background-color: #272727;
 	}
