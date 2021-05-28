@@ -134,6 +134,7 @@ get_header(); ?>
         max-width: none;
         height: 75vh;
         width: 100%;
+        margin: 130px 0 90px 0;
     }
 
     .forside_anden_sektion_styl {
@@ -285,7 +286,7 @@ get_header(); ?>
         /*ANDEN SEKTION*/
 
         #forside_anden_sektion {
-            height: 50vh;
+            height: 57vh;
         }
 
         .forside_anden_sektion_tekst {
