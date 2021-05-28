@@ -304,7 +304,7 @@ get_header(); ?>
 
         <section id="produkt_filter_bremme">
             <div class="produkt_filter_container">
-                <div class="left">
+                <div class="left visSidebar">
                     <h2>Farveidentiet</h2>
                     <input type="checkbox">
                     <label>Rød
@@ -377,9 +377,11 @@ get_header(); ?>
                     <input class="search-knap" type="submit" value="Søg">
                     <br>
                 </div>
+
                 <div class="middle">
                     <h3>PRODUKTER: 24</h3>
                 </div>
+
                 <div class="right">
                     <h2>Sortér efter</h2>
                     <input type="checkbox">
