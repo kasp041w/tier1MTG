@@ -77,7 +77,7 @@ get_header(); ?>
 	}
 
 	/*EVENT SEKTION STYLING*/
-	#forside_fjerde_sektion img {
+	#commander_event_sektion img {
 		border-top-left-radius: 5%;
 		border-top-right-radius: 5%;
 		width: 100%;
@@ -232,29 +232,19 @@ get_header(); ?>
 		</section>
 		<section id="commander_event_sektion">
 			<h1>SKAL DU VÆRE MED NÆSTE GANG?</h1>
-			<a href="">Se alle vores Commander-events</a>
-			<!--			billedgalleri ind her - hvordan? -->
+			<a href="http://kasperdyhl.dk/tier1mtg/event/">
+				<h3 class="til_kort_side_nav">Se alle events →</h3>
+			</a>
+			<!--			billedgalleri ind her -->
 			<div class="forside_image-container">
 				<figure class="forside_figure_ny">
 					<img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Intersection-123.png" alt="Tier1MTG event">
 					<button class="event_mere_knap knapper_dark">LÆS MERE</button>
 					<figcaption class="fjerde_sektion_figcuption">
-						<h2 class="h2_acc">Old School Game</h2>
+						<h2 class="h2_acc">Commander Game</h2>
 						<h3 class="h3_acc">Dato: 23-06-2021</h3>
 						<h3 class="h3_acc">Format: Commander</h3>
-						<h3 class="h3_acc">Info: Glæd dig til vores kommende event hos Tier1MTG. Kom til hygge i trygge rammer, hvor du kan spille med andre og vinde fede præmier.<br><br>TIlmelding starter den 8. juli.
-						</h3>
-					</figcaption>
-				</figure>
-
-				<figure class="forside_figure_ny">
-					<img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Intersection-123.png" alt="">
-					<button class="event_mere_knap knapper_dark">LÆS MERE</button>
-					<figcaption class="fjerde_sektion_figcuption">
-						<h2 class="h2_acc">Old School Game</h2>
-						<h3 class="h3_acc">Dato: 23-06-2021</h3>
-						<h3 class="h3_acc">Format: Commander</h3>
-						<h3 class="h3_acc">Info: Glæd dig til vores kommende event hos Tier1MTG. Kom til hygge i trygge rammer, hvor du kan spille med andre og vinde fede præmier.<br><br>TIlmelding starter den 8. juli.
+						<h3 class="h3_acc">Info: Glæd dig til vores kommende event hos Tier1MTG. Kom til hygge i trygge rammer, hvor du kan spille med andre og vinde fede præmier.<br><br>Tilmelding starter den 8. juni.
 						</h3>
 					</figcaption>
 				</figure>
@@ -263,10 +253,22 @@ get_header(); ?>
 					<img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Intersection-123.png" alt="Tier1MTG event">
 					<button class="event_mere_knap knapper_dark">LÆS MERE</button>
 					<figcaption class="fjerde_sektion_figcuption">
-						<h2 class="h2_acc">Old School Game</h2>
-						<h3 class="h3_acc">Dato: 23-06-2021</h3>
+						<h2 class="h2_acc">Tier1 Con Crazy Deck</h2>
+						<h3 class="h3_acc">Dato: 14-07-2021</h3>
 						<h3 class="h3_acc">Format: Commander</h3>
-						<h3 class="h3_acc">Info: Glæd dig til vores kommende event hos Tier1MTG. Kom til hygge i trygge rammer, hvor du kan spille med andre og vinde fede præmier.<br><br>TIlmelding starter den 8. juli.
+						<h3 class="h3_acc">Info: Glæd dig til vores kommende event hos Tier1MTG. Kom til hygge i trygge rammer, hvor du kan spille med andre og vinde fede præmier.<br><br>Tilmelding starter den 8. juli.
+						</h3>
+					</figcaption>
+				</figure>
+
+				<figure class="forside_figure_ny">
+					<img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Intersection-123.png" alt="Tier1MTG event">
+					<button class="event_mere_knap knapper_dark">LÆS MERE</button>
+					<figcaption class="fjerde_sektion_figcuption">
+						<h2 class="h2_acc">Super Commander Upcoming</h2>
+						<h3 class="h3_acc">Dato: 03-08-2021</h3>
+						<h3 class="h3_acc">Format: Commander</h3>
+						<h3 class="h3_acc">Info: Glæd dig til vores kommende event hos Tier1MTG. Kom til hygge i trygge rammer, hvor du kan spille med andre og vinde fede præmier.<br><br>Tilmelding starter den 18. juli.
 						</h3>
 					</figcaption>
 				</figure>
