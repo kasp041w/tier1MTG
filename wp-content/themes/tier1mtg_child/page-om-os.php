@@ -80,7 +80,7 @@ get_header(); ?>
                 background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/kontakt_baggrund.png);
                 background-size: cover;
                 width: 100%;
-                height: auto;
+                height: 122;
                 text-align: center;
                 padding-top: 130px;
                 padding-bottom: 110px;
