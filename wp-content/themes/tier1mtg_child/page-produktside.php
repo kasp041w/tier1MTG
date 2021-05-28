@@ -350,9 +350,9 @@ get_header(); ?>
 
         <section id="nav-mobil">
             <button id="visKategorier" class="knapper_dark">KATEGORI ☰</button>
-            <button id="visFilter" class="knapper_dark">
-                <h3>FILTER</h3> ⇆
-            </button>
+            <div>
+                <h3>FILTER</h3> <button id="visFilter" class="knapper_dark"> ⇆</button>
+            </div>
             <div class="produkt_nav_h3">
                 <h3>PRODUKTER: 24</h3>
             </div>
