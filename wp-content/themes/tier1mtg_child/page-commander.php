@@ -145,9 +145,9 @@ get_header(); ?>
 			padding-top: 10vw;
 		}
 
-		/*#commander_cardmarket_sektion {
+		#commander_cardmarket_sektion {
 			padding-bottom: 6vw;
-		}*/
+		}
 	}
 
 	@media only screen and (min-width: 1200px) {
@@ -171,9 +171,9 @@ get_header(); ?>
 			padding-right: 25vw;
 		}
 
-		/*#commander_cardmarket_sektion {
+		#commander_cardmarket_sektion {
 			padding-bottom: 4vw;
-		}*/
+		}
 	}
 
 </style>
