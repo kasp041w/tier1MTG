@@ -110,6 +110,23 @@ get_header(); ?>
 
     /*---FILTRERINGSNAVIGATION---*/
 
+
+    .knapper_dark_filter {
+        background-color: #AD9261;
+        color: #272727;
+        border-radius: 20px;
+        padding: 12px 20px 12px 20px;
+        font-weight: bold;
+        font-family: 'Cormorant', serif;
+    }
+
+    .knapper_dark_filter:hover {
+        background-color: #F1F0E8;
+        color: #AD9261;
+    }
+
+
+
     #nav-desk {
         display: none;
     }
@@ -250,7 +267,7 @@ get_header(); ?>
 
         #nav-mobil {
             display: grid;
-            grid-template-columns: 1fr 0.5fr 1fr;
+            grid-template-columns: 1fr 0.5fr 0.5fr;
             text-align: left
         }
 
@@ -269,8 +286,26 @@ get_header(); ?>
         }
 
         .produkt_nav_h3 h3 {
-            color: #F1F0E8;
+            padding: 12px 20px 12px 20px;
+            font-weight: bold;
+            font-family: 'Cormorant', serif;
         }
+
+
+        .knapper_dark_filter {
+            background-color: #272727;
+            color: #F1F0E8;
+            border-radius: 20px;
+            padding: 12px 20px 12px 20px;
+            font-weight: bold;
+            font-family: 'Cormorant', serif;
+        }
+
+        .knapper_dark_filter:hover {
+            background-color: #272727;
+            color: #AD9261;
+        }
+
 
         /* FILTRERING DROPDOWN: styling af dropdown*/
 
@@ -350,11 +385,11 @@ get_header(); ?>
 
         <section id="nav-mobil">
             <button id="visKategorier" class="knapper_dark">KATEGORI ☰</button>
-            <button id="visFilter" class="knapper_dark">FILTER ⇆</button>
+            <button id="visFilter" class="knapper_dark_filter">FILTER ⇆</button>
             <div class="produkt_nav_h3">
                 <h3>PRODUKTER: 24</h3>
             </div>
-            <button id="visFilter_right" class="knapper_dark">SORTER EFTER ⋎</button>
+            <button id="visFilter_right" class="knapper_dark_filter">SORTER EFTER ⋎</button>
             <nav class="filtrering">
                 <button class="filter_knapper knapper_light" data-single="alle">Alle</button>
             </nav>
