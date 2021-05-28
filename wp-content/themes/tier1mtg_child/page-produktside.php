@@ -287,6 +287,12 @@ get_header(); ?>
 <div id="primary" <?php generate_do_element_classes( 'content' ); ?>>
     <main id="main" <?php generate_do_element_classes( 'main' ); ?>>
 
+        <section id="nav-desk">
+            <nav class="filtrering-desk">
+                <button class="filter_knapper knapper_light" data-single="alle">Alle</button>
+            </nav>
+        </section>
+
         <section id="nav-mobil">
             <button id="visKategorier" class="knapper_dark">☰</button>
             <button id="visFilter" class="knapper_dark">⇆</button>
@@ -294,16 +300,12 @@ get_header(); ?>
                 <button class="filter_knapper knapper_light" data-single="alle">Alle</button>
             </nav>
         </section>
-        <section id="nav-desk">
-            <nav class="filtrering-desk">
-                <button class="filter_knapper knapper_light" data-single="alle">Alle</button>
-            </nav>
-        </section>
+
 
 
         <section class="visSidebar">
             <div class="t">
-<!--
+                <!--
                 <button id="luk-knap" class="luk-display knapper_dark">×
                 </button>
 -->
