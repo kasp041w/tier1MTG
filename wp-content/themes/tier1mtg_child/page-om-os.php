@@ -130,6 +130,8 @@ get_header(); ?>
                 grid-gap: 2rem;
                 text-align: center;
                 margin: 10vw auto 12vw auto;
+                max-width: 1200px;
+
             }
 
             .serviceInfo_billed {
