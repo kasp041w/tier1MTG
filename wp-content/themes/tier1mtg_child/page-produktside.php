@@ -285,7 +285,12 @@ get_header(); ?>
         #nav-mobil {
             display: grid;
             grid-template-columns: 1fr 0.5fr 0.3fr;
-            text-align: left
+            text-align: left;
+            background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/filter_kolonne.png);
+            background-size: cover;
+            max-width: none;
+            height: 100vh;
+            width: 100%;
         }
 
         #visFilter {
