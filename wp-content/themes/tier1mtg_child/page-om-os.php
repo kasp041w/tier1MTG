@@ -20,7 +20,7 @@ get_header(); ?>
     <main id="main" <?php generate_do_element_classes( 'main' ); ?>>
 
         <style>
-            #omOs h2 {
+            #omOs h1 {
                 margin: 0 0 5wv 0;
             }
 
@@ -79,10 +79,8 @@ get_header(); ?>
             #kontaktOs {
                 background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/kontakt_baggrund.png);
                 background-size: cover;
-                height: 100vh;
                 width: 100%;
-                height: auto;
-                max-height: 112vh;
+                height: 122;
                 text-align: center;
                 padding-top: 130px;
                 padding-bottom: 110px;
@@ -170,7 +168,7 @@ get_header(); ?>
 
         <section id="omOs">
 
-            <h2>Om os</h2>
+            <h1>Om os</h1>
             <div class="omOsTekstBoks">
                 <div class="omOsCol1">simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                     <br>
@@ -250,7 +248,7 @@ get_header(); ?>
                         <textarea name="skrivHer" placeholder="Skriv hér" id="" cols="1" rows="6"></textarea>
                     </label>
                 </div>
-                <button class="formKnap">Send</button>
+                <button class="formKnap knapper_light">Send</button>
 
             </div>
         </section>
