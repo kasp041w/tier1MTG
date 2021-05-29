@@ -127,7 +127,7 @@ get_header(); ?>
         margin-bottom: 0;
         grid-row-start: 2;
         grid-row-end: span 1;
-        grid-column-start: 2;
+        grid-column-start: 1;
         grid-column-end: span 2;
 
     }
