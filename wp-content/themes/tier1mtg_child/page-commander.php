@@ -26,7 +26,7 @@ get_header(); ?>
     .commander_artikler,
     .commander_top_sektion_container,
     #commander_anden_section,
-    #commander_tip_sektion {
+    .commander_tip_sektion_container {
         max-width: 1200px;
         margin: 0 auto;
     }
