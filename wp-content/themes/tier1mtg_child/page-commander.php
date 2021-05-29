@@ -24,7 +24,8 @@ get_header(); ?>
     .commander_kort_sektion,
     .commander_event_sektion,
     .commander_artikler,
-    .commander_top_sektion_container {
+    .commander_top_sektion_container,
+    #commander_anden_section {
         max-width: 1200px;
         margin: 0 auto;
     }
@@ -325,7 +326,8 @@ get_header(); ?>
             </div>
 
         </section>
-        <section id="forside_first_section">
+
+        <section id="commander_anden_section">
             <h1>KORT DU IKKE MÅ GÅ GLIP AF</h1>
             <a href="http://kasperdyhl.dk/tier1mtg/produktside/">
                 <h3 class="til_kort_side_nav">Se alle single cards →</h3>
