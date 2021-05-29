@@ -166,7 +166,7 @@ get_header(); ?>
     }
 
     .filter_knapper {
-        width: 96.5%;
+        width: 98%;
         margin: 0.1rem;
         display: inline;
     }
