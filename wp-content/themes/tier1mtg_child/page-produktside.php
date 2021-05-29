@@ -347,6 +347,12 @@ get_header(); ?>
             font-size: 1.2rem;
         }
 
+        .filter_knapper {
+            width: 96%;
+
+        }
+
+
         /* FILTRERING DROPDOWN: styling af dropdown*/
 
         #visKategorier {
