@@ -157,7 +157,6 @@ get_header(); ?>
     }
 
 
-
     #nav-desk {
         display: none;
     }
@@ -330,7 +329,7 @@ get_header(); ?>
         .knapper_dark_filter {
             background-color: #272727;
             color: #F1F0E8;
-            border-radius: 20px;
+
             padding: 12px 20px 12px 20px;
             font-weight: bold;
             font-family: 'Cormorant', serif;
@@ -723,8 +722,8 @@ get_header(); ?>
             console.log("opretKnapper virker");
 
             categories.forEach(cat => {
-                document.querySelector(".filtrering").innerHTML += `<button class="filter katagori_knapper_produkt" data-single="${cat.id}">${cat.name}</button>`
-                document.querySelector(".filtrering-desk").innerHTML += `<button class="filter knapper_light" data-single="${cat.id}">${cat.name}</button>`
+                document.querySelector(".filtrering").innerHTML += `<button class="filter knapper_light" data-single="${cat.id}">${cat.name}</button>`
+                document.querySelector(".filtrering-desk").innerHTML += `<button class="filter katagori_knapper_produkt" data-single="${cat.id}">${cat.name}</button>`
             })
 
             addEventListenersToButtons();
