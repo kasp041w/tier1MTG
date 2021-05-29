@@ -419,6 +419,7 @@ get_header(); ?>
             <nav class="filtrering-desk">
                 <button class="filter_knapper katagori_knapper_produkt" data-single="alle">Alle</button>
             </nav>
+
         </section>
 
         <section id="nav-mobil">
