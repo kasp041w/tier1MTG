@@ -113,7 +113,7 @@ get_header(); ?>
     /*Knappernen */
     .knapper_dark_kategori {
         background-color: #F1F0E8;
-        color: #AD9261;
+        color: #272727;
         padding: 12px 20px 12px 20px;
         font-weight: bold;
         font-family: 'Cormorant', serif;
@@ -145,7 +145,7 @@ get_header(); ?>
 
     .katagori_knapper_produkt {
         background-color: #F1F0E8;
-        color: #AD9261;
+        color: #272727;
         padding: 12px 20px 12px 20px;
         font-weight: bold;
         font-family: 'Cormorant', serif;
