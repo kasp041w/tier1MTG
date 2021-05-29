@@ -132,7 +132,12 @@ get_header(); ?>
     }
 
     #commander_cardmarket_sektion {
-        background-color: #272727;
+        background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/del_af_universet.png);
+        background-size: cover;
+        max-width: none;
+        height: 75vh;
+        width: 100%;
+        margin: 130px 0 90px 0;
         padding-bottom: 20vw;
         text-align: center;
     }
