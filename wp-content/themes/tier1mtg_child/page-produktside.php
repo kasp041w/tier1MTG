@@ -77,11 +77,7 @@ get_header(); ?>
 
     .produkt_text_baggrund {
         height: auto;
-        display: grid;
-        grid-template-columns: 1fr 0.5fr;
-        grid-template-rows: 1fr 1fr;
     }
-
 
 
     .se_kort_knap {
@@ -98,11 +94,6 @@ get_header(); ?>
         font-size: 1.5rem;
         font-weight: bold;
         margin-bottom: 0;
-
-        grid-row-start: 1;
-        grid-row-end: span 1;
-        grid-column-start: 1;
-        grid-column-end: span 1;
     }
 
     .lagertal {
@@ -112,11 +103,6 @@ get_header(); ?>
         color: #F1F0E8;
         font-size: 0.75rem;
         margin-bottom: 0;
-
-        grid-row-start: 1;
-        grid-row-end: span 1;
-        grid-column-start: 2;
-        grid-column-end: span 1;
     }
 
     .pris {
@@ -125,10 +111,6 @@ get_header(); ?>
         color: #AD9261;
         font-size: 1rem;
         margin-bottom: 0;
-        grid-row-start: 2;
-        grid-row-end: span 1;
-        grid-column-start: 1;
-        grid-column-end: span 2;
 
     }
 
@@ -303,7 +285,9 @@ get_header(); ?>
 
         /*grid i den sorte tekst bremme under kortene*/
         .produkt_text_baggrund {
+            display: grid;
             grid-template-columns: 1fr 0.4fr;
+            grid-template-rows: 1fr 1fr;
         }
 
         /*styling af article: fonte, knap og billeder */
@@ -312,13 +296,32 @@ get_header(); ?>
             height: 76%;
         }
 
+        .title {
+            grid-row-start: 1;
+            grid-row-end: span 1;
+            grid-column-start: 1;
+            grid-column-end: span 1;
+
+        }
+
         .pris {
             font-size: 1rem;
+            grid-row-start: 2;
+            grid-row-end: span 1;
+            grid-column-start: 1;
+            grid-column-end: span 2;
         }
 
         .lagertal {
             font-size: 0.8rem;
+            grid-row-start: 1;
+            grid-row-end: span 1;
+            grid-column-start: 2;
+            grid-column-end: span 1;
         }
+
+
+
 
         .se_kort_knap {
             position: absolute;
