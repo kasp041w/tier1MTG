@@ -21,10 +21,10 @@ get_header(); ?>
         padding-bottom: 8vw;
     }
 
-    commander_kort_sektion,
-    commander_event_sektion,
-    commander_artikler,
-    commander_top_sektion_container {
+    .commander_kort_sektion,
+    .commander_event_sektion,
+    .commander_artikler,
+    .commander_top_sektion_container {
         max-width: 1200px;
         margin: 0 auto;
     }
