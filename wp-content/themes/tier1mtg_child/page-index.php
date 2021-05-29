@@ -75,7 +75,7 @@ get_header(); ?>
         z-index: 40;
     }
 
-    .billede {
+    .billede_forside {
         border-top-left-radius: 5%;
         border-top-right-radius: 5%;
         width: 100%;
@@ -514,7 +514,7 @@ get_header(); ?>
     <template>
         <article>
             <div class="billed_placering">
-                <img src="" alt="" class="billede">
+                <img src="" alt="" class="billede_forside">
                 <button class="se_kort_knap knapper_dark">SE KORT</button>
             </div>
             <div class="baggrund_kort">
@@ -562,7 +562,7 @@ get_header(); ?>
 
 
                 const klon = template.cloneNode(true).content; //Her klones template og udfyldes med data fra de tilfældige objekter
-                klon.querySelector(".billede").src = single.billede.guid;
+                klon.querySelector(".billede_forside").src = single.billede.guid;
                 klon.querySelector(".titel_alternativ").innerHTML = single.title.rendered;
                 klon.querySelector(".pris_alternativ").innerHTML = `${"Fra "}` + single.pris;
 
@@ -591,7 +591,7 @@ get_header(); ?>
 
 
                 const klon = template.cloneNode(true).content; //Her klones template og udfyldes med data fra de tilfældige objekter
-                klon.querySelector(".billede").src = single.billede.guid;
+                klon.querySelector(".billede_forside").src = single.billede.guid;
                 klon.querySelector(".titel_alternativ").innerHTML = single.title.rendered;
                 klon.querySelector(".pris_alternativ").innerHTML = `${"Fra "}` + single.pris;
 
@@ -620,7 +620,7 @@ get_header(); ?>
 
 
                 const klon = template.cloneNode(true).content; //Her klones template og udfyldes med data fra de tilfældige objekter
-                klon.querySelector(".billede").src = single.billede.guid;
+                klon.querySelector(".billede_forside").src = single.billede.guid;
                 klon.querySelector(".titel_alternativ").innerHTML = single.title.rendered;
                 klon.querySelector(".pris_alternativ").innerHTML = `${"Fra "}` + single.pris;
 
@@ -649,7 +649,7 @@ get_header(); ?>
 
 
                 const klon = template.cloneNode(true).content; //Her klones template og udfyldes med data fra de tilfældige objekter
-                klon.querySelector(".billede").src = single.billede.guid;
+                klon.querySelector(".billede_forside").src = single.billede.guid;
                 klon.querySelector(".titel_alternativ").innerHTML = single.title.rendered;
                 klon.querySelector(".pris_alternativ").innerHTML = `${"Fra "}` + single.pris;
 
