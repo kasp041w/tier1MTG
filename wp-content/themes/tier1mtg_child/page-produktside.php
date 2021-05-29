@@ -249,6 +249,17 @@ get_header(); ?>
         background-color: #F1F0E8;
     }
 
+    button,
+    html input[type="button"],
+    input[type="reset"],
+    input[type="submit"],
+    a.button,
+    a.wp-block-button__link:not(.has-background) {
+        font-family: 'Cormorant', serif;
+        color: #272727;
+        background-color: #F1F0E8;
+    }
+
     #nav-mobil {
         text-align: right;
         padding: 1rem;
