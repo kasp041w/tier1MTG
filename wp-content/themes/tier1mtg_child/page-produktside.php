@@ -129,7 +129,7 @@ get_header(); ?>
 
     .knapper_dark_filter {
         background-color: #F1F0E8;
-        color: #AD9261;
+        color: #272727;
         padding: 12px 20px 12px 20px;
         font-weight: bold;
         font-family: 'Cormorant', serif;
@@ -169,6 +169,7 @@ get_header(); ?>
         width: 98%;
         margin: 0.1rem;
         display: inline;
+        margin: 7px 3px 0px 3px;
     }
 
     .filter {
