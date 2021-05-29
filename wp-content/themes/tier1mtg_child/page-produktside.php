@@ -40,7 +40,7 @@ get_header(); ?>
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(135px, 1fr));
         max-width: 100vw;
-        grid-gap: 2rem;
+        grid-gap: 2rem 0.5rem;
         padding-right: 1.2rem;
         padding-left: 1.2rem;
         padding-bottom: 1.2rem;
@@ -280,7 +280,9 @@ get_header(); ?>
 
     @media (min-width: 950px) {
         #single_oversigt {
-            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            grid-gap: 2rem 1.2rem;
+
         }
 
         /*grid i den sorte tekst bremme under kortene*/
