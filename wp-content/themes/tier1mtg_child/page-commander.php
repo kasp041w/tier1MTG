@@ -137,7 +137,6 @@ get_header(); ?>
         max-width: none;
         height: 75vh;
         width: 100%;
-        margin: 130px 0 90px 0;
         padding-bottom: 20vw;
         text-align: center;
     }
