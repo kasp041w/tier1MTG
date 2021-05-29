@@ -143,6 +143,20 @@ get_header(); ?>
     }
 
 
+    .katagori_knapper_produkt {
+        background-color: #F1F0E8;
+        color: #AD9261;
+        padding: 12px 20px 12px 20px;
+        font-weight: bold;
+        font-family: 'Cormorant', serif;
+    }
+
+    .katagori_knapper_produkt:hover {
+        background-color: #AD9261;
+        color: #F1F0E8;
+    }
+
+
 
     #nav-desk {
         display: none;
@@ -378,7 +392,7 @@ get_header(); ?>
 
         /*IDAS FORSØG PÅ AT LAVE FILTERINGS KNAPPERNE*/
         .filter {
-            width: 98%;
+            width: 96%;
         }
 
         .filtrering-desk {
