@@ -38,6 +38,8 @@ get_header(); ?>
 
     .produkt_text_baggrund {
         height: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 
     #single_oversigt {
@@ -605,8 +607,8 @@ get_header(); ?>
             <img src="" alt="" class="billede">
             <div class="produkt_text_baggrund">
                 <h3 class="titel"></h3>
-                <p class="pris"></p>
                 <p class="lagertal"></p>
+                <p class="pris"></p>
                 <br>
                 <button class="se_kort_knap knapper_dark">Se kort</button>
                 <br>
