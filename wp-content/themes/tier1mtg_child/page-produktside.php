@@ -35,6 +35,11 @@ get_header(); ?>
 
     /*---GRIDVIEW MOBIL*/
 
+
+    .produkt_text_baggrund {
+        height: auto;
+    }
+
     #single_oversigt {
         text-align: left;
         display: grid;
@@ -598,12 +603,15 @@ get_header(); ?>
     <template>
         <article class="single_kort">
             <img src="" alt="" class="billede">
-            <h3 class="titel"></h3>
-            <p class="pris"></p>
-            <p class="lagertal"></p>
-            <br>
-            <button class="se_kort_knap knapper_dark">Se kort</button>
-            <br>
+            <div class="produkt_text_baggrund">
+                <h3 class="titel"></h3>
+                <p class="pris"></p>
+                <p class="lagertal"></p>
+                <br>
+                <button class="se_kort_knap knapper_dark">Se kort</button>
+                <br>
+            </div>
+
         </article>
     </template>
 
