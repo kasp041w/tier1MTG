@@ -35,13 +35,6 @@ get_header(); ?>
 
     /*---GRIDVIEW MOBIL*/
 
-
-    .produkt_text_baggrund {
-        height: auto;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-
     #single_oversigt {
         text-align: left;
         display: grid;
@@ -80,6 +73,12 @@ get_header(); ?>
         border-top-left-radius: 5%;
         border-top-right-radius: 5%;
         position: relative;
+    }
+
+    .produkt_text_baggrund {
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr 0.5fr;
     }
 
     .se_kort_knap {
@@ -133,7 +132,6 @@ get_header(); ?>
     }
 
 
-
     .knapper_dark_filter {
         background-color: #F1F0E8;
         color: #272727;
@@ -148,7 +146,6 @@ get_header(); ?>
         color: #272727;
 
     }
-
 
     .katagori_knapper_produkt {
         background-color: #F1F0E8;
@@ -187,6 +184,8 @@ get_header(); ?>
         margin: 7px 3px 0px 3px;
     }
 
+
+    /*FILTRERING AF FILTER, PRODUKT OG SØG EFTER: styling af filtrerings sektionen med grid i bremmen*/
     .visSidebar_left {
         display: none;
     }
@@ -226,11 +225,6 @@ get_header(); ?>
         display: none;
     }
 
-    .luk-display {
-        position: absolute;
-        top: 0%;
-        left: 82%;
-    }
 
     .visSidebar_left h2,
     .visSidebar_right h2 {
@@ -289,6 +283,12 @@ get_header(); ?>
             grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
         }
 
+        /*grid i den sorte tekst bremme under kortene*/
+        .produkt_text_baggrund {
+            grid-template-columns: 1fr 0.4fr;
+        }
+
+        /*styling af article: fonte, knap og billeder */
         img.billede {
             object-fit: cover;
             height: 76%;
@@ -311,7 +311,7 @@ get_header(); ?>
         }
 
 
-        /*FILTRERING: styling af filtrerings sektionen med grid i bremmen*/
+        /*FILTRERING AF FILTER, PRODUKT OG SØG EFTER: styling af filtrerings sektionen med grid i bremmen*/
 
         #nav-mobil {
             display: grid;
@@ -345,7 +345,7 @@ get_header(); ?>
             font-size: 0.83ram;
         }
 
-
+        /*styling af knapperne*/
         .knapper_dark_filter {
             background-color: #272727;
             color: #F1F0E8;
@@ -370,7 +370,7 @@ get_header(); ?>
         }
 
 
-        /* FILTRERING DROPDOWN: styling af dropdown*/
+        /* FILTRERING DROPDOWN UNDER FILTER OG SØG EFTER: styling af dropdown*/
 
         #visKategorier {
             display: none;
@@ -380,9 +380,6 @@ get_header(); ?>
             display: none;
         }
 
-        .luk-display {
-            left: 10%;
-        }
 
         .sidebar-display_left {
             width: 50%;
@@ -653,7 +650,6 @@ get_header(); ?>
             document.querySelector("#visKategorier").addEventListener("mousedown", visKategorier);
             document.querySelector("#visFilter").addEventListener("mousedown", visFilter);
             document.querySelector("#visFilter_right").addEventListener("mousedown", visFilter_right);
-            //            document.querySelector("#luk-knap").addEventListener("mousedown", visFilter);
 
             visSingles();
             opretKnapper();
