@@ -540,7 +540,8 @@ get_header(); ?>
                     <br>
                     <div class="opdeling"></div>
                     <br>
-                    <input class="search-knap" type="submit" value="Søg">
+                    <input class="search-knap" type="submit" value="SLET FILTREINGE">
+                    <input class="search-knap" type="submit" value="VIS RESULTATER">
                     <br>
                 </div>
 
