@@ -225,12 +225,14 @@ get_header(); ?>
         left: 82%;
     }
 
-    .visSidebar h2 {
+    .visSidebar_left h2,
+    .visSidebar_right h2 {
         color: #F1F0E8;
         text-transform: uppercase;
     }
 
-    .visSidebar label {
+    ..visSidebar_right label,
+    visSidebar_left label {
         font-family: 'Assistant', sans-serif;
         color: #F1F0E8;
     }
