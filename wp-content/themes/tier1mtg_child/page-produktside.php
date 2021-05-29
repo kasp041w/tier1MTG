@@ -417,7 +417,7 @@ get_header(); ?>
 
         <section id="nav-desk">
             <nav class="filtrering-desk">
-                <button class="filter_knapper knapper_light" data-single="alle">Alle</button>
+                <button class="filter_knapper katagori_knapper_produkt" data-single="alle">Alle</button>
             </nav>
         </section>
 
