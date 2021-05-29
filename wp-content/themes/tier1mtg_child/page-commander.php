@@ -7,6 +7,16 @@ if ( ! defined( 'ABSPATH' ) ) {
 get_header(); ?>
 
 <style>
+    .commander_splach_container {
+        background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/commander_splach.png);
+        background-size: cover;
+        max-width: none;
+        height: 45vh;
+        width: 100%;
+        background-position: 50%;
+        z-index: 90;
+    }
+
     /*SEKTIONER OG FARVER*/
 
     /*FJERN MARGIN PÅ SEKTIONER*/
@@ -322,7 +332,12 @@ get_header(); ?>
 
 <div id="primary" <?php generate_do_element_classes( 'content' ); ?>>
     <main id="main" <?php generate_do_element_classes( 'main' ); ?>>
-        <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/commander_splach.png" alt="commander splash billede" class="commander_splash">
+        <!--        <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/commander_splach.png" alt="commander splash billede" class="commander_splash">-->
+
+        <section id="commander_splach">
+            <div class="commander_splach_container"></div>
+        </section>
+
         <section id="commander_top_sektion">
             <div class="commander_top_sektion_container">
                 <div class="commander_top_col_1">
