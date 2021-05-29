@@ -131,6 +131,8 @@ get_header(); ?>
         padding-top: 10vw;
     }
 
+
+    /*CARDMARKET SEKTIONEN */
     #commander_cardmarket_sektion {
         background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/del_af_universet.png);
         background-size: cover;
@@ -139,16 +141,19 @@ get_header(); ?>
         width: 100%;
         padding-bottom: 20vw;
         text-align: center;
+        display: grid;
     }
 
     #commander_cardmarket_sektion h1 {
         color: #F5F5F5;
+        place-self: center center;
     }
 
     #commander_cardmarket_sektion p {
         color: #AD9261;
         padding-left: 15vw;
         padding-right: 15vw;
+        place-self: center center;
     }
 
     /*EVENT SEKTION STYLING*/
