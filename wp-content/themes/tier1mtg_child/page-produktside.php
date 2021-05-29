@@ -112,9 +112,9 @@ get_header(); ?>
     /*---FILTRERINGSNAVIGATION---*/
     /*Knappernen */
     .knapper_dark_kategori {
-        background-color: #AD9261;
-        color: #272727;
-        border-radius: 20px;
+        background-color: #F1F0E8;
+        color: #AD9261;
+
         padding: 12px 20px 12px 20px;
         font-weight: bold;
         font-family: 'Cormorant', serif;
@@ -122,16 +122,15 @@ get_header(); ?>
     }
 
     .knapper_dark_kategori:hover {
-        background-color: #F1F0E8;
-        color: #AD9261;
+        background-color: #AD9261;
+        color: #272727;
     }
 
 
 
     .knapper_dark_filter {
-        background-color: #AD9261;
-        color: #272727;
-        border-radius: 20px;
+        background-color: #F1F0E8;
+        color: #AD9261;
         padding: 12px 20px 12px 20px;
         font-weight: bold;
         font-family: 'Cormorant', serif;
@@ -139,8 +138,9 @@ get_header(); ?>
     }
 
     .knapper_dark_filter:hover {
-        background-color: #F1F0E8;
-        color: #AD9261;
+        background-color: #AD9261;
+        color: #272727;
+
     }
 
 
