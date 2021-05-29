@@ -23,7 +23,8 @@ get_header(); ?>
 
     commander_kort_sektion,
     commander_event_sektion,
-    commander_artikler {
+    commander_artikler,
+    commander_top_sektion_container {
         max-width: 1200px;
         margin: 0 auto;
     }
@@ -312,14 +313,17 @@ get_header(); ?>
     <main id="main" <?php generate_do_element_classes( 'main' ); ?>>
         <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/commander_splach.png" alt="commander splash billede" class="commander_splash">
         <section id="commander_top_sektion">
-            <div class="commander_top_col_1">
-                <h1>HVAD ER COMMANDER?</h1>
-                <p>Tekst her om Commander-formatet. Etiam justo erat, pellentesque vel lacus vel, tincidunt pellentesque nisl. Integer auctor nibh eget lorem aliquet, pulvinar efficitur augue ullamcorper. Interdum et malesuada fames ac ante ipsum primis in faucibus. In id pretium est. Aenean vehicula arcu nunc, et sodales ante finibus in. Proin sed tellus varius, consectetur leo sit amet, gravida velit. Vivamus ac eleifend sem. Suspendisse mattis dolor lorem, id venenatis odio venenatis quis. Sed sit amet finibus mauris. Phasellus id elementum velit. Nulla facilisi. Cras elementum gravida pulvinar.</p>
+            <div class="commander_top_sektion_container">
+                <div class="commander_top_col_1">
+                    <h1>HVAD ER COMMANDER?</h1>
+                    <p>Tekst her om Commander-formatet. Etiam justo erat, pellentesque vel lacus vel, tincidunt pellentesque nisl. Integer auctor nibh eget lorem aliquet, pulvinar efficitur augue ullamcorper. Interdum et malesuada fames ac ante ipsum primis in faucibus. In id pretium est. Aenean vehicula arcu nunc, et sodales ante finibus in. Proin sed tellus varius, consectetur leo sit amet, gravida velit. Vivamus ac eleifend sem. Suspendisse mattis dolor lorem, id venenatis odio venenatis quis. Sed sit amet finibus mauris. Phasellus id elementum velit. Nulla facilisi. Cras elementum gravida pulvinar.</p>
+                </div>
+                <div class="commander_top_col_2">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/k70dmf3kQYU">
+                    </iframe>
+                </div>
             </div>
-            <div class="commander_top_col_2">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/k70dmf3kQYU">
-                </iframe>
-            </div>
+
         </section>
         <section id="forside_first_section">
             <h1>KORT DU IKKE MÅ GÅ GLIP AF</h1>
