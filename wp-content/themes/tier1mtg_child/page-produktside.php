@@ -314,9 +314,9 @@ get_header(); ?>
 
 
         .knapper_dark_filter {
-
             background-color: #272727;
-            color: #AD9261;
+            color: #F1F0E8;
+            border-radius: 20px;
             padding: 12px 20px 12px 20px;
             font-weight: bold;
             font-family: 'Cormorant', serif;
@@ -325,7 +325,7 @@ get_header(); ?>
 
         .knapper_dark_filter:hover {
             background-color: #272727;
-            color: #F1F0E8;
+            color: #AD9261;
         }
 
         .knapper_dark_katagori {
