@@ -229,7 +229,7 @@ get_header(); ?>
         }
 
         /*GRID PÅ TOPSEKTION*/
-        #commander_top_sektion {
+        .commander_top_sektion_container {
             display: grid;
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 1fr;
