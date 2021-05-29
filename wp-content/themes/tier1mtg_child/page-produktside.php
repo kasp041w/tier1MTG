@@ -231,8 +231,8 @@ get_header(); ?>
         text-transform: uppercase;
     }
 
-    ..visSidebar_right label,
-    visSidebar_left label {
+    .visSidebar_right label,
+    .visSidebar_left label {
         font-family: 'Assistant', sans-serif;
         color: #F1F0E8;
     }
