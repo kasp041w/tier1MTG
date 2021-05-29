@@ -245,7 +245,8 @@ get_header(); ?>
 
     .search-knap {
         font-family: 'Cormorant', serif;
-        color: #F1F0E8;
+        color: #272727;
+        background-color: #F1F0E8;
     }
 
     #nav-mobil {
