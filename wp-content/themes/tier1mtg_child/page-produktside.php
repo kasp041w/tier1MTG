@@ -384,8 +384,6 @@ get_header(); ?>
 
         }
 
-
-
         .opdeling {
             width: 30vw;
         }
@@ -397,7 +395,31 @@ get_header(); ?>
             width: 100%;
         }
 
+        .sidebar-display_left {
+            position: absolute;
+            height: 100%;
+            background-color: #272727;
+            display: block;
+            color: #F1F0E8;
+            padding-left: 6%;
+            padding-top: 2%;
+            z-index: 30;
+            top: 42%;
+        }
 
+
+        .sidebar-display_right {
+            position: absolute;
+            height: 50%;
+            width: 100vw;
+            background-color: #272727;
+            display: block;
+            color: #F1F0E8;
+            padding-left: 6%;
+            padding-top: 2%;
+            z-index: 30;
+            top: 42%;
+        }
 
 
         /*IDAS FORSØG PÅ AT LAVE FILTERINGS KNAPPERNE*/
