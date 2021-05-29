@@ -25,7 +25,8 @@ get_header(); ?>
     .commander_top_sektion_container,
     #commander_anden_section,
     .commander_tip_sektion_container,
-    #forside_fjerde_sektion {
+    #forside_fjerde_sektion,
+    #commander_artikler {
         max-width: 1200px;
         margin: 0 auto;
     }
@@ -411,6 +412,7 @@ get_header(); ?>
                 </figure>
             </div>
         </section>
+
         <section id="commander_artikler">
             <h1>LÆS DET NYESTE OM COMMANDER</h1>
             <p>Hold dig opdateret på det nyeste inden for Commander-formatet på vores blog</p>
@@ -447,6 +449,7 @@ get_header(); ?>
                 </figure>
             </div>
         </section>
+
         <section id="commander_cardmarket_sektion">
             <h1>VI ER OGSÅ PÅ CARDMARKET</h1>
             <p>Tekst om Cardmarket her. Nulla mollis nisi in turpis interdum, nec feugiat dui suscipit. Praesent dapibus tristique justo et dictum. Fusce vel tellus a mauris interdum pulvinar. Vivamus nec lacinia lorem. Nullam commodo dictum ornare. Nunc sit amet turpis vehicula turpis maximus venenatis eu vel mi. Duis a blandit elit, non pulvinar ante. Fusce venenatis est at urna scelerisque interdum. Donec in dignissim lacus, in ullamcorper dolor. Aenean sollicitudin diam vitae elit condimentum maximus. Praesent aliquam, massa ut ultricies commodo, tellus ex varius ante, sed luctus nulla diam eu nunc.</p>
