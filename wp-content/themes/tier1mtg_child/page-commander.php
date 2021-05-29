@@ -25,7 +25,8 @@ get_header(); ?>
     .commander_event_sektion,
     .commander_artikler,
     .commander_top_sektion_container,
-    #commander_anden_section {
+    #commander_anden_section,
+    #commander_tip_sektion {
         max-width: 1200px;
         margin: 0 auto;
     }
@@ -107,11 +108,11 @@ get_header(); ?>
     }
 
     /*SLIDER OPSÆTNING TIL MOBIL OG DESKTOP*/
-    .forside_figure_ny {
+    .commander_figure_ny {
         cursor: pointer;
     }
 
-    .forside_image-container .forside_figure_ny {
+    .commander_image-container .commander_figure_ny {
         flex-basis: 90%;
         flex-shrink: 0;
         scroll-snap-align: center;
@@ -147,7 +148,7 @@ get_header(); ?>
     }
 
     /*EVENT SEKTION STYLING*/
-    .forside_image-container figure {
+    .commander_image-container figure {
         position: relative;
     }
 
@@ -182,7 +183,7 @@ get_header(); ?>
         margin: 0 auto;
     }
 
-    .forside_image-container {
+    .commander_image-container {
         overflow-x: auto;
         scroll-snap-type: x mandatory;
         display: flex;
@@ -248,7 +249,7 @@ get_header(); ?>
         }
 
         /*GRID PÅ UGENS TIP-SEKTION*/
-        #commander_tip_sektion {
+        .commander_tip_sektion_container {
             display: grid;
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 1fr;
@@ -272,7 +273,7 @@ get_header(); ?>
             text-align: end;
         }
 
-        .forside_image-container .forside_figure_ny {
+        .commander_image-container .commander_figure_ny {
             flex-basis: 27%;
         }
 
@@ -327,47 +328,53 @@ get_header(); ?>
 
         </section>
 
+
         <section id="commander_anden_section">
             <h1>KORT DU IKKE MÅ GÅ GLIP AF</h1>
             <a href="http://kasperdyhl.dk/tier1mtg/produktside/">
                 <h3 class="til_kort_side_nav">Se alle single cards →</h3>
             </a>
-            <div class="forside_image-container">
-                <figure class="forside_figure_ny">
+            <div class="commander_image-container">
+                <figure class="commander_figure_ny">
                     <div class="new_single_kort"></div>
                 </figure>
 
-                <figure class="forside_figure_ny">
+                <figure class="commander_figure_ny">
                     <div class="new_single_kort1"></div>
                 </figure>
 
-                <figure class="forside_figure_ny">
+                <figure class="commander_figure_ny">
                     <div class="new_single_kort2"></div>
                 </figure>
 
-                <figure class="forside_figure_ny">
+                <figure class="commander_figure_ny">
                     <div class="new_single_kort3"></div>
                 </figure>
             </div>
         </section>
+
+
         <section id="commander_tip_sektion">
-            <div class="commander_tip_col_1">
-                <h1>SE UGENS TIP</h1>
-                <p>Tekst her om ugens tip. In id pretium est. Aenean vehicula arcu nunc, et sodales ante finibus in. Proin sed tellus varius, consectetur leo sit amet, gravida velit. Vivamus ac eleifend sem. Suspendisse mattis dolor lorem, id venenatis odio venenatis quis. Sed sit amet finibus mauris. Phasellus id elementum velit. Nulla facilisi. Cras elementum gravida pulvinar.</p>
-                <a href="https://www.youtube.com/watch?v=6p6LFFgYVKg" target="_blank" rel="noopener noreferrer" class="commander_playknap"> <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/youtube_knap.png" alt="play knap"> </a>
-                <p>Se vores Commander-playliste på Youtube</p>
-            </div>
-            <div class="commander_tip_col_2">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Js6hJ_4K5CU">
-                </iframe>
+            <div class="commander_tip_sektion_container">
+                <div class="commander_tip_col_1">
+                    <h1>SE UGENS TIP</h1>
+                    <p>Tekst her om ugens tip. In id pretium est. Aenean vehicula arcu nunc, et sodales ante finibus in. Proin sed tellus varius, consectetur leo sit amet, gravida velit. Vivamus ac eleifend sem. Suspendisse mattis dolor lorem, id venenatis odio venenatis quis. Sed sit amet finibus mauris. Phasellus id elementum velit. Nulla facilisi. Cras elementum gravida pulvinar.</p>
+                    <a href="https://www.youtube.com/watch?v=6p6LFFgYVKg" target="_blank" rel="noopener noreferrer" class="commander_playknap"> <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/youtube_knap.png" alt="play knap"> </a>
+                    <p>Se vores Commander-playliste på Youtube</p>
+                </div>
+                <div class="commander_tip_col_2">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Js6hJ_4K5CU">
+                    </iframe>
+                </div>
             </div>
         </section>
+
         <section id="forside_fjerde_sektion">
             <h1>KOMMENDE EVENTS</h1>
             <a href="http://kasperdyhl.dk/tier1mtg/event/">
                 <h3 class="til_kort_side_nav">Se alle events →</h3>
             </a>
-            <div class="forside_image-container">
+            <div class="commander_image-container">
                 <figure class="forside_figure_event">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Intersection-123.png" alt="Tier1MTG event">
                     <button class="event_mere_knap knapper_dark">LÆS MERE</button>
@@ -412,7 +419,7 @@ get_header(); ?>
             <a href="">
                 <h3 class="til_kort_side_nav">Se alle artikler →</h3>
             </a>
-            <div class="forside_image-container">
+            <div class="commander_image-container">
                 <figure class="forside_figure_event">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Intersection-123.png" alt="Tier1MTG event">
                     <button class="event_mere_knap knapper_dark">LÆS MERE</button>
