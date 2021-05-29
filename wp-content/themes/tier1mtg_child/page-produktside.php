@@ -723,8 +723,8 @@ get_header(); ?>
             console.log("opretKnapper virker");
 
             categories.forEach(cat => {
-                document.querySelector(".filtrering").innerHTML += `<button class="filter knapper_light" data-single="${cat.id}">${cat.name}</button>`
-                document.querySelector(".filtrering-desk").innerHTML += `<button class="filter katagori_knapper_produkt" data-single="${cat.id}">${cat.name}</button>`
+                document.querySelector(".filtrering").innerHTML += `<button class="filter katagori_knapper_produkt" data-single="${cat.id}">${cat.name}</button>`
+                document.querySelector(".filtrering-desk").innerHTML += `<button class="filter knapper_light" data-single="${cat.id}">${cat.name}</button>`
             })
 
             addEventListenersToButtons();
