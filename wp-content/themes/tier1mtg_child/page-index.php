@@ -79,7 +79,6 @@ get_header(); ?>
         border-top-left-radius: 5%;
         border-top-right-radius: 5%;
         width: 100%;
-        height: 34rem;
     }
 
     /*Styling af hovereffekten på kort og produkter så den sorte bremme forsvinder med mus over bilelde*/
@@ -96,6 +95,7 @@ get_header(); ?>
         height: 30%;
         transition: .5s ease;
         overflow: hidden;
+        margin-bottom: 3%;
     }
 
     article:hover .baggrund_kort {
