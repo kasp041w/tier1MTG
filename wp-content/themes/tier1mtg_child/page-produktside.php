@@ -176,6 +176,7 @@ get_header(); ?>
         height: auto;
         margin: 0.1rem;
         display: inline-block;
+        margin: 7px 3px 0px 3px;
     }
 
     .visSidebar_left {
@@ -722,7 +723,7 @@ get_header(); ?>
             console.log("opretKnapper virker");
 
             categories.forEach(cat => {
-                document.querySelector(".filtrering").innerHTML += `<button class="filter knapper_light" data-single="${cat.id}">${cat.name}</button>`
+                document.querySelector(".filtrering").innerHTML += `<button class="filter katagori_knapper_produkt" data-single="${cat.id}">${cat.name}</button>`
                 document.querySelector(".filtrering-desk").innerHTML += `<button class="filter katagori_knapper_produkt" data-single="${cat.id}">${cat.name}</button>`
             })
 
