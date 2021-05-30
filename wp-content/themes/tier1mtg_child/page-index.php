@@ -82,6 +82,12 @@ get_header(); ?>
         height: 57vh;
     }
 
+
+    .forside_first_section {
+        margin-bottom: 0;
+    }
+
+
     /*Styling af hovereffekten på kort og produkter så den sorte bremme forsvinder med mus over bilelde*/
     article {
         position: relative;
