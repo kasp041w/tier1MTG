@@ -32,9 +32,6 @@ get_header(); ?>
         margin: 70px auto;
     }
 
-    h1 {
-        margin-bottom: 20px;
-    }
 
 
     /*FORSIDE SPLASH*/
@@ -83,9 +80,6 @@ get_header(); ?>
     }
 
 
-    .forside_first_section {
-        margin-bottom: 0;
-    }
 
 
     /*Styling af hovereffekten på kort og produkter så den sorte bremme forsvinder med mus over bilelde*/
