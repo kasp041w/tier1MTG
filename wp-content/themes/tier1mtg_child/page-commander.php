@@ -175,13 +175,13 @@ get_header(); ?>
         overflow: hidden;
     }
 
-    .forside_figure_event:hover .fjerde_sektion_figcuption {
+    .commander_figure_event:hover .fjerde_sektion_figcuption {
         height: 100%;
         border-top-left-radius: 5%;
         border-top-right-radius: 5%;
     }
 
-    .forside_figure_event {
+    .commander_figure_event {
         flex-basis: 100%;
         flex-shrink: 0;
         scroll-snap-align: center;
@@ -383,7 +383,7 @@ get_header(); ?>
                 <h3 class="til_kort_side_nav">Se alle events →</h3>
             </a>
             <div class="commander_image-container">
-                <figure class="forside_figure_event">
+                <figure class="commander_figure_event">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Intersection-123.png" alt="Tier1MTG event">
                     <button class="event_mere_knap knapper_dark">LÆS MERE</button>
                     <figcaption class="fjerde_sektion_figcuption">
@@ -395,7 +395,7 @@ get_header(); ?>
                     </figcaption>
                 </figure>
 
-                <figure class="forside_figure_event">
+                <figure class="commander_figure_event">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Intersection-123.png" alt="">
                     <button class="event_mere_knap knapper_dark">LÆS MERE</button>
                     <figcaption class="fjerde_sektion_figcuption">
@@ -407,7 +407,7 @@ get_header(); ?>
                     </figcaption>
                 </figure>
 
-                <figure class="forside_figure_event">
+                <figure class="commander_figure_event">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Intersection-123.png" alt="Tier1MTG event">
                     <button class="event_mere_knap knapper_dark">LÆS MERE</button>
                     <figcaption class="fjerde_sektion_figcuption">
@@ -429,7 +429,7 @@ get_header(); ?>
                 <h3 class="til_kort_side_nav">Se alle artikler →</h3>
             </a>
             <div class="commander_image-container">
-                <figure class="forside_figure_event">
+                <figure class="commander_figure_event">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Intersection-123.png" alt="Tier1MTG event">
                     <button class="event_mere_knap knapper_dark">LÆS MERE</button>
                     <figcaption class="fjerde_sektion_figcuption">
@@ -438,7 +438,7 @@ get_header(); ?>
                     </figcaption>
                 </figure>
 
-                <figure class="forside_figure_event">
+                <figure class="commander_figure_event">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Intersection-123.png" alt="">
                     <button class="event_mere_knap knapper_dark">LÆS MERE</button>
                     <figcaption class="fjerde_sektion_figcuption">
@@ -447,7 +447,7 @@ get_header(); ?>
                     </figcaption>
                 </figure>
 
-                <figure class="forside_figure_event">
+                <figure class="commander_figure_event">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Intersection-123.png" alt="Tier1MTG event">
                     <button class="event_mere_knap knapper_dark">LÆS MERE</button>
                     <figcaption class="fjerde_sektion_figcuption">
