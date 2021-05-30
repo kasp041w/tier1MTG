@@ -45,6 +45,14 @@ get_header(); ?>
     }
 
 
+    /*OVERSKRIFTERNE TIL HVER SEKTION*/
+
+    #forside_first_section h1,
+    #forside_trejde_sektion h1,
+    #forside_fjerde_sektion h1 {
+        margin-bottom: 0;
+    }
+
 
     /*FØRSTE SEKTION: nyeste kort*/
     /*styling af singel kortene på forsiden*/
