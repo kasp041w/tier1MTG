@@ -40,9 +40,6 @@ get_header(); ?>
         padding-right: 2rem;
     }
 
-    h1 {
-        margin-bottom: 20px;
-    }
 
     /*FARVER OG DIVERSE*/
 
