@@ -262,11 +262,16 @@ get_header(); ?>
 
     .forside_sjette_sektion_grid .left {
         text-align: center;
+        padding: 5%;
     }
 
     /*----- så blomsten i bunden går i ét med footer-----*/
     section .forside_sjette_sektion_grid {
         margin-bottom: -6px;
+    }
+
+    .forside_sjette_sektion_grid .right {
+        margin: 0px 0px -5px 0px;
     }
 
     .forside_sjette_sektion_knap {
@@ -390,6 +395,7 @@ get_header(); ?>
         .forside_sjette_sektion_grid .left {
             place-self: center;
             margin-left: 15%;
+            padding: 0%;
         }
 
 
