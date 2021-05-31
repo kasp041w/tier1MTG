@@ -76,6 +76,26 @@ get_header(); ?>
         height: 57vh;
     }
 
+    /*SLIDER OPSÆTNING TIL MOBIL OG DESKTOP*/
+    .commander_figure_ny {
+        cursor: pointer;
+    }
+
+    .commander_image-container .commander_figure_ny {
+        flex-basis: 90%;
+        flex-shrink: 0;
+        scroll-snap-align: center;
+    }
+
+    .commander_image-container {
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        display: flex;
+        gap: 20px;
+        padding: 20px;
+    }
+
+
     /*Styling af hovereffekten på kort og produkter så den sorte bremme forsvinder med mus over bilelde*/
     article {
         position: relative;
@@ -98,16 +118,8 @@ get_header(); ?>
         padding: 0px 20px 0px 20px;
     }
 
-    /*SLIDER OPSÆTNING TIL MOBIL OG DESKTOP*/
-    .commander_figure_ny {
-        cursor: pointer;
-    }
 
-    .commander_image-container .commander_figure_ny {
-        flex-basis: 90%;
-        flex-shrink: 0;
-        scroll-snap-align: center;
-    }
+
 
     /*UGENS TIP-SEKTION*/
     #commander_tip_sektion {
@@ -121,6 +133,9 @@ get_header(); ?>
     .commander_tip_col_1 {
         padding-top: 10vw;
     }
+
+
+
 
     /*CARDMARKET SEKTIONEN */
     .commander_cardmarket_container {
@@ -153,6 +168,8 @@ get_header(); ?>
     #commander_cardmarket_sektion a:hover {
         color: #F1F0E8;
     }
+
+
 
     /*ARTIKEL SEKTION STYLING*/
     .commander_image-container figure {
@@ -201,7 +218,15 @@ get_header(); ?>
     }
 
 
-    .commander_image-container {
+
+    ------------------
+
+    /*Slider opsætning, fungere både på mobil og destiop*/
+    .forside_figure_ny {
+        cursor: pointer;
+    }
+
+    .forside_image-container {
         overflow-x: auto;
         scroll-snap-type: x mandatory;
         display: flex;
@@ -209,6 +234,14 @@ get_header(); ?>
         padding: 20px;
     }
 
+    .forside_image-container .forside_figure_ny {
+        flex-basis: 90%;
+        flex-shrink: 0;
+        scroll-snap-align: center;
+    }
+
+
+    ---------------
 
     /*VIDEOER*/
     iframe {
@@ -230,6 +263,8 @@ get_header(); ?>
         background-color: #F1F0E8;
         color: #AD9261;
     }
+
+
 
     /*MEDIA QUERIES*/
     @media only screen and (min-width: 800px) {
