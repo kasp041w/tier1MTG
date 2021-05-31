@@ -246,6 +246,8 @@ get_header(); ?>
     /*MEDIA QUERIES*/
     @media only screen and (min-width: 800px) {
 
+
+
         .commander_top_sektion_container,
         #commander_anden_section,
         .commander_tip_sektion_container,
@@ -263,6 +265,15 @@ get_header(); ?>
         }
 
 
+        /*SLIDER OPSÆTNING TIL MOBIL OG DESKTOP*/
+
+        .commander_image-container {
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+            display: flex;
+            gap: 20px;
+            padding: 0px;
+        }
 
 
         /*GRID PÅ TOPSEKTION*/
@@ -333,6 +344,7 @@ get_header(); ?>
 
 
         /*CARDMARKET SEKTIONEN */
+
         .commander_cardmarket_container {
             background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/del_af_universet.png);
             background-size: cover;
