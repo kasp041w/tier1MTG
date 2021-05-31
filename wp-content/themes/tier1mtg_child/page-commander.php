@@ -252,7 +252,7 @@ get_header(); ?>
         .commander_galleri_container,
         #commander_artikler {
             padding: 0%;
-            margin-top: 60px;
+
         }
 
 
