@@ -16,7 +16,7 @@ get_header(); ?>
     .commander_top_sektion_container,
     #commander_anden_section,
     .commander_tip_sektion_container,
-    #forside_fjerde_sektion,
+    .commander_galleri_container,
     #commander_artikler {
         max-width: 1200px;
         margin: 0 auto;
@@ -204,7 +204,7 @@ get_header(); ?>
         .commander_top_sektion_container,
         #commander_anden_section,
         .commander_tip_sektion_container,
-        #forside_fjerde_sektion,
+        .commander_galleri_container,
         #commander_artikler {
             padding: 0%;
         }
@@ -356,7 +356,7 @@ get_header(); ?>
             <div class="commander_galleri_container">
                 <h1>SKAL DU VÆRE MED NÆSTE GANG?</h1>
                 <a href="http://kasperdyhl.dk/tier1mtg/event/">
-                    <h3 class="til_kort_side_nav">Se alle events →</h3>
+                    <h3 class="til_kort_side_nav">Se vores Commander-event →</h3>
                 </a>
 
                 <div class="commander_image-container">
@@ -385,55 +385,6 @@ get_header(); ?>
         </section>
 
 
-
-
-
-
-        <section id="forside_fjerde_sektion">
-            <h1>KOMMENDE EVENTS</h1>
-            <a href="http://kasperdyhl.dk/tier1mtg/event/">
-                <h3 class="til_kort_side_nav">Se alle events →</h3>
-            </a>
-            <div class="commander_image-container">
-
-                <figure class="commander_figure_event">
-                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Intersection-123.png" alt="Tier1MTG event">
-                    <button class="event_mere_knap knapper_dark">LÆS MERE</button>
-                    <figcaption class="fjerde_sektion_figcuption">
-                        <h2 class="h2_acc">Commander Game</h2>
-                        <h3 class="h3_acc">Dato: 23-06-2021</h3>
-                        <h3 class="h3_acc">Format: Commander</h3>
-                        <h3 class="h3_acc">Info: Glæd dig til vores kommende event hos Tier1MTG. Kom til hygge i trygge rammer, hvor du kan spille med andre og vinde fede præmier.<br><br>Tilmelding starter den 8. juni.
-                        </h3>
-                    </figcaption>
-                </figure>
-
-
-                <figure class="commander_figure_event">
-                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Intersection-123.png" alt="">
-                    <button class="event_mere_knap knapper_dark">LÆS MERE</button>
-                    <figcaption class="fjerde_sektion_figcuption">
-                        <h2 class="h2_acc">High score Alpha</h2>
-                        <h3 class="h3_acc">Dato: 14-07-2021</h3>
-                        <h3 class="h3_acc">Format: Commander</h3>
-                        <h3 class="h3_acc">Info: Glæd dig til vores kommende event hos Tier1MTG. Kom til hygge i trygge rammer, hvor du kan spille med andre og vinde fede præmier.<br><br>Tilmelding starter den 8. juli.
-                        </h3>
-                    </figcaption>
-                </figure>
-
-                <figure class="commander_figure_event">
-                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Intersection-123.png" alt="Tier1MTG event">
-                    <button class="event_mere_knap knapper_dark">LÆS MERE</button>
-                    <figcaption class="fjerde_sektion_figcuption">
-                        <h2 class="h2_acc">Tier1 Gonzo</h2>
-                        <h3 class="h3_acc">Dato: 03-08-2021</h3>
-                        <h3 class="h3_acc">Format: Commander</h3>
-                        <h3 class="h3_acc">Info: Glæd dig til vores kommende event hos Tier1MTG. Kom til hygge i trygge rammer, hvor du kan spille med andre og vinde fede præmier.<br><br>Tilmelding starter den 18. juli.
-                        </h3>
-                    </figcaption>
-                </figure>
-            </div>
-        </section>
         <section id="commander_artikler">
             <h1>LÆS DET NYESTE OM COMMANDER</h1>
             <p>Hold dig opdateret på det nyeste inden for Commander-formatet på vores blog</p>
