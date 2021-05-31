@@ -216,9 +216,15 @@ get_header(); ?>
 
     /*MEDIA QUERIES*/
     @media only screen and (min-width: 800px) {
-        section {
-            padding-bottom: 6vw;
+
+        .commander_top_sektion_container,
+        #commander_anden_section,
+        .commander_tip_sektion_container,
+        #forside_fjerde_sektion,
+        #commander_artikler {
+            padding: 0%;
         }
+
 
         /*GRID PÅ TOPSEKTION*/
         .commander_top_sektion_container {
