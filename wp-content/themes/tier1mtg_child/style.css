@@ -93,10 +93,6 @@ main {
 html {
     scroll-behavior: smooth;
 }
-.site-header {
-    position: fixed;
-    width: 100%;
-}
 .separate-containers .site-main {
     margin: 0px;
 }
@@ -199,6 +195,10 @@ html {
 }
 @media (min-width: 950px) {
     /*--------- Knapper----------*/
+    .site-header {
+        position: fixed;
+        width: 100%;
+    }
     .event_mere_knap {
         left: 68%;
         font-size: 12px;
