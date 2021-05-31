@@ -42,6 +42,7 @@ get_header(); ?>
         grid-gap: 2rem;
     }
 
+
     #event_anden_sektion,
     #event_fjerde_sektion {
         max-width: 1200px;
