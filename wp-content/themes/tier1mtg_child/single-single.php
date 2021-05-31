@@ -12,9 +12,18 @@ if ( ! defined( 'ABSPATH' ) ) {
 get_header(); ?>
 
     <style>
+        /*GENEREL*/
+
+        #single_udgaver,
+        #single_info,
+        #single_relaterede_varer {
+            padding: 5%;
+        }
+        /*STYLING AF SINGLE-GRIDS*/
+
         #single_udgaver .single_wrapper {
             display: grid;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 1fr 1.5fr;
             grid-gap: 1rem;
         }
 
@@ -28,9 +37,51 @@ get_header(); ?>
         #single_udgaver img {
             border-radius: 5%;
         }
+
+        #single_udgaver .single_pris,
+        #single_udgaver .single_pris_2,
+        #single_udgaver .single_pris_3,
+        #single_info .pris,
+        #single_relaterede_varer .single_pris_alternativ {
+            color: #AD9261;
+            margin-bottom: 0;
+        }
+
+        .single_col {
+            font-size: 0.75rem;
+        }
+
+        .single_kurv {
+            width: 8rem;
+        }
+
+        .single_fragt {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            grid-gap: 1rem;
+            align-items: center;
+            border-bottom: 2px solid #B3B3B3;
+            border-top: 2px solid #B3B3B3;
+            padding: 1rem;
+            margin-top: 1rem;
+        }
+
+        .single_fragt img {
+            width: 6rem;
+        }
+
+        .single_fragt p {
+            margin-bottom: 0;
+        }
+
+        .lagertal {
+            text-align: right;
+        }
         /*STYLING AF RANDOM SINGLE*/
 
-        .randomArticle
+        .randomArticle h2 {
+            font-size: 2rem;
+        }
 
     </style>
 
@@ -40,7 +91,7 @@ get_header(); ?>
 
             <!-- single-view Singlekort -->
             <section id="single_udgaver">
-                <h3 class="single_h3">Overskrift</h3>
+                <h3 class="single_h3"></h3>
                 <div class="single_wrapper">
                     <div class="single_container">
                         <div class="single_col">
@@ -66,8 +117,13 @@ get_header(); ?>
                 <article class="randomArticle">
                     <h2 class="titel"></h2>
                     <p class="pris"></p>
-                    <p class="lagertal"></p>
                     <p class="beskrivelse"></p>
+                    <img class="single_kurv" src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/kurv.png" alt="Kurv-ikon">
+                    <p class="lagertal"></p>
+                    <div class="single_fragt">
+                        <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/fragt.png" alt="Fragt-ikon">
+                        <p>Fri fragt på over 1.000 DKK</p>
+                    </div>
                 </article>
             </section>
 
