@@ -19,7 +19,7 @@ get_header(); ?>
 <style>
     /*FØRTE SEKTION*/
     #event_firste_sektion .event_splach {
-        background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/events_splach-e1622017884631.png);
+        background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/event_rigtig.png);
         background-size: cover;
         max-width: none;
         height: 45vh;
