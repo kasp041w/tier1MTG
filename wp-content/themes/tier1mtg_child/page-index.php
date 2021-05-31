@@ -228,7 +228,7 @@ get_header(); ?>
         background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/forside-om_os1.png);
         background-size: cover;
         max-width: none;
-        height: 100vh;
+        height: 140vh;
         width: 100%;
     }
 
@@ -240,10 +240,20 @@ get_header(); ?>
         margin-top: 40%;
     }
 
+    .forside_femte_sektion .left,
+    .forside_femte_sektion .rigtht {
+        margin-top: 10%;
+    }
+
+
     .forside_femte_sektion_knap {
         position: absolute;
         z-index: 40;
     }
+
+
+
+
 
     /*SJETTE SEKTION*/
     .forside_sjette_sektion_grid {
@@ -317,7 +327,7 @@ get_header(); ?>
 
         .forside_anden_sektion_tekst {
             padding: 90px 0px;
-            margin: 0px 290px;
+            margin: 90px 290px;
         }
 
 
@@ -338,7 +348,7 @@ get_header(); ?>
             display: grid;
             grid-template-columns: 1fr 1fr;
             grid-auto-rows: 1fr 0.5fr;
-            grid-row-gap: 50px;
+            grid-column-gap: 40px;
         }
 
         .forside_femte_sektion .left {
@@ -353,8 +363,13 @@ get_header(); ?>
             grid-column-end: span 1;
             grid-row-start: 1;
             grid-row-end: span 1;
-            padding-top: 15%;
+            padding-top: 7%;
         }
+
+        .forside_femte_sektion .left {
+            padding-top: 20%;
+        }
+
 
         .forside_femte_sektion .bottom {
             grid-column-start: 1;
