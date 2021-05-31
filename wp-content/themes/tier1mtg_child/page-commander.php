@@ -256,6 +256,15 @@ get_header(); ?>
         }
 
 
+        .commander_anden_section h1,
+        .commander_galleri_container h1,
+        #commander_artikler h1 {
+            margin-top: 100px;
+        }
+
+
+
+
         /*GRID PÅ TOPSEKTION*/
         .commander_top_sektion_container {
             display: grid;
