@@ -32,9 +32,6 @@ get_header(); ?>
         margin: 70px auto;
     }
 
-    h1 {
-        margin-bottom: 20px;
-    }
 
 
     /*FORSIDE SPLASH*/
@@ -46,6 +43,8 @@ get_header(); ?>
         height: 100vh;
         width: 100%;
     }
+
+
 
 
 
@@ -75,12 +74,15 @@ get_header(); ?>
         z-index: 40;
     }
 
-    .billede {
+    .billede_forside {
         border-top-left-radius: 5%;
         border-top-right-radius: 5%;
         width: 100%;
-        height: 34rem;
+        height: 57vh;
     }
+
+
+
 
     /*Styling af hovereffekten på kort og produkter så den sorte bremme forsvinder med mus over bilelde*/
     article {
@@ -96,6 +98,7 @@ get_header(); ?>
         height: 30%;
         transition: .5s ease;
         overflow: hidden;
+        margin-bottom: 3%;
     }
 
     article:hover .baggrund_kort {
@@ -273,6 +276,17 @@ get_header(); ?>
 
     /*desktop*/
     @media (min-width: 950px) {
+
+        /*OVERSKRIFTERNE TIL HVER SEKTION*/
+
+        #forside_first_section h1,
+        #forside_trejde_sektion h1,
+        #forside_fjerde_sektion h1 {
+            margin-bottom: 0;
+        }
+
+
+        /*FØRSTE SEKTION OG KORT*/
         .til_kort_side_nav {
             text-align: end;
         }
@@ -513,7 +527,7 @@ get_header(); ?>
     <template>
         <article>
             <div class="billed_placering">
-                <img src="" alt="" class="billede">
+                <img src="" alt="" class="billede_forside">
                 <button class="se_kort_knap knapper_dark">SE KORT</button>
             </div>
             <div class="baggrund_kort">
@@ -561,7 +575,7 @@ get_header(); ?>
 
 
                 const klon = template.cloneNode(true).content; //Her klones template og udfyldes med data fra de tilfældige objekter
-                klon.querySelector(".billede").src = single.billede.guid;
+                klon.querySelector(".billede_forside").src = single.billede.guid;
                 klon.querySelector(".titel_alternativ").innerHTML = single.title.rendered;
                 klon.querySelector(".pris_alternativ").innerHTML = `${"Fra "}` + single.pris;
 
@@ -590,7 +604,7 @@ get_header(); ?>
 
 
                 const klon = template.cloneNode(true).content; //Her klones template og udfyldes med data fra de tilfældige objekter
-                klon.querySelector(".billede").src = single.billede.guid;
+                klon.querySelector(".billede_forside").src = single.billede.guid;
                 klon.querySelector(".titel_alternativ").innerHTML = single.title.rendered;
                 klon.querySelector(".pris_alternativ").innerHTML = `${"Fra "}` + single.pris;
 
@@ -619,7 +633,7 @@ get_header(); ?>
 
 
                 const klon = template.cloneNode(true).content; //Her klones template og udfyldes med data fra de tilfældige objekter
-                klon.querySelector(".billede").src = single.billede.guid;
+                klon.querySelector(".billede_forside").src = single.billede.guid;
                 klon.querySelector(".titel_alternativ").innerHTML = single.title.rendered;
                 klon.querySelector(".pris_alternativ").innerHTML = `${"Fra "}` + single.pris;
 
@@ -648,7 +662,7 @@ get_header(); ?>
 
 
                 const klon = template.cloneNode(true).content; //Her klones template og udfyldes med data fra de tilfældige objekter
-                klon.querySelector(".billede").src = single.billede.guid;
+                klon.querySelector(".billede_forside").src = single.billede.guid;
                 klon.querySelector(".titel_alternativ").innerHTML = single.title.rendered;
                 klon.querySelector(".pris_alternativ").innerHTML = `${"Fra "}` + single.pris;
 
