@@ -294,6 +294,9 @@ get_header(); ?>
             flex-basis: 27%;
         }
 
+        .forside_image-container {
+            padding: 0px;
+        }
 
 
         /*ANDEN SEKTION*/
