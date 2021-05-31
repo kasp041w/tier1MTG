@@ -21,12 +21,14 @@ get_header(); ?>
 
         <style>
             /*SIDE MARGEN PÅ MOBIL*/
-
             #omOs,
             #kontaktOs,
             #serviceInfo {
                 padding: 5%;
             }
+
+
+            /*OM OS SEKTIONEN*/
 
             .ansatte h3 {
                 margin-bottom: 5px;
@@ -79,6 +81,19 @@ get_header(); ?>
             .ansatte::-webkit-scrollbar-thumb:hover {
                 background: #CBBE23;
             }
+
+
+            /*Sociale meider*/
+            .omos_sociale_medier {
+                text-align: center;
+            }
+
+            .omos_sociale_medier img {
+                padding: 0px 20px 0px 20px;
+            }
+
+
+            /*KONTAKT SEKTIONEN */
 
             #kontaktOs {
                 background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/kontakt_baggrund.png);
