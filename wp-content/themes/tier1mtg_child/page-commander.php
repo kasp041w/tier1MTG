@@ -395,7 +395,7 @@ get_header(); ?>
             <div class="commander_image-container">
 
                 <figure class="commander_figure_event">
-                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Intersection-123.png" alt="Tier1MTG event">
+                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/artikel1-scaled.jpg" alt="Tier1MTG event">
                     <button class="event_mere_knap knapper_dark">LÆS MERE</button>
                     <figcaption class="fjerde_sektion_figcuption">
                         <h2 class="h2_acc">Hvilken type spiller er du?</h2>
@@ -404,7 +404,7 @@ get_header(); ?>
                 </figure>
 
                 <figure class="commander_figure_event">
-                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Intersection-123.png" alt="">
+                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/artikel2-scaled.jpg" alt="">
                     <button class="event_mere_knap knapper_dark">LÆS MERE</button>
                     <figcaption class="fjerde_sektion_figcuption">
                         <h2 class="h2_acc">Det bedste fra Strixhaven</h2>
@@ -413,7 +413,7 @@ get_header(); ?>
                 </figure>
 
                 <figure class="commander_figure_event">
-                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Intersection-123.png" alt="Tier1MTG event">
+                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/galler4-scaled.jpg" alt="Tier1MTG event">
                     <button class="event_mere_knap knapper_dark">LÆS MERE</button>
                     <figcaption class="fjerde_sektion_figcuption">
                         <h2 class="h2_acc">Sådan laver du et deck</h2>
