@@ -41,8 +41,9 @@ get_header(); ?>
                 padding: 0 3vw;
             }
 
-            .omOsCol1 {
-                margin-bottom: 6vw;
+            .omOsCol1,
+            .omOsCol2 {
+                margin-bottom: 15%;
             }
 
             .ansatte {
@@ -86,6 +87,7 @@ get_header(); ?>
             /*Sociale meider*/
             .omos_sociale_medier {
                 text-align: center;
+                margin-top: 10%;
             }
 
             .omos_sociale_medier img {
