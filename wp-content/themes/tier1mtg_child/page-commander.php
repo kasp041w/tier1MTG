@@ -401,7 +401,6 @@ get_header(); ?>
 		<section id="commander_artikler">
 			<h1>LÆS DET NYESTE OM COMMANDER</h1>
 			<p>Hold dig opdateret på det nyeste inden for Commander-formatet på vores blog</p>
-			<!--			Events ind her - hvordan?-->
 			<a href="">
 				<h3 class="til_kort_side_nav">Se alle artikler →</h3>
 			</a>
@@ -436,7 +435,7 @@ get_header(); ?>
 		</section>
 		<section id="commander_cardmarket_sektion">
 			<h1>VI ER OGSÅ PÅ CARDMARKET</h1>
-			<p>Tekst om Cardmarket her. Nulla mollis nisi in turpis interdum, nec feugiat dui suscipit. Praesent dapibus tristique justo et dictum. Fusce vel tellus a mauris interdum pulvinar. Vivamus nec lacinia lorem. Nullam commodo dictum ornare. Nunc sit amet turpis vehicula turpis maximus venenatis eu vel mi. Duis a blandit elit, non pulvinar ante. Fusce venenatis est at urna scelerisque interdum. Donec in dignissim lacus, in ullamcorper dolor. Aenean sollicitudin diam vitae elit condimentum maximus. Praesent aliquam, massa ut ultricies commodo, tellus ex varius ante, sed luctus nulla diam eu nunc.</p>
+			<p>Vi har Skandinaviens største udvalg af MTG-enkeltkort, og vi sælger også kort på Cardmarket. <a href="https://www.cardmarket.com/en/Magic/Users/Tier1MTG">Se vores udvalg på Cardmarket her.</a> Vi sender alle hverdage, så du hurtigt kan modtage dine nye kort, og vi sender over hele verden til gode priser. Vi er certificeret "Professional Seller" på Magic-Cardmarket, og det er din sikkerhed for, at vi er en troværdig sælger. Vi har altid et voksende katalog af over 210.000 Magic: The Gathering-enkeltkort.</p>
 			<button class="commander_knap_cardmarket">Læs mere</button>
 		</section>
 	</main>
