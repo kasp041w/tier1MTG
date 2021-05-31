@@ -503,7 +503,7 @@ get_header(); ?>
         <section id="forside_femte_sektion">
             <div class="forside_femte_sektion">
                 <div class="left">
-                    <img src="" alt="">
+                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/dan-scaled.jpg" alt="billede af Dan ejern">
                 </div>
                 <div class="rigtht">
                     <h1>HVEM ER TIER1MTG</h1>
