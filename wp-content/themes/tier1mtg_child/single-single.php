@@ -43,7 +43,8 @@ get_header(); ?>
         #single_udgaver .single_pris,
         #single_udgaver .single_pris_2,
         #single_udgaver .single_pris_3,
-        #single_info .pris,
+        #single_desktop_version .pris,
+        #single_info .pris_mobil,
         #single_relaterede_varer .single_pris_alternativ {
             color: #AD9261;
             margin-bottom: 0;
@@ -124,8 +125,42 @@ get_header(); ?>
         .single_se_kort_knap {
             margin-top: 5%;
         }
+        /*DESKTOP-DISPLAY NONE*/
 
-        @media (min-width: 950px) {}
+        #single_desktop_version {
+            display: none;
+        }
+
+        @media (min-width: 950px) {
+            #single_udgaver {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-gap: 5rem;
+            }
+            .single_h3 {
+                display: none;
+            }
+            #single_info {
+                display: none;
+            }
+            #single_desktop_version {
+                display: block;
+            }
+            #single_image_container .single_relaterede_wrapper .single_col_relaterede .single_kort1 {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                grid-gap: 1rem;
+            }
+            .single_article_bg img {
+                height: 45vh;
+            }
+            #single_baggrund_kort .single_titel_alternativ h2 {
+                margin-bottom: 0;
+            }
+            .single_se_kort_knap {
+                text-align: right;
+            }
+        }
 
     </style>
 
@@ -155,10 +190,8 @@ get_header(); ?>
                         <img src="" alt="" class="billede">
                     </div>
                 </div>
-            </section>
-
-            <section id="single_info">
-                <article class="randomArticle">
+                <!--DISPLAY AF DESKTOP VERSION-->
+                <article id="single_desktop_version" class="randomArticle">
                     <h2 class="titel"></h2>
                     <p class="pris"></p>
                     <p class="beskrivelse"></p>
@@ -170,6 +203,22 @@ get_header(); ?>
                     </div>
                 </article>
             </section>
+
+            <!--DISPLAy AF MOBIL VERSION-->
+            <section id="single_info">
+                <article class="randomArticle">
+                    <h2 class="titel_mobil"></h2>
+                    <p class="pris_mobil"></p>
+                    <p class="beskrivelse_mobil"></p>
+                    <img class="single_kurv" src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/kurv.png" alt="Kurv-ikon">
+                    <p class="lagertal_mobil"></p>
+                    <div class="single_fragt">
+                        <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/fragt.png" alt="Fragt-ikon">
+                        <p>Fri fragt på over 1.000 DKK</p>
+                    </div>
+                </article>
+            </section>
+
 
             <section id="single_relaterede_varer">
                 <h1>RELATEREDE VARER</h1>
@@ -241,6 +290,12 @@ get_header(); ?>
                 document.querySelector(".pris").innerHTML = single.pris + `${" DKK"}`;
                 document.querySelector(".lagertal").innerHTML = single.lagertal + `${" på lager"}`;
                 document.querySelector(".beskrivelse").innerHTML = single.beskrivelse;
+
+
+                document.querySelector(".titel_mobil").innerHTML = single.title.rendered;
+                document.querySelector(".pris_mobil").innerHTML = single.pris + `${" DKK"}`;
+                document.querySelector(".lagertal_mobil").innerHTML = single.lagertal + `${" på lager"}`;
+                document.querySelector(".beskrivelse_mobil").innerHTML = single.beskrivelse;
             }
 
             function visUdgaver() {
