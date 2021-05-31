@@ -359,7 +359,7 @@ get_header(); ?>
         }
 
 
-        #myVideo {
+        .forside_video {
             margin-top: 23px;
             position: absolute;
             z-index: -1;
@@ -375,6 +375,10 @@ get_header(); ?>
     <main id="main" <?php generate_do_element_classes( 'main' ); ?>>
 
         <section id="forside_splach">
+            <video class="forside_video" autoplay muted loop>
+                <source src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/univers_1.mp4" type="video/mp4">
+            </video>
+
             <div class="forside_splach_container"></div>
         </section>
 
@@ -404,9 +408,6 @@ get_header(); ?>
 
         <section id="forside_anden_sektion">
             <div class="forside_anden_sektion_tekst">
-                <video autoplay muted loop id="myVideo">
-                    <source src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/univers_1.mp4" type="video/mp4">
-                </video>
                 <h1 class="forside_anden_sektion_styl">BLIV EN DEL AF UNIVERSET</h1>
                 <p class="forside_anden_sektion_styl">Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. lorem Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text. lorem</p>
                 <button class="forside_anden_sektion_knap knapper_dark">LÆS MERE</button>
