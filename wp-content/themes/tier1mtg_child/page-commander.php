@@ -256,7 +256,7 @@ get_header(); ?>
         }
 
 
-        .commander_anden_section h1,
+        #commander_anden_section h1,
         .commander_galleri_container h1,
         #commander_artikler h1 {
             margin-top: 100px;
