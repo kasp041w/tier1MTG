@@ -49,7 +49,6 @@ get_header(); ?>
         font-size: 1.5rem;
         font-weight: bold;
         margin-bottom: 0;
-        padding: 10px 20px;
     }
 
     .pris_alternativ,
@@ -57,7 +56,6 @@ get_header(); ?>
         color: #AD9261;
         font-size: 1rem;
         margin-bottom: 0;
-        padding: 0px 20px;
     }
 
     .se_kort_knap {
@@ -164,6 +162,21 @@ get_header(); ?>
     .fjerde_sektion_figcuption {
         background-color: #272727;
         height: 15vh;
+    }
+
+    .event_mere_knap {
+        left: 80%;
+        bottom: 3%;
+    }
+
+
+    .h2_acc {
+        padding: 10px 20px;
+    }
+
+
+    .h3_acc {
+        padding: 0px 80px 0px 20px;
     }
 
 
