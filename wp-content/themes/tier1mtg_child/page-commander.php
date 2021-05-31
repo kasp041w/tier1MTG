@@ -13,7 +13,6 @@ get_header(); ?>
     }
 
     .site-content .content-area {
-
         margin: 0 0;
     }
 

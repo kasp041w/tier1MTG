@@ -30,6 +30,7 @@ get_header(); ?>
     .forside_femte_sektion {
         max-width: 1200px;
         margin: 70px auto;
+        padding: 5%;
     }
 
 
@@ -275,6 +276,15 @@ get_header(); ?>
 
     /*desktop*/
     @media (min-width: 950px) {
+
+
+        /*Sektionernes margin og max-width*/
+        #forside_first_section,
+        #forside_trejde_sektion,
+        #forside_fjerde_sektion,
+        .forside_femte_sektion {
+            padding: 0%;
+        }
 
         /*OVERSKRIFTERNE TIL HVER SEKTION*/
 
