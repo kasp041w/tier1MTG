@@ -143,6 +143,7 @@ get_header(); ?>
 
     #commander_cardmarket_sektion a {
         color: #AD9261;
+        text-decoration: underline;
     }
 
     #commander_cardmarket_sektion a:hover {
@@ -374,6 +375,46 @@ get_header(); ?>
                 </div>
             </div>
         </section>
+
+
+        <section id="commander_galleri">
+            <div class="commander_galleri_container">
+                <h1>SKAL DU VÆRE MED NÆSTE GANG?</h1>
+                <a href="http://kasperdyhl.dk/tier1mtg/event/">
+                    <h3 class="til_kort_side_nav">Se alle events →</h3>
+                </a>
+
+                <div class="commander_image-container">
+
+                    <figure class="commander_figure_event">
+                        <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Intersection-123.png" alt="Tier1MTG event">
+                    </figure>
+
+                    <figure class="commander_figure_event">
+                        <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Intersection-123.png" alt="Tier1MTG event">
+                    </figure>
+
+                    <figure class="commander_figure_event">
+                        <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Intersection-123.png" alt="Tier1MTG event">
+                    </figure>
+
+                    <figure class="commander_figure_event">
+                        <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Intersection-123.png" alt="Tier1MTG event">
+                    </figure>
+
+                    <figure class="commander_figure_event">
+                        <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Intersection-123.png" alt="Tier1MTG event">
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
         <section id="forside_fjerde_sektion">
             <h1>KOMMENDE EVENTS</h1>
             <a href="http://kasperdyhl.dk/tier1mtg/event/">
