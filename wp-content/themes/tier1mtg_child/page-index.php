@@ -36,12 +36,12 @@ get_header(); ?>
 
     /*FORSIDE SPLASH*/
 
-    #forside_splach .forside_splach_container {
-        background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/del_af_universet.png);
-        background-size: cover;
-        max-width: none;
-        height: 100vh;
+    .forside_video {
+        margin-top: -3px;
+        position: absolute;
+        z-index: -1;
         width: 100%;
+        clip: auto;
     }
 
 
@@ -359,13 +359,7 @@ get_header(); ?>
         }
 
 
-        .forside_video {
-            margin-top: 23px;
-            position: absolute;
-            z-index: -1;
-            width: 100%;
-            clip: auto;
-        }
+
     }
 
 </style>
@@ -375,11 +369,14 @@ get_header(); ?>
     <main id="main" <?php generate_do_element_classes( 'main' ); ?>>
 
         <section id="forside_splach">
-            <video class="forside_video" autoplay muted loop>
-                <source src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/ny_spiller.mp4" type="video/mp4">
-            </video>
-
-            <div class="forside_splach_container"></div>
+            <div class="forside_splach_container">
+                <video class="forside_video" autoplay muted loop>
+                    <source src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/ny_spiller.mp4" type="video/mp4">
+                </video>
+                <div>
+                    <button class="forside_anden_sektion_knap knapper_dark">LÆS MERE</button>
+                </div>
+            </div>
         </section>
 
         <section id="forside_first_section">
