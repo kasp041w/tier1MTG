@@ -367,7 +367,7 @@ get_header(); ?>
         }
 
         .forside_femte_sektion .left {
-            padding-top: 20%;
+            padding-top: 7%;
         }
 
 
