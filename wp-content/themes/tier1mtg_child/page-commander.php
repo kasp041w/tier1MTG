@@ -271,6 +271,7 @@ get_header(); ?>
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 1fr;
             margin-top: 50px;
+            grid-gap: 30px;
         }
 
         .commander_top_col_1 {
