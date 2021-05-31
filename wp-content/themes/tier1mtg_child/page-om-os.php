@@ -145,7 +145,7 @@ get_header(); ?>
             @media (min-width: 900px) {
 
                 #omOs {
-                    margin: 20vw auto 8vw auto;
+                    margin: 16vw auto 8vw auto;
                 }
 
                 .omOsTekstBoks {
@@ -176,7 +176,7 @@ get_header(); ?>
 
 
         <section id="omOs">
-            <h1>Om os</h1>
+            <h1>OM OS</h1>
             <div class="omOsTekstBoks">
                 <div class="omOsCol1">simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                     <br>
