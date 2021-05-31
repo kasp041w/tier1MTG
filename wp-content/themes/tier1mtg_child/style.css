@@ -23,8 +23,9 @@ h2 {
     font-size: 1.5rem;
 }
 h3 {
-    font-family: 'Assistant', sans-serif;
+    font-family: 'Cormorant', serif;
     color: #272727;
+    font-weight: bold;
     font-size: 1rem;
 }
 h4 {
@@ -91,6 +92,10 @@ main {
 }
 html {
     scroll-behavior: smooth;
+}
+.site-header {
+    position: fixed;
+    width: 100%;
 }
 .separate-containers .site-main {
     margin: 0px;

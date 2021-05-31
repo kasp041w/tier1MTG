@@ -71,7 +71,7 @@ get_header(); ?>
         }
 
         .single_fragt p {
-            margin-bottom: 0;
+            margin-bottom: 0.5rem;
         }
 
         .lagertal {
@@ -81,6 +81,36 @@ get_header(); ?>
 
         .randomArticle h2 {
             font-size: 2rem;
+            margin-bottom: 0;
+        }
+        /*RELATEREDE VARER*/
+
+        #single_image_container .single_relaterede_wrapper .single_col_relaterede .single_kort1 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 1rem;
+        }
+
+        .single_article_bg {
+            background-color: rgba(39, 39, 39, 0.96);
+            height: 100%;
+            margin-bottom: 3%;
+        }
+
+        .single_article_bg img {
+            border-top-left-radius: 5%;
+            border-top-right-radius: 5%;
+            width: 100%;
+            height: 60vw;
+            object-fit: cover;
+            padding: 0;
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+        }
+
+        .single_article_bg {
+            display: grid;
+            grid-template-rows: 1fr;
         }
 
     </style>
@@ -132,36 +162,26 @@ get_header(); ?>
                 <a href="http://kasperdyhl.dk/tier1mtg/produktside/">
                     <h3 class="til_produktside">Se alle single cards →</h3>
                 </a>
-                <div class="single_image-container">
-                    <figure class="single_figure1">
-                        <div class="single_kort1"></div>
-                    </figure>
-
-                    <figure class="single_figure2">
-                        <div class="single_kort2"></div>
-                    </figure>
-
-                    <figure class="single_figure3">
-                        <div class="single_kort3"></div>
-                    </figure>
-
-                    <figure class="single_figure4">
-                        <div class="single_kort4"></div>
-                    </figure>
+                <div id="single_image_container">
+                    <div class="single_relaterede_wrapper">
+                        <div class="single_col_relaterede">
+                            <div class="single_kort1"></div>
+                        </div>
+                    </div>
                 </div>
             </section>
 
         </main>
 
         <template>
-            <article>
-                <div class="single_billed_placering">
-                    <img src="" alt="" class="random_billede">
-                    <button class="single_se_kort_knap knapper_dark">SE KORT</button>
-                </div>
+            <article class="single_article_bg">
+
+                <img src="" alt="" class="single_random_billede">
+
                 <div class="single_baggrund_kort">
                     <h2 class="single_titel_alternativ"></h2>
-                    <h3 class="single_pris_alternativ"></h3>
+                    <p class="single_pris_alternativ"></p>
+                    <button class="single_se_kort_knap knapper_dark">SE KORT</button>
                 </div>
 
             </article>
@@ -250,7 +270,7 @@ get_header(); ?>
                     //Her klones template og udfyldes med data fra de tilfældige objekter
                     const klonRandom = skabelon.cloneNode(true).content;
 
-                    klonRandom.querySelector(".random_billede").src = newSingleKort.billede.guid;
+                    klonRandom.querySelector(".single_random_billede").src = newSingleKort.billede.guid;
                     klonRandom.querySelector(".single_titel_alternativ").innerHTML = newSingleKort.title.rendered;
                     klonRandom.querySelector(".single_pris_alternativ").innerHTML = `${"Fra "}` + newSingleKort.pris + `${" DKK"}`;
 
