@@ -134,6 +134,15 @@ get_header(); ?>
         padding-top: 10vw;
     }
 
+    .commander_tip_col_1 h1 {
+        margin-top: 80px;
+    }
+
+    .commander_tip_col_1 a,
+    .commander_tip_col_1 img {
+        display: none;
+    }
+
 
 
 
@@ -266,7 +275,7 @@ get_header(); ?>
 
 
 
-        /*GRID PÅ UGENS TIP-SEKTION*/
+        /*UGENS TIP-SEKTION*/
         .commander_tip_sektion_container {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -284,6 +293,12 @@ get_header(); ?>
             grid-row: 1;
             padding-top: 10vw;
         }
+
+        .commander_tip_col_1 a,
+        .commander_tip_col_1 img {
+            display: flex;
+        }
+
 
 
         /*EVENT SEKTION*/
