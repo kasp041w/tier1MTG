@@ -389,7 +389,6 @@ get_header(); ?>
 
 
 
-
         <section id="forside_fjerde_sektion">
             <h1>KOMMENDE EVENTS</h1>
             <a href="http://kasperdyhl.dk/tier1mtg/event/">
