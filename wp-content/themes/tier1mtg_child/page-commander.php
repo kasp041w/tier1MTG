@@ -141,6 +141,14 @@ get_header(); ?>
         padding-right: 15vw;
     }
 
+    #commander_cardmarket_sektion a {
+        color: #AD9261;
+    }
+
+    #commander_cardmarket_sektion a:hover {
+        color: #F1F0E8;
+    }
+
     /*EVENT SEKTION STYLING*/
     .commander_image-container figure {
         position: relative;
