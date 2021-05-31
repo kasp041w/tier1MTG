@@ -270,6 +270,7 @@ get_header(); ?>
             display: grid;
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 1fr;
+            margin-top: 50px;
         }
 
         .commander_top_col_1 {
@@ -339,6 +340,7 @@ get_header(); ?>
             padding-bottom: 20vw;
             text-align: center;
             margin-bottom: -5px;
+            margin-top: 70px;
         }
 
         #commander_cardmarket_sektion h1 {
