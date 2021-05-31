@@ -29,7 +29,7 @@ get_header(); ?>
     #forside_fjerde_sektion,
     .forside_femte_sektion {
         max-width: 1200px;
-        margin: 70px auto;
+        margin: 50px auto;
         padding: 5%;
     }
 
@@ -137,7 +137,7 @@ get_header(); ?>
         max-width: none;
         height: 86vh;
         width: 100%;
-        margin: 130px 0 90px 0;
+        margin: 20px 0 90px 0;
     }
 
     .forside_anden_sektion_styl {
@@ -295,7 +295,6 @@ get_header(); ?>
             margin-bottom: 0;
         }
 
-
         /*FØRSTE SEKTION OG KORT*/
         .til_kort_side_nav {
             text-align: end;
@@ -319,6 +318,13 @@ get_header(); ?>
         .forside_anden_sektion_tekst {
             padding: 90px 0px;
             margin: 0px 290px;
+        }
+
+
+        /*FJERDE SEKTION ASS*/
+
+        #forside_fjerde_sektion {
+            margin: 120px auto;
         }
 
 
