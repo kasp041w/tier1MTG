@@ -123,10 +123,11 @@ get_header(); ?>
         background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/del_af_universet.png);
         background-size: cover;
         max-width: none;
-        height: 60vh;
+        height: 80vh;
         width: 100%;
         padding-bottom: 20vw;
         text-align: center;
+        margin-bottom: -5px;
     }
 
     #commander_cardmarket_sektion h1 {
@@ -269,12 +270,26 @@ get_header(); ?>
         #commander_cardmarket_sektion {
             padding-bottom: 6vw;
         }
+
+
+        /*CARDMARKET SEKTION*/
+        /*CARDMARKET SEKTIONEN */
+        .commander_cardmarket_container {
+            background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/del_af_universet.png);
+            background-size: cover;
+            max-width: none;
+            height: 60vh;
+            width: 100%;
+            padding-bottom: 20vw;
+            text-align: center;
+            margin-bottom: -5px;
+        }
+
     }
 
+
+
     @media only screen and (min-width: 1200px) {
-        section {
-            padding-bottom: 4vw;
-        }
 
         /*TILPASNING AF PADDING PÅ UGENS TIP-SEKTION*/
         .commander_tip_col_1 {
@@ -291,9 +306,7 @@ get_header(); ?>
             padding-right: 25vw;
         }
 
-        #commander_cardmarket_sektion {
-            padding-bottom: 4vw;
-        }
+
     }
 
 </style>
