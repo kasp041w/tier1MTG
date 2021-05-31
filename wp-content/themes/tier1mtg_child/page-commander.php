@@ -274,7 +274,7 @@ get_header(); ?>
 
 
 
-        /*CARDMARKET SEKTION*/
+
         /*CARDMARKET SEKTIONEN */
         .commander_cardmarket_container {
             background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/del_af_universet.png);
@@ -285,6 +285,11 @@ get_header(); ?>
             padding-bottom: 20vw;
             text-align: center;
             margin-bottom: -5px;
+        }
+
+        #commander_cardmarket_sektion h1 {
+            color: #F5F5F5;
+            padding-top: 7%;
         }
 
     }
