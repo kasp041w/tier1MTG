@@ -17,14 +17,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 get_header(); ?>
 
 <style>
-    #myVideo {
-        margin-top: 23px;
-        position: absolute;
-        z-index: -1;
-        width: 100%;
-        clip: auto;
-    }
-
     main {
         width: 100%;
         padding-left: 0rem;
@@ -364,6 +356,15 @@ get_header(); ?>
         .forside_sjette_sektion_grid .left {
             place-self: center;
             margin-left: 15%;
+        }
+
+
+        #myVideo {
+            margin-top: 23px;
+            position: absolute;
+            z-index: -1;
+            width: 100%;
+            clip: auto;
         }
     }
 
