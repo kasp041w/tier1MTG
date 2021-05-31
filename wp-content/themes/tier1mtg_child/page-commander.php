@@ -362,24 +362,22 @@ get_header(); ?>
                 <div class="commander_image-container">
 
                     <figure class="commander_figure_event">
-                        <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Intersection-123.png" alt="Tier1MTG event">
+                        <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/galleri_1-scaled.jpg" alt="Tier1MTG event">
                     </figure>
 
                     <figure class="commander_figure_event">
-                        <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Intersection-123.png" alt="Tier1MTG event">
+                        <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/galleri2-scaled.jpg" alt="Tier1MTG event">
                     </figure>
 
                     <figure class="commander_figure_event">
-                        <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Intersection-123.png" alt="Tier1MTG event">
+                        <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/galler3-scaled.jpg" alt="Tier1MTG event">
                     </figure>
 
                     <figure class="commander_figure_event">
-                        <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Intersection-123.png" alt="Tier1MTG event">
+                        <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/galler4-scaled.jpg" alt="Tier1MTG event">
                     </figure>
 
-                    <figure class="commander_figure_event">
-                        <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Intersection-123.png" alt="Tier1MTG event">
-                    </figure>
+
                 </div>
             </div>
         </section>
