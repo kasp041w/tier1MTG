@@ -420,7 +420,7 @@ get_header(); ?>
                     </figure>
 
                     <figure class="commander_figure_event">
-                        <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/galler3-scaled.jpg" alt="Tier1MTG event">
+                        <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/galleri5-scaled.jpg" alt="Tier1MTG event">
                     </figure>
 
                     <figure class="commander_figure_event">
@@ -458,7 +458,7 @@ get_header(); ?>
                 </figure>
 
                 <figure class="commander_figure_event">
-                    <img src="http://kasperdyhl.dk/tier1mtg/wp-contentuploadsuploads/2021/05/galler4-scaled.jpg" alt="Tier1MTG event">
+                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/ARTIKEL3-scaled.jpg" alt="Tier1MTG event">
                     <button class="event_mere_knap knapper_dark">LÆS NU</button>
                     <figcaption class="fjerde_sektion_figcuption">
                         <h2 class="h2_acc">Sådan laver du et deck</h2>
