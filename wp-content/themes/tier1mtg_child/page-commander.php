@@ -156,27 +156,9 @@ get_header(); ?>
     }
 
     #forside_fjerde_sektion img {
-        border-top-left-radius: 5%;
-        border-top-right-radius: 5%;
         width: 100%;
     }
 
-    .fjerde_sektion_figcuption {
-        position: absolute;
-        bottom: 0;
-        background-color: rgba(39, 39, 39, 0.96);
-        width: 100%;
-        padding: 20px;
-        height: 30%;
-        transition: .5s ease;
-        overflow: hidden;
-    }
-
-    .commander_figure_event:hover .fjerde_sektion_figcuption {
-        height: 100%;
-        border-top-left-radius: 5%;
-        border-top-right-radius: 5%;
-    }
 
     .commander_figure_event {
         flex-basis: 100%;
@@ -194,13 +176,6 @@ get_header(); ?>
         padding: 20px;
     }
 
-    .h2_acc {
-        color: #F5F5F5;
-    }
-
-    .h3_acc {
-        color: #AD9261;
-    }
 
     /*VIDEOER*/
     iframe {
