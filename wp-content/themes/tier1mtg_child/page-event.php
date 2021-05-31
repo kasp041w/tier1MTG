@@ -147,6 +147,10 @@ get_header(); ?>
         justify-content: center;
     }
 
+
+
+
+
     @media (min-width: 950px) {
 
         /*FØRTE SEKTION*/
@@ -155,6 +159,12 @@ get_header(); ?>
             margin-top: -70px;
         }
 
+
+        /* ANDEN SEKTION EVENT*/
+
+        .event_anden_sektion_container {
+            margin-top: -70px;
+        }
 
         /*TREJDE SEKTION LIVE STREAMING*/
 
