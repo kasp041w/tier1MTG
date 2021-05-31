@@ -317,7 +317,7 @@ get_header(); ?>
 		<section id="commander_top_sektion">
 			<div class="commander_top_col_1">
 				<h1>HVAD ER COMMANDER?</h1>
-				<p>Tekst her om Commander-formatet. Etiam justo erat, pellentesque vel lacus vel, tincidunt pellentesque nisl. Integer auctor nibh eget lorem aliquet, pulvinar efficitur augue ullamcorper. Interdum et malesuada fames ac ante ipsum primis in faucibus. In id pretium est. Aenean vehicula arcu nunc, et sodales ante finibus in. Proin sed tellus varius, consectetur leo sit amet, gravida velit. Vivamus ac eleifend sem. Suspendisse mattis dolor lorem, id venenatis odio venenatis quis. Sed sit amet finibus mauris. Phasellus id elementum velit. Nulla facilisi. Cras elementum gravida pulvinar.</p>
+				<p>I Commander-formatet spiller du med et deck med 100 unikke kort. Du kan spille med et færdigkøbt deck, eller du kan opbygge dit eget. Du skal vælge en “commander” - et legendarisk væsen - som resten af decket bygges op omkring. Alle kort skal være i samme farve som din commander. I Commander kan I være 2-6 spillere, og I starter hver med 40 liv. Den sidste, der har overlevet i krigszonen, vinder. Du kan frit optimere dit Commander deck løbende med bedre kort, så længe de har samme farve (eller er uden farve) som din commander - dog er der omkring 50 kort, der er forbudte at bruge i Commander-formatet. Det kan du læse mere om i vores artikler længere nede på siden. Se, hvordan du kan komme i gang med at spille Commander i videoen.</p>
 			</div>
 			<div class="commander_top_col_2">
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/k70dmf3kQYU">
@@ -350,7 +350,7 @@ get_header(); ?>
 		<section id="commander_tip_sektion">
 			<div class="commander_tip_col_1">
 				<h1>SE UGENS TIP</h1>
-				<p>Tekst her om ugens tip. In id pretium est. Aenean vehicula arcu nunc, et sodales ante finibus in. Proin sed tellus varius, consectetur leo sit amet, gravida velit. Vivamus ac eleifend sem. Suspendisse mattis dolor lorem, id venenatis odio venenatis quis. Sed sit amet finibus mauris. Phasellus id elementum velit. Nulla facilisi. Cras elementum gravida pulvinar.</p>
+				<p>Hver uge lægger vi en ny Youtube-video op, som undersøger og forklarer Commander-formatet. Her kan du lære mere om formatet og få tips til at spille og opbygge dit deck. Vil du se vores andre videoer om Commander, kan du se hele vores playliste herunder.</p>
 				<a href="https://www.youtube.com/watch?v=6p6LFFgYVKg" target="_blank" rel="noopener noreferrer" class="commander_playknap"> <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/youtube_knap.png" alt="play knap"> </a>
 				<p>Se vores Commander-playliste på Youtube</p>
 			</div>
