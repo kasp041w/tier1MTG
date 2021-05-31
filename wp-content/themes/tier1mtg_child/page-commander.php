@@ -272,10 +272,6 @@ get_header(); ?>
             flex-basis: 27%;
         }
 
-        /*CARDMARKET SEKTION*/
-        #commander_cardmarket_sektion {
-            padding-bottom: 6vw;
-        }
 
 
         /*CARDMARKET SEKTION*/
