@@ -159,6 +159,10 @@ get_header(); ?>
         width: 100%;
     }
 
+    .fjerde_sektion_figcuption {
+        background-color: #272727;
+    }
+
 
     .commander_figure_event {
         flex-basis: 100%;
@@ -388,15 +392,13 @@ get_header(); ?>
         <section id="commander_artikler">
             <h1>LÆS DET NYESTE OM COMMANDER</h1>
             <p>Hold dig opdateret på det nyeste inden for Commander-formatet på vores blog</p>
-            <!--			Events ind her - hvordan?-->
             <a href="">
                 <h3 class="til_kort_side_nav">Se alle artikler →</h3>
             </a>
             <div class="commander_image-container">
-
                 <figure class="commander_figure_event">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/artikel1-scaled.jpg" alt="Tier1MTG event">
-                    <button class="event_mere_knap knapper_dark">LÆS MERE</button>
+                    <button class="event_mere_knap knapper_dark">LÆS NU</button>
                     <figcaption class="fjerde_sektion_figcuption">
                         <h2 class="h2_acc">Hvilken type spiller er du?</h2>
                         <h3 class="h3_acc">Find den Magic-strategi, der passer bedst til din spillestil.</h3>
@@ -405,7 +407,7 @@ get_header(); ?>
 
                 <figure class="commander_figure_event">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/artikel2-scaled.jpg" alt="">
-                    <button class="event_mere_knap knapper_dark">LÆS MERE</button>
+                    <button class="event_mere_knap knapper_dark">LÆS NU</button>
                     <figcaption class="fjerde_sektion_figcuption">
                         <h2 class="h2_acc">Det bedste fra Strixhaven</h2>
                         <h3 class="h3_acc">Tjek dine yndlings Commander-kort ud fra de nyeste sæt.</h3>
@@ -413,8 +415,8 @@ get_header(); ?>
                 </figure>
 
                 <figure class="commander_figure_event">
-                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/galler4-scaled.jpg" alt="Tier1MTG event">
-                    <button class="event_mere_knap knapper_dark">LÆS MERE</button>
+                    <img src="http://kasperdyhl.dk/tier1mtg/wp-contentuploadsuploads/2021/05/galler4-scaled.jpg" alt="Tier1MTG event">
+                    <button class="event_mere_knap knapper_dark">LÆS NU</button>
                     <figcaption class="fjerde_sektion_figcuption">
                         <h2 class="h2_acc">Sådan laver du et deck</h2>
                         <h3 class="h3_acc">Se vores anbefalinger til kort, som du kan lave Commander-decks med.</h3>
