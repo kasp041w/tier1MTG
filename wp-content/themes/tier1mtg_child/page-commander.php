@@ -12,6 +12,10 @@ get_header(); ?>
         padding-right: 0rem;
     }
 
+    .site-content .content-area {
+
+        margin: 0 0;
+    }
 
     .commander_top_sektion_container,
     #commander_anden_section,
