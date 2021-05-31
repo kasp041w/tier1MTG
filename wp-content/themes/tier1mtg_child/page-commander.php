@@ -192,6 +192,15 @@ get_header(); ?>
         margin: 0 auto;
     }
 
+    .commander_artikel_galleri_image-container {
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        display: flex;
+        gap: 20px;
+        padding: 0px;
+    }
+
+
     .commander_image-container {
         overflow-x: auto;
         scroll-snap-type: x mandatory;
@@ -383,7 +392,7 @@ get_header(); ?>
                     <h3 class="til_kort_side_nav">Se vores Commander-event →</h3>
                 </a>
 
-                <div class="commander_image-container">
+                <div class="commander_artikel_galleri_image-container">
 
                     <figure class="commander_figure_event">
                         <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/galleri_1-scaled.jpg" alt="Tier1MTG event">
@@ -415,7 +424,7 @@ get_header(); ?>
             <a href="">
                 <h3 class="til_kort_side_nav">Se alle artikler →</h3>
             </a>
-            <div class="commander_figure_event">
+            <div class="commander_artikel_galleri_image-container">
                 <figure class="commander_figure_event">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/artikel1-scaled.jpg" alt="Tier1MTG event">
                     <button class="event_mere_knap knapper_dark">LÆS NU</button>
