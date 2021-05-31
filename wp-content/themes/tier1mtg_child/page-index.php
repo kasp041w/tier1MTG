@@ -511,7 +511,7 @@ get_header(); ?>
 			<div class="forside_sjette_sektion_grid">
 				<div class="left">
 					<h1>VI ER OGSÅ PÅ CARDMARKET</h1>
-					<p>Vi har Skandinaviens største udvalg af MTG-enkeltkort, og vi sælger også kort på Cardmarket. <a href="https://www.cardmarket.com/en/Magic/Users/Tier1MTG">Se vores udvalg på Cardmarket her.</a> Vi sender alle hverdage, så du hurtigt kan modtage dine nye kort, og vi sender over hele verden til gode priser. Vi er certificeret "Professional Seller" på Magic-Cardmarket, og det er din sikkerhed for, at vi er en troværdig sælger. Vi har altid et voksende katalog af over 210.000 Magic: The Gathering-enkeltkort.</p>
+					<p>Vi har Skandinaviens største udvalg af MTG-enkeltkort, og vi sælger også kort på Cardmarket. <a href="https://www.cardmarket.com/en/Magic/Users/Tier1MTG" target="_blank">Se vores udvalg på Cardmarket her.</a> Vi sender alle hverdage, så du hurtigt kan modtage dine nye kort, og vi sender over hele verden til gode priser. Vi er certificeret "Professional Seller" på Magic-Cardmarket, og det er din sikkerhed for, at vi er en troværdig sælger. Vi har altid et voksende katalog af over 210.000 Magic: The Gathering-enkeltkort.</p>
 					<button class="forside_sjette_sektion_knap">LÆS MERE</button>
 				</div>
 				<div class="right">
