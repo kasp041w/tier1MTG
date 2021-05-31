@@ -252,6 +252,7 @@ get_header(); ?>
         .commander_galleri_container,
         #commander_artikler {
             padding: 0%;
+            margin-top: 60px;
         }
 
 
@@ -280,6 +281,7 @@ get_header(); ?>
             display: grid;
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 1fr;
+            grid-gap: 20px;
         }
 
         .commander_tip_col_1 {
@@ -291,7 +293,7 @@ get_header(); ?>
         .commander_tip_col_2 {
             grid-column: 2/2;
             grid-row: 1;
-            padding-top: 10vw;
+            padding-top: 18vw;
         }
 
         .commander_tip_col_1 a,
