@@ -20,7 +20,7 @@ get_header(); ?>
     <main id="main" <?php generate_do_element_classes( 'main' ); ?>>
 
         <style>
-            #omOs h2 {
+            #omOs h1 {
                 margin: 0 0 5wv 0;
             }
 
@@ -41,13 +41,13 @@ get_header(); ?>
 
             .ansatte {
                 display: flex;
-                overflow-x: scroll;
+                overflow-x: auto;
                 scroll-snap-type: x mandatory;
 
             }
 
             .ansat {
-                margin: 3vw;
+                margin: 2vw;
                 text-align: center;
                 scroll-snap-align: center;
                 flex-shrink: 0;
@@ -79,10 +79,8 @@ get_header(); ?>
             #kontaktOs {
                 background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/kontakt_baggrund.png);
                 background-size: cover;
-                height: 100vh;
                 width: 100%;
-                height: auto;
-                max-height: 112vh;
+                height: 122vh;
                 text-align: center;
                 padding-top: 130px;
                 padding-bottom: 110px;
@@ -170,7 +168,7 @@ get_header(); ?>
 
         <section id="omOs">
 
-            <h2>Om os</h2>
+            <h1>Om os</h1>
             <div class="omOsTekstBoks">
                 <div class="omOsCol1">simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                     <br>
@@ -250,7 +248,7 @@ get_header(); ?>
                         <textarea name="skrivHer" placeholder="Skriv hér" id="" cols="1" rows="6"></textarea>
                     </label>
                 </div>
-                <button class="formKnap">Send</button>
+                <button class="formKnap knapper_light">Send</button>
 
             </div>
         </section>
@@ -260,23 +258,23 @@ get_header(); ?>
         <section id="serviceInfo">
 
             <div class="serviceInfo_billed">
-                <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Levering.png" alt="Levering logo">
+                <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Levering-e1622195990716.png" alt="Levering logo">
                 <h4>Hurtig levering</h4>
             </div>
 
             <div class="serviceInfo_billed">
-                <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Mail.png" alt="Mail Logo">
-                <h4>Hurtig levering</h4>
+                <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Mail-e1622196016123.png" alt="Mail Logo">
+                <h4>God kunderservice</h4>
             </div>
 
             <div class="serviceInfo_billed">
-                <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Betaling.png" alt="Betaling logo">
-                <h4>Hurtig levering</h4>
+                <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Betaling-e1622196037728.png" alt="Betaling logo">
+                <h4>Køb & salg af MTG</h4>
             </div>
 
             <div class="serviceInfo_billed">
-                <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Tier1.png" alt="Tier1 cardmarket">
-                <h4>Hurtig levering</h4>
+                <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Tier1-e1622195947526.png" alt="Tier1 cardmarket">
+                <h4>Cardmarket & Tier1MTG samlet levering</h4>
             </div>
 
 

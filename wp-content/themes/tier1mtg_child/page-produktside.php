@@ -40,7 +40,7 @@ get_header(); ?>
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(135px, 1fr));
         max-width: 100vw;
-        grid-gap: 2rem;
+        grid-gap: 2rem 0.5rem;
         padding-right: 1.2rem;
         padding-left: 1.2rem;
         padding-bottom: 1.2rem;
@@ -75,6 +75,11 @@ get_header(); ?>
         position: relative;
     }
 
+    .produkt_text_baggrund {
+        height: auto;
+    }
+
+
     .se_kort_knap {
         position: absolute;
         left: 5%;
@@ -106,9 +111,55 @@ get_header(); ?>
         color: #AD9261;
         font-size: 1rem;
         margin-bottom: 0;
+
     }
 
+
     /*---FILTRERINGSNAVIGATION---*/
+    /*Knappernen */
+    .knapper_dark_kategori {
+        background-color: #F1F0E8;
+        color: #272727;
+        padding: 12px 20px 12px 20px;
+        font-weight: bold;
+        font-family: 'Cormorant', serif;
+        font-size: 0.83rem;
+    }
+
+    .knapper_dark_kategori:hover {
+        background-color: #AD9261;
+        color: #272727;
+    }
+
+
+    .knapper_dark_filter {
+        background-color: #F1F0E8;
+        color: #272727;
+        padding: 12px 20px 12px 20px;
+        font-weight: bold;
+        font-family: 'Cormorant', serif;
+        font-size: 0.83rem;
+    }
+
+    .knapper_dark_filter:hover {
+        background-color: #AD9261;
+        color: #272727;
+
+    }
+
+    .katagori_knapper_produkt {
+        background-color: #F1F0E8;
+        color: #272727;
+        padding: 12px 20px 12px 20px;
+        font-weight: bold;
+        font-family: 'Cormorant', serif;
+    }
+
+    .katagori_knapper_produkt:hover {
+        background-color: #AD9261;
+        color: #F1F0E8;
+    }
+
 
     #nav-desk {
         display: none;
@@ -119,9 +170,10 @@ get_header(); ?>
     }
 
     .filter_knapper {
-        width: 96.5%;
+        width: 98%;
         margin: 0.1rem;
         display: inline;
+        margin: 7px 3px 0px 3px;
     }
 
     .filter {
@@ -129,38 +181,59 @@ get_header(); ?>
         height: auto;
         margin: 0.1rem;
         display: inline-block;
+        margin: 7px 3px 0px 3px;
     }
 
-    .visSidebar {
+
+    /*FILTRERING AF FILTER, PRODUKT OG SØG EFTER: styling af filtrerings sektionen med grid i bremmen*/
+    .visSidebar_left {
         display: none;
     }
 
-    .sidebar-display {
+    .visSidebar_right {
+        display: none;
+    }
+
+    .sidebar-display_left {
         position: absolute;
-        height: 130%;
+        height: 100%;
         width: 100vw;
         background-color: #272727;
-        top: 10%;
-        left: 0px;
         display: block;
         color: #F1F0E8;
-        padding-left: 10vw;
-        padding-right: 10vw;
-        z-index: 4;
+        padding-left: 10%;
+        padding-top: 8%;
+        z-index: 30;
+        top: 34%;
     }
 
-    .luk-display {
+
+    .sidebar-display_right {
         position: absolute;
-        top: 0%;
-        left: 82%;
+        height: 50%;
+        width: 100vw;
+        background-color: #272727;
+        display: block;
+        color: #F1F0E8;
+        padding-left: 10%;
+        padding-top: 8%;
+        z-index: 30;
+        top: 34%;
     }
 
-    .visSidebar h2 {
+    .produkt_nav_h3 {
+        display: none;
+    }
+
+
+    .visSidebar_left h2,
+    .visSidebar_right h2 {
         color: #F1F0E8;
         text-transform: uppercase;
     }
 
-    .visSidebar label {
+    .visSidebar_right label,
+    .visSidebar_left label {
         font-family: 'Assistant', sans-serif;
         color: #F1F0E8;
     }
@@ -171,9 +244,16 @@ get_header(); ?>
         width: 80vw;
     }
 
-    .search-knap {
+    /*knapperne under filter dropdown*/
+    button,
+    html input[type="button"],
+    input[type="reset"],
+    input[type="submit"],
+    a.button,
+    a.wp-block-button__link:not(.has-background) {
         font-family: 'Cormorant', serif;
-        color: #F1F0E8;
+        color: #272727;
+        background-color: #F1F0E8;
     }
 
     #nav-mobil {
@@ -200,21 +280,50 @@ get_header(); ?>
 
     @media (min-width: 950px) {
         #single_oversigt {
-            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            grid-gap: 2rem 1.2rem;
+
         }
 
+        /*grid i den sorte tekst bremme under kortene*/
+        .produkt_text_baggrund {
+            display: grid;
+            grid-template-columns: 1fr 0.4fr;
+            grid-template-rows: 1fr 1fr;
+        }
+
+        /*styling af article: fonte, knap og billeder */
         img.billede {
             object-fit: cover;
             height: 76%;
         }
 
+        .title {
+            grid-row-start: 1;
+            grid-row-end: span 1;
+            grid-column-start: 1;
+            grid-column-end: span 1;
+
+        }
+
         .pris {
             font-size: 1rem;
+            grid-row-start: 2;
+            grid-row-end: span 1;
+            grid-column-start: 1;
+            grid-column-end: span 2;
         }
 
         .lagertal {
             font-size: 0.8rem;
+            grid-row-start: 1;
+            grid-row-end: span 1;
+            grid-column-start: 2;
+            grid-column-end: span 1;
         }
+
+
+
 
         .se_kort_knap {
             position: absolute;
@@ -224,6 +333,68 @@ get_header(); ?>
             margin: 1rem;
         }
 
+
+        /*FILTRERING AF FILTER, PRODUKT OG SØG EFTER: styling af filtrerings sektionen med grid i bremmen*/
+
+        #nav-mobil {
+            display: grid;
+            grid-template-columns: 1fr 0.5fr 0.3fr;
+            text-align: left;
+            padding-bottom: 0;
+        }
+
+        #visFilter {
+            place-self: center start;
+            margin-left: 30px;
+        }
+
+        #visFilter_right {
+            grid-column-start: 3;
+            place-self: center end;
+            margin-right: 30px;
+        }
+
+        .produkt_nav_h3 {
+            display: block;
+            place-self: center end;
+        }
+
+        .produkt_nav_h3 h3 {
+            padding: 12px 20px 12px 20px;
+            font-weight: bold;
+            font-family: 'Cormorant', serif;
+            color: #F1F0E8;
+            margin: 0;
+            font-size: 0.83ram;
+        }
+
+        /*styling af knapperne*/
+        .knapper_dark_filter {
+            background-color: #272727;
+            color: #F1F0E8;
+            padding: 12px 20px 12px 20px;
+            font-weight: bold;
+            font-family: 'Cormorant', serif;
+            font-size: 1rem;
+        }
+
+        .knapper_dark_filter:hover {
+            background-color: #272727;
+            color: #AD9261;
+        }
+
+        .knapper_dark_katagori {
+            font-size: 1.2rem;
+        }
+
+        .filter_knapper {
+            width: 96%;
+
+        }
+
+
+        /* FILTRERING DROPDOWN UNDER FILTER OG SØG EFTER: styling af dropdown*/
+
         #visKategorier {
             display: none;
         }
@@ -232,23 +403,25 @@ get_header(); ?>
             display: none;
         }
 
-        .luk-display {
-            left: 10%;
-        }
 
-        .sidebar-display {
+        .sidebar-display_left {
             width: 50%;
             padding-right: 0;
-            top: 20%;
+            margin-top: 90px;
+
+        }
+
+        .sidebar-display_right {
+            width: 50%;
+            padding-right: 0;
+            margin-top: 90px;
+
         }
 
         .opdeling {
             width: 30vw;
         }
 
-        #nav-mobil {
-            text-align: left;
-        }
 
         #nav-desk {
             display: block;
@@ -256,34 +429,50 @@ get_header(); ?>
             width: 100%;
         }
 
-        .filtrering-desk {
+        .sidebar-display_left {
+            position: absolute;
+            height: 100%;
+            background-color: #272727;
+            display: block;
+            color: #F1F0E8;
+            padding-left: 6%;
+            padding-top: 2%;
+            z-index: 30;
+            top: 42%;
+        }
+
+
+        .sidebar-display_right {
+            position: absolute;
+            height: 50%;
             width: 100vw;
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
+            background-color: #272727;
+            display: block;
+            color: #F1F0E8;
+            padding-left: 6%;
+            padding-top: 2%;
+            z-index: 30;
+            top: 42%;
         }
-
-        /*
-        .filter_knapper {
-        width: 48%;
-        }
-*/
-
 
 
         /*IDAS FORSØG PÅ AT LAVE FILTERINGS KNAPPERNE*/
         .filter {
-            width: 98%;
+            width: 96%;
         }
 
         .filtrering-desk {
             width: 98%;
+            width: 100vw;
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
             grid-template-rows: 1fr 1fr;
-
             margin: 0 auto;
             max-width: 1200px;
+            padding: 30px 50px 0px 50px;
         }
+
+
 
     }
 
@@ -292,124 +481,135 @@ get_header(); ?>
 <div id="primary" <?php generate_do_element_classes( 'content' ); ?>>
     <main id="main" <?php generate_do_element_classes( 'main' ); ?>>
 
-        <section id="nav-mobil">
-            <button id="visKategorier" class="knapper_dark">☰</button>
-            <button id="visFilter" class="knapper_dark">⇆</button>
-            <nav class="filtrering">
-                <button class="filter_knapper knapper_light" data-single="alle">Alle</button>
-            </nav>
-        </section>
         <section id="nav-desk">
             <nav class="filtrering-desk">
-                <button class="filter_knapper knapper_light" data-single="alle">Alle</button>
+                <button class="filter_knapper katagori_knapper_produkt" data-single="alle">Alle</button>
+            </nav>
+
+        </section>
+
+        <section id="nav-mobil">
+            <button id="visKategorier" class="knapper_dark_kategori">KATEGORI ☰</button>
+            <button id="visFilter" class="knapper_dark_filter">FILTER ⇆</button>
+            <div class="produkt_nav_h3">
+                <h3>PRODUKTER: 24</h3>
+            </div>
+            <button id="visFilter_right" class="knapper_dark_filter">SORTER EFTER ⋎</button>
+            <nav class="filtrering">
+                <button class="filter_knapper katagori_knapper_produkt" data-single="alle">Alle</button>
             </nav>
         </section>
 
 
-        <section class="visSidebar">
-            <div class="t">
-                <button id="luk-knap" class="luk-display knapper_dark">×
-                </button>
-                <h2>Sortér efter</h2>
-                <input type="checkbox">
-                <label>Nyeste
-                </label>
-                <br>
-                <input type="checkbox">
-                <label>Navn A-Z
-                </label>
-                <br>
-                <input type="checkbox">
-                <label>Navn Z-A
-                </label>
-                <br>
-                <div class="opdeling"></div>
-                <br>
-                <h2>Pris</h2>
-                <input type="checkbox">
-                <label>Fra lavest til højst
-                </label>
-                <br>
-                <input type="checkbox">
-                <label>Fra højst til lavest
-                </label>
-                <br>
-                <div class="opdeling"></div>
-                <br>
-                <h2>Farveidentiet</h2>
-                <input type="checkbox">
-                <label>Rød
-                </label>
-                <br>
-                <input type="checkbox">
-                <label>Grøn
-                </label>
-                <br>
-                <input type="checkbox">
-                <label>Blå
-                </label>
-                <br>
-                <input type="checkbox">
-                <label>Sort
-                </label>
-                <br>
-                <input type="checkbox">
-                <label>Hvid
-                </label>
-                <br>
-                <input type="checkbox">
-                <label>Colorless
-                </label>
-                <br>
-                <div class="opdeling"></div>
-                <br>
-                <h2>Korttype</h2>
-                <input type="checkbox">
-                <label>Creature
-                </label>
-                <br>
-                <input type="checkbox">
-                <label>Instant
-                </label>
-                <br>
-                <input type="checkbox">
-                <label>Sorcery
-                </label>
-                <br>
-                <input type="checkbox">
-                <label>Artifact
-                </label>
-                <br>
-                <input type="checkbox">
-                <label>Land
-                </label>
-                <br>
-                <input type="checkbox">
-                <label>Planeswalker
-                </label>
-                <br>
-                <div class="opdeling"></div>
-                <br>
-                <h2>Ekstra</h2>
-                <input type="checkbox">
-                <label>Foil
-                </label>
-                <br>
-                <input type="checkbox">
-                <label>Signed
-                </label>
-                <br>
-                <input type="checkbox">
-                <label>Altered
-                </label>
-                <br>
-                <div class="opdeling"></div>
-                <br>
-                <input class="search-knap" type="submit" value="Søg">
-                <br>
+        <section id="produkt_filter_bremme">
+            <div class="produkt_filter_container">
+                <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/filter_kolonne.png" alt="">
+                <div class="left visSidebar_left">
+                    <h2>Farveidentiet</h2>
+                    <input type="checkbox">
+                    <label>Rød
+                    </label>
+                    <br>
+                    <input type="checkbox">
+                    <label>Grøn
+                    </label>
+                    <br>
+                    <input type="checkbox">
+                    <label>Blå
+                    </label>
+                    <br>
+                    <input type="checkbox">
+                    <label>Sort
+                    </label>
+                    <br>
+                    <input type="checkbox">
+                    <label>Hvid
+                    </label>
+                    <br>
+                    <input type="checkbox">
+                    <label>Colorless
+                    </label>
+                    <br>
+                    <div class="opdeling"></div>
+                    <br>
+                    <h2>Korttype</h2>
+                    <input type="checkbox">
+                    <label>Creature
+                    </label>
+                    <br>
+                    <input type="checkbox">
+                    <label>Instant
+                    </label>
+                    <br>
+                    <input type="checkbox">
+                    <label>Sorcery
+                    </label>
+                    <br>
+                    <input type="checkbox">
+                    <label>Artifact
+                    </label>
+                    <br>
+                    <input type="checkbox">
+                    <label>Land
+                    </label>
+                    <br>
+                    <input type="checkbox">
+                    <label>Planeswalker
+                    </label>
+                    <br>
+                    <div class="opdeling"></div>
+                    <br>
+                    <h2>Ekstra</h2>
+                    <input type="checkbox">
+                    <label>Foil
+                    </label>
+                    <br>
+                    <input type="checkbox">
+                    <label>Signed
+                    </label>
+                    <br>
+                    <input type="checkbox">
+                    <label>Altered
+                    </label>
+                    <br>
+                    <div class="opdeling"></div>
+                    <br>
+                    <input type="submit" value="SLET FILTREINGE">
+                    <input type="submit" value="VIS RESULTATER">
+                    <br>
+                </div>
 
+                <div class="right visSidebar_right">
+                    <h2>Sortér efter</h2>
+                    <input type="checkbox">
+                    <label>Nyeste
+                    </label>
+                    <br>
+                    <input type="checkbox">
+                    <label>Navn A-Z
+                    </label>
+                    <br>
+                    <input type="checkbox">
+                    <label>Navn Z-A
+                    </label>
+                    <br>
+                    <div class="opdeling"></div>
+                    <br>
+                    <h2>Pris</h2>
+                    <input type="checkbox">
+                    <label>Fra lavest til højst
+                    </label>
+                    <br>
+                    <input type="checkbox">
+                    <label>Fra højst til lavest
+                    </label>
+                    <br>
+                    <div class="opdeling"></div>
+                    <br>
+                </div>
             </div>
         </section>
+
 
         <div id="produktliste">
             <section id="single_cat_overskrift">
@@ -425,12 +625,15 @@ get_header(); ?>
     <template>
         <article class="single_kort">
             <img src="" alt="" class="billede">
-            <h3 class="titel"></h3>
-            <p class="pris"></p>
-            <p class="lagertal"></p>
-            <br>
-            <button class="se_kort_knap knapper_dark">Se kort</button>
-            <br>
+            <div class="produkt_text_baggrund">
+                <h3 class="titel"></h3>
+                <p class="lagertal"></p>
+                <p class="pris"></p>
+                <br>
+                <button class="se_kort_knap knapper_dark">Se kort</button>
+                <br>
+            </div>
+
         </article>
     </template>
 
@@ -469,7 +672,7 @@ get_header(); ?>
             //Viser kategorierne i en pop-up menu i mobilversion
             document.querySelector("#visKategorier").addEventListener("mousedown", visKategorier);
             document.querySelector("#visFilter").addEventListener("mousedown", visFilter);
-            document.querySelector("#luk-knap").addEventListener("mousedown", visFilter);
+            document.querySelector("#visFilter_right").addEventListener("mousedown", visFilter_right);
 
             visSingles();
             opretKnapper();
@@ -480,8 +683,8 @@ get_header(); ?>
             console.log("opretKnapper virker");
 
             categories.forEach(cat => {
-                document.querySelector(".filtrering").innerHTML += `<button class="filter knapper_light" data-single="${cat.id}">${cat.name}</button>`
-                document.querySelector(".filtrering-desk").innerHTML += `<button class="filter knapper_light" data-single="${cat.id}">${cat.name}</button>`
+                document.querySelector(".filtrering").innerHTML += `<button class="filter katagori_knapper_produkt" data-single="${cat.id}">${cat.name}</button>`
+                document.querySelector(".filtrering-desk").innerHTML += `<button class="filter katagori_knapper_produkt" data-single="${cat.id}">${cat.name}</button>`
             })
 
             addEventListenersToButtons();
@@ -506,7 +709,12 @@ get_header(); ?>
 
         //Viser filterne i en pop-up menu i mobilversion
         function visFilter() {
-            document.querySelector(".visSidebar").classList.toggle("sidebar-display");
+            document.querySelector(".visSidebar_left").classList.toggle("sidebar-display_left");
+
+        }
+
+        function visFilter_right() {
+            document.querySelector(".visSidebar_right").classList.toggle("sidebar-display_right");
         }
 
 

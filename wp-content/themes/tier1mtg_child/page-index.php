@@ -32,9 +32,6 @@ get_header(); ?>
         margin: 70px auto;
     }
 
-    h1 {
-        margin-bottom: 20px;
-    }
 
 
     /*FORSIDE SPLASH*/
@@ -46,6 +43,8 @@ get_header(); ?>
         height: 100vh;
         width: 100%;
     }
+
+
 
 
 
@@ -75,12 +74,15 @@ get_header(); ?>
         z-index: 40;
     }
 
-    .billede {
+    .billede_forside {
         border-top-left-radius: 5%;
         border-top-right-radius: 5%;
         width: 100%;
-        height: 34rem;
+        height: 57vh;
     }
+
+
+
 
     /*Styling af hovereffekten på kort og produkter så den sorte bremme forsvinder med mus over bilelde*/
     article {
@@ -96,6 +98,7 @@ get_header(); ?>
         height: 30%;
         transition: .5s ease;
         overflow: hidden;
+        margin-bottom: 3%;
     }
 
     article:hover .baggrund_kort {
@@ -111,7 +114,7 @@ get_header(); ?>
     }
 
     .forside_image-container {
-        overflow-x: scroll;
+        overflow-x: auto;
         scroll-snap-type: x mandatory;
         display: flex;
         gap: 20px;
@@ -132,8 +135,9 @@ get_header(); ?>
         background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/del_af_universet.png);
         background-size: cover;
         max-width: none;
-        height: 90vh;
+        height: 75vh;
         width: 100%;
+        margin: 130px 0 90px 0;
     }
 
     .forside_anden_sektion_styl {
@@ -143,6 +147,7 @@ get_header(); ?>
 
     .forside_anden_sektion_tekst {
         display: grid;
+        padding: 16vh 0;
     }
 
 
@@ -202,10 +207,18 @@ get_header(); ?>
         overflow: hidden;
     }
 
-    .forside_figure_ny:hover .fjerde_sektion_figcuption {
+    .forside_figure_event:hover .fjerde_sektion_figcuption {
         height: 100%;
         border-top-left-radius: 5%;
         border-top-right-radius: 5%;
+    }
+
+    .forside_figure_event {
+        flex-basis: 100%;
+        flex-shrink: 0;
+        scroll-snap-align: center;
+        max-width: 350px;
+        margin: 0 auto;
     }
 
     /*FEMTE SEKTION: styling af femte sektion*/
@@ -240,6 +253,11 @@ get_header(); ?>
         text-align: center;
     }
 
+    /*----- så blomsten i bunden går i ét med footer-----*/
+    section .forside_sjette_sektion_grid {
+        margin-bottom: -6px;
+    }
+
     .forside_sjette_sektion_knap {
         background-color: #AD9261;
         color: #F1F0E8;
@@ -258,6 +276,17 @@ get_header(); ?>
 
     /*desktop*/
     @media (min-width: 950px) {
+
+        /*OVERSKRIFTERNE TIL HVER SEKTION*/
+
+        #forside_first_section h1,
+        #forside_trejde_sektion h1,
+        #forside_fjerde_sektion h1 {
+            margin-bottom: 0;
+        }
+
+
+        /*FØRSTE SEKTION OG KORT*/
         .til_kort_side_nav {
             text-align: end;
         }
@@ -271,7 +300,7 @@ get_header(); ?>
         /*ANDEN SEKTION*/
 
         #forside_anden_sektion {
-            height: 50vh;
+            height: 57vh;
         }
 
         .forside_anden_sektion_tekst {
@@ -420,9 +449,9 @@ get_header(); ?>
                 <h3 class="til_kort_side_nav">Se alle events →</h3>
             </a>
             <div class="forside_image-container">
-                <figure class="forside_figure_ny">
-                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/jeweled-bird.jpg" alt="Tier1MTG event">
-                    <button class="se_kort_knap knapper_dark">LÆS MERE</button>
+                <figure class="forside_figure_event">
+                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Intersection-123.png" alt="Tier1MTG event">
+                    <button class="event_mere_knap knapper_dark">LÆS MERE</button>
                     <figcaption class="fjerde_sektion_figcuption">
                         <h2 class="h2_acc">Old School Game</h2>
                         <h3 class="h3_acc">Dato: 23-06-2021</h3>
@@ -432,9 +461,9 @@ get_header(); ?>
                     </figcaption>
                 </figure>
 
-                <figure class="forside_figure_ny">
-                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/jeweled-bird.jpg" alt="">
-                    <button class="se_kort_knap knapper_dark">LÆS MERE</button>
+                <figure class="forside_figure_event">
+                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Intersection-123.png" alt="">
+                    <button class="event_mere_knap knapper_dark">LÆS MERE</button>
                     <figcaption class="fjerde_sektion_figcuption">
                         <h2 class="h2_acc">Old School Game</h2>
                         <h3 class="h3_acc">Dato: 23-06-2021</h3>
@@ -444,9 +473,9 @@ get_header(); ?>
                     </figcaption>
                 </figure>
 
-                <figure class="forside_figure_ny">
-                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/jeweled-bird.jpg" alt="Tier1MTG event">
-                    <button class="se_kort_knap knapper_dark">LÆS MERE</button>
+                <figure class="forside_figure_event">
+                    <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Intersection-123.png" alt="Tier1MTG event">
+                    <button class="event_mere_knap knapper_dark">LÆS MERE</button>
                     <figcaption class="fjerde_sektion_figcuption">
                         <h2 class="h2_acc">Old School Game</h2>
                         <h3 class="h3_acc">Dato: 23-06-2021</h3>
@@ -498,7 +527,7 @@ get_header(); ?>
     <template>
         <article>
             <div class="billed_placering">
-                <img src="" alt="" class="billede">
+                <img src="" alt="" class="billede_forside">
                 <button class="se_kort_knap knapper_dark">SE KORT</button>
             </div>
             <div class="baggrund_kort">
@@ -546,7 +575,7 @@ get_header(); ?>
 
 
                 const klon = template.cloneNode(true).content; //Her klones template og udfyldes med data fra de tilfældige objekter
-                klon.querySelector(".billede").src = single.billede.guid;
+                klon.querySelector(".billede_forside").src = single.billede.guid;
                 klon.querySelector(".titel_alternativ").innerHTML = single.title.rendered;
                 klon.querySelector(".pris_alternativ").innerHTML = `${"Fra "}` + single.pris;
 
@@ -575,7 +604,7 @@ get_header(); ?>
 
 
                 const klon = template.cloneNode(true).content; //Her klones template og udfyldes med data fra de tilfældige objekter
-                klon.querySelector(".billede").src = single.billede.guid;
+                klon.querySelector(".billede_forside").src = single.billede.guid;
                 klon.querySelector(".titel_alternativ").innerHTML = single.title.rendered;
                 klon.querySelector(".pris_alternativ").innerHTML = `${"Fra "}` + single.pris;
 
@@ -604,7 +633,7 @@ get_header(); ?>
 
 
                 const klon = template.cloneNode(true).content; //Her klones template og udfyldes med data fra de tilfældige objekter
-                klon.querySelector(".billede").src = single.billede.guid;
+                klon.querySelector(".billede_forside").src = single.billede.guid;
                 klon.querySelector(".titel_alternativ").innerHTML = single.title.rendered;
                 klon.querySelector(".pris_alternativ").innerHTML = `${"Fra "}` + single.pris;
 
@@ -633,7 +662,7 @@ get_header(); ?>
 
 
                 const klon = template.cloneNode(true).content; //Her klones template og udfyldes med data fra de tilfældige objekter
-                klon.querySelector(".billede").src = single.billede.guid;
+                klon.querySelector(".billede_forside").src = single.billede.guid;
                 klon.querySelector(".titel_alternativ").innerHTML = single.title.rendered;
                 klon.querySelector(".pris_alternativ").innerHTML = `${"Fra "}` + single.pris;
 
