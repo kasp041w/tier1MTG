@@ -113,7 +113,7 @@ get_header(); ?>
     }
 
     /*CARDMARKET SEKTIONEN */
-    #commander_cardmarket_sektion {
+    .commander_cardmarket_container {
         background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/del_af_universet.png);
         background-size: cover;
         max-width: none;
@@ -125,6 +125,7 @@ get_header(); ?>
 
     #commander_cardmarket_sektion h1 {
         color: #F5F5F5;
+        padding-top: 10%;
     }
 
     #commander_cardmarket_sektion p {
@@ -426,21 +427,12 @@ get_header(); ?>
 
 
         <section id="commander_cardmarket_sektion">
-            <h1>VI ER OGSÅ PÅ CARDMARKET</h1>
-            <p>Vi har Skandinaviens største udvalg af MTG-enkeltkort, og vi sælger også kort på Cardmarket. <a href="https://www.cardmarket.com/en/Magic/Users/Tier1MTG" target="_blank">Se vores udvalg på Cardmarket her.</a> Vi sender alle hverdage, så du hurtigt kan modtage dine nye kort, og vi sender over hele verden til gode priser. Vi er certificeret "Professional Seller" på Magic-Cardmarket, og det er din sikkerhed for, at vi er en troværdig sælger. Vi har altid et voksende katalog af over 210.000 Magic The Gathering-enkeltkort.</p>
-            <button class="commander_knap_cardmarket">Læs mere</button>
-        </section>
-
-        <section id="commander_cardmarket_sektion">
-            <div class="left">
+            <div class="commander_cardmarket_container">
                 <h1>VI ER OGSÅ PÅ CARDMARKET</h1>
-                <p>Vi har Skandinaviens største udvalg af MTG-enkeltkort, og vi sælger også kort på Cardmarket. <a href="https://www.cardmarket.com/en/Magic/Users/Tier1MTG" target="_blank">Se vores udvalg på Cardmarket her.</a> Vi sender alle hverdage, så du hurtigt kan modtage dine nye kort, og vi sender over hele verden til gode priser. Vi er certificeret "Professional Seller" på Magic-Cardmarket, og det er din sikkerhed for, at vi er en troværdig sælger. Vi har altid et voksende katalog af over 210.000 Magic: The Gathering-enkeltkort.</p>
-                <button class="forside_sjette_sektion_knap">LÆS MERE</button>
+                <p>Vi har Skandinaviens største udvalg af MTG-enkeltkort, og vi sælger også kort på Cardmarket. <a href="https://www.cardmarket.com/en/Magic/Users/Tier1MTG" target="_blank">Se vores udvalg på Cardmarket her.</a> Vi sender alle hverdage, så du hurtigt kan modtage dine nye kort, og vi sender over hele verden til gode priser. Vi er certificeret "Professional Seller" på Magic-Cardmarket, og det er din sikkerhed for, at vi er en troværdig sælger. Vi har altid et voksende katalog af over 210.000 Magic The Gathering-enkeltkort.</p>
+                <button class="commander_knap_cardmarket">Læs mere</button>
             </div>
         </section>
-
-
-
 
 
     </main>
