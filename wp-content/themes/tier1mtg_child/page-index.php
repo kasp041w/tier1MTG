@@ -271,7 +271,7 @@ get_header(); ?>
     }
 
     .forside_sjette_sektion_grid .right {
-        margin: 0px 0px -5px 0px;
+        margin: 0px -70px -13px 0px;
     }
 
     .forside_sjette_sektion_knap {
