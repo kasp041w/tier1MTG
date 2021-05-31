@@ -29,6 +29,15 @@ get_header(); ?>
             grid-gap: 1rem;
         }
 
+        .billede:hover {
+            cursor: crosshair;
+        }
+
+        .single_col img:hover {
+            transform: scale(1.2);
+            cursor: pointer;
+        }
+
         #single_udgaver .single_wrapper .single_container {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -56,6 +65,11 @@ get_header(); ?>
 
         .single_kurv {
             width: 8rem;
+        }
+
+        .single_kurv:hover {
+            cursor: pointer;
+            transform: scale(1.1);
         }
 
         .single_fragt {
