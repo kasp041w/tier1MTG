@@ -358,7 +358,7 @@ get_header(); ?>
         }
 
         .commander_tip_col_2 {
-            padding-top: 12vw;
+            padding-top: 18vw;
         }
 
         /*CARDMARKET SEKTION*/
