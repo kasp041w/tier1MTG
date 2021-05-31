@@ -145,7 +145,7 @@ get_header(); ?>
             @media (min-width: 900px) {
 
                 #omOs {
-                    margin: 16vw auto 8vw auto;
+                    margin: 16vw auto 2vw auto;
                 }
 
                 .omOsTekstBoks {
