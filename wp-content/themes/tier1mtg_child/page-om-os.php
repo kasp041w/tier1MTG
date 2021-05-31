@@ -20,10 +20,6 @@ get_header(); ?>
     <main id="main" <?php generate_do_element_classes( 'main' ); ?>>
 
         <style>
-            #omOs h1 {
-                margin: 0 0 5wv 0;
-            }
-
             .ansatte h3 {
                 margin-bottom: 5px;
             }
@@ -31,7 +27,7 @@ get_header(); ?>
 
             #omOs {
                 max-width: 1200px;
-                margin: 8vw auto;
+                margin: 10vw auto;
                 padding: 0 3vw;
             }
 
@@ -139,6 +135,11 @@ get_header(); ?>
 
             /*----------Desktop-------------*/
             @media (min-width: 900px) {
+
+                #omOs {
+                    margin: 20vw auto;
+                }
+
                 .omOsTekstBoks {
                     display: grid;
                     grid-template-columns: 1fr 1fr;
@@ -167,7 +168,6 @@ get_header(); ?>
 
 
         <section id="omOs">
-
             <h1>Om os</h1>
             <div class="omOsTekstBoks">
                 <div class="omOsCol1">simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
@@ -183,7 +183,6 @@ get_header(); ?>
 
 
             <div class="ansatte">
-
                 <div class="ansat">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Group-943.png" alt="Dan">
                     <h3>Dan Sønderskov</h3>
@@ -201,17 +200,12 @@ get_header(); ?>
                     <h3>Maria Sønderskov</h3>
                     <p>FINANS / LOGISIK</p>
                 </div>
-
-
-
             </div>
 
         </section>
 
 
         <section id="kontaktOs">
-
-
             <h1>KONTAKT OS</h1>
             <p>Har du spørgsmål vedrørende køb og salg af Magic the gathering Cards, er du velkommen til at skrive i formularen neden for. Du er også velkommen til at kontakte os, hvis du har andre spørgsmål.
                 <br>
@@ -276,8 +270,6 @@ get_header(); ?>
                 <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Tier1-e1622195947526.png" alt="Tier1 cardmarket">
                 <h4>Cardmarket & Tier1MTG samlet levering</h4>
             </div>
-
-
         </section>
 
 
