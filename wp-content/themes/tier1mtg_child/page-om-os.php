@@ -20,6 +20,14 @@ get_header(); ?>
     <main id="main" <?php generate_do_element_classes( 'main' ); ?>>
 
         <style>
+            /*SIDE MARGEN PÅ MOBIL*/
+
+            #omOs,
+            #kontaktOs,
+            #serviceInfo {
+                padding: 5%;
+            }
+
             .ansatte h3 {
                 margin-bottom: 5px;
             }
@@ -27,7 +35,7 @@ get_header(); ?>
 
             #omOs {
                 max-width: 1200px;
-                margin: 10vw auto;
+                margin: 10vw auto 8vw auto;
                 padding: 0 3vw;
             }
 
@@ -137,7 +145,7 @@ get_header(); ?>
             @media (min-width: 900px) {
 
                 #omOs {
-                    margin: 20vw auto;
+                    margin: 20vw auto 8vw auto;
                 }
 
                 .omOsTekstBoks {
