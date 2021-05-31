@@ -11,49 +11,200 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 get_header(); ?>
 
+    <style>
+        #single_udgaver .single_wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 1rem;
+        }
+
+        #single_udgaver .single_wrapper .single_container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            grid-gap: 1rem;
+        }
+
+        #single_udgaver img {
+            border-radius: 5%;
+        }
+        /*STYLING AF RANDOM SINGLE*/
+
+        .randomArticle
+
+    </style>
+
     <div id="primary" <?php generate_do_element_classes( 'content' ); ?>>
         <main id="main" <?php generate_do_element_classes( 'main' ); ?>>
 
+
             <!-- single-view Singlekort -->
-            <article>
-                <img src="" alt="" class="billede">
-                <h3 class="titel"></h3>
-                <p class="pris"></p>
-                <p class="lagertal"></p>
-                <p class="beskrivelse"></p>
-            </article>
+            <section id="single_udgaver">
+                <h3 class="single_h3">Overskrift</h3>
+                <div class="single_wrapper">
+                    <div class="single_container">
+                        <div class="single_col">
+                            <img src="" alt="" class="single_billede">
+                            <p class="single_pris"></p>
+                        </div>
+                        <div class="single_col">
+                            <img src="" alt="" class="single_billede_2">
+                            <p class="single_pris_2"></p>
+                        </div>
+                        <div class="single_col">
+                            <img src="" alt="" class="single_billede_3">
+                            <p class="single_pris_3"></p>
+                        </div>
+                    </div>
+                    <div class="single_col_2">
+                        <img src="" alt="" class="billede">
+                    </div>
+                </div>
+            </section>
+
+            <section id="single_info">
+                <article class="randomArticle">
+                    <h2 class="titel"></h2>
+                    <p class="pris"></p>
+                    <p class="lagertal"></p>
+                    <p class="beskrivelse"></p>
+                </article>
+            </section>
+
+            <section id="single_relaterede_varer">
+                <h1>RELATEREDE VARER</h1>
+                <a href="http://kasperdyhl.dk/tier1mtg/produktside/">
+                    <h3 class="til_produktside">Se alle single cards →</h3>
+                </a>
+                <div class="single_image-container">
+                    <figure class="single_figure1">
+                        <div class="single_kort1"></div>
+                    </figure>
+
+                    <figure class="single_figure2">
+                        <div class="single_kort2"></div>
+                    </figure>
+
+                    <figure class="single_figure3">
+                        <div class="single_kort3"></div>
+                    </figure>
+
+                    <figure class="single_figure4">
+                        <div class="single_kort4"></div>
+                    </figure>
+                </div>
+            </section>
+
         </main>
+
+        <template>
+            <article>
+                <div class="single_billed_placering">
+                    <img src="" alt="" class="random_billede">
+                    <button class="single_se_kort_knap knapper_dark">SE KORT</button>
+                </div>
+                <div class="single_baggrund_kort">
+                    <h2 class="single_titel_alternativ"></h2>
+                    <h3 class="single_pris_alternativ"></h3>
+                </div>
+
+            </article>
+        </template>
 
         <script>
             let single;
 
-            //Henter den podcasts der klikkes på
+            //Henter den single der klikkes på
             let aktuelSingle = <?php echo get_the_ID() ?>;
 
 
             //Konstanten sættes til at lede efter Single-kortet der klikkes på
             const dbUrl = "http://kasperdyhl.dk/tier1mtg/wp-json/wp/v2/single/" + aktuelSingle;
 
+            let newSingleKort;
+            const single_url = "http://kasperdyhl.dk/tier1mtg/wp-json/wp/v2/single?per_page=100";
 
             async function getJson() {
+
                 console.log("async function bliver kaldt")
 
                 const data = await fetch(dbUrl);
                 single = await data.json();
 
+                const JsonData = await fetch(single_url);
+                newSingleKort = await JsonData.json();
+                console.log("loadJson", newSingleKort);
+
                 visSingles();
+                visUdgaver();
+                visRandomImg();
+
             }
 
 
-            //Henter information fra json, og sætter dem ind i podcast-sektion
+            //Henter information fra json, og sætter dem ind i single-kort-sektion
             function visSingles() {
                 console.log("visSingles bliver kaldt", single);
 
                 document.querySelector(".billede").src = single.billede.guid;
                 document.querySelector(".titel").innerHTML = single.title.rendered;
-                document.querySelector(".pris").innerHTML = single.pris;
+                document.querySelector(".pris").innerHTML = single.pris + `${" DKK"}`;
                 document.querySelector(".lagertal").innerHTML = single.lagertal + `${" på lager"}`;
                 document.querySelector(".beskrivelse").innerHTML = single.beskrivelse;
+            }
+
+            function visUdgaver() {
+                //Visning af udgave 1
+                document.querySelector(".single_h3").innerHTML = `${"Andre udgaver af "}` + single.title.rendered;
+                document.querySelector(".single_billede").src = single.billede.guid;
+                document.querySelector(".single_pris").innerHTML = single.pris + `${" DKK"}`;
+
+                //Visning af udgave 2
+                document.querySelector(".single_billede_2").src = single.billede.guid;
+                document.querySelector(".single_pris_2").innerHTML = single.pris + `${" DKK"}`;
+
+                //Visning af udgave 3
+                document.querySelector(".single_billede_3").src = single.billede.guid;
+                document.querySelector(".single_pris_3").innerHTML = single.pris + `${" DKK"}`;
+            }
+
+            function randInt(max) {
+                return Math.floor(Math.random() * max);
+            }
+
+            function visRandomImg() {
+                console.log("visRandomImg");
+
+                var randomNumbers = [];
+                var randomSingleCards = [];
+
+                //Kører et loop 4 gange, for at få 4 tilfældige integers (tal). Disse bliver puttet i et randArray
+                for (var i = 0; i < 4; i++) randomNumbers.push(randInt(newSingleKort.length));
+
+                //Kører et loop for hvert tilfældigt tal i randints, og tilføjer tilsvarende singles til et array.
+                randomNumbers.forEach(value => {
+                    randomSingleCards.push(newSingleKort[value]);
+                });
+
+                randomSingleCards.forEach(newSingleKort => {
+                    //Definerer konstanter til senere brug i kloningen af template
+                    const skabelon = document.querySelector("template");
+                    const randomContainer = document.querySelector(".single_kort1");
+
+                    //Her klones template og udfyldes med data fra de tilfældige objekter
+                    const klonRandom = skabelon.cloneNode(true).content;
+
+                    klonRandom.querySelector(".random_billede").src = newSingleKort.billede.guid;
+                    klonRandom.querySelector(".single_titel_alternativ").innerHTML = newSingleKort.title.rendered;
+                    klonRandom.querySelector(".single_pris_alternativ").innerHTML = `${"Fra "}` + newSingleKort.pris + `${" DKK"}`;
+
+                    // eventlisteners på hver enkelt artikel
+                    klonRandom.querySelector(".single_se_kort_knap").addEventListener("click", () => {
+                        location.href = newSingleKort.link;
+                    })
+
+                    randomContainer.appendChild(klonRandom);
+                })
             }
 
             getJson();
