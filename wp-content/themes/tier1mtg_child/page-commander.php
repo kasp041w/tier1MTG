@@ -296,6 +296,12 @@ get_header(); ?>
         }
 
 
+        /*ARTIKEL SEKTIONEN*/
+        .event_mere_knap {
+            left: 76%;
+
+        }
+
 
         /*CARDMARKET SEKTIONEN */
         .commander_cardmarket_container {
