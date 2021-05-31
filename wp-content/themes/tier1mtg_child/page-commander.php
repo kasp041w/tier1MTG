@@ -415,7 +415,7 @@ get_header(); ?>
             <a href="">
                 <h3 class="til_kort_side_nav">Se alle artikler →</h3>
             </a>
-            <div class="commander_image-container">
+            <div class="commander_figure_event">
                 <figure class="commander_figure_event">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/artikel1-scaled.jpg" alt="Tier1MTG event">
                     <button class="event_mere_knap knapper_dark">LÆS NU</button>
