@@ -195,10 +195,6 @@ html {
 }
 @media (min-width: 950px) {
     /*--------- Knapper----------*/
-    .site-header {
-        position: fixed;
-        width: 100%;
-    }
     .event_mere_knap {
         left: 68%;
         font-size: 12px;

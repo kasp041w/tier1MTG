@@ -18,6 +18,8 @@ get_header(); ?>
         #single_info,
         #single_relaterede_varer {
             padding: 5%;
+            max-width: 1200px;
+            margin: 0 auto;
         }
         /*STYLING AF SINGLE-GRIDS*/
 
@@ -77,13 +79,12 @@ get_header(); ?>
         .lagertal {
             text-align: right;
         }
-        /*STYLING AF RANDOM SINGLE*/
+        /*RELATEREDE VARER*/
 
         .randomArticle h2 {
             font-size: 2rem;
             margin-bottom: 0;
         }
-        /*RELATEREDE VARER*/
 
         #single_image_container .single_relaterede_wrapper .single_col_relaterede .single_kort1 {
             display: grid;
@@ -95,6 +96,10 @@ get_header(); ?>
             background-color: rgba(39, 39, 39, 0.96);
             height: 100%;
             margin-bottom: 3%;
+            display: grid;
+            grid-template-rows: 1fr;
+            border-top-left-radius: 5%;
+            border-top-right-radius: 5%;
         }
 
         .single_article_bg img {
@@ -108,10 +113,19 @@ get_header(); ?>
             grid-template-rows: 1fr 1fr;
         }
 
-        .single_article_bg {
-            display: grid;
-            grid-template-rows: 1fr;
+        .single_baggrund_kort {
+            padding: 5%;
         }
+
+        .single_baggrund_kort h2 {
+            color: #F1F0E8;
+        }
+
+        .single_se_kort_knap {
+            margin-top: 5%;
+        }
+
+        @media (min-width: 950px) {}
 
     </style>
 
