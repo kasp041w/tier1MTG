@@ -25,6 +25,7 @@ get_header(); ?>
         height: 45vh;
         width: 100%;
         background-position: 50%;
+        margin-top: -9px;
     }
 
     #event_anden_sektion .top {
@@ -51,7 +52,7 @@ get_header(); ?>
     }
 
     /*Knapper, img og fonte*/
-   /* .event_mere_knap {
+    /* .event_mere_knap {
  position: absolute;
  left: 68%;
  bottom: 5%;
@@ -151,7 +152,16 @@ get_header(); ?>
         /*FØRTE SEKTION*/
         #event_firste_sektion .event_splach {
             height: 90vh;
+            margin-top: -70px;
         }
+
+
+        /*TREJDE SEKTION LIVE STREAMING*/
+
+        .event_trejde_container {
+            margin-top: -120px;
+        }
+
 
 
         /*Knapper*/
