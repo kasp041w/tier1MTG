@@ -209,14 +209,6 @@ get_header(); ?>
         margin: 0 auto;
     }
 
-    .commander_artikel_galleri_image-container {
-        overflow-x: auto;
-        scroll-snap-type: x mandatory;
-        display: flex;
-        gap: 20px;
-        padding: 0px;
-    }
-
 
 
     /*VIDEOER*/
@@ -272,6 +264,8 @@ get_header(); ?>
             padding-right: 0;
         }
 
+
+
         /*GRID PÅ UGENS TIP-SEKTION*/
         .commander_tip_sektion_container {
             display: grid;
@@ -291,6 +285,7 @@ get_header(); ?>
             padding-top: 10vw;
         }
 
+
         /*EVENT SEKTION*/
         .til_kort_side_nav {
             text-align: end;
@@ -299,7 +294,6 @@ get_header(); ?>
         .commander_image-container .commander_figure_ny {
             flex-basis: 27%;
         }
-
 
 
 
@@ -360,6 +354,7 @@ get_header(); ?>
                 </div>
             </div>
         </section>
+
         <section id="commander_anden_section">
             <h1>KORT DU IKKE MÅ GÅ GLIP AF</h1>
             <a href="http://kasperdyhl.dk/tier1mtg/produktside/">
@@ -380,6 +375,7 @@ get_header(); ?>
                 </figure>
             </div>
         </section>
+
         <section id="commander_tip_sektion">
             <div class="commander_tip_sektion_container">
                 <div class="commander_tip_col_1">
@@ -403,7 +399,7 @@ get_header(); ?>
                     <h3 class="til_kort_side_nav">Se vores Commander-event →</h3>
                 </a>
 
-                <div class="commander_artikel_galleri_image-container">
+                <div class="commander_image-container">
 
                     <figure class="commander_figure_event">
                         <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/galleri_1-scaled.jpg" alt="Tier1MTG event">
@@ -435,7 +431,8 @@ get_header(); ?>
             <a href="">
                 <h3 class="til_kort_side_nav">Se alle artikler →</h3>
             </a>
-            <div class="commander_artikel_galleri_image-container">
+            <div class="commander_image-container">
+
                 <figure class="commander_figure_event">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/artikel1-scaled.jpg" alt="Tier1MTG event">
                     <button class="event_mere_knap knapper_dark">LÆS NU</button>
