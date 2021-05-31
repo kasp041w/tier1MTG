@@ -376,7 +376,7 @@ get_header(); ?>
 
         <section id="forside_splach">
             <video class="forside_video" autoplay muted loop>
-                <source src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/univers_1.mp4" type="video/mp4">
+                <source src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/ny_spiller.mp4" type="video/mp4">
             </video>
 
             <div class="forside_splach_container"></div>
