@@ -219,30 +219,6 @@ get_header(); ?>
 
 
 
-    ------------------
-
-    /*Slider opsætning, fungere både på mobil og destiop*/
-    .forside_figure_ny {
-        cursor: pointer;
-    }
-
-    .forside_image-container {
-        overflow-x: auto;
-        scroll-snap-type: x mandatory;
-        display: flex;
-        gap: 20px;
-        padding: 20px;
-    }
-
-    .forside_image-container .forside_figure_ny {
-        flex-basis: 90%;
-        flex-shrink: 0;
-        scroll-snap-align: center;
-    }
-
-
-    ---------------
-
     /*VIDEOER*/
     iframe {
         place-self: center;
