@@ -12,9 +12,6 @@ get_header(); ?>
         padding-right: 0rem;
     }
 
-    section {
-        padding-bottom: 8vw;
-    }
 
     .commander_top_sektion_container,
     #commander_anden_section,
@@ -23,8 +20,17 @@ get_header(); ?>
     #commander_artikler {
         max-width: 1200px;
         margin: 0 auto;
+        padding: 5%;
     }
 
+
+    /*
+    Mobil margen på siderne
+    #commander_anden_section, .commander_top_sektion_container, .commander_tip_sektion_container,
+    {
+        padding: 5%;
+    }
+*/
 
     /*FARVER OG DIVERSE*/
     #commander_top_sektion {
