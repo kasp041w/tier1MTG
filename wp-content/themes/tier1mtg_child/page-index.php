@@ -34,11 +34,18 @@ get_header(); ?>
         }
         /*FORSIDE SPLASH*/
 
+        #forside_splach {}
+
         .forside_video {
             margin-top: -3px;
             z-index: -1;
             width: 100%;
             clip: auto;
+            margin-top: -15vh;
+        }
+
+        .forside_anden_sektion_knap {
+            text-align: center;
         }
         /*FØRSTE SEKTION: nyeste kort*/
         /*styling af singel kortene på forsiden*/
@@ -88,7 +95,7 @@ get_header(); ?>
             height: 30%;
             transition: .5s ease;
             overflow: hidden;
-            margin-bottom: 3%;
+            margin-bottom: -6%;
         }
 
         article:hover .baggrund_kort {
@@ -134,10 +141,6 @@ get_header(); ?>
         .forside_anden_sektion_tekst {
             display: grid;
             padding: 5%;
-        }
-
-        .forside_anden_sektion_knap {
-            place-self: center;
         }
         /*TREJDE SKETION: styling af trejde sektion*/
         /*Styling af hovereffekten på kort så den sorte bremme forsvinder med mus over bilelde*/
@@ -368,7 +371,7 @@ get_header(); ?>
             <section id="forside_splach">
                 <div class="forside_splach_container">
                     <video class="forside_video" autoplay muted loop>
-                        <source src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/ny_spiller.mp4" type="video/mp4">
+                        <source src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/06/tier1_splash.mp4" type="video/mp4">
                     </video>
                     <div>
                         <button class="forside_anden_sektion_knap knapper_dark">LÆS MERE</button>
@@ -407,7 +410,7 @@ get_header(); ?>
                         <br>
                         <br> Vil du vide mere om de forskellige formater inden for Magic The Gathering, kan du tjekke “Spilformater” i menuen. Her kan du dykke ned i vores Youtube-videoer og artikler og blive en del af Tier1MTG fællesskabet.
                     </p>
-                    <button class="forside_anden_sektion_knap knapper_dark">LÆS MERE</button>
+                    <button class="knapper_dark">LÆS MERE</button>
                 </div>
             </section>
 
