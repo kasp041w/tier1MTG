@@ -74,9 +74,9 @@ get_header(); ?>
         /*Styling af hovereffekten på kort og produkter så den sorte bremme forsvinder med mus over bilelde*/
         /*Styler højden på billeder i mobil*/
 
-        article {
+        .forside_single_kob {
             position: relative;
-            height: 63vh;
+            height: 57vh;
         }
 
         .baggrund_kort {
@@ -536,7 +536,7 @@ get_header(); ?>
 
 
         <template>
-            <article>
+            <article class="forside_single_kob">
                 <div class="billed_placering">
                     <img src="" alt="" class="billede_forside">
                     <button class="se_kort_knap knapper_dark">SE KORT</button>
