@@ -37,6 +37,8 @@ get_header(); ?>
 
         #commander_top_sektion {
             background-color: #F5F5F5;
+            padding: 1.5rem;
+            margin-top: -85px;
         }
 
         #commander_top_sektion h1,
@@ -71,7 +73,7 @@ get_header(); ?>
             border-top-left-radius: 5%;
             border-top-right-radius: 5%;
             width: 100%;
-            height: 57vh;
+            height: 50vh;
         }
         /*SLIDER OPSÆTNING TIL MOBIL OG DESKTOP*/
 
@@ -126,6 +128,12 @@ get_header(); ?>
 
         .commander_tip_col_1 {
             padding-top: 10vw;
+        }
+
+        .commander_tip_col_1 h1,
+        .commander_tip_col_1 p,
+        .commander_tip_col_1 a {
+            color: #F1F0E8;
         }
 
         .commander_tip_col_1 h1 {
@@ -338,7 +346,11 @@ get_header(); ?>
                 <div class="commander_top_sektion_container">
                     <div class="commander_top_col_1">
                         <h1>HVAD ER COMMANDER?</h1>
-                        <p>I Commander-formatet spiller du med et deck med 100 unikke kort. Du kan spille med et færdigkøbt deck, eller du kan opbygge dit eget. Du skal vælge en “commander” - et legendarisk væsen - som resten af decket bygges op omkring. Alle kort skal være i samme farve som din commander. I Commander kan I være 2-6 spillere, og I starter hver med 40 liv. Den sidste, der har overlevet i krigszonen, vinder. Du kan frit optimere dit Commander deck løbende med bedre kort, så længe de har samme farve (eller er uden farve) som din commander - dog er der omkring 50 kort, der er forbudte at bruge i Commander-formatet. Det kan du læse mere om i vores artikler længere nede på siden. Se, hvordan du kan komme i gang med at spille Commander i videoen.</p>
+                        <p>I Commander-formatet spiller du med et deck med 100 unikke kort. Du kan spille med et færdigkøbt deck, eller du kan opbygge dit eget. Du skal vælge en “commander” - et legendarisk væsen - som resten af decket bygges op omkring. Alle kort skal være i samme farve som din commander.
+                            <br>
+                            <br>I Commander kan I være 2-6 spillere, og I starter hver med 40 liv. Den sidste, der har overlevet i krigszonen, vinder. Du kan frit optimere dit Commander deck løbende med bedre kort, så længe de har samme farve (eller er uden farve) som din commander - dog er der omkring 50 kort, der er forbudte at bruge i Commander-formatet.
+                            <br>
+                            <br> Alt dette kan du læse mere om i vores artikler længere nede på siden. Se, hvordan du kan komme i gang med at spille Commander i videoen.</p>
                     </div>
                     <div class="commander_top_col_2">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/k70dmf3kQYU">
