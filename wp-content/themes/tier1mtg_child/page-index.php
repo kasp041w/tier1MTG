@@ -103,6 +103,7 @@ get_header(); ?>
 
         .forside_image-container {
             overflow-x: auto;
+            overflow-y: hidden;
             scroll-snap-type: x mandatory;
             display: flex;
             gap: 20px;
