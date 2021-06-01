@@ -286,6 +286,10 @@ get_header(); ?>
             .til_kort_side_nav {
                 text-align: end;
             }
+            .baggrund_kort {
+                height: 25%;
+                margin-bottom: 0;
+            }
             .forside_image-container .forside_figure_ny {
                 flex-basis: 27%;
             }
@@ -299,6 +303,10 @@ get_header(); ?>
             .forside_anden_sektion_tekst {
                 padding: 90px 0px;
                 margin: 90px 290px;
+            }
+            /*TILBEHØR SEKTION*/
+            .se_kort_knap {
+                left: 50%;
             }
             /*FJERDE SEKTION ASS*/
             #forside_fjerde_sektion {
@@ -411,7 +419,7 @@ get_header(); ?>
                         <button class="trejde_sektion_knap knapper_dark">SE PRODUKT</button>
                         <figcaption class="trejde_sektion_figcuption">
                             <h2 class="h2_acc">Ultra Pro – Satin Tower Deck</h2>
-                            <h3 class="h3_acc">99,95 DKK</h3>
+                            <p class="h3_acc">99,95 DKK</p>
                         </figcaption>
                     </figure>
 
@@ -420,7 +428,7 @@ get_header(); ?>
                         <button class="trejde_sektion_knap knapper_dark">SE PRODUKT</button>
                         <figcaption class="trejde_sektion_figcuption">
                             <h2 class="h2_acc">Ultra Pro - Boombox</h2>
-                            <h3 class="h3_acc">324,95 DKK</h3>
+                            <p class="h3_acc">324,95 DKK</p>
                         </figcaption>
                     </figure>
 
@@ -429,7 +437,7 @@ get_header(); ?>
                         <button class="se_kort_knap knapper_dark">SE PRODUKT</button>
                         <figcaption class="trejde_sektion_figcuption">
                             <h2 class="h2_acc">Secret Lair – Ultimate Edition</h2>
-                            <h3 class="h3_acc">699,95 DKK</h3>
+                            <p class="h3_acc">699,95 DKK</p>
                         </figcaption>
                     </figure>
 
@@ -438,7 +446,7 @@ get_header(); ?>
                         <button class="trejde_sektion_knap knapper_dark">SE PRODUKT</button>
                         <figcaption class="trejde_sektion_figcuption">
                             <h2 class="h2_acc">Gamegenic - Playmat Tube</h2>
-                            <h3 class="h3_acc">49,95 DKK</h3>
+                            <p class="h3_acc">49,95 DKK</p>
                         </figcaption>
                     </figure>
                 </div>
@@ -491,7 +499,7 @@ get_header(); ?>
             <section id="forside_femte_sektion">
                 <div class="forside_femte_sektion">
                     <div class="left">
-                        <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/06/om_tier_ps-scaled.jpg" alt="billede af Dan ejern">
+                        <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/06/dan_logo_ps.png" alt="billede af Dan ejeren">
                     </div>
                     <div class="rigtht">
                         <h1>HVEM ER TIER1MTG</h1>
@@ -535,7 +543,7 @@ get_header(); ?>
                 </div>
                 <div class="baggrund_kort">
                     <h2 class="titel_alternativ"></h2>
-                    <h3 class="pris_alternativ"></h3>
+                    <p class="pris_alternativ"></p>
                 </div>
 
             </article>
