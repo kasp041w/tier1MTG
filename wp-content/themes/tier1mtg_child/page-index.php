@@ -44,9 +44,7 @@ get_header(); ?>
             margin-top: -15vh;
         }
 
-        .forside_anden_sektion_knap {
-            text-align: center;
-        }
+        .forside_anden_sektion_knap {}
         /*FØRSTE SEKTION: nyeste kort*/
         /*styling af singel kortene på forsiden*/
 
@@ -410,7 +408,7 @@ get_header(); ?>
                         <br>
                         <br> Vil du vide mere om de forskellige formater inden for Magic The Gathering, kan du tjekke “Spilformater” i menuen. Her kan du dykke ned i vores Youtube-videoer og artikler og blive en del af Tier1MTG fællesskabet.
                     </p>
-                    <button class="knapper_dark">LÆS MERE</button>
+                    <button class="forside_anden_sektion_knap knapper_dark">LÆS MERE</button>
                 </div>
             </section>
 
