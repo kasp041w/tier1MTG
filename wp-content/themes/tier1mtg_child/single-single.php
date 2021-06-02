@@ -22,6 +22,13 @@ get_header(); ?>
         margin: 0 auto;
     }
 
+
+    #single_relaterede_varer {
+        margin: 60px auto;
+    }
+
+
+
     /*STYLING AF TILBAGEKNAP*/
 
     .tilbage_knap h3 {
@@ -110,10 +117,6 @@ get_header(); ?>
 
     /*RELATEREDE VARER*/
 
-    #single_relaterede_varer .til_produktside {
-        text-align: right;
-    }
-
     .randomArticle h2 {
         font-size: 2rem;
         margin-bottom: 0;
@@ -122,7 +125,7 @@ get_header(); ?>
     #single_image_container .single_relaterede_wrapper .single_col_relaterede .single_kort1 {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-gap: 1rem;
+        grid-gap: 1rem 0.5rem;
     }
 
 
@@ -193,6 +196,21 @@ get_header(); ?>
     }
 
     @media (min-width: 950px) {
+
+        /*general margen settings*/
+        #single_udgaver,
+        #single_info,
+        #single_relaterede_varer {
+            padding: 0%;
+        }
+
+
+        #single_relaterede_varer {
+            margin: 40px auto;
+        }
+
+
+        /*DET VALGTE KORT OG INFO*/
         #tilbage_desk_single {
             max-width: 1200px;
             margin: 0 auto;
@@ -237,14 +255,14 @@ get_header(); ?>
             margin-bottom: 0;
         }
 
-        /*
-        .single_se_kort_knap {
-        text-align: right;
-        }
-*/
 
-
+        /*RELAVANTE KORT*/
         /*grid i den sorte tekst bremme under kortene*/
+        #single_relaterede_varer .til_produktside {
+            text-align: right;
+        }
+
+
         .single_baggrund_kort {
             display: grid;
             grid-template-columns: 1fr 0.4fr;
