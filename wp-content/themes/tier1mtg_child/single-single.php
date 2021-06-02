@@ -195,17 +195,17 @@ get_header(); ?>
     }
 
 
-    .single_baggrund_kort {
-        padding: 5%;
-    }
-
-
-
-/*
     .single_se_kort_knap {
-    margin-top: 5%;
+        position: absolute;
+        left: 5%;
+        bottom: 3%;
+        font-size: 14px;
     }
-*/
+
+
+
+
+
 
     /*DESKTOP-DISPLAY NONE*/
 
