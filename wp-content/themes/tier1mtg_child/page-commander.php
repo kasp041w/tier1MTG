@@ -75,7 +75,7 @@ get_header(); ?>
         border-top-left-radius: 5%;
         border-top-right-radius: 5%;
         width: 100%;
-        height: 50vh;
+        height: 57vh;
     }
 
     /*SLIDER OPSÆTNING TIL MOBIL OG DESKTOP*/
@@ -517,7 +517,7 @@ get_header(); ?>
             </div>
             <div class="baggrund_kort">
                 <h2 class="titel_alternativ"></h2>
-                <h3 class="pris_alternativ"></h3>
+                <p class="pris_alternativ"></p>
             </div>
         </article>
     </template>
