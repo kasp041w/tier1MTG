@@ -226,6 +226,40 @@ get_header(); ?>
             grid-template-rows: 1fr 1fr;
         }
 
+        .single_titel_alternativ {
+            grid-row-start: 1;
+            grid-row-end: span 1;
+            grid-column-start: 1;
+            grid-column-end: span 1;
+
+        }
+
+        .single_pris_alternativ {
+            font-size: 1rem;
+            grid-row-start: 2;
+            grid-row-end: span 1;
+            grid-column-start: 1;
+            grid-column-end: span 2;
+        }
+
+        .single_lagertal {
+            font-size: 0.8rem;
+            grid-row-start: 1;
+            grid-row-end: span 1;
+            grid-column-start: 2;
+            grid-column-end: span 1;
+        }
+
+
+        .single_se_kort_knap {
+            position: absolute;
+            left: 54%;
+            top: 84%;
+            bottom: 0%;
+            margin: 1rem;
+        }
+
+
     }
 
 </style>
