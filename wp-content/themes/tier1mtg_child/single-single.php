@@ -354,7 +354,7 @@ get_header(); ?>
                 <h2 class="titel"></h2>
                 <p class="pris"></p>
                 <p class="beskrivelse"></p>
-                <img class="single_kurv" src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/06/kurv_knap_2.png" alt="Kurv-ikon">
+                <img class="single_kurv" src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/06/kurv_knap1.png" alt="Kurv-ikon">
                 <p class="lagertal"></p>
                 <div class="single_fragt">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/fragt.png" alt="Fragt-ikon">
@@ -372,7 +372,7 @@ get_header(); ?>
                 <h2 class="titel_mobil"></h2>
                 <p class="pris_mobil"></p>
                 <p class="beskrivelse_mobil"></p>
-                <img class="single_kurv" src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/06/kurv_knap_2.png" alt="Kurv-ikon">
+                <img class="single_kurv" src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/06/kurv_knap1.png" alt="Kurv-ikon">
                 <p class="lagertal_mobil"></p>
                 <div class="single_fragt">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/fragt.png" alt="Fragt-ikon">
