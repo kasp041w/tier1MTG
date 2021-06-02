@@ -40,7 +40,7 @@ get_header(); ?>
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
         max-width: 100vw;
-        grid-gap: 2rem;
+        grid-gap: 1.5rem;
     }
 
     #event_anden_sektion,
@@ -97,7 +97,7 @@ get_header(); ?>
         background-color: rgba(39, 39, 39, 0.96);
         width: 100%;
         padding: 12px;
-        height: 30%;
+        height: 37%;
         transition: .5s ease;
         overflow: hidden;
         text-align: left;
