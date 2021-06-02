@@ -550,7 +550,7 @@ get_header(); ?>
                 const klon = template.cloneNode(true).content; //Her klones template og udfyldes med data fra de tilfældige objekter
                 klon.querySelector(".billede").src = single.billede.guid;
                 klon.querySelector(".titel_alternativ").innerHTML = single.title.rendered;
-                klon.querySelector(".pris_alternativ").innerHTML = `${"Fra "}` + single.pris;
+                klon.querySelector(".pris_alternativ").innerHTML = `${"Fra "}` + single.pris + `${" DKK"}`;
                 // eventlisteners på hver enkelt artikel
                 klon.querySelector(".se_kort_knap").addEventListener("click", () => {
                     location.href = single.link;
@@ -572,7 +572,7 @@ get_header(); ?>
                 const klon = template.cloneNode(true).content; //Her klones template og udfyldes med data fra de tilfældige objekter
                 klon.querySelector(".billede").src = single.billede.guid;
                 klon.querySelector(".titel_alternativ").innerHTML = single.title.rendered;
-                klon.querySelector(".pris_alternativ").innerHTML = `${"Fra "}` + single.pris;
+                klon.querySelector(".pris_alternativ").innerHTML = `${"Fra "}` + single.pris + `${" DKK"}`;
                 // eventlisteners på hver enkelt artikel
                 klon.querySelector(".se_kort_knap").addEventListener("click", () => {
                     location.href = single.link;
@@ -594,7 +594,7 @@ get_header(); ?>
                 const klon = template.cloneNode(true).content; //Her klones template og udfyldes med data fra de tilfældige objekter
                 klon.querySelector(".billede").src = single.billede.guid;
                 klon.querySelector(".titel_alternativ").innerHTML = single.title.rendered;
-                klon.querySelector(".pris_alternativ").innerHTML = `${"Fra "}` + single.pris;
+                klon.querySelector(".pris_alternativ").innerHTML = `${"Fra "}` + single.pris + `${" DKK"}`;
                 // eventlisteners på hver enkelt artikel
                 klon.querySelector(".se_kort_knap").addEventListener("click", () => {
                     location.href = single.link;
@@ -616,7 +616,7 @@ get_header(); ?>
                 const klon = template.cloneNode(true).content; //Her klones template og udfyldes med data fra de tilfældige objekter
                 klon.querySelector(".billede").src = single.billede.guid;
                 klon.querySelector(".titel_alternativ").innerHTML = single.title.rendered;
-                klon.querySelector(".pris_alternativ").innerHTML = `${"Fra "}` + single.pris;
+                klon.querySelector(".pris_alternativ").innerHTML = `${"Fra "}` + single.pris + `${" DKK"}`;
                 // eventlisteners på hver enkelt artikel
                 klon.querySelector(".se_kort_knap").addEventListener("click", () => {
                     location.href = single.link;
