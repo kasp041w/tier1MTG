@@ -53,14 +53,12 @@ get_header(); ?>
     }
 
     /*Knapper, img og fonte*/
-    /* .event_mere_knap {
- position: absolute;
- left: 68%;
- bottom: 5%;
- z-index: 40;
- font-size: 10px;
- padding: 6px 10px 6px 10px;
- }*/
+    .event_mere_knap {
+        position: absolute;
+        left: 68%;
+        bottom: 2%;
+        z-index: 40;
+    }
 
     #event_anden_sektion .top {
         text-align: center;
@@ -92,22 +90,15 @@ get_header(); ?>
     }
 
     .event_anden_text_felt {
-        position: absolute;
         bottom: 0;
         background-color: rgba(39, 39, 39, 0.96);
         width: 100%;
         padding: 12px;
-        height: 37%;
-        transition: .5s ease;
-        overflow: hidden;
+        height: auto;
         text-align: left;
     }
 
-    .event_indhold:hover .event_anden_text_felt {
-        height: 100%;
-        border-top-left-radius: 5%;
-        border-top-right-radius: 5%;
-    }
+
 
     /*TREJDE SEKTION*/
 
@@ -171,6 +162,24 @@ get_header(); ?>
             max-width: 60vw;
         }
 
+
+        .event_anden_text_felt {
+            position: absolute;
+            bottom: 0;
+            background-color: rgba(39, 39, 39, 0.96);
+            width: 100%;
+            padding: 12px;
+            height: 37%;
+            transition: .5s ease;
+            overflow: hidden;
+            text-align: left;
+        }
+
+        .event_indhold:hover .event_anden_text_felt {
+            height: 100%;
+            border-top-left-radius: 5%;
+            border-top-right-radius: 5%;
+        }
 
         /*TREJDE SEKTION LIVE STREAMING*/
         .event_trejde_container {
