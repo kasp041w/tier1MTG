@@ -70,7 +70,7 @@ get_header(); ?>
     }
 
     .pris_alternativ,
-    .h3_acc {
+    .p_acc {
         color: #AD9261;
         font-size: 1rem;
         margin-bottom: 0;
@@ -240,7 +240,7 @@ get_header(); ?>
         flex-basis: 100%;
         flex-shrink: 0;
         scroll-snap-align: center;
-        max-width: 350px;
+        max-width: 386px;
         margin: 0 auto;
     }
 
@@ -489,7 +489,7 @@ get_header(); ?>
                     <button class="trejde_sektion_knap knapper_dark">SE PRODUKT</button>
                     <figcaption class="trejde_sektion_figcuption">
                         <h2 class="h2_acc">Ultra Pro – Satin Tower Deck</h2>
-                        <p class="h3_acc">99,95 DKK</p>
+                        <p class="p_acc">99,95 DKK</p>
                     </figcaption>
                 </figure>
 
@@ -498,7 +498,7 @@ get_header(); ?>
                     <button class="trejde_sektion_knap knapper_dark">SE PRODUKT</button>
                     <figcaption class="trejde_sektion_figcuption">
                         <h2 class="h2_acc">Ultra Pro - Boombox</h2>
-                        <p class="h3_acc">324,95 DKK</p>
+                        <p class="p_acc">324,95 DKK</p>
                     </figcaption>
                 </figure>
 
@@ -507,7 +507,7 @@ get_header(); ?>
                     <button class="se_kort_knap knapper_dark">SE PRODUKT</button>
                     <figcaption class="trejde_sektion_figcuption">
                         <h2 class="h2_acc">Secret Lair – Ultimate Edition</h2>
-                        <p class="h3_acc">699,95 DKK</p>
+                        <p class="p_acc">699,95 DKK</p>
                     </figcaption>
                 </figure>
 
@@ -516,7 +516,7 @@ get_header(); ?>
                     <button class="trejde_sektion_knap knapper_dark">SE PRODUKT</button>
                     <figcaption class="trejde_sektion_figcuption">
                         <h2 class="h2_acc">Gamegenic - Playmat Tube</h2>
-                        <p class="h3_acc">49,95 DKK</p>
+                        <p class="p_acc">49,95 DKK</p>
                     </figcaption>
                 </figure>
             </div>
@@ -533,10 +533,10 @@ get_header(); ?>
                     <button class="event_mere_knap knapper_dark"><a href="http://kasperdyhl.dk/tier1mtg/event/">LÆS MERE</a></button>
                     <figcaption class="fjerde_sektion_figcuption">
                         <h2 class="h2_acc">Old School Game</h2>
-                        <h3 class="h3_acc">Dato: 23-06-2021</h3>
-                        <h3 class="h3_acc">Format: Old School</h3>
-                        <h3 class="h3_acc">Info: Glæd dig til vores kommende event hos Tier1MTG. Kom til hygge i trygge rammer, hvor du kan spille med andre og vinde fede præmier.<br><br>Tilmelding starter den 8. juni.
-                        </h3>
+                        <p class="p_acc">Dato: 23-06-2021</p>
+                        <p class="p_acc">Format: Old School</p>
+                        <p class="p_acc">Info: Glæd dig til vores kommende event hos Tier1MTG. Kom til hygge i trygge rammer, hvor du kan spille med andre og vinde fede præmier.<br><br>Tilmelding starter den 8. juni.
+                        </p>
                     </figcaption>
                 </figure>
 
@@ -545,10 +545,10 @@ get_header(); ?>
                     <button class="event_mere_knap knapper_dark"><a href="http://kasperdyhl.dk/tier1mtg/event/">LÆS MERE</a></button>
                     <figcaption class="fjerde_sektion_figcuption">
                         <h2 class="h2_acc">Commander Game</h2>
-                        <h3 class="h3_acc">Dato: 14-07-2021</h3>
-                        <h3 class="h3_acc">Format: Commander</h3>
-                        <h3 class="h3_acc">Info: Glæd dig til vores kommende event hos Tier1MTG. Kom til hygge i trygge rammer, hvor du kan spille med andre og vinde fede præmier.<br><br>Tilmelding starter den 8. juli.
-                        </h3>
+                        <p class="p_acc">Dato: 14-07-2021</p>
+                        <p class="p_acc">Format: Commander</p>
+                        <p class="p_acc">Info: Glæd dig til vores kommende event hos Tier1MTG. Kom til hygge i trygge rammer, hvor du kan spille med andre og vinde fede præmier.<br><br>Tilmelding starter den 8. juli.
+                        </p>
                     </figcaption>
                 </figure>
 
@@ -557,10 +557,10 @@ get_header(); ?>
                     <button class="event_mere_knap knapper_dark"><a href="http://kasperdyhl.dk/tier1mtg/event/">LÆS MERE</a></button>
                     <figcaption class="fjerde_sektion_figcuption">
                         <h2 class="h2_acc">Tier1 Gonzo</h2>
-                        <h3 class="h3_acc">Dato: 03-08-2021</h3>
-                        <h3 class="h3_acc">Format: Commander</h3>
-                        <h3 class="h3_acc">Info: Glæd dig til vores kommende event hos Tier1MTG. Kom til hygge i trygge rammer, hvor du kan spille med andre og vinde fede præmier.<br><br>TIlmelding starter den 18. juli.
-                        </h3>
+                        <p class="p_acc">Dato: 03-08-2021</p>
+                        <p class="p_acc">Format: Commander</p>
+                        <p class="p_acc">Info: Glæd dig til vores kommende event hos Tier1MTG. Kom til hygge i trygge rammer, hvor du kan spille med andre og vinde fede præmier.<br><br>TIlmelding starter den 18. juli.
+                        </p>
                     </figcaption>
                 </figure>
             </div>
