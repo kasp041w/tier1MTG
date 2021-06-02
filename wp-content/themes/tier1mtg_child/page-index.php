@@ -138,7 +138,7 @@ get_header(); ?>
         scroll-snap-type: x mandatory;
         display: flex;
         gap: 20px;
-        padding: 20px;
+        padding: 0px 27px 0px 0px;
     }
 
     .forside_image-container .forside_figure_ny {
