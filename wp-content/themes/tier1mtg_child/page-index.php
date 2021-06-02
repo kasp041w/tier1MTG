@@ -208,8 +208,8 @@ get_header(); ?>
 
     .trejde_sektion_knap {
         position: absolute;
-        left: 49%;
-        bottom: 5%;
+        left: 52%;
+        bottom: 3%;
         z-index: 40;
     }
 
@@ -361,8 +361,16 @@ get_header(); ?>
         }
 
         /*TILBEHØR SEKTION*/
+        /*
         .se_kort_knap {
-            left: 61%;
+        left: 61%;
+        }
+*/
+
+
+        .trejde_sektion_knap {
+            left: 58%;
+
         }
 
         /*FJERDE SEKTION ASS*/
