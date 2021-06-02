@@ -64,7 +64,7 @@ get_header(); ?>
         margin-bottom: 0;
     }
 
-    .se_kort_knap {
+    .se_kort_knap_commander {
         position: absolute;
         left: 58%;
         bottom: 5%;
@@ -260,7 +260,7 @@ get_header(); ?>
             margin-top: 100px;
         }
 
-        /*SLIDER OPSÆTNING TIL MOBIL OG DESKTOP*/
+        /*SLIDER OPSÆTNING TIL MOBIL OG DESKTOP  kort*/
         .commander_image-container {
             overflow-x: auto;
             scroll-snap-type: x mandatory;
@@ -268,6 +268,13 @@ get_header(); ?>
             gap: 20px;
             padding: 0px;
         }
+
+
+        .se_kort_knap_commander {
+            left: 67%;
+            bottom: 3%;
+        }
+
 
         /*GRID PÅ TOPSEKTION*/
         .commander_top_sektion_container {
@@ -513,7 +520,7 @@ get_header(); ?>
         <article>
             <div class="billed_placering">
                 <img src="" alt="" class="billede">
-                <button class="se_kort_knap knapper_dark">SE KORT</button>
+                <button class="se_kort_knap_commander knapper_dark">SE KORT</button>
             </div>
             <div class="baggrund_kort">
                 <h2 class="titel_alternativ"></h2>
@@ -552,7 +559,7 @@ get_header(); ?>
                 klon.querySelector(".titel_alternativ").innerHTML = single.title.rendered;
                 klon.querySelector(".pris_alternativ").innerHTML = `${"Fra "}` + single.pris + `${" DKK"}`;
                 // eventlisteners på hver enkelt artikel
-                klon.querySelector(".se_kort_knap").addEventListener("click", () => {
+                klon.querySelector(".se_kort_knap_commander").addEventListener("click", () => {
                     location.href = single.link;
                 })
                 container.appendChild(klon);
@@ -574,7 +581,7 @@ get_header(); ?>
                 klon.querySelector(".titel_alternativ").innerHTML = single.title.rendered;
                 klon.querySelector(".pris_alternativ").innerHTML = `${"Fra "}` + single.pris + `${" DKK"}`;
                 // eventlisteners på hver enkelt artikel
-                klon.querySelector(".se_kort_knap").addEventListener("click", () => {
+                klon.querySelector(".se_kort_knap_commander").addEventListener("click", () => {
                     location.href = single.link;
                 })
                 container.appendChild(klon);
@@ -596,7 +603,7 @@ get_header(); ?>
                 klon.querySelector(".titel_alternativ").innerHTML = single.title.rendered;
                 klon.querySelector(".pris_alternativ").innerHTML = `${"Fra "}` + single.pris + `${" DKK"}`;
                 // eventlisteners på hver enkelt artikel
-                klon.querySelector(".se_kort_knap").addEventListener("click", () => {
+                klon.querySelector(".se_kort_knap_commander").addEventListener("click", () => {
                     location.href = single.link;
                 })
                 container.appendChild(klon);
@@ -618,7 +625,7 @@ get_header(); ?>
                 klon.querySelector(".titel_alternativ").innerHTML = single.title.rendered;
                 klon.querySelector(".pris_alternativ").innerHTML = `${"Fra "}` + single.pris + `${" DKK"}`;
                 // eventlisteners på hver enkelt artikel
-                klon.querySelector(".se_kort_knap").addEventListener("click", () => {
+                klon.querySelector(".se_kort_knap_commander").addEventListener("click", () => {
                     location.href = single.link;
                 })
                 container.appendChild(klon);
