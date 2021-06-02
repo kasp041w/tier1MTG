@@ -52,11 +52,6 @@ get_header(); ?>
         object-fit: cover;
     }
 
-    .forside_splash_knap {
-        background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/filter_streg.png);
-        background-size: cover;
-        text-align: center;
-    }
 
 
     .forside_splach_knap {
@@ -442,7 +437,7 @@ get_header(); ?>
                 </video>
             </div>
             <div class="forside_splash_knap">
-                <button class="forside_splach_knap knapper_dark"><a href="http://kasperdyhl.dk/tier1mtg/produktside/">SE UDVALG</a></button>
+                <button class="knapper_dark"><a href="http://kasperdyhl.dk/tier1mtg/produktside/">SE UDVALG</a></button>
             </div>
         </section>
 
