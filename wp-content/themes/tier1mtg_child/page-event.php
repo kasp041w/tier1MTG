@@ -171,7 +171,7 @@ get_header(); ?>
             background-color: rgba(39, 39, 39, 0.96);
             width: 100%;
             padding: 12px;
-            height: 37%;
+            height: 36%;
             transition: .5s ease;
             overflow: hidden;
             text-align: left;
@@ -182,6 +182,11 @@ get_header(); ?>
             border-top-left-radius: 5%;
             border-top-right-radius: 5%;
         }
+
+        .event_mere_knap {
+            bottom: 4%;
+        }
+
 
         /*TREJDE SEKTION LIVE STREAMING*/
         .event_trejde_container {
