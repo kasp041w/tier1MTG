@@ -197,10 +197,10 @@ get_header(); ?>
 				<div class="omOsCol1">Vi startede Tier1MTG i august 2019. Butikken er en gammel drøm for os, for vi har spillet Magic The Gathering siden 1990’erne, hvor det udkom. I oktober 2020 åbnede vi også en fysisk butik i Vipperød, og den danner ramme for vores ugentlige turneringer og hyggelige arrangementer. Her kan du komme forbi og se vores mange sjældne Magic-kort fysisk eller købe de decks og accessories, du mangler.
 					<br>
 					<br>
-					Vi er specialiseret i at sælge enkeltkort - også kaldet “singles” - fra Magic The Gathering, og vi afholder både lokale turneringer og store turneringsevents, hvor der kommer spillere fra hele verden. Faktisk er vi Skandinaviens største udbyder af singles med et online varelager på omkring 240.000 kort - og med mange flere kort på lageret, som er ved at blive sorteret. Vi opkøber også samlinger, så kontakt os, hvis du ligger inde med kort, som du gerne vil have vurderet eller solgt.
+					Vi er specialiseret i at sælge enkeltkort - også kaldet “singles” - fra Magic The Gathering. Faktisk er vi Skandinaviens største udbyder af singles med et online varelager på omkring 240.000 kort - og med mange flere kort på lageret, som er ved at blive sorteret. Vi opkøber også samlinger, så kontakt os, hvis du ligger inde med kort, som du gerne vil have vurderet eller solgt.
 
 				</div>
-				<div class="omOsCol2">Vi er ikke i tvivl om, at Magic The Gathering er verdens bedste spil, og vi elsker det fællesskab, der er omkring universet. Det fællesskab prøver vi selv at bidrage til ved at holde events, hvor alle kan komme og hygge og spille. Du kan se kommende events under “Events” i menuen, og du kan holde øje med vores Facebookside. Du kan også følge vores Youtube- og Twitchkanal, hvor vi livestreamer turneringer og annoncerer events.
+				<div class="omOsCol2">Vi er ikke i tvivl om, at Magic The Gathering er verdens bedste spil, og vi elsker det fællesskab, der er omkring universet. Det fællesskab prøver vi selv at bidrage til ved at holde små og store events, hvor alle kan komme og hygge og spille. Du kan se kommende events under “Events” i menuen, og du kan holde øje med vores Facebookside. Du kan også følge vores Youtube- og Twitchkanal, hvor vi livestreamer turneringer og annoncerer events.
 					<br>
 					<br>
 					Vi glæder os til at se dig i butikken eller til et event!
