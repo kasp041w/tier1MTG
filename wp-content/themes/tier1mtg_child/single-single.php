@@ -84,13 +84,25 @@ get_header(); ?>
     }
 
     .single_kurv {
+        background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/06/kurv_knap1.png) no-repeat;
+    }
+
+    .single_kurv:hover {
+        background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/06/kurv_knap_2.png) no-repeat;
+    }
+
+
+    /*
+    .single_kurv {
         width: 8rem;
     }
 
     .single_kurv:hover {
         cursor: pointer;
         transform: scale(1.1);
+
     }
+*/
 
     .single_fragt {
         display: grid;
@@ -352,7 +364,8 @@ get_header(); ?>
                 <h2 class="titel"></h2>
                 <p class="pris"></p>
                 <p class="beskrivelse"></p>
-                <img class="single_kurv" src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/kurv.png" alt="Kurv-ikon">
+                <div class="single_kurv"></div>
+                <!--                <img class="single_kurv" src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/06/kurv_knap_2.png" alt="Kurv-ikon">-->
                 <p class="lagertal"></p>
                 <div class="single_fragt">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/fragt.png" alt="Fragt-ikon">
