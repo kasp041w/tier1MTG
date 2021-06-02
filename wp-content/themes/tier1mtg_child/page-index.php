@@ -259,7 +259,7 @@ get_header(); ?>
     }
 
     .forside_femte_sektion .bottom img {
-        padding: 0px 20px 0px 20px;
+        padding: 0px 15px 0px 15px;
     }
 
     .forside_femte_sektion .bottom {
