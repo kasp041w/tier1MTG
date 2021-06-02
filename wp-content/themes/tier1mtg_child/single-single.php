@@ -125,28 +125,7 @@ get_header(); ?>
         grid-gap: 1rem;
     }
 
-    /*
-    .single_article_bg {
-        background-color: rgba(39, 39, 39, 0.96);
-        height: 100%;
-        margin-bottom: 3%;
-        display: grid;
-        grid-template-rows: 1fr;
-        border-top-left-radius: 5%;
-        border-top-right-radius: 5%;
-    }
 
-    .single_article_bg img {
-        border-top-left-radius: 5%;
-        border-top-right-radius: 5%;
-        width: 100%;
-        height: 60vw;
-        object-fit: cover;
-        padding: 0;
-        display: grid;
-        grid-template-rows: 1fr 1fr;
-    }
-*/
     .single_random_billede {
         border-top-left-radius: 5%;
         border-top-right-radius: 5%;
@@ -258,7 +237,7 @@ get_header(); ?>
             margin-bottom: 0;
         }
 
-/*
+        /*
         .single_se_kort_knap {
         text-align: right;
         }
@@ -405,7 +384,9 @@ get_header(); ?>
                 <h2 class="single_titel_alternativ"></h2>
                 <p class="single_lagertal"></p>
                 <p class="single_pris_alternativ"></p>
+                <br>
                 <button class="single_se_kort_knap knapper_dark">SE KORT</button>
+                <br>
             </div>
 
         </article>
