@@ -105,6 +105,14 @@ get_header(); ?>
         padding: 0px 20px 0px 20px;
     }
 
+    /*billede baggrunden på kortet*/
+
+    .billed_placering {
+        background-color: #272727;
+        height: 100%;
+    }
+
+
     /*Slider opsætning, fungere både på mobil og destiop*/
 
     .forside_figure_ny {
