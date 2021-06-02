@@ -186,12 +186,6 @@ get_header(); ?>
             margin-top: -120px;
         }
 
-        /*Knapper*/
-        .event_mere_knap {
-            left: 68%;
-            font-size: 12px;
-            padding: 8px 15px 8px 15px;
-        }
 
         #event_trejde_sektion {
             height: 130vh;
