@@ -61,7 +61,7 @@ get_header(); ?>
     #single_udgaver .single_wrapper .single_container {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 0.1fr 0.1fr;
         grid-gap: 1rem;
     }
 
@@ -206,11 +206,17 @@ get_header(); ?>
 
 
         #single_relaterede_varer {
-            margin: 40px auto;
+            margin: 100px auto;
         }
 
 
         /*DET VALGTE KORT OG INFO*/
+        /*STYLING AF SINGLE-GRIDS*/
+
+        #single_udgaver .single_wrapper {
+            grid-gap: 3rem;
+        }
+
         #tilbage_desk_single {
             max-width: 1200px;
             margin: 0 auto;
@@ -219,7 +225,6 @@ get_header(); ?>
         .single_h3_desk {
             display: block;
             padding-top: 4vh;
-            padding-left: 4vw;
             font-size: larger;
         }
 
@@ -341,6 +346,7 @@ get_header(); ?>
                     <img src="" alt="" class="billede">
                 </div>
             </div>
+
             <!--DISPLAY AF DESKTOP VERSION-->
             <article id="single_desktop_version" class="randomArticle">
                 <h2 class="titel"></h2>
