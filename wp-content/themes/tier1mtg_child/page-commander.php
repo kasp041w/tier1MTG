@@ -95,7 +95,7 @@ get_header(); ?>
         scroll-snap-type: x mandatory;
         display: flex;
         gap: 20px;
-        padding: 20px;
+        padding: 0px 27px 0px 0px;
     }
 
     /*Styling af hovereffekten på kort og produkter så den sorte bremme forsvinder med mus over bilelde*/
@@ -215,7 +215,7 @@ get_header(); ?>
         flex-basis: 100%;
         flex-shrink: 0;
         scroll-snap-align: center;
-        max-width: 350px;
+        max-width: 380px;
         margin: 0 auto;
     }
 
@@ -266,7 +266,7 @@ get_header(); ?>
             scroll-snap-type: x mandatory;
             display: flex;
             gap: 20px;
-            padding: 0px;
+            padding: 0px 27px 0px 0px;
         }
 
 
