@@ -349,7 +349,7 @@ get_header(); ?>
 
         /*TILBEHØR SEKTION*/
         .se_kort_knap {
-            left: 50%;
+            left: 61%;
         }
 
         /*FJERDE SEKTION ASS*/
