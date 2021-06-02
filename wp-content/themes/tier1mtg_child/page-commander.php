@@ -180,7 +180,7 @@ get_header(); ?>
     }
 
     #commander_cardmarket_sektion a:hover {
-        color: #F1F0E8;
+        color: #AD9261;
     }
 
     /*ARTIKEL SEKTION STYLING*/
