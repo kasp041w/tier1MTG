@@ -504,7 +504,7 @@ get_header(); ?>
 
                 <figure class="forside_figure_ny">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/kort_ting.jpeg" alt="Secret Lair – Ultimate Edition">
-                    <button class="se_kort_knap knapper_dark">SE PRODUKT</button>
+                    <button class="trejde_sektion_knap knapper_dark">SE PRODUKT</button>
                     <figcaption class="trejde_sektion_figcuption">
                         <h2 class="h2_acc">Secret Lair – Ultimate Edition</h2>
                         <p class="p_acc">699,95 DKK</p>
