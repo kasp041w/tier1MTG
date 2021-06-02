@@ -279,7 +279,7 @@ get_header(); ?>
                         <textarea name="skrivHer" placeholder="Skriv hér" id="" cols="1" rows="6"></textarea>
                     </label>
                 </div>
-                <button class="formKnap knapper_light">Send</button>
+                <button class="formKnap knapper_light">SEND</button>
 
             </div>
         </section>
