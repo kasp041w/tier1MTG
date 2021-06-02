@@ -125,6 +125,7 @@ get_header(); ?>
         grid-gap: 1rem;
     }
 
+    /*
     .single_article_bg {
         background-color: rgba(39, 39, 39, 0.96);
         height: 100%;
@@ -145,6 +146,26 @@ get_header(); ?>
         display: grid;
         grid-template-rows: 1fr 1fr;
     }
+*/
+    .single_random_billedes {
+        border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
+        width: 100%;
+        height: 55%;
+        object-fit: contain;
+    }
+
+    .single_article_bg {
+        background-color: #272727;
+        border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
+        position: relative;
+    }
+
+    .single_baggrund_kort {
+        height: auto;
+    }
+
 
     .single_baggrund_kort {
         padding: 5%;

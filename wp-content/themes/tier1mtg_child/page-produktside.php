@@ -60,7 +60,7 @@ get_header(); ?>
 
     /*---SINGLE CARDS---*/
 
-    img.billede {
+    .billede {
         border-top-left-radius: 5%;
         border-top-right-radius: 5%;
         width: 100%;
@@ -322,8 +322,6 @@ get_header(); ?>
             grid-column-start: 2;
             grid-column-end: span 1;
         }
-
-
 
 
         .se_kort_knap {
