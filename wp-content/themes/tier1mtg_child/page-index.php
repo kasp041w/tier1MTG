@@ -58,6 +58,13 @@ get_header(); ?>
         text-align: center;
     }
 
+
+    .forside_splach_knap {
+        position: absolute;
+    }
+
+
+
     /*FØRSTE SEKTION: nyeste kort*/
     /*styling af singel kortene på forsiden*/
 
@@ -435,11 +442,7 @@ get_header(); ?>
                 </video>
             </div>
             <div class="forside_splash_knap">
-                <button class="knapper_dark">
-                    <a class="knapper_light" href="http://kasperdyhl.dk/tier1mtg/produktside/">
-                        SE UDVALG
-                    </a>
-                </button>
+                <button class="forside_splach_knap knapper_dark"><a href="http://kasperdyhl.dk/tier1mtg/produktside/">SE UDVALG</a></button>
             </div>
         </section>
 
