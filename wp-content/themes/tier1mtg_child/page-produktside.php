@@ -84,6 +84,7 @@ get_header(); ?>
         position: absolute;
         left: 5%;
         bottom: 3%;
+        font-size: 14px;
     }
 
     .titel {
