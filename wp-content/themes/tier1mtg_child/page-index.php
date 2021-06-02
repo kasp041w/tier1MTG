@@ -41,6 +41,10 @@ get_header(); ?>
 
     /*FORSIDE SPLASH*/
 
+    .forside_splach_placeholder {
+        display: grid;
+    }
+
     .forside_splach_container {
         width: 100vw;
         height: 60vh;
@@ -52,10 +56,9 @@ get_header(); ?>
         object-fit: cover;
     }
 
-
-
     .forside_splash_knap {
-        position: absolute;
+        place-self: center;
+
     }
 
 
@@ -431,13 +434,15 @@ get_header(); ?>
 
 
         <section id="forside_splach">
-            <div class="forside_splach_container">
-                <video class="forside_video" autoplay muted loop>
-                    <source src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/06/video_pulse_tier.mp4" type="video/mp4">
-                </video>
-            </div>
-            <div class="forside_splash_knap">
-                <button class="knapper_dark"><a href="http://kasperdyhl.dk/tier1mtg/produktside/">SE UDVALG</a></button>
+            <div class="forside_splach_placeholder">
+                <div class="forside_splach_container">
+                    <video class="forside_video" autoplay muted loop>
+                        <source src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/06/video_pulse_tier.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="forside_splash_knap">
+                    <button class="knapper_dark"><a href="http://kasperdyhl.dk/tier1mtg/produktside/">SE UDVALG</a></button>
+                </div>
             </div>
         </section>
 
