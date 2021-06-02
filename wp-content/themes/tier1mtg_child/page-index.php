@@ -225,7 +225,7 @@ get_header(); ?>
         background-color: rgba(39, 39, 39, 0.96);
         width: 100%;
         padding: 20px;
-        height: 30%;
+        height: 37%;
         transition: .5s ease;
         overflow: hidden;
     }
