@@ -471,7 +471,7 @@ get_header(); ?>
                     <button class="event_mere_knap knapper_dark">LÆS NU</button>
                     <figcaption class="fjerde_sektion_figcuption">
                         <h2 class="h2_acc">Hvilken type spiller er du?</h2>
-                        <p class="h3_acc">Find den Magic-strategi, der passer bedst til din spillestil.</p>
+                        <h3 class="h3_acc">Find den Magic-strategi, der passer bedst til din spillestil.</h3>
                     </figcaption>
                 </figure>
 
@@ -480,7 +480,7 @@ get_header(); ?>
                     <button class="event_mere_knap knapper_dark">LÆS NU</button>
                     <figcaption class="fjerde_sektion_figcuption">
                         <h2 class="h2_acc">Det bedste fra Strixhaven</h2>
-                        <p class="h3_acc">Tjek dine yndlings Commander-kort ud fra de nyeste sæt.</p>
+                        <h3 class="h3_acc">Tjek dine yndlings Commander-kort ud fra de nyeste sæt.</h3>
                     </figcaption>
                 </figure>
 
@@ -489,7 +489,7 @@ get_header(); ?>
                     <button class="event_mere_knap knapper_dark">LÆS NU</button>
                     <figcaption class="fjerde_sektion_figcuption">
                         <h2 class="h2_acc">Sådan laver du et deck</h2>
-                        <p class="h3_acc">Se vores anbefalinger til kort, som du kan lave Commander-decks med.</p>
+                        <h3 class="h3_acc">Se vores anbefalinger til kort, som du kan lave Commander-decks med.</h3>
                     </figcaption>
                 </figure>
             </div>
