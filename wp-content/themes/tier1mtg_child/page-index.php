@@ -578,7 +578,7 @@ get_header(); ?>
                         <br>
                         <br> Vores vision er at levere sjældne og nye Magic The Gathering-kort til spillere på tværs af alle formater og at skabe et hyggeligt fællesskab omkring Magic-universet. Det gør vi gennem vores mange events og vores fysiske butik i Vipperød, hvor du altid er velkommen til at kigge forbi.
                     </p>
-                    <button class="forside_femte_sektion_knap knapper_dark"><a href="http://kasperdyhl.dk/tier1mtg/om-os/">LÆS MERE</a></button>
+                    <button class="forside_femte_sektion_knap forside_sjette_sektion_knap knapper_dark"><a href="http://kasperdyhl.dk/tier1mtg/om-os/">LÆS MERE</a> </button>
                 </div>
                 <div class="bottom">
                     <a href="https://www.twitch.tv/tier1mtg"><img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/twitch_knap.png" alt="link til twitch"></a>
@@ -593,7 +593,7 @@ get_header(); ?>
                 <div class="left">
                     <h1>VI ER OGSÅ PÅ CARDMARKET</h1>
                     <p>Vi har Skandinaviens største udvalg af MTG-enkeltkort, og vi sælger også kort på Cardmarket. <a href="https://www.cardmarket.com/en/Magic/Users/Tier1MTG" target="_blank">Se vores udvalg på Cardmarket her.</a> Vi sender alle hverdage, så du hurtigt kan modtage dine nye kort, og vi sender over hele verden til gode priser. Vi er certificeret "Professional Seller" på Magic-Cardmarket, og det er din sikkerhed for, at vi er en troværdig sælger. Vi har altid et voksende katalog af over 240.000 Magic The Gathering-enkeltkort.</p>
-                    <button class="forside_sjette_sektion_knap knapper_dark"><a href="https://www.cardmarket.com/en/Magic/Users/Tier1MTG" target="_blank">GÅ TIL CARDMARKET</a></button>
+                    <button class="forside_sjette_sektion_knap knapper_dark"><a href="https://www.cardmarket.com/en/Magic/Users/Tier1MTG" target="_blank"></a>GÅ TIL CARDMARKET</button>
                 </div>
                 <div class="right">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/lotos1.png" alt="MTG lotos">
