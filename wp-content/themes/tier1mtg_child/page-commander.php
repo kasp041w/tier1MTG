@@ -195,11 +195,11 @@ get_header(); ?>
 
     .fjerde_sektion_figcuption {
         background-color: #272727;
-        height: 15vh;
+        height: 19vh;
     }
 
     .event_mere_knap {
-        left: 80%;
+        left: 70%;
         bottom: 3%;
     }
 
@@ -333,7 +333,7 @@ get_header(); ?>
 
         /*ARTIKEL SEKTIONEN*/
         .event_mere_knap {
-            left: 76%;
+            left: 80%;
         }
 
         /*CARDMARKET SEKTIONEN */
@@ -371,6 +371,7 @@ get_header(); ?>
             padding-left: 25vw;
             padding-right: 25vw;
         }
+
     }
 
 </style>
