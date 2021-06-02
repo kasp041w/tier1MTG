@@ -147,7 +147,7 @@ get_header(); ?>
         grid-template-rows: 1fr 1fr;
     }
 */
-    .single_random_billedes {
+    .single_random_billede {
         border-top-left-radius: 5%;
         border-top-right-radius: 5%;
         width: 100%;
