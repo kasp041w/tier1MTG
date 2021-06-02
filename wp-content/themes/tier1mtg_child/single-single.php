@@ -258,9 +258,11 @@ get_header(); ?>
             margin-bottom: 0;
         }
 
+/*
         .single_se_kort_knap {
-            text-align: right;
+        text-align: right;
         }
+*/
 
 
         /*grid i den sorte tekst bremme under kortene*/
