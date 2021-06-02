@@ -297,7 +297,7 @@ get_header(); ?>
 
     .forside_sjette_sektion_knap {
         background-color: #AD9261;
-        color: #F1F0E8;
+        color: #272727;
         border-radius: 28px;
         padding: 12px 20px 12px 20px;
         font-weight: bold;
@@ -578,7 +578,7 @@ get_header(); ?>
                         <br>
                         <br> Vores vision er at levere sjældne og nye Magic The Gathering-kort til spillere på tværs af alle formater og at skabe et hyggeligt fællesskab omkring Magic-universet. Det gør vi gennem vores mange events og vores fysiske butik i Vipperød, hvor du altid er velkommen til at kigge forbi.
                     </p>
-                    <button class="forside_femte_sektion_knap forside_sjette_sektion_knap knapper_dark"><a href="http://kasperdyhl.dk/tier1mtg/om-os/">LÆS MERE</a> </button>
+                    <button class="forside_femte_sektion_knap forside_sjette_sektion_knap"><a href="http://kasperdyhl.dk/tier1mtg/om-os/">LÆS MERE</a> </button>
                 </div>
                 <div class="bottom">
                     <a href="https://www.twitch.tv/tier1mtg"><img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/twitch_knap.png" alt="link til twitch"></a>
