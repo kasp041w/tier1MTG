@@ -198,8 +198,8 @@ get_header(); ?>
         height: 19vh;
     }
 
-    .event_mere_knap {
-        left: 70%;
+    .event_mere_knap_commander {
+        left: 66%;
         bottom: 3%;
     }
 
@@ -332,7 +332,7 @@ get_header(); ?>
         }
 
         /*ARTIKEL SEKTIONEN*/
-        .event_mere_knap {
+        .event_mere_knap_commander {
             left: 70%;
         }
 
@@ -476,7 +476,7 @@ get_header(); ?>
 
                 <figure class="commander_figure_event">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/06/ikon_cards_ps-scaled.jpg" alt="Tier1MTG event">
-                    <button class="event_mere_knap knapper_dark">LÆS NU</button>
+                    <button class="event_mere_knap_commander knapper_dark">LÆS NU</button>
                     <figcaption class="fjerde_sektion_figcuption">
                         <h2 class="h2_acc">Hvilken type spiller er du?</h2>
                         <p class="h3_acc">Find den Magic-strategi, der passer bedst til din spillestil.</p>
@@ -485,7 +485,7 @@ get_header(); ?>
 
                 <figure class="commander_figure_event">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/06/bunke_kort_ps-scaled.jpg" alt="">
-                    <button class="event_mere_knap knapper_dark">LÆS NU</button>
+                    <button class="event_mere_knap_commander knapper_dark">LÆS NU</button>
                     <figcaption class="fjerde_sektion_figcuption">
                         <h2 class="h2_acc">Det bedste fra Strixhaven</h2>
                         <p class="h3_acc">Tjek dine yndlings Commander-kort ud fra de nyeste sæt.</p>
@@ -494,7 +494,7 @@ get_header(); ?>
 
                 <figure class="commander_figure_event">
                     <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/06/kort_ps.jpg" alt="Tier1MTG event">
-                    <button class="event_mere_knap knapper_dark">LÆS NU</button>
+                    <button class="event_mere_knap_commander knapper_dark">LÆS NU</button>
                     <figcaption class="fjerde_sektion_figcuption">
                         <h2 class="h2_acc">Sådan laver du et deck</h2>
                         <p class="h3_acc">Se vores anbefalinger til kort, som du kan lave Commander-decks med.</p>
