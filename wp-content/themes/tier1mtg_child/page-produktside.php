@@ -630,7 +630,7 @@ get_header(); ?>
                 <p class="lagertal"></p>
                 <p class="pris"></p>
                 <br>
-                <button class="se_kort_knap knapper_dark">Se kort</button>
+                <button class="se_kort_knap knapper_dark">SE KORT</button>
                 <br>
             </div>
 
