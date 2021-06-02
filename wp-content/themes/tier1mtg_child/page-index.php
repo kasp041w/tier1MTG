@@ -138,7 +138,7 @@ get_header(); ?>
         scroll-snap-type: x mandatory;
         display: flex;
         gap: 20px;
-        padding: 0px 27px 0px 0px;
+        padding: 20px;
     }
 
     .forside_image-container .forside_figure_ny {
@@ -222,18 +222,27 @@ get_header(); ?>
     }
 
     .fjerde_sektion_figcuption {
+        position: absolute;
         bottom: 0;
         background-color: rgba(39, 39, 39, 0.96);
         width: 100%;
         padding: 20px;
-        height: 38vh;
+        height: 37%;
+        transition: .5s ease;
+        overflow: hidden;
+    }
+
+    .forside_figure_event:hover .fjerde_sektion_figcuption {
+        height: 100%;
+        border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
     }
 
     .forside_figure_event {
         flex-basis: 100%;
         flex-shrink: 0;
         scroll-snap-align: center;
-        max-width: 316px;
+        max-width: 386px;
         margin: 0 auto;
     }
 
@@ -356,39 +365,10 @@ get_header(); ?>
             left: 61%;
         }
 
-        /*FJERDE SEKTION EVENT*/
+        /*FJERDE SEKTION ASS*/
         #forside_fjerde_sektion {
             margin: 120px auto;
         }
-
-
-        .fjerde_sektion_figcuption {
-            position: absolute;
-            bottom: 0;
-            background-color: rgba(39, 39, 39, 0.96);
-            width: 100%;
-            padding: 20px;
-            height: 37%;
-            transition: .5s ease;
-            overflow: hidden;
-        }
-
-        .forside_figure_event:hover .fjerde_sektion_figcuption {
-            height: 100%;
-            border-top-left-radius: 5%;
-            border-top-right-radius: 5%;
-        }
-
-
-        .forside_figure_event {
-            flex-basis: 100%;
-            flex-shrink: 0;
-            scroll-snap-align: center;
-            max-width: 386px;
-            margin: 0 auto;
-        }
-
-
 
         /*FEMTE SEKTIONstyling af femte sektion*/
         #forside_femte_sektion {
