@@ -54,7 +54,7 @@ get_header(); ?>
 
 
 
-    .forside_splach_knap {
+    .forside_splash_knap {
         position: absolute;
     }
 
