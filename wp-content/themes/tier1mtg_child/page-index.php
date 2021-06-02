@@ -156,7 +156,8 @@ get_header(); ?>
         margin: 20px 0 90px 0;
     }
 
-    .forside_anden_sektion_knap {
+    .forside_anden_sektion_knap,
+    .forside_sjette_sektion_knap {
         background-color: #AD9261;
         color: #F1F0E8;
         border-radius: 28px;
