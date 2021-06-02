@@ -166,23 +166,46 @@ get_header(); ?>
         height: auto;
     }
 
+    .single_titel_alternativ {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 5%;
+        color: #F1F0E8;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+
+    .single_lagertal {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 5%;
+        color: #F1F0E8;
+        font-size: 0.75rem;
+        margin-bottom: 0;
+    }
+
+    .single_pris_alternativ {
+        padding-left: 5%;
+        padding-right: 5%;
+        color: #AD9261;
+        font-size: 1rem;
+        margin-bottom: 0;
+
+    }
+
 
     .single_baggrund_kort {
         padding: 5%;
     }
 
-    .single_baggrund_kort h2 {
-        color: #F1F0E8;
-    }
 
-    .single_lagertal {
-        color: #F1F0E8;
-        font-size: small;
-    }
 
+/*
     .single_se_kort_knap {
-        margin-top: 5%;
+    margin-top: 5%;
     }
+*/
 
     /*DESKTOP-DISPLAY NONE*/
 
