@@ -58,6 +58,8 @@ get_header(); ?>
         left: 68%;
         bottom: 2%;
         z-index: 40;
+        font-size: 14px;
+        padding: 12px 20px 12px 20px;
     }
 
     #event_anden_sektion .top {
