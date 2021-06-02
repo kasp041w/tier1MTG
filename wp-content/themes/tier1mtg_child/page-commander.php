@@ -333,7 +333,7 @@ get_header(); ?>
 
         /*ARTIKEL SEKTIONEN*/
         .event_mere_knap {
-            left: 80%;
+            left: 70%;
         }
 
         /*CARDMARKET SEKTIONEN */
