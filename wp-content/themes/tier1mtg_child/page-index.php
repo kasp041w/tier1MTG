@@ -342,6 +342,13 @@ get_header(); ?>
             margin-bottom: 0;
         }
 
+        .se_kort_knap {
+            position: absolute;
+            left: 67%;
+            bottom: 3%;
+            z-index: 40;
+        }
+
         .forside_image-container .forside_figure_ny {
             flex-basis: 27%;
         }
