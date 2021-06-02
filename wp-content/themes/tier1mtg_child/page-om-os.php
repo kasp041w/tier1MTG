@@ -102,7 +102,7 @@ get_header(); ?>
     }
 
     #kontaktOs p {
-        color: #AD9261;
+        color: #F1F0E8;
         max-width: 500px;
         margin: 10px auto;
     }
