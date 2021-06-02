@@ -164,18 +164,18 @@ get_header(); ?>
     }
 
     #commander_cardmarket_sektion h1 {
-        color: #F5F5F5;
+        color: #F1F0E8;
         padding-top: 10%;
     }
 
     #commander_cardmarket_sektion p {
-        color: #AD9261;
+        color: #F1F0E8;
         padding-left: 15vw;
         padding-right: 15vw;
     }
 
     #commander_cardmarket_sektion a {
-        color: #AD9261;
+        color: #F1F0E8;
         text-decoration: underline;
     }
 
@@ -343,7 +343,7 @@ get_header(); ?>
         }
 
         #commander_cardmarket_sektion h1 {
-            color: #F5F5F5;
+            color: #F1F0E8;
             padding-top: 7%;
         }
     }
