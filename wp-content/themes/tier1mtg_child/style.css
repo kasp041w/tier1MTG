@@ -209,26 +209,26 @@ html {
 /*-----------Scroll bar----------*/
 
 /* Barens størrelse */
-::-webkit-scrollbar {
+/*::-webkit-scrollbar {
     background-color: white;
-}
+}*/
 
 /* Sporet den løber i */
-::-webkit-scrollbar-track {
+/*::-webkit-scrollbar-track {
     box-shadow: 1px 0 5px grey;
     border-radius: 10px;
-}
+}*/
 
 /* Farve på bar + kant */
-::-webkit-scrollbar-thumb {
+/*::-webkit-scrollbar-thumb {
     background: #95BFE2;
     border-radius: 10px;
-}
+}*/
 
 /*  hover */
-::-webkit-scrollbar-thumb:hover {
+/*::-webkit-scrollbar-thumb:hover {
     background: #CBBE23;
-}
+}*/
 
 
 

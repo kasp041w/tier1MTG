@@ -481,6 +481,9 @@ get_header(); ?>
                 <figure class="forside_figure_ny">
                     <div class="new_single_kort3"></div>
                 </figure>
+                <figure class="forside_figure_ny">
+                    <div class="new_single_kort4"></div>
+                </figure>
             </div>
         </section>
 

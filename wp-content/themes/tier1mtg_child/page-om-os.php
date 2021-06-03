@@ -58,30 +58,6 @@ get_header(); ?>
     }
 
 
-    /* Barens størrelse */
- /*   .ansatte::-webkit-scrollbar {
-   width: 10px;
-   }*/
-
-    /* Sporet den løber i */
-   /* .ansatte::-webkit-scrollbar-track {
-        box-shadow: 1px 0 5px grey;
-        border-radius: 10px;
-    }*/
-
-    /* Farve på bar + kant */
-  /*  .ansatte::-webkit-scrollbar-thumb {
-        background: #95BFE2;
-        border-radius: 10px;
-    }*/
-
-    /*  hover */
-  /*  .ansatte::-webkit-scrollbar-thumb:hover {
-        background: #CBBE23;
-    }*/
-
-
-
     /*Sociale meider*/
     .omos_sociale_medier {
         text-align: center;
