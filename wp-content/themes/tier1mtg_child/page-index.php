@@ -153,7 +153,6 @@ get_header(); ?>
         background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/del_af_universet.png);
         background-size: cover;
         max-width: none;
-        height: 86vh;
         width: 100%;
         margin: 20px 0 90px 0;
     }
@@ -284,7 +283,7 @@ get_header(); ?>
     }
 
     .forside_sjette_sektion_grid .left {
-        text-align: center;
+        text-align: left;
         padding: 5%;
     }
 
@@ -322,7 +321,7 @@ get_header(); ?>
         #forside_trejde_sektion,
         #forside_fjerde_sektion,
         .forside_femte_sektion {
-            padding: 0%;
+            padding: 2vw;
         }
 
         /*OVERSKRIFTERNE TIL HVER SEKTION*/
