@@ -252,9 +252,9 @@ html {
 }
 
 .site-footer .footer-widgets-container .inside-footer-widgets {
-    margin-left: 0px;
-    margin: 0 0px;
-    place-self: center;
+   /* margin-left: 0px;
+ margin: 0 0px;
+ place-self: center;*/
 }
 
 .site-info {

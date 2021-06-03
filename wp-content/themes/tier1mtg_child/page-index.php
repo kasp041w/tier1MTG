@@ -33,7 +33,7 @@ get_header(); ?>
     #forside_first_section,
     #forside_trejde_sektion,
     #forside_fjerde_sektion,
-    .forside_femte_sektion {
+    #forside_femte_sektion {
         max-width: 1200px;
         margin: 50px auto;
         padding: 5%;
@@ -150,11 +150,11 @@ get_header(); ?>
     /*ANDEN SEKTION: bliv en del af universet*/
 
     #forside_anden_sektion {
-        background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/del_af_universet.png);
+        background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/06/del_af_universet-_kanter-1.png);
         background-size: cover;
         max-width: none;
         width: 100%;
-        margin: 20px 0 90px 0;
+        margin: 80px 0 90px 0;
     }
 
     .forside_anden_sektion_knap {
@@ -174,8 +174,7 @@ get_header(); ?>
 
     .forside_anden_sektion_tekst {
         display: grid;
-        padding: 5%;
-
+        padding: 20vw 5% 20vw 5%;
     }
 
     /*TREJDE SKETION: styling af trejde sektion*/
@@ -254,8 +253,9 @@ get_header(); ?>
         background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/forside-om_os1.png);
         background-size: cover;
         max-width: none;
-        height: 140vh;
         width: 100%;
+        padding-top: 60px;
+        padding-bottom: 50px;
     }
 
     .forside_femte_sektion .bottom img {
@@ -263,7 +263,7 @@ get_header(); ?>
     }
 
     .forside_femte_sektion .bottom {
-        margin-top: 40%;
+        margin-top: 75px;
     }
 
     .forside_femte_sektion .left,
@@ -272,7 +272,6 @@ get_header(); ?>
     }
 
     .forside_femte_sektion_knap {
-        position: absolute;
         z-index: 40;
     }
 
@@ -358,9 +357,7 @@ get_header(); ?>
         }
 
         /*ANDEN SEKTION*/
-        #forside_anden_sektion {
-            height: 57vh;
-        }
+        #forside_anden_sektion {}
 
         #forside_anden_sektion .universTekst {
             display: grid;
@@ -393,14 +390,12 @@ get_header(); ?>
         }
 
         /*FEMTE SEKTIONstyling af femte sektion*/
-        #forside_femte_sektion {
-            height: 90vh;
-        }
+        #forside_femte_sektion {}
 
         .forside_femte_sektion {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            grid-auto-rows: 1fr 0.5fr;
+            grid-auto-rows: 1fr 0.35fr;
             grid-column-gap: 40px;
         }
 
@@ -420,7 +415,7 @@ get_header(); ?>
         }
 
         .forside_femte_sektion .left {
-            padding-top: 7%;
+            padding-top: 5%;
         }
 
         .forside_femte_sektion .bottom {
