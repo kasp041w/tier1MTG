@@ -653,6 +653,7 @@ get_header(); ?>
             visNewSingleKort1();
             visNewSingleKort2();
             visNewSingleKort3();
+            visNewSingleKort4();
 
         }
         loadJson();
