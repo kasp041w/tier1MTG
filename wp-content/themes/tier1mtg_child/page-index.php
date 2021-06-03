@@ -242,7 +242,7 @@ get_header(); ?>
         flex-basis: 100%;
         flex-shrink: 0;
         scroll-snap-align: center;
-        max-width: 386px;
+        max-width: 350px;
         margin: 0 auto;
     }
 
