@@ -776,6 +776,36 @@ get_header(); ?>
 
         }
 
+
+        function visNewSingleKort4() {
+            console.log("visNewSingleKort4");
+
+            //Genererer et nyt array af tilfældige objekter fra det komplette array
+            const other1 = newSingleKort[Math.floor(Math.random() * newSingleKort.length)];
+            const randomSingleKort = [other1];
+            console.log(randomSingleKort);
+
+            randomSingleKort.forEach(single => {
+                //Definerer konstanter til senere brug i kloningen af template
+                const template = document.querySelector("template");
+                const container = document.querySelector(".new_single_kort4");
+
+
+                const klon = template.cloneNode(true).content; //Her klones template og udfyldes med data fra de tilfældige objekter
+                klon.querySelector(".billede_forside").src = single.billede.guid;
+                klon.querySelector(".titel_alternativ").innerHTML = single.title.rendered;
+                klon.querySelector(".pris_alternativ").innerHTML = `${"Fra "}` + single.pris + `${" DKK"}`;
+
+                // eventlisteners på hver enkelt artikel
+                klon.querySelector(".se_kort_knap").addEventListener("click", () => {
+                    location.href = single.link;
+                })
+
+                container.appendChild(klon);
+            })
+
+        }
+
     </script>
 
 
