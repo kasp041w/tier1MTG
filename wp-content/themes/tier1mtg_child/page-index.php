@@ -321,7 +321,7 @@ get_header(); ?>
         #forside_trejde_sektion,
         #forside_fjerde_sektion,
         .forside_femte_sektion {
-            padding: 2vw;
+            padding: 0%;
         }
 
         /*OVERSKRIFTERNE TIL HVER SEKTION*/

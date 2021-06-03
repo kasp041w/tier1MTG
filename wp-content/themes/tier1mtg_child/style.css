@@ -260,6 +260,11 @@ html {
 .site-info {
     color: #ffffff;
     background-color: #272727;
+    display: none;
+}
+
+.site-footer a {
+    color: #AD9261;
 }
 
 @media (min-width: 950px) {
