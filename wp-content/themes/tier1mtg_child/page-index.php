@@ -164,18 +164,19 @@ get_header(); ?>
         border-radius: 28px;
         padding: 12px 20px 12px 20px;
         font-weight: bold;
-        place-self: center;
         z-index: 40;
+        margin-top: 35px;
     }
 
     .forside_anden_sektion_styl {
         color: #F1F0E8;
-        text-align: center;
+        text-align: left;
     }
 
     .forside_anden_sektion_tekst {
         display: grid;
         padding: 5%;
+
     }
 
     /*TREJDE SKETION: styling af trejde sektion*/
@@ -362,9 +363,16 @@ get_header(); ?>
             height: 57vh;
         }
 
+        #forside_anden_sektion .universTekst {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 3vw;
+        }
+
         .forside_anden_sektion_tekst {
-            padding: 90px 0px;
-            margin: 90px 290px;
+            padding: 90px 20px;
+            margin: 0 auto;
+            max-width: 1000px;
         }
 
         /*TILBEHØR SEKTION*/
@@ -490,11 +498,14 @@ get_header(); ?>
         <section id="forside_anden_sektion">
             <div class="forside_anden_sektion_tekst">
                 <h1 class="forside_anden_sektion_styl">BLIV EN DEL AF UNIVERSET</h1>
-                <p class="forside_anden_sektion_styl">Magic The Gathering er verdens bedste spil i vores øjne, og du er meget velkommen til at blive en del af vores univers i Tier1MTG. Vi har selv spillet Magic The Gathering siden 1990’erne, og vi har derfor en kæmpe kærlighed til spillet og en stor viden omkring spillet, formater, miljøet og køb og salg af kort. Vi brænder for Magic-fællesskabet og laver derfor både lokale events i vores butik og store turneringer i København. Vores events er for alle, og vi håber på at se dig til dem!
-                    <br>
-                    <br> Vil du vide mere om de forskellige formater inden for Magic The Gathering, kan du tjekke “Spilformater” i menuen. Her kan du dykke ned i vores Youtube-videoer og artikler og blive en del af Tier1MTG fællesskabet.
-                </p>
-                <button class="forside_anden_sektion_knap knapper_dark"><a href="http://kasperdyhl.dk/tier1mtg/commander/">LÆS MERE</a></button>
+                <div class="universTekst">
+                    <p class="forside_anden_sektion_styl">Magic The Gathering er verdens bedste spil i vores øjne, og du er meget velkommen til at blive en del af vores univers i Tier1MTG. Vi har selv spillet Magic The Gathering siden 1990’erne, og vi har derfor en kæmpe kærlighed til spillet og en stor viden omkring spillet, formater, miljøet og køb og salg af kort. Vi brænder for Magic-fællesskabet og laver derfor både lokale events i vores butik og store turneringer i København. Vores events er for alle, og vi håber på at se dig til dem!
+                    </p>
+                    <p class="forside_anden_sektion_styl">Vil du vide mere om de forskellige formater inden for Magic The Gathering, kan du tjekke “Spilformater” i menuen. Her kan du dykke ned i vores Youtube-videoer og artikler og blive en del af Tier1MTG fællesskabet.
+                        <br>
+                        <button class="forside_anden_sektion_knap knapper_dark"><a href="http://kasperdyhl.dk/tier1mtg/commander/">LÆS MERE</a></button>
+                    </p>
+                </div>
             </div>
         </section>
 
