@@ -422,7 +422,7 @@ get_header(); ?>
                 <div class="commander_tip_col_1">
                     <h1>SE UGENS TIP</h1>
                     <p>Hver uge lægger vi en ny Youtube-video op om Commander-formatet. Her kan du lære mere om formatet og få tips til at spille og opbygge dit deck. Vil du se vores andre videoer om Commander, kan du se hele vores playliste herunder.</p>
-                    <a href="https://www.youtube.com/watch?v=6p6LFFgYVKg" target="_blank" rel="noopener noreferrer" class="commander_playknap"> <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/06/Youtube-logo.png" alt="play knap"> </a>
+                    <a href="https://www.youtube.com/watch?v=6p6LFFgYVKg" target="_blank" rel="noopener noreferrer" class="commander_playknap"> <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/06/Youtube-logo-e1622801920595.png" alt="play knap"> </a>
                     <p>Se vores Commander-playliste på Youtube</p>
                 </div>
                 <div class="commander_tip_col_2">
