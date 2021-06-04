@@ -17,15 +17,18 @@ if ( ! defined( 'ABSPATH' ) ) {
 get_header(); ?>
 
     <style>
-        main {
-            width: 100%;
-            padding-left: 0rem;
-            padding-right: 0rem;
+        #main .site-main {
+            width: 100vw;
         }
 
         .knapper_dark a {
             font-weight: bold;
             font-family: 'Cormorant', serif;
+        }
+
+        .forside_sjette_sektion_knap .knapper_dark a:active {
+            color: white;
+            background-color: aquamarine;
         }
         /*Sektionernes margin og max-width*/
 
@@ -41,17 +44,27 @@ get_header(); ?>
 
         .forside_splach_container {
             width: 100vw;
-            height: 60vh;
+            height: 80vh;
         }
 
         .forside_video {
             width: 100vw;
-            height: 60vh;
+            height: 80vh;
             object-fit: cover;
         }
 
         .forside_splash_knap {
-            place-self: center;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            position: absolute;
+            width: 100vw;
+            bottom: 15%;
+        }
+
+        .forside_center_knap {
+            grid-column-start: 2;
+            grid-column-end: span 1;
+            margin: 0 auto;
         }
         /*FØRSTE SEKTION: nyeste kort*/
         /*styling af singel kortene på forsiden*/
@@ -247,12 +260,14 @@ get_header(); ?>
             padding-bottom: 50px;
         }
 
-        .forside_femte_sektion .bottom img {
-            padding: 0px 15px 0px 15px;
+        #forside_femte_sektion .bottom img {
+            width: 6rem;
+            margin: 1rem;
         }
 
         .forside_femte_sektion .bottom {
             margin-top: 75px;
+            text-align: center;
         }
 
         .forside_femte_sektion .left,
@@ -281,16 +296,6 @@ get_header(); ?>
 
         .forside_sjette_sektion_grid .right {
             text-align: right;
-        }
-
-        .forside_sjette_sektion_knap {
-            background-color: #AD9261;
-            color: #272727;
-            border-radius: 28px;
-            padding: 12px 20px 12px 20px;
-            font-weight: bold;
-            place-self: center;
-            z-index: 40;
         }
 
         .forside_sjette_sektion_knap:hover {
@@ -333,6 +338,9 @@ get_header(); ?>
             }
             .forside_image-container {
                 padding: 0px;
+            }
+            .forside_splash_knap {
+                bottom: 10%;
             }
             /*ANDEN SEKTION*/
             #forside_anden_sektion {}
@@ -418,7 +426,7 @@ get_header(); ?>
                     </video>
                 </div>
                 <div class="forside_splash_knap">
-                    <button class="knapper_dark"><a href="http://kasperdyhl.dk/tier1mtg/produktside/">SE UDVALG</a></button>
+                    <button class="knapper_dark forside_center_knap"><a href="http://kasperdyhl.dk/tier1mtg/produktside/">SE UDVALG</a></button>
                 </div>
 
             </section>
@@ -574,8 +582,8 @@ get_header(); ?>
                     </div>
                     <div class="bottom">
                         <a href="https://www.twitch.tv/tier1mtg"><img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/twitch_knap.png" alt="link til twitch"></a>
-                        <a href="https://www.youtube.com/channel/UCV8RZ4Kg3vg51M86UTQlE1Q"><img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/youtube_knap.png" alt="link til youtube"></a>
-                        <a href="https://www.facebook.com/Tier1MTG"><img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/facebook_knap.png" alt="link til facebook"></a>
+                        <a href="https://www.youtube.com/channel/UCV8RZ4Kg3vg51M86UTQlE1Q"><img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/06/Youtube-logo.png" alt="link til youtube"></a>
+                        <a href="https://www.facebook.com/Tier1MTG"><img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/06/Facebook-logo.png" alt="link til facebook"></a>
                     </div>
                 </div>
             </section>
@@ -585,8 +593,8 @@ get_header(); ?>
                     <div class="left">
                         <h1>VI ER OGSÅ PÅ CARDMARKET</h1>
                         <p>Vi har Skandinaviens største udvalg af MTG-enkeltkort, og vi sælger også kort på Cardmarket. <a href="https://www.cardmarket.com/en/Magic/Users/Tier1MTG" target="_blank">Se vores udvalg på Cardmarket her.</a> Vi sender alle hverdage, så du hurtigt kan modtage dine nye kort, og vi sender over hele verden til gode priser. Vi er certificeret "Professional Seller" på Magic-Cardmarket, og det er din sikkerhed for, at vi er en troværdig sælger. Vi har altid et voksende katalog af over 240.000 Magic The Gathering-enkeltkort.</p>
-                        <button class="forside_sjette_sektion_knap knapper_dark">
-                            <a href="https://www.cardmarket.com/en/Magic/Users/Tier1MTG" target="_blank"></a>GÅ TIL CARDMARKET</button>
+
+                        <a class="forside_sjette_sektion_knap knapper_dark" href="https://www.cardmarket.com/en/Magic/Users/Tier1MTG" target="_blank">GÅ TIL CARDMARKET</a>
                     </div>
                     <div class="right">
                         <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/lotos1.png" alt="MTG lotos">
