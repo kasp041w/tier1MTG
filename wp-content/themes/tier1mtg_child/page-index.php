@@ -581,9 +581,9 @@ get_header(); ?>
                         <button class="forside_femte_sektion_knap forside_sjette_sektion_knap knapper_dark"><a href="http://kasperdyhl.dk/tier1mtg/om-os/">LÆS MERE</a></button>
                     </div>
                     <div class="bottom">
-                        <a href="https://www.twitch.tv/tier1mtg"><img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/twitch_knap.png" alt="link til twitch"></a>
-                        <a href="https://www.youtube.com/channel/UCV8RZ4Kg3vg51M86UTQlE1Q"><img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/06/Youtube-logo.png" alt="link til youtube"></a>
-                        <a href="https://www.facebook.com/Tier1MTG"><img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/06/Facebook-logo.png" alt="link til facebook"></a>
+                        <a href="https://www.twitch.tv/tier1mtg" target="_blank"><img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/twitch_knap.png" alt="link til twitch"></a>
+                        <a href="https://www.youtube.com/channel/UCV8RZ4Kg3vg51M86UTQlE1Q" target="_blank"><img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/06/Youtube-logo.png" alt="link til youtube"></a>
+                        <a href="https://www.facebook.com/Tier1MTG" target="_blank"><img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/06/Facebook-logo.png" alt="link til facebook"></a>
                     </div>
                 </div>
             </section>
