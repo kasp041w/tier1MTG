@@ -17,18 +17,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 get_header(); ?>
 
     <style>
-        #main .site-main {
-            width: 100vw;
-        }
-
         .knapper_dark a {
             font-weight: bold;
             font-family: 'Cormorant', serif;
-        }
-
-        .forside_sjette_sektion_knap .knapper_dark a:active {
-            color: white;
-            background-color: aquamarine;
         }
         /*Sektionernes margin og max-width*/
 
@@ -51,6 +42,16 @@ get_header(); ?>
             width: 100vw;
             height: 80vh;
             object-fit: cover;
+            background-color: #272727;
+        }
+
+        .forside_kant_bjerg {
+            height: 11vh;
+            width: 100vw;
+        }
+
+        #forside_splach {
+            margin-bottom: 0;
         }
 
         .forside_splash_knap {
@@ -65,6 +66,22 @@ get_header(); ?>
             grid-column-start: 2;
             grid-column-end: span 1;
             margin: 0 auto;
+        }
+
+        #forside_ikoner_wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .forside_ikoner_container {
+            margin: 0 auto;
+            text-align: center;
+            width: 100px;
+        }
+
+        .forside_leverings_ikon,
+        .forside_events_ikon {
+            display: none;
         }
         /*FØRSTE SEKTION: nyeste kort*/
         /*styling af singel kortene på forsiden*/
@@ -167,6 +184,11 @@ get_header(); ?>
             font-weight: bold;
             z-index: 40;
             margin-top: 35px;
+            width: 126px;
+        }
+
+        .forside_anden_sektion_tekst h1 {
+            text-align: center;
         }
 
         .forside_anden_sektion_styl {
@@ -340,7 +362,27 @@ get_header(); ?>
                 padding: 0px;
             }
             .forside_splash_knap {
-                bottom: 10%;
+                bottom: 8%;
+            }
+            .forside_kant_bjerg {
+                margin: 0;
+            }
+            #forside_ikoner_wrapper {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                margin-left: 17%;
+                margin-right: 17%;
+            }
+            .forside_ikoner_container {
+                margin: 0 auto;
+                text-align: center;
+                width: 40px;
+            }
+            .forside_leverings_ikon,
+            .forside_events_ikon,
+            .forside_ikoner_container {
+                display: block;
+                width: 100px;
             }
             /*ANDEN SEKTION*/
             #forside_anden_sektion {}
@@ -354,12 +396,6 @@ get_header(); ?>
                 margin: 0 auto;
                 max-width: 1000px;
             }
-            /*TILBEHØR SEKTION*/
-            /*
-        .se_kort_knap {
-        left: 61%;
-        }
-*/
             .trejde_sektion_knap {
                 left: 58%;
             }
@@ -419,7 +455,6 @@ get_header(); ?>
 
 
             <section id="forside_splach">
-
                 <div class="forside_splach_container">
                     <video class="forside_video" autoplay muted loop>
                         <source src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/06/splash_light.mp4" type="video/mp4">
@@ -428,10 +463,33 @@ get_header(); ?>
                 <div class="forside_splash_knap">
                     <button class="knapper_dark forside_center_knap"><a href="http://kasperdyhl.dk/tier1mtg/produktside/">SE UDVALG</a></button>
                 </div>
-
             </section>
 
+            <section id="forside_kant_bjerg">
+                <img class="forside_kant_bjerg" src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/06/kant_under-1.png" alt="">
+            </section>
 
+            <section>
+                <div id="forside_ikoner_wrapper">
+                    <div class="forside_ikoner_container forside_leverings_ikon">
+                        <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Levering-e1622195990716.png" alt="Betalings-logo">
+                        <h3>Hurtig levering</h3>
+                    </div>
+                    <div class="forside_ikoner_container">
+                        <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Betaling-e1622196037728.png" alt="Betalings-logo">
+                        <h3>Køb &amp; Salg af Magic the Gathering</h3>
+                    </div>
+                    <div class="forside_ikoner_container">
+                        <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/06/kalender.png" alt="Betalings-logo">
+                        <h3>Arrangør af MTG <br> events</h3>
+                    </div>
+                    <div class="forside_ikoner_container forside_events_ikon">
+                        <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Mail-e1622196016123.png" alt="Betalings-logo">
+                        <h3>God kundeservice</h3>
+                    </div>
+
+                </div>
+            </section>
 
             <section id="forside_first_section">
                 <h1>NYESTE SINGLES</h1>
@@ -464,13 +522,13 @@ get_header(); ?>
                 <div class="forside_anden_sektion_tekst">
                     <h1 class="forside_anden_sektion_styl">BLIV EN DEL AF UNIVERSET</h1>
                     <div class="universTekst">
-                        <p class="forside_anden_sektion_styl">Magic The Gathering er verdens bedste spil i vores øjne, og du er meget velkommen til at blive en del af vores univers i Tier1MTG. Vi har selv spillet Magic The Gathering siden 1990’erne, og vi har derfor en kæmpe kærlighed til spillet og en stor viden omkring spillet, formater, miljøet og køb og salg af kort. Vi brænder for Magic-fællesskabet og laver derfor både lokale events i vores butik og store turneringer i København. Vores events er for alle, og vi håber på at se dig til dem!
+                        <p class="forside_anden_sektion_styl">Magic The Gathering er verdens bedste spil i vores øjne, og du er meget velkommen til at blive en del af vores univers i Tier1MTG. Vi har selv spillet Magic The Gathering siden 1990’erne, og vi har derfor en kæmpe kærlighed til spillet og en stor viden omkring spillet, formater, miljøet og køb og salg af kort. Vi brænder for Magic-fællesskabet og laver derfor både lokale events i vores butik og store turneringer i København.
                         </p>
-                        <p class="forside_anden_sektion_styl">Vil du vide mere om de forskellige formater inden for Magic The Gathering, kan du tjekke “Spilformater” i menuen. Her kan du dykke ned i vores Youtube-videoer og artikler og blive en del af Tier1MTG fællesskabet.
+                        <p class="forside_anden_sektion_styl"> Vores events er for alle, og vi håber på at se dig til dem! Vil du vide mere om de forskellige formater inden for Magic The Gathering, kan du tjekke “Spilformater” i menuen. Her kan du dykke ned i vores Youtube-videoer og artikler og blive en del af Tier1MTG fællesskabet.
                             <br>
-                            <button class="forside_anden_sektion_knap knapper_dark"><a href="http://kasperdyhl.dk/tier1mtg/commander/">LÆS MERE</a></button>
                         </p>
                     </div>
+                    <button class="forside_anden_sektion_knap knapper_dark"><a href="http://kasperdyhl.dk/tier1mtg/commander/">LÆS MERE</a></button>
                 </div>
             </section>
 
@@ -513,6 +571,25 @@ get_header(); ?>
                             <p class="p_acc">49,95 DKK</p>
                         </figcaption>
                     </figure>
+
+                    <figure class="forside_figure_ny">
+                        <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/tube.jpeg" alt="Ultra Pro - Boombox">
+                        <button class="trejde_sektion_knap knapper_dark">SE PRODUKT</button>
+                        <figcaption class="trejde_sektion_figcuption">
+                            <h2 class="h2_acc">Ultra Pro - Boombox</h2>
+                            <p class="p_acc">324,95 DKK</p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="forside_figure_ny">
+                        <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/box.jpeg" alt="Ultra Pro – Satin Tower Deck">
+                        <button class="trejde_sektion_knap knapper_dark">SE PRODUKT</button>
+                        <figcaption class="trejde_sektion_figcuption">
+                            <h2 class="h2_acc">Ultra Pro – Satin Tower Deck</h2>
+                            <p class="p_acc">99,95 DKK</p>
+                        </figcaption>
+                    </figure>
+
                 </div>
             </section>
 
@@ -563,6 +640,35 @@ get_header(); ?>
                             </p>
                         </figcaption>
                     </figure>
+
+                    <figure class="forside_figure_event">
+                        <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/Intersection-123.png" alt="Tier1MTG event">
+                        <button class="event_mere_knap knapper_dark"><a href="http://kasperdyhl.dk/tier1mtg/event/">LÆS MERE</a></button>
+                        <figcaption class="fjerde_sektion_figcuption">
+                            <h2 class="h2_acc">Old School Game</h2>
+                            <p class="p_acc">Dato: 23-06-2021</p>
+                            <p class="p_acc">Format: Old School</p>
+                            <p class="p_acc">Info: Glæd dig til vores kommende event hos Tier1MTG. Kom til hygge i trygge rammer, hvor du kan spille med andre og vinde fede præmier.
+                                <br>
+                                <br>Tilmelding starter den 8. juni.
+                            </p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="forside_figure_event">
+                        <img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/06/butik_ps-scaled.jpg" alt="">
+                        <button class="event_mere_knap knapper_dark"><a href="http://kasperdyhl.dk/tier1mtg/event/">LÆS MERE</a></button>
+                        <figcaption class="fjerde_sektion_figcuption">
+                            <h2 class="h2_acc">Commander Game</h2>
+                            <p class="p_acc">Dato: 14-07-2021</p>
+                            <p class="p_acc">Format: Commander</p>
+                            <p class="p_acc">Info: Glæd dig til vores kommende event hos Tier1MTG. Kom til hygge i trygge rammer, hvor du kan spille med andre og vinde fede præmier.
+                                <br>
+                                <br>Tilmelding starter den 8. juli.
+                            </p>
+                        </figcaption>
+                    </figure>
+
                 </div>
             </section>
 
@@ -689,7 +795,7 @@ get_header(); ?>
                     const klon = template.cloneNode(true).content; //Her klones template og udfyldes med data fra de tilfældige objekter
                     klon.querySelector(".billede_forside").src = single.billede.guid;
                     klon.querySelector(".titel_alternativ").innerHTML = single.title.rendered;
-                    klon.querySelector(".pris_alternativ").innerHTML = `${"Fra "}` + single.pris;
+                    klon.querySelector(".pris_alternativ").innerHTML = `${"Fra "}` + single.pris + `${" DKK"}`;
 
                     // eventlisteners på hver enkelt artikel
                     klon.querySelector(".se_kort_knap").addEventListener("click", () => {
@@ -718,7 +824,7 @@ get_header(); ?>
                     const klon = template.cloneNode(true).content; //Her klones template og udfyldes med data fra de tilfældige objekter
                     klon.querySelector(".billede_forside").src = single.billede.guid;
                     klon.querySelector(".titel_alternativ").innerHTML = single.title.rendered;
-                    klon.querySelector(".pris_alternativ").innerHTML = `${"Fra "}` + single.pris;
+                    klon.querySelector(".pris_alternativ").innerHTML = `${"Fra "}` + single.pris + `${" DKK"}`;
 
                     // eventlisteners på hver enkelt artikel
                     klon.querySelector(".se_kort_knap").addEventListener("click", () => {

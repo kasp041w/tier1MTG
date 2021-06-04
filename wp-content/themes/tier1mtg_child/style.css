@@ -16,37 +16,31 @@ h1 {
     color: #272727;
     font-weight: bold;
 }
-
 h2 {
     font-family: 'Cormorant', serif;
     color: #272727;
     font-weight: bold;
     font-size: 1.5rem;
 }
-
 h3 {
     font-family: 'Cormorant', serif;
     color: #272727;
     font-weight: bold;
     font-size: 1rem;
 }
-
 h4 {
     font-family: 'Cormorant', serif;
     color: #272727;
     font-weight: bold;
     font-size: 1rem;
 }
-
 p {
     font-family: 'Assistant', sans-serif;
     color: #272727;
 }
-
 button {
     font-family: 'Cormorant', serif;
 }
-
 a {
     font-family: 'Assistant', sans-serif;
     color: #272727;
@@ -63,12 +57,10 @@ a {
     font-family: 'Cormorant', serif;
     font-size: 14px;
 }
-
 .knapper_dark:hover {
     background-color: #F1F0E8;
     color: #AD9261;
 }
-
 .knapper_light {
     background-color: #AD9261;
     color: #F1F0E8;
@@ -78,19 +70,16 @@ a {
     font-family: 'Cormorant', serif;
     font-size: 14px;
 }
-
 .knapper_light:hover {
     background-color: #F1F0E8;
     color: #AD9261;
 }
-
 .event_mere_knap {
     position: absolute;
     left: 63%;
     bottom: 5%;
     z-index: 40;
 }
-
 button:hover a {
     color: #AD9261;
 }
@@ -101,33 +90,26 @@ body {
     background-color: #F1F0E8;
     margin: 0 auto;
 }
-
 main {
     width: 100%;
 }
-
 html {
     scroll-behavior: smooth;
 }
-
 .separate-containers .site-main {
     margin: 0px;
 }
-
 .main-navigation .main-nav > ul {
     background-color: #272727;
 }
-
 .grid-container {
     margin-left: auto;
     margin-right: auto;
     max-width: 100vw;
 }
-
 .footer-widgets-container {
     background-color: #272727;
 }
-
 .footer-widgets-container p,
 .footer-widgets-container .widget-title,
 .footer-widgets-container a {
@@ -140,7 +122,6 @@ html {
     width: 100vw;
     margin: 0 auto;
 }
-
 .is-right-sidebar {
     width: 30%;
     display: none;
@@ -151,21 +132,17 @@ html {
 .inside-header {
     background-color: #272727;
 }
-
 .main-navigation .main-nav ul li a {
     background-color: #272727;
 }
-
 .site-header {
     background-color: #272727;
 }
-
 .main-navigation .main-nav ul li[class*="current-menu-"] > a {
     color: #AD9261;
     text-decoration: underline 2px;
     background-color: #272727;
 }
-
 .main-navigation .main-nav ul ul ui:hover > a,
 .main-navigation .main-nav ul ul ui:focus > a,
 .main-navigation .main-nav ul ul ui.sfhover > a {
@@ -197,7 +174,6 @@ html {
     font-weight: bold;
     font-size: 1.1rem;
 }
-
 .main-navigation .main-nav ul ul li a {
     color: #F7F6E9;
 }
@@ -209,66 +185,54 @@ html {
 /*--GRID-VIEW PÅ PRODUKTER---*/
 
 
-
 /*-----------Scroll bar----------*/
 
+
 /* Barens størrelse */
+
 ::-webkit-scrollbar {
     background-color: white;
 }
 
 /* Sporet den løber i */
+
 ::-webkit-scrollbar-track {
     box-shadow: 1px 0 5px grey;
     border-radius: 10px;
 }
 
 /* Farve på bar + kant */
+
 ::-webkit-scrollbar-thumb {
-    background: #95BFE2;
+    background: #272727;
     border-radius: 10px;
 }
 
 /*  hover */
+
 ::-webkit-scrollbar-thumb:hover {
-    background: #CBBE23;
+    background: #AD9261;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /*FOOTER*/
 
 .site-footer .footer-widgets-container .inner-padding {
     padding: 0px 0px 0px 130px;
 }
-
 .site-footer .footer-widgets-container .inside-footer-widgets {
-   /* margin-left: 0px;
+    /* margin-left: 0px;
  margin: 0 0px;
  place-self: center;*/
 }
-
 .site-info {
     color: #ffffff;
     background-color: #272727;
     display: none;
 }
-
 .site-footer a {
     color: #AD9261;
 }
-
 @media (min-width: 950px) {
-
     /*--------- Knapper----------*/
     .event_mere_knap {
         left: 68%;
