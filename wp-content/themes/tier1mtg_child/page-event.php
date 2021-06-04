@@ -151,7 +151,7 @@ get_header(); ?>
 
         /*FØRTE SEKTION*/
         #event_firste_sektion .event_splach {
-            height: 90vh;
+            height: 33vw;
             margin-top: -70px;
         }
 
