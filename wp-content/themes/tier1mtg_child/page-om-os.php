@@ -51,7 +51,8 @@ get_header(); ?>
     }
 
     .ansat {
-        margin: 2vw;
+        margin: 2vw auto;
+        padding: 35px;
         text-align: center;
         scroll-snap-align: center;
         flex-shrink: 0;
