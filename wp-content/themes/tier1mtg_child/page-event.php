@@ -167,7 +167,8 @@ get_header(); ?>
         }
 
         #event_anden_sektion .top {
-            max-width: 60vw;
+            max-width: 50vw;
+            padding-bottom: 50px;
         }
 
 
