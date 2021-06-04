@@ -29,12 +29,18 @@ get_header(); ?>
         margin-top: -9px;
     }
 
+
+    /*ANDEN SEKTION*/
+    /* grid og siden styling*/
+
     #event_anden_sektion .top {
         margin: 8vw auto;
     }
 
-    /*ANDEN SEKTION*/
-    /* grid og siden styling*/
+    #event_anden_sektion .top p {
+        text-align: left;
+        padding-bottom: 50px;
+    }
 
     #event_anden_sektion .event_anden_sektion_container {
         display: grid;
