@@ -172,6 +172,10 @@ get_header(); ?>
         text-align: left;
     }
 
+    .forside_anden_sektion_styl h1 {
+        text-align: center;
+    }
+
     .forside_anden_sektion_tekst {
         display: grid;
         padding: 20vw 5% 20vw 5%;
