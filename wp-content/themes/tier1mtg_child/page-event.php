@@ -29,12 +29,18 @@ get_header(); ?>
         margin-top: -9px;
     }
 
+
+    /*ANDEN SEKTION*/
+    /* grid og siden styling*/
+
     #event_anden_sektion .top {
         margin: 8vw auto;
     }
 
-    /*ANDEN SEKTION*/
-    /* grid og siden styling*/
+    #event_anden_sektion .top p {
+        text-align: left;
+        padding-bottom: 50px;
+    }
 
     #event_anden_sektion .event_anden_sektion_container {
         display: grid;
@@ -161,7 +167,8 @@ get_header(); ?>
         }
 
         #event_anden_sektion .top {
-            max-width: 60vw;
+            max-width: 50vw;
+            padding-bottom: 50px;
         }
 
 
@@ -301,8 +308,8 @@ get_header(); ?>
             <h1>FØLG MED PÅ ANDRE KANALER</h1>
             <div class="event_sociale_medier">
                 <a href="https://www.twitch.tv/tier1mtg"><img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/twitch_knap.png" alt="link til twitch"></a>
-                <a href="https://www.youtube.com/channel/UCV8RZ4Kg3vg51M86UTQlE1Q"><img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/06/Youtube-logo.png" alt="link til youtube"></a>
-                <a href="https://www.facebook.com/Tier1MTG"><img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/06/Facebook-logo.png" alt="link til facebook"></a>
+                <a href="https://www.youtube.com/channel/UCV8RZ4Kg3vg51M86UTQlE1Q"><img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/06/Youtube-logo-e1622801920595.png" alt="link til youtube"></a>
+                <a href="https://www.facebook.com/Tier1MTG"><img src="http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/06/Facebook-logo-e1622801932687.png" alt="link til facebook"></a>
             </div>
         </section>
 
