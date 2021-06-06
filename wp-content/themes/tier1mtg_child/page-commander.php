@@ -100,7 +100,7 @@ get_header(); ?>
 
 	/*Styling af hovereffekten på kort og produkter så den sorte bremme forsvinder med mus over bilelde*/
 
-	article {
+	commander_article {
 		position: relative;
 		width: 280px;
 	}
@@ -117,7 +117,7 @@ get_header(); ?>
 		margin-bottom: 3%;
 	}
 
-	article:hover .baggrund_kort {
+	commander_article:hover .baggrund_kort {
 		height: 0%;
 		padding: 0px 20px 0px 20px;
 	}
@@ -507,18 +507,18 @@ get_header(); ?>
 		<section id="commander_cardmarket_sektion">
 			<div class="commander_cardmarket_container">
 				<h1>VI ER OGSÅ PÅ CARDMARKET</h1>
-				<p>Vi har Skandinaviens største udvalg af MTG-enkeltkort, og vi sælger også kort på Cardmarket. <a href="https://www.cardmarket.com/en/Magic/Users/Tier1MTG" target="_blank">Se vores udvalg på Cardmarket her.</a> Vi sender alle hverdage, så du hurtigt kan modtage dine nye kort, og vi sender over hele verden til gode priser. Vi er certificeret "Professional Seller" på Magic-Cardmarket, og det er din sikkerhed for, at vi er en troværdig sælger. Vi har altid et voksende katalog af over 240.000 Magic The Gathering-enkeltkort.</p>
+				<p>Vi har Skandinaviens største udvalg af MTG-enkeltkort, og vi sælger også kort på Cardmarket. <a href="https://www.cardmarket.com/en/Magic/Users/Tier1MTG" target="_blank">Se vores udvalg på Cardmarket her.</a> Vi sender alle hverdage, så du hurtigt kan modtage dine nye kort, og vi sender over hele verden til gode priser. Vi er certificeret "Professional Seller" på Magic Cardmarket, og det er din sikkerhed for, at vi er en troværdig sælger. Vi har altid et voksende katalog af over 240.000 Magic the Gathering-enkeltkort.</p>
 				<button class="commander_knap_cardmarket">LÆS MERE</button>
 			</div>
 		</section>
 
 
 	</main>
-	<!--SKABELON TIL SINGLES - KORT DU IKKE MÅ GÅ GLIP AF-->
+	<!--SKABELON TIL SINGLES - KORT DU IKKE MÅ GÅ GLIP AF. Test af class på article herunder + i css-->
 	<template>
-		<article>
+		<article class=commander_article>
 			<div class="billed_placering">
-				<img src="" alt="" class="billede">
+				<img src="" alt="" class="commander_billede">
 				<button class="se_kort_knap_commander knapper_dark">SE KORT</button>
 			</div>
 			<div class="baggrund_kort">
