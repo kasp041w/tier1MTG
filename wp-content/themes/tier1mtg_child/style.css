@@ -373,17 +373,15 @@ html {
     background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/bjerg_baggrund.png);
     background-size: cover;
     max-width: none;
-    height: 100vh;
+    height: 105vh;
     width: 100%;
     display: grid;
-    margin-top: 90px;
 }
 
 .event_trejde_container {
     place-self: center center;
     text-align: center;
     color: white;
-    margin: 3wv;
 }
 
 .event_trejde_container h1,
@@ -462,12 +460,16 @@ html {
     }
 
     /*TREJDE SEKTION LIVE STREAMING*/
-    .event_trejde_container {
-        margin-top: -120px;
-    }
+    .event_trejde_container {}
 
     #event_trejde_sektion {
-        height: 130vh;
+        height: 80vw;
+    }
+}
+
+@media (min-width: 1200px) {
+    #event_trejde_sektion {
+        height: 72vw;
     }
 }
 
