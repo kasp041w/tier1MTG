@@ -12,165 +12,165 @@ Description: Stylish Child Theme based on GeneratePress
 /*---FONTE PÅ HELE SITET---*/
 
 h1 {
-    font-family: 'Cormorant', serif;
-    color: #272727;
-    font-weight: bold;
+	font-family: 'Cormorant', serif;
+	color: #272727;
+	font-weight: bold;
 }
 
 h2 {
-    font-family: 'Cormorant', serif;
-    color: #272727;
-    font-weight: bold;
-    font-size: 1.5rem;
+	font-family: 'Cormorant', serif;
+	color: #272727;
+	font-weight: bold;
+	font-size: 1.5rem;
 }
 
 h3 {
-    font-family: 'Cormorant', serif;
-    color: #272727;
-    font-weight: bold;
-    font-size: 1rem;
+	font-family: 'Cormorant', serif;
+	color: #272727;
+	font-weight: bold;
+	font-size: 1rem;
 }
 
 h4 {
-    font-family: 'Cormorant', serif;
-    color: #272727;
-    font-weight: bold;
-    font-size: 1rem;
+	font-family: 'Cormorant', serif;
+	color: #272727;
+	font-weight: bold;
+	font-size: 1rem;
 }
 
 p {
-    font-family: 'Assistant', sans-serif;
-    color: #272727;
+	font-family: 'Assistant', sans-serif;
+	color: #272727;
 }
 
 button {
-    font-family: 'Cormorant', serif;
+	font-family: 'Cormorant', serif;
 }
 
 a {
-    font-family: 'Assistant', sans-serif;
-    color: #272727;
+	font-family: 'Assistant', sans-serif;
+	color: #272727;
 }
 
 /*----KNAPPER-----*/
 
 .knapper_dark {
-    background-color: #AD9261;
-    color: #272727;
-    border-radius: 20px;
-    padding: 8px 17px 8px 17px;
-    font-weight: bold;
-    font-family: 'Cormorant', serif;
-    font-size: 13px;
+	background-color: #AD9261;
+	color: #272727;
+	border-radius: 20px;
+	padding: 8px 17px 8px 17px;
+	font-weight: bold;
+	font-family: 'Cormorant', serif;
+	font-size: 13px;
 }
 
 .knapper_dark:hover {
-    background-color: #F1F0E8;
-    color: #AD9261;
+	background-color: #F1F0E8;
+	color: #AD9261;
 }
 
 .knapper_light {
-    background-color: #AD9261;
-    color: #F1F0E8;
-    border-radius: 20px;
-    padding: 12px 20px 12px 20px;
-    font-weight: bold;
-    font-family: 'Cormorant', serif;
-    font-size: 14px;
+	background-color: #AD9261;
+	color: #F1F0E8;
+	border-radius: 20px;
+	padding: 12px 20px 12px 20px;
+	font-weight: bold;
+	font-family: 'Cormorant', serif;
+	font-size: 14px;
 }
 
 .knapper_light:hover {
-    background-color: #F1F0E8;
-    color: #AD9261;
+	background-color: #F1F0E8;
+	color: #AD9261;
 }
 
 .event_mere_knap {
-    position: absolute;
-    z-index: 40;
-    right: 5px;
-    bottom: 5px;
+	position: absolute;
+	z-index: 40;
+	right: 5px;
+	bottom: 5px;
 }
 
 button:hover a {
-    color: #AD9261;
+	color: #AD9261;
 }
 
 /*---GENREL CSS---*/
 
 body {
-    background-color: #F1F0E8;
-    margin: 0 auto;
+	background-color: #F1F0E8;
+	margin: 0 auto;
 }
 
 main {
-    width: 100%;
+	width: 100%;
 }
 
 html {
-    scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 .separate-containers .site-main {
-    margin: 0px;
+	margin: 0px;
 }
 
 .main-navigation .main-nav > ul {
-    background-color: #272727;
+	background-color: #272727;
 }
 
 .grid-container {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100vw;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100vw;
 }
 
 .footer-widgets-container {
-    background-color: #272727;
+	background-color: #272727;
 }
 
 .footer-widgets-container p,
 .footer-widgets-container .widget-title,
 .footer-widgets-container a {
-    color: #F1F0E8;
+	color: #F1F0E8;
 }
 
 /*Fjerner side-bar*/
 
 .site-content .content-area {
-    width: 100vw;
-    margin: 0 auto;
+	width: 100vw;
+	margin: 0 auto;
 }
 
 .is-right-sidebar {
-    width: 30%;
-    display: none;
+	width: 30%;
+	display: none;
 }
 
 /*---HEADER STYLES---*/
 
 .inside-header {
-    background-color: #272727;
+	background-color: #272727;
 }
 
 .main-navigation .main-nav ul li a {
-    background-color: #272727;
+	background-color: #272727;
 }
 
 .site-header {
-    background-color: #272727;
+	background-color: #272727;
 }
 
 .main-navigation .main-nav ul li[class*="current-menu-"] > a {
-    color: #AD9261;
-    text-decoration: underline 2px;
-    background-color: #272727;
+	color: #AD9261;
+	text-decoration: underline 2px;
+	background-color: #272727;
 }
 
 .main-navigation .main-nav ul ul ui:hover > a,
 .main-navigation .main-nav ul ul ui:focus > a,
 .main-navigation .main-nav ul ul ui.sfhover > a {
-    color: #AD9261;
-    background-color: #272727;
+	color: #AD9261;
+	background-color: #272727;
 }
 
 /*Burgermenu-baggrund*/
@@ -179,10 +179,10 @@ html {
 .mobile-menu-control-wrapper .menu-toggle:hover,
 .mobile-menu-control-wrapper .menu-toggle:focus,
 .has-inline-mobile-toggle #site-navigation.toggled {
-    background-color: #272727;
-    font-size: 2rem;
-    color: #F7F6E9;
-    font-weight: bold;
+	background-color: #272727;
+	font-size: 2rem;
+	color: #F7F6E9;
+	font-weight: bold;
 }
 
 /*Bokse i header*/
@@ -190,16 +190,16 @@ html {
 .main-navigation .main-nav ul li a,
 .menu-toggle,
 .main-navigation .menu-bar-items {
-    font-family: 'Cormorant', serif;
-    color: #F7F6E9;
-    text-transform: uppercase;
-    border: 0;
-    font-weight: bold;
-    font-size: 1.1rem;
+	font-family: 'Cormorant', serif;
+	color: #F7F6E9;
+	text-transform: uppercase;
+	border: 0;
+	font-weight: bold;
+	font-size: 1.1rem;
 }
 
 .main-navigation .main-nav ul ul li a {
-    color: #F7F6E9;
+	color: #F7F6E9;
 }
 
 /*Aktiv-status på menu/burgermenu-knapper*/
@@ -215,59 +215,59 @@ html {
 /* Barens størrelse */
 
 ::-webkit-scrollbar {
-    background-color: white;
+	background-color: white;
 }
 
 /* Sporet den løber i */
 
 ::-webkit-scrollbar-track {
-    box-shadow: 1px 0 5px grey;
-    border-radius: 10px;
+	box-shadow: 1px 0 5px grey;
+	border-radius: 10px;
 }
 
 /* Farve på bar + kant */
 
 ::-webkit-scrollbar-thumb {
-    background: #272727;
-    border-radius: 10px;
+	background: #272727;
+	border-radius: 10px;
 }
 
 /*  hover */
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #AD9261;
+	background: #AD9261;
 }
 
 /*FOOTER*/
 
 .site-footer .footer-widgets-container .inner-padding {
-    padding: 0px 0px 0px 130px;
+	padding: 0px 0px 0px 130px;
 }
 
 .site-footer .footer-widgets-container .inside-footer-widgets {
-    /* margin-left: 0px;
+	/* margin-left: 0px;
  margin: 0 0px;
  place-self: center;*/
 }
 
 .site-info {
-    color: #ffffff;
-    background-color: #272727;
-    display: none;
+	color: #ffffff;
+	background-color: #272727;
+	display: none;
 }
 
 .site-footer a {
-    color: #AD9261;
+	color: #AD9261;
 }
 
 @media (min-width: 950px) {
 
-    /*--------- Knapper----------*/
-    .knapper_dark {
-        padding: 12px 20px 12px 20px;
-        font-size: 14px;
+	/*--------- Knapper----------*/
+	.knapper_dark {
+		padding: 12px 20px 12px 20px;
+		font-size: 14px;
 
-    }
+	}
 
 }
 
@@ -280,197 +280,197 @@ html {
 /*FØRTE SEKTION*/
 
 #event_firste_sektion .event_splach {
-    background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/06/commander_splach_kant.png);
-    background-size: cover;
-    max-width: none;
-    height: 45vh;
-    width: 100%;
-    background-position: 50%;
-    margin-top: -9px;
+	background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/06/commander_splach_kant.png);
+	background-size: cover;
+	max-width: none;
+	height: 45vh;
+	width: 100%;
+	background-position: 50%;
+	margin-top: -9px;
 }
 
 /*ANDEN SEKTION*/
 /* grid og siden styling*/
 
 #event_anden_sektion .top {
-    margin: 6vw auto;
+	margin: 6vw auto;
 }
 
 #event_anden_sektion .top p {
-    text-align: left;
-    padding-bottom: 50px;
+	text-align: left;
+	padding-bottom: 50px;
 }
 
 #event_anden_sektion .event_anden_sektion_container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    max-width: 100vw;
-    grid-gap: 1.5rem;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	max-width: 100vw;
+	grid-gap: 1.5rem;
 }
 
 #event_anden_sektion,
 #event_fjerde_sektion,
 .event_trejde_container {
-    max-width: 1400px;
-    margin: 40px auto;
-    padding: 5%;
-    padding-top: 0;
-    text-align: center;
+	max-width: 1400px;
+	margin: 40px auto;
+	padding: 5%;
+	padding-top: 0;
+	text-align: center;
 }
 
 /*Knapper, img og fonte*/
 
 .event_indhold .event_mere_knap {
-    position: inherit;
-    right: 6px;
-    bottom: 5px;
-    z-index: 40;
-    font-size: 14px;
-    padding: 12px 20px 12px 20px;
+	position: inherit;
+	right: 6px;
+	bottom: 5px;
+	z-index: 40;
+	font-size: 14px;
+	padding: 12px 20px 12px 20px;
 }
 
 #event_anden_sektion .top {
-    text-align: center;
+	text-align: center;
 }
 
 .h2_event {
-    color: #F1F0E8;
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 0;
+	color: #F1F0E8;
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-bottom: 0;
 }
 
 .p_event {
-    color: #AD9261;
-    font-size: 1rem;
-    margin-bottom: 0;
+	color: #AD9261;
+	font-size: 1rem;
+	margin-bottom: 0;
 }
 
 .event_anden_sektion_container img {
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
-    width: 100%;
+	border-top-left-radius: 5%;
+	border-top-right-radius: 5%;
+	width: 100%;
 }
 
 /*Hover effekts*/
 
 .event_indhold {
-    position: relative;
+	position: relative;
 }
 
 .event_anden_text_felt {
-    bottom: 0;
-    background-color: rgba(39, 39, 39, 0.96);
-    width: 100%;
-    padding: 12px;
-    height: auto;
-    text-align: left;
+	bottom: 0;
+	background-color: rgba(39, 39, 39, 0.96);
+	width: 100%;
+	padding: 12px;
+	height: auto;
+	text-align: left;
 }
 
 /*TREJDE SEKTION*/
 
 #event_trejde_sektion {
-    background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/bjerg_baggrund.png);
-    background-size: cover;
-    max-width: none;
-    height: 105vh;
-    width: 100%;
-    display: grid;
+	background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/bjerg_baggrund.png);
+	background-size: cover;
+	max-width: none;
+	height: 105vh;
+	width: 100%;
+	display: grid;
 }
 
 .event_trejde_container {
-    place-self: center center;
-    text-align: center;
-    color: white;
+	place-self: center center;
+	text-align: center;
+	color: white;
 }
 
 .event_trejde_container h1,
 .event_trejde_container p {
-    color: white;
+	color: white;
 }
 
 .event_trejde_container iframe {
-    width: 100%;
-    margin: 1wv
+	width: 100%;
+	margin: 1wv
 }
 
 /*FJERDE SEKTION*/
 
 .event_sociale_medier {
-    text-align: center;
-    margin: 50px auto 150px auto;
-    gap: 5vw;
-    display: flex;
-    justify-content: center;
+	text-align: center;
+	margin: 50px auto 150px auto;
+	gap: 5vw;
+	display: flex;
+	justify-content: center;
 }
 
 @media (min-width: 950px) {
 
-    /* #event_anden_sektion,
+	/* #event_anden_sektion,
     #event_fjerde_sektion,
     .event_trejde_container {
         padding: 0%;
     }*/
 
-    /*FØRTE SEKTION*/
-    #event_firste_sektion .event_splach {
-        height: 33vw;
-        margin-top: -70px;
-    }
+	/*FØRTE SEKTION*/
+	#event_firste_sektion .event_splach {
+		height: 33vw;
+		margin-top: -70px;
+	}
 
-    #event_anden_sektion .top {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
+	#event_anden_sektion .top {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
 
-    /* ANDEN SEKTION EVENT*/
-    .event_anden_sektion_container {
-        margin-top: -70px;
-    }
+	/* ANDEN SEKTION EVENT*/
+	.event_anden_sektion_container {
+		margin-top: -70px;
+	}
 
-    #event_anden_sektion .top {
-        max-width: 90vw;
-        padding-bottom: 50px;
-    }
+	#event_anden_sektion .top {
+		max-width: 90vw;
+		padding-bottom: 50px;
+	}
 
-    .event_anden_text_felt {
-        position: absolute;
-        bottom: 0;
-        background-color: rgba(39, 39, 39, 0.96);
-        width: 100%;
-        padding: 12px;
-        height: 36%;
-        transition: .5s ease;
-        overflow: hidden;
-        text-align: left;
-    }
+	.event_anden_text_felt {
+		position: absolute;
+		bottom: 0;
+		background-color: rgba(39, 39, 39, 0.96);
+		width: 100%;
+		padding: 12px;
+		height: 36%;
+		transition: .5s ease;
+		overflow: hidden;
+		text-align: left;
+	}
 
-    .event_indhold:hover .event_anden_text_felt {
-        height: 100%;
-        border-top-left-radius: 5%;
-        border-top-right-radius: 5%;
-    }
+	.event_indhold:hover .event_anden_text_felt {
+		height: 100%;
+		border-top-left-radius: 5%;
+		border-top-right-radius: 5%;
+	}
 
-    .event_mere_knap {
-        bottom: 4%;
-    }
+	.event_mere_knap {
+		bottom: 4%;
+	}
 
-    .event_indhold .event_mere_knap {
-        position: absolute;
-    }
+	.event_indhold .event_mere_knap {
+		position: absolute;
+	}
 
-    /*TREJDE SEKTION LIVE STREAMING*/
-    .event_trejde_container {}
+	/*TREJDE SEKTION LIVE STREAMING*/
+	.event_trejde_container {}
 
-    #event_trejde_sektion {
-        height: 80vw;
-    }
+	#event_trejde_sektion {
+		height: 80vw;
+	}
 }
 
 @media (min-width: 1200px) {
-    #event_trejde_sektion {
-        height: 72vw;
-    }
+	#event_trejde_sektion {
+		height: 72vw;
+	}
 }
 
 /* -------------------------- EVENT SLUT ----------------------------- */
@@ -481,112 +481,112 @@ html {
 #omOs,
 #kontaktOs,
 #serviceInfo {
-    padding: 5%;
-    max-width: 100vw;
+	padding: 5%;
+	max-width: 100vw;
 }
 
 /*OM OS SEKTIONEN*/
 
 .ansatte h3 {
-    margin-bottom: 5px;
+	margin-bottom: 5px;
 }
 
 #omOs {
-    max-width: 1200px;
-    margin: 10vw auto 8vw auto;
-    padding: 0 3vw;
+	max-width: 1200px;
+	margin: 10vw auto 8vw auto;
+	padding: 0 3vw;
 }
 
 .omOsCol1,
 .omOsCol2 {
-    margin-bottom: 15%;
+	margin-bottom: 15%;
 }
 
 .ansatte {
-    display: flex;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
+	display: flex;
+	overflow-x: auto;
+	scroll-snap-type: x mandatory;
 }
 
 .ansat {
-    margin: 2vw auto;
-    padding: 35px;
-    text-align: center;
-    scroll-snap-align: center;
-    flex-shrink: 0;
+	margin: 2vw auto;
+	padding: 35px;
+	text-align: center;
+	scroll-snap-align: center;
+	flex-shrink: 0;
 }
 
 .ansat img {
-    height: 250px;
+	height: 250px;
 }
 
 /*Sociale meider*/
 
 .omos_sociale_medier {
-    text-align: center;
-    margin-top: 10%;
+	text-align: center;
+	margin-top: 10%;
 }
 
 /*KONTAKT SEKTIONEN */
 
 #kontaktOs {
-    background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/kontakt_baggrund.png);
-    background-size: cover;
-    width: 100%;
-    height: auto;
-    text-align: center;
-    padding-top: 130px;
-    padding-bottom: 160px;
+	background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/kontakt_baggrund.png);
+	background-size: cover;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding-top: 130px;
+	padding-bottom: 160px;
 }
 
 #kontaktOs p {
-    color: #F1F0E8;
-    max-width: 500px;
-    margin: 10px auto;
+	color: #F1F0E8;
+	max-width: 500px;
+	margin: 10px auto;
 }
 
 #kontaktOs h1 {
-    color: white;
-    margin-top: 150px;
-    max-width: 500px;
-    margin: 0 auto;
+	color: white;
+	margin-top: 150px;
+	max-width: 500px;
+	margin: 0 auto;
 }
 
 textarea {
-    margin: 10px auto 10px auto;
-    width: 75vw;
+	margin: 10px auto 10px auto;
+	width: 75vw;
 }
 
 .kontaktFormular input {
-    margin: 10px auto 10px auto;
-    width: 75vw;
+	margin: 10px auto 10px auto;
+	width: 75vw;
 }
 
 .kontaktFormular {
-    max-width: 700px;
-    text-align: center;
-    margin: 0 auto;
+	max-width: 700px;
+	text-align: center;
+	margin: 0 auto;
 }
 
 #serviceInfo {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 3vw;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 3vw;
 }
 
 #serviceInfo {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    max-width: 100vw;
-    grid-gap: 2rem;
-    text-align: center;
-    margin: 8vw auto 12vw auto;
-    max-width: 1200px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	max-width: 100vw;
+	grid-gap: 2rem;
+	text-align: center;
+	margin: 8vw auto 12vw auto;
+	max-width: 1200px;
 }
 
 .serviceInfo_billed {
-    width: 100px;
-    margin: 0 auto;
+	width: 100px;
+	margin: 0 auto;
 }
 
 /*Fjerner default-indstilling, så siden forbliver i 100vw*/
@@ -600,36 +600,36 @@ textarea {
 /*----------Desktop-------------*/
 
 @media (min-width: 900px) {
-    #omOs {
-        margin: 5vw auto 2vw auto;
-    }
+	#omOs {
+		margin: 5vw auto 2vw auto;
+	}
 
-    /* sociale medier mergen*/
-    .omos_sociale_medier img {
-        padding: 0px 20px 0px 20px;
-    }
+	/* sociale medier mergen*/
+	.omos_sociale_medier img {
+		padding: 0px 20px 0px 20px;
+	}
 
-    .omOsTekstBoks {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 5vw;
-    }
+	.omOsTekstBoks {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 5vw;
+	}
 
-    #serviceInfo {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
+	#serviceInfo {
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
 
-    .serviceInfo_billed {
-        width: 150px;
-    }
+	.serviceInfo_billed {
+		width: 150px;
+	}
 }
 
 /*----------Desktop-------------*/
 
 @media (min-width: 1200px) {
-    .ansatte {
-        white-space: normal;
-    }
+	.ansatte {
+		white-space: normal;
+	}
 }
 
 /* -------------------------- OM OS SLUT ----------------------------- */
@@ -645,7 +645,7 @@ textarea {
         }*/
 
 .site-content .content-area {
-    margin: 0 0;
+	margin: 0 0;
 }
 
 .commander_top_sektion_container,
@@ -653,9 +653,9 @@ textarea {
 .commander_tip_sektion_container,
 .commander_galleri_container,
 #commander_artikler {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 5%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 5%;
 }
 
 /*
@@ -668,345 +668,345 @@ textarea {
 /*FARVER OG DIVERSE*/
 
 .commander_splash {
-    background-color: #F5F5F5;
+	background-color: #F5F5F5;
 }
 
 #commander_top_sektion {
-    background-color: #F5F5F5;
-    padding: 1.5rem 0 1.5rem 0;
-    margin-top: -6px;
+	background-color: #F5F5F5;
+	padding: 1.5rem 0 1.5rem 0;
+	margin-top: -6px;
 }
 
 #commander_top_sektion h1,
 p {
-    color: #272727;
+	color: #272727;
 }
 
 /*KORT DU IKKE MÅ GÅ GLIP AF-SEKTION*/
 
 .titel_alternativ,
 .h2_acc {
-    color: #F1F0E8;
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 0;
+	color: #F1F0E8;
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-bottom: 0;
 }
 
 .pris_alternativ,
 .h3_acc {
-    color: #AD9261;
-    font-size: 1rem;
-    margin-bottom: 0;
+	color: #AD9261;
+	font-size: 1rem;
+	margin-bottom: 0;
 }
 
 .se_kort_knap_commander {
-    position: absolute;
-    right: 6px;
-    bottom: 4%;
-    z-index: 40;
+	position: absolute;
+	right: 6px;
+	bottom: 4%;
+	z-index: 40;
 }
 
 .commander_billede {
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
-    width: 100%;
-    height: auto;
+	border-top-left-radius: 5%;
+	border-top-right-radius: 5%;
+	width: 100%;
+	height: auto;
 }
 
 /*SLIDER OPSÆTNING TIL MOBIL OG DESKTOP*/
 
 .commander_figure_ny {
-    cursor: pointer;
+	cursor: pointer;
 }
 
 .commander_image-container .commander_figure_ny {
-    flex-basis: 75%;
-    flex-shrink: 0;
-    scroll-snap-align: center;
-    background-color: black;
+	flex-basis: 75%;
+	flex-shrink: 0;
+	scroll-snap-align: center;
+	background-color: black;
 }
 
 .commander_image-container {
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    display: flex;
-    gap: 20px;
-    padding: 0px 27px 0px 0px;
+	overflow-x: auto;
+	scroll-snap-type: x mandatory;
+	display: flex;
+	gap: 20px;
+	padding: 0px 27px 0px 0px;
 }
 
 /*Styling af hovereffekten på kort og produkter så den sorte bremme forsvinder med mus over bilelde*/
 
 commander_article {
-    position: relative;
-    width: 280px;
+	position: relative;
+	width: 280px;
 }
 
 .baggrund_kort {
-    position: absolute;
-    bottom: 0;
-    background-color: rgba(39, 39, 39, 0.96);
-    width: 100%;
-    padding: 20px;
-    height: 30%;
-    transition: .5s ease;
-    overflow: hidden;
-    margin-bottom: 3%;
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(39, 39, 39, 0.96);
+	width: 100%;
+	padding: 20px;
+	height: 30%;
+	transition: .5s ease;
+	overflow: hidden;
+	margin-bottom: 3%;
 }
 
 commander_article:hover .baggrund_kort {
-    height: 0%;
-    padding: 0px 20px 0px 20px;
+	height: 0%;
+	padding: 0px 20px 0px 20px;
 }
 
 /*UGENS TIP-SEKTION*/
 
 #commander_tip_sektion {
-    background-image: url("http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/commander_baggrund.png");
-    background-size: cover;
-    max-width: none;
-    height: auto;
-    width: 100%;
-    padding-bottom: 160px;
+	background-image: url("http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/commander_baggrund.png");
+	background-size: cover;
+	max-width: none;
+	height: auto;
+	width: 100%;
+	padding-bottom: 160px;
 }
 
 .commander_tip_col_1 {
-    padding-top: 10vw;
+	padding-top: 10vw;
 }
 
 .commander_tip_col_1 h1,
 .commander_tip_col_1 p,
 .commander_tip_col_1 a {
-    color: #F1F0E8;
+	color: #F1F0E8;
 }
 
 .commander_tip_col_1 h1 {
-    margin-top: 80px;
+	margin-top: 80px;
 }
 
 .commander_tip_col_1 a,
 .commander_tip_col_1 img {
-    display: none;
+	display: none;
 }
 
 /*CARDMARKET SEKTIONEN */
 
 .commander_cardmarket_container {
-    background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/del_af_universet.png);
-    background-size: cover;
-    max-width: none;
-    height: auto;
-    width: 100%;
-    padding-right: 15vw;
-    padding-left: 15vw;
-    padding-bottom: 20vw;
-    text-align: left;
-    margin-bottom: -5px;
+	background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/del_af_universet.png);
+	background-size: cover;
+	max-width: none;
+	height: auto;
+	width: 100%;
+	padding-right: 15vw;
+	padding-left: 15vw;
+	padding-bottom: 20vw;
+	text-align: left;
+	margin-bottom: -5px;
 }
 
 #commander_cardmarket_sektion h1 {
-    color: #F1F0E8;
-    padding-top: 10%;
+	color: #F1F0E8;
+	padding-top: 10%;
 }
 
 .commander_cardmarket_container p {
-    color: #F1F0E8;
+	color: #F1F0E8;
 }
 
 
 #commander_cardmarket_sektion a {
-    color: #F1F0E8;
-    text-decoration: underline;
+	color: #F1F0E8;
+	text-decoration: underline;
 }
 
 #commander_cardmarket_sektion a:hover {
-    color: #AD9261;
+	color: #AD9261;
 }
 
 /*ARTIKEL SEKTION STYLING*/
 
 .commander_image-container figure {
-    position: relative;
+	position: relative;
 }
 
 #forside_fjerde_sektion img {
-    width: 100%;
+	width: 100%;
 }
 
 .commander_figcaption {
-    background-color: #272727;
-    height: 19vh;
-    overflow: hidden;
+	background-color: #272727;
+	height: 19vh;
+	overflow: hidden;
 }
 
 .commander_figure_event .event_mere_knap {
-    bottom: 3%;
+	bottom: 3%;
 }
 
 
 .commander_image-container .h2_acc {
-    padding: 10px 20px;
+	padding: 10px 20px;
 }
 
 .commander_figure_event .h3_acc {
-    padding: 0px 80px 0px 20px;
+	padding: 0px 80px 0px 20px;
 }
 
 .commander_figure_event {
-    flex-basis: 100%;
-    flex-shrink: 0;
-    scroll-snap-align: center;
-    max-width: 350px;
-    margin: 0 auto;
+	flex-basis: 100%;
+	flex-shrink: 0;
+	scroll-snap-align: center;
+	max-width: 350px;
+	margin: 0 auto;
 }
 
 /*VIDEOER*/
 
 iframe {
-    place-self: center;
+	place-self: center;
 }
 
 /*KNAPPER OG LINKS*/
 
 .commander_knap_cardmarket {
-    background-color: #AD9261;
-    color: #272727;
-    border-radius: 20px;
-    padding: 12px 20px 12px 20px;
-    font-weight: bold;
-    font-family: 'Cormorant', serif;
-    place-self: center;
+	background-color: #AD9261;
+	color: #272727;
+	border-radius: 20px;
+	padding: 12px 20px 12px 20px;
+	font-weight: bold;
+	font-family: 'Cormorant', serif;
+	place-self: center;
 }
 
 .commander_knap_cardmarket:hover {
-    background-color: #F1F0E8;
-    color: #AD9261;
+	background-color: #F1F0E8;
+	color: #AD9261;
 }
 
 /*MEDIA QUERIES*/
 
 @media only screen and (min-width: 800px) {
 
-    .commander_top_sektion_container,
-    #commander_anden_section,
-    .commander_tip_sektion_container,
-    .commander_galleri_container,
-    #commander_artikler {
-        padding: 0%;
-    }
+	.commander_top_sektion_container,
+	#commander_anden_section,
+	.commander_tip_sektion_container,
+	.commander_galleri_container,
+	#commander_artikler {
+		padding: 0%;
+	}
 
-    #commander_anden_section h1,
-    .commander_galleri_container h1,
-    #commander_artikler h1 {
-        margin-top: 100px;
-    }
+	#commander_anden_section h1,
+	.commander_galleri_container h1,
+	#commander_artikler h1 {
+		margin-top: 100px;
+	}
 
-    /*SLIDER OPSÆTNING TIL MOBIL OG DESKTOP  kort*/
-    .commander_image-container {
-        overflow-x: auto;
-        scroll-snap-type: x mandatory;
-        display: flex;
-        gap: 20px;
-        padding: 0px 27px 0px 0px;
-    }
-
-
-    /*GRID PÅ TOPSEKTION*/
-    .commander_top_sektion_container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
-        margin-top: 50px;
-        grid-gap: 30px;
-    }
-
-    .commander_top_col_1 {
-        grid-column: 1/2;
-        grid-row: 1;
-    }
-
-    .commander_top_col_2 {
-        grid-column: 2/2;
-        grid-row: 1;
-        padding-right: 0;
-    }
-
-    /*UGENS TIP-SEKTION*/
-    .commander_tip_sektion_container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
-        grid-gap: 20px;
-        margin-top: 70px;
-    }
-
-    .commander_tip_col_1 {
-        grid-column: 1/2;
-        grid-row: 1;
-        padding-top: 10vw;
-    }
-
-    .commander_tip_col_2 {
-        grid-column: 2/2;
-        grid-row: 1;
-        padding-top: 18vw;
-    }
-
-    .commander_tip_col_1 a,
-    .commander_tip_col_1 img {
-        display: flex;
-    }
-
-    /*EVENT SEKTION*/
-    .til_kort_side_nav {
-        text-align: end;
-    }
-
-    .commander_image-container .commander_figure_ny {
-        flex-basis: 27%;
-    }
-
-    /*ARTIKEL SEKTIONEN*/
+	/*SLIDER OPSÆTNING TIL MOBIL OG DESKTOP  kort*/
+	.commander_image-container {
+		overflow-x: auto;
+		scroll-snap-type: x mandatory;
+		display: flex;
+		gap: 20px;
+		padding: 0px 27px 0px 0px;
+	}
 
 
-    /*CARDMARKET SEKTIONEN */
-    .commander_cardmarket_container {
-        background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/del_af_universet.png);
-        background-size: cover;
-        max-width: none;
-        height: 60vh;
-        width: 100%;
-        padding-right: 15vw;
-        padding-left: 15vw;
-        padding-bottom: 20vw;
-        text-align: left;
-        margin-bottom: -5px;
-        margin-top: 70px;
-        color: #F1F0E8;
-    }
+	/*GRID PÅ TOPSEKTION*/
+	.commander_top_sektion_container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr;
+		margin-top: 50px;
+		grid-gap: 30px;
+	}
 
-    #commander_cardmarket_sektion h1 {
-        color: #F1F0E8;
-        padding-top: 7%;
-    }
+	.commander_top_col_1 {
+		grid-column: 1/2;
+		grid-row: 1;
+	}
+
+	.commander_top_col_2 {
+		grid-column: 2/2;
+		grid-row: 1;
+		padding-right: 0;
+	}
+
+	/*UGENS TIP-SEKTION*/
+	.commander_tip_sektion_container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr;
+		grid-gap: 20px;
+		margin-top: 70px;
+	}
+
+	.commander_tip_col_1 {
+		grid-column: 1/2;
+		grid-row: 1;
+		padding-top: 10vw;
+	}
+
+	.commander_tip_col_2 {
+		grid-column: 2/2;
+		grid-row: 1;
+		padding-top: 18vw;
+	}
+
+	.commander_tip_col_1 a,
+	.commander_tip_col_1 img {
+		display: flex;
+	}
+
+	/*EVENT SEKTION*/
+	.til_kort_side_nav {
+		text-align: end;
+	}
+
+	.commander_image-container .commander_figure_ny {
+		flex-basis: 27%;
+	}
+
+	/*ARTIKEL SEKTIONEN*/
+
+
+	/*CARDMARKET SEKTIONEN */
+	.commander_cardmarket_container {
+		background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/del_af_universet.png);
+		background-size: cover;
+		max-width: none;
+		height: 60vh;
+		width: 100%;
+		padding-right: 15vw;
+		padding-left: 15vw;
+		padding-bottom: 20vw;
+		text-align: left;
+		margin-bottom: -5px;
+		margin-top: 70px;
+		color: #F1F0E8;
+	}
+
+	#commander_cardmarket_sektion h1 {
+		color: #F1F0E8;
+		padding-top: 7%;
+	}
 
 }
 
 @media only screen and (min-width: 1200px) {
 
-    /*TILPASNING AF PADDING PÅ UGENS TIP-SEKTION*/
-    .commander_tip_col_1 {
-        padding-top: 12vw;
-    }
+	/*TILPASNING AF PADDING PÅ UGENS TIP-SEKTION*/
+	.commander_tip_col_1 {
+		padding-top: 12vw;
+	}
 
-    .commander_tip_col_2 {
-        padding-top: 18vw;
-    }
+	.commander_tip_col_2 {
+		padding-top: 18vw;
+	}
 
-    /*CARDMARKET SEKTION*/
-    .commander_cardmarket_container {
-        padding-left: 24vw;
-        padding-right: 24vw;
-    }
+	/*CARDMARKET SEKTION*/
+	.commander_cardmarket_container {
+		padding-left: 24vw;
+		padding-right: 24vw;
+	}
 }
 
 /* -------------------------- COMMANDER SLUT ----------------------------- */
@@ -1017,53 +1017,53 @@ iframe {
 #single_udgaver,
 #single_info,
 #single_relaterede_varer {
-    padding: 5%;
-    max-width: 1400px;
-    margin: 0 auto;
+	padding: 5%;
+	max-width: 1400px;
+	margin: 0 auto;
 }
 
 #single_relaterede_varer {
-    margin: 60px auto;
+	margin: 60px auto;
 }
 
 /*STYLING AF TILBAGEKNAP*/
 
 .tilbage_knap h3 {
-    padding-top: 4vh;
-    padding-left: 4vw;
-    font-size: larger;
+	padding-top: 4vh;
+	padding-left: 4vw;
+	font-size: larger;
 }
 
 .single_h3_desk {
-    display: none;
+	display: none;
 }
 
 /*STYLING AF SINGLE-GRIDS*/
 
 #single_udgaver .single_wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1.5fr;
-    grid-gap: 1rem;
+	display: grid;
+	grid-template-columns: 1fr 1.5fr;
+	grid-gap: 1rem;
 }
 
 .billede:hover {
-    cursor: crosshair;
+	cursor: crosshair;
 }
 
 .single_col img:hover {
-    transform: scale(1.2);
-    cursor: pointer;
+	transform: scale(1.2);
+	cursor: pointer;
 }
 
 #single_udgaver .single_wrapper .single_container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.1fr 0.1fr;
-    grid-gap: 1rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 0.1fr 0.1fr;
+	grid-gap: 1rem;
 }
 
 #single_udgaver img {
-    border-radius: 5%;
+	border-radius: 5%;
 }
 
 #single_udgaver .single_pris,
@@ -1072,223 +1072,223 @@ iframe {
 #single_desktop_version .pris,
 #single_info .pris_mobil,
 #single_relaterede_varer .single_pris_alternativ {
-    color: #AD9261;
-    margin-bottom: 0;
+	color: #AD9261;
+	margin-bottom: 0;
 }
 
 .single_col {
-    font-size: 0.75rem;
+	font-size: 0.75rem;
 }
 
 .single_kurv {
-    width: 8rem;
+	width: 8rem;
 }
 
 .single_kurv:hover {
-    cursor: pointer;
-    transform: scale(1.1);
+	cursor: pointer;
+	transform: scale(1.1);
 }
 
 .single_fragt {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-gap: 1rem;
-    align-items: center;
-    border-bottom: 2px solid #B3B3B3;
-    border-top: 2px solid #B3B3B3;
-    padding: 1rem;
-    margin-top: 1rem;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-gap: 1rem;
+	align-items: center;
+	border-bottom: 2px solid #B3B3B3;
+	border-top: 2px solid #B3B3B3;
+	padding: 1rem;
+	margin-top: 1rem;
 }
 
 .single_fragt img {
-    width: 6rem;
+	width: 6rem;
 }
 
 .single_fragt p {
-    margin-bottom: 0.5rem;
+	margin-bottom: 0.5rem;
 }
 
 #single_udgaver .lagertal {
-    text-align: right;
+	text-align: right;
 }
 
 /*RELATEREDE VARER*/
 
 .randomArticle h2 {
-    font-size: 2rem;
-    margin-bottom: 0;
+	font-size: 2rem;
+	margin-bottom: 0;
 }
 
 #single_image_container .single_relaterede_wrapper .single_col_relaterede .single_kort1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1rem 0.5rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 1rem 0.5rem;
 }
 
 .single_random_billede {
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
-    width: 100%;
-    height: 55%;
-    object-fit: contain;
+	border-top-left-radius: 5%;
+	border-top-right-radius: 5%;
+	width: 100%;
+	height: 55%;
+	object-fit: contain;
 }
 
 .single_article_bg {
-    background-color: #272727;
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
-    position: relative;
+	background-color: #272727;
+	border-top-left-radius: 5%;
+	border-top-right-radius: 5%;
+	position: relative;
 }
 
 .single_baggrund_kort {
-    height: auto;
+	height: auto;
 }
 
 .single_titel_alternativ {
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 5%;
-    color: #F1F0E8;
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 0;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 5%;
+	color: #F1F0E8;
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-bottom: 0;
 }
 
 .single_lagertal {
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 5%;
-    color: #F1F0E8;
-    font-size: 0.75rem;
-    margin-bottom: 0;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 5%;
+	color: #F1F0E8;
+	font-size: 0.75rem;
+	margin-bottom: 0;
 }
 
 .single_pris_alternativ {
-    padding-left: 5%;
-    padding-right: 5%;
-    color: #AD9261;
-    font-size: 1rem;
-    margin-bottom: 0;
+	padding-left: 5%;
+	padding-right: 5%;
+	color: #AD9261;
+	font-size: 1rem;
+	margin-bottom: 0;
 }
 
 .single_se_kort_knap {
-    position: absolute;
-    left: 5%;
-    bottom: 3%;
-    font-size: 14px;
+	position: absolute;
+	left: 5%;
+	bottom: 3%;
+	font-size: 14px;
 }
 
 /*DESKTOP-DISPLAY NONE*/
 
 #single_desktop_version {
-    display: none;
+	display: none;
 }
 
 @media (min-width: 950px) {
 
-    /*general margen settings*/
-    #single_udgaver,
-    #single_info,
-    #single_relaterede_varer {
-        /*
+	/*general margen settings*/
+	#single_udgaver,
+	#single_info,
+	#single_relaterede_varer {
+		/*
         padding: 0%;*/
-    }
+	}
 
-    #single_relaterede_varer {
-        margin: 100px auto;
-    }
+	#single_relaterede_varer {
+		margin: 100px auto;
+	}
 
-    /*DET VALGTE KORT OG INFO*/
-    /*STYLING AF SINGLE-GRIDS*/
-    #single_udgaver .single_wrapper {
-        grid-gap: 3rem;
-    }
+	/*DET VALGTE KORT OG INFO*/
+	/*STYLING AF SINGLE-GRIDS*/
+	#single_udgaver .single_wrapper {
+		grid-gap: 3rem;
+	}
 
-    #tilbage_desk_single {
-        max-width: 1400px;
-        padding-left: 5%;
-        margin: 0 auto;
-    }
+	#tilbage_desk_single {
+		max-width: 1400px;
+		padding-left: 5%;
+		margin: 0 auto;
+	}
 
-    .single_h3_desk {
-        display: block;
-        padding-top: 4vh;
-        font-size: larger;
-    }
+	.single_h3_desk {
+		display: block;
+		padding-top: 4vh;
+		font-size: larger;
+	}
 
-    #single_udgaver {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 5rem;
-    }
+	#single_udgaver {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 5rem;
+	}
 
-    .single_h3 {
-        display: none;
-    }
+	.single_h3 {
+		display: none;
+	}
 
-    #single_info {
-        display: none;
-    }
+	#single_info {
+		display: none;
+	}
 
-    #single_desktop_version {
-        display: block;
-    }
+	#single_desktop_version {
+		display: block;
+	}
 
-    #single_image_container .single_relaterede_wrapper .single_col_relaterede .single_kort1 {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-gap: 1rem;
-    }
+	#single_image_container .single_relaterede_wrapper .single_col_relaterede .single_kort1 {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-gap: 1rem;
+	}
 
-    .single_article_bg img {
-        height: 45vh;
-    }
+	.single_article_bg img {
+		height: 45vh;
+	}
 
-    #single_baggrund_kort .single_titel_alternativ h2 {
-        margin-bottom: 0;
-    }
+	#single_baggrund_kort .single_titel_alternativ h2 {
+		margin-bottom: 0;
+	}
 
-    /*RELAVANTE KORT*/
-    /*grid i den sorte tekst bremme under kortene*/
-    #single_relaterede_varer .til_produktside {
-        text-align: right;
-    }
+	/*RELAVANTE KORT*/
+	/*grid i den sorte tekst bremme under kortene*/
+	#single_relaterede_varer .til_produktside {
+		text-align: right;
+	}
 
-    .single_baggrund_kort {
-        display: grid;
-        grid-template-columns: 1fr 0.4fr;
-        grid-template-rows: 1fr 1fr;
-    }
+	.single_baggrund_kort {
+		display: grid;
+		grid-template-columns: 1fr 0.4fr;
+		grid-template-rows: 1fr 1fr;
+	}
 
-    .single_titel_alternativ {
-        grid-row-start: 1;
-        grid-row-end: span 1;
-        grid-column-start: 1;
-        grid-column-end: span 1;
-    }
+	.single_titel_alternativ {
+		grid-row-start: 1;
+		grid-row-end: span 1;
+		grid-column-start: 1;
+		grid-column-end: span 1;
+	}
 
-    .single_pris_alternativ {
-        font-size: 1rem;
-        grid-row-start: 2;
-        grid-row-end: span 1;
-        grid-column-start: 1;
-        grid-column-end: span 2;
-    }
+	.single_pris_alternativ {
+		font-size: 1rem;
+		grid-row-start: 2;
+		grid-row-end: span 1;
+		grid-column-start: 1;
+		grid-column-end: span 2;
+	}
 
-    .single_lagertal {
-        font-size: 0.8rem;
-        grid-row-start: 1;
-        grid-row-end: span 1;
-        grid-column-start: 2;
-        grid-column-end: span 1;
-    }
+	.single_lagertal {
+		font-size: 0.8rem;
+		grid-row-start: 1;
+		grid-row-end: span 1;
+		grid-column-start: 2;
+		grid-column-end: span 1;
+	}
 
-    .single_se_kort_knap {
-        position: absolute;
-        left: 54%;
-        bottom: 0%;
-        margin: 1rem;
-    }
+	.single_se_kort_knap {
+		position: absolute;
+		left: 54%;
+		bottom: 0%;
+		margin: 1rem;
+	}
 }
 
 
@@ -1298,103 +1298,103 @@ iframe {
 /*--- GENEREL ---*/
 
 .site-header {
-    z-index: 5;
+	z-index: 5;
 }
 
 .separate-containers .site-main {
-    margin: 0;
+	margin: 0;
 }
 
 .page-header,
 .sidebar .widget,
 .site-main > * {
-    margin: 0;
+	margin: 0;
 }
 
 /*---GRIDVIEW MOBIL*/
 
 #single_oversigt {
-    text-align: left;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(135px, 1fr));
-    max-width: 100vw;
-    grid-gap: 2rem 0.5rem;
-    padding-right: 1.2rem;
-    padding-left: 1.2rem;
-    padding-bottom: 1.2rem;
-    padding-top: 1.2rem;
+	text-align: left;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(135px, 1fr));
+	max-width: 100vw;
+	grid-gap: 2rem 0.5rem;
+	padding-right: 1.2rem;
+	padding-left: 1.2rem;
+	padding-bottom: 1.2rem;
+	padding-top: 1.2rem;
 }
 
 #single_cat_overskrift {
-    padding-right: 1.2rem;
-    padding-left: 1.2rem;
-    padding-top: 1.2rem;
-    text-transform: uppercase;
+	padding-right: 1.2rem;
+	padding-left: 1.2rem;
+	padding-top: 1.2rem;
+	text-transform: uppercase;
 }
 
 #single_cat_overskrift h1 {
-    text-transform: uppercase;
+	text-transform: uppercase;
 }
 
 #produktliste {
-    max-width: 1200px;
-    margin: 0 auto;
+	max-width: 1200px;
+	margin: 0 auto;
 }
 
 /*---SINGLE CARDS---*/
 
 #produktliste .billede {
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
-    width: 100%;
-    height: 55%;
-    object-fit: contain;
+	border-top-left-radius: 5%;
+	border-top-right-radius: 5%;
+	width: 100%;
+	height: 55%;
+	object-fit: contain;
 }
 
 #produktliste .single_kort {
-    background-color: #272727;
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
-    position: relative;
+	background-color: #272727;
+	border-top-left-radius: 5%;
+	border-top-right-radius: 5%;
+	position: relative;
 }
 
 #produktliste .produkt_text_baggrund {
-    height: auto;
+	height: auto;
 }
 
 
 #produktliste .se_kort_knap {
-    position: absolute;
-    right: 3%;
-    bottom: 3%;
-    font-size: 14px;
+	position: absolute;
+	right: 3%;
+	bottom: 3%;
+	font-size: 14px;
 }
 
 #produktliste .titel {
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 5%;
-    color: #F1F0E8;
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 0;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 5%;
+	color: #F1F0E8;
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-bottom: 0;
 }
 
 #produktliste .lagertal {
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 5%;
-    color: #F1F0E8;
-    font-size: 0.75rem;
-    margin-bottom: 0;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 5%;
+	color: #F1F0E8;
+	font-size: 0.75rem;
+	margin-bottom: 0;
 }
 
 #produktliste .pris {
-    padding-left: 5%;
-    padding-right: 5%;
-    color: #AD9261;
-    font-size: 1rem;
-    margin-bottom: 15px;
+	padding-left: 5%;
+	padding-right: 5%;
+	color: #AD9261;
+	font-size: 1rem;
+	margin-bottom: 15px;
 
 }
 
@@ -1402,130 +1402,130 @@ iframe {
 /*---FILTRERINGSNAVIGATION---*/
 /*Knappernen */
 .knapper_dark_kategori {
-    background-color: #F1F0E8;
-    color: #272727;
-    padding: 12px 20px 12px 20px;
-    font-weight: bold;
-    font-family: 'Cormorant', serif;
-    font-size: 0.83rem;
+	background-color: #F1F0E8;
+	color: #272727;
+	padding: 12px 20px 12px 20px;
+	font-weight: bold;
+	font-family: 'Cormorant', serif;
+	font-size: 0.83rem;
 }
 
 .knapper_dark_kategori:hover {
-    background-color: #AD9261;
-    color: #272727;
+	background-color: #AD9261;
+	color: #272727;
 }
 
 
 .knapper_dark_filter {
-    background-color: #F1F0E8;
-    color: #272727;
-    padding: 12px 20px 12px 20px;
-    font-weight: bold;
-    font-family: 'Cormorant', serif;
-    font-size: 0.83rem;
+	background-color: #F1F0E8;
+	color: #272727;
+	padding: 12px 20px 12px 20px;
+	font-weight: bold;
+	font-family: 'Cormorant', serif;
+	font-size: 0.83rem;
 }
 
 .knapper_dark_filter:hover {
-    background-color: #AD9261;
-    color: #272727;
+	background-color: #AD9261;
+	color: #272727;
 
 }
 
 .katagori_knapper_produkt {
-    background-color: #F1F0E8;
-    color: #272727;
-    padding: 12px 20px 12px 20px;
-    font-weight: bold;
-    font-family: 'Cormorant', serif;
+	background-color: #F1F0E8;
+	color: #272727;
+	padding: 12px 20px 12px 20px;
+	font-weight: bold;
+	font-family: 'Cormorant', serif;
 }
 
 .katagori_knapper_produkt:hover {
-    background-color: #AD9261;
-    color: #F1F0E8;
+	background-color: #AD9261;
+	color: #F1F0E8;
 }
 
 
 #nav-desk {
-    display: none;
+	display: none;
 }
 
 .filtrering {
-    display: none;
+	display: none;
 }
 
 .filter_knapper {
-    width: 98%;
-    margin: 0.1rem;
-    display: inline;
-    margin: 7px 3px 0px 3px;
+	width: 98%;
+	margin: 0.1rem;
+	display: inline;
+	margin: 7px 3px 0px 3px;
 }
 
 .filter {
-    width: 48%;
-    height: auto;
-    margin: 0.1rem;
-    display: inline-block;
-    margin: 7px 3px 0px 3px;
+	width: 48%;
+	height: auto;
+	margin: 0.1rem;
+	display: inline-block;
+	margin: 7px 3px 0px 3px;
 }
 
 
 /*FILTRERING AF FILTER, PRODUKT OG SØG EFTER: styling af filtrerings sektionen med grid i bremmen*/
 .visSidebar_left {
-    display: none;
+	display: none;
 }
 
 .visSidebar_right {
-    display: none;
+	display: none;
 }
 
 .sidebar-display_left {
-    position: absolute;
-    height: 100%;
-    width: 100vw;
-    background-color: #272727;
-    display: block;
-    color: #F1F0E8;
-    padding-left: 10%;
-    padding-top: 8%;
-    z-index: 30;
-    top: 37%;
+	position: absolute;
+	height: 100%;
+	width: 100vw;
+	background-color: #272727;
+	display: block;
+	color: #F1F0E8;
+	padding-left: 10%;
+	padding-top: 8%;
+	z-index: 30;
+	top: 37%;
 }
 
 
 .sidebar-display_right {
-    position: absolute;
-    height: 50%;
-    width: 100vw;
-    background-color: #272727;
-    display: block;
-    color: #F1F0E8;
-    padding-left: 10%;
-    padding-top: 8%;
-    z-index: 30;
-    top: 37%;
+	position: absolute;
+	height: 50%;
+	width: 100vw;
+	background-color: #272727;
+	display: block;
+	color: #F1F0E8;
+	padding-left: 10%;
+	padding-top: 8%;
+	z-index: 30;
+	top: 37%;
 }
 
 .produkt_nav_h3 {
-    display: none;
+	display: none;
 }
 
 
 .visSidebar_left h2,
 .visSidebar_right h2 {
-    color: #F1F0E8;
-    text-transform: uppercase;
+	color: #F1F0E8;
+	text-transform: uppercase;
 }
 
 .visSidebar_right label,
 .visSidebar_left label {
-    font-family: 'Assistant', sans-serif;
-    color: #F1F0E8;
+	font-family: 'Assistant', sans-serif;
+	color: #F1F0E8;
 }
 
 .opdeling {
-    background-color: #F1F0E8;
-    height: 0.1%;
-    width: 80vw;
+	background-color: #F1F0E8;
+	height: 0.1%;
+	width: 80vw;
 }
 
 /*knapperne under filter dropdown*/
@@ -1535,222 +1535,222 @@ input[type="reset"],
 input[type="submit"],
 a.button,
 a.wp-block-button__link:not(.has-background) {
-    font-family: 'Cormorant', serif;
-    color: #272727;
-    background-color: #F1F0E8;
+	font-family: 'Cormorant', serif;
+	color: #272727;
+	background-color: #F1F0E8;
 }
 
 #nav-mobil {
-    text-align: right;
-    padding: 1rem;
-    background-color: #272727;
-    width: 100%;
+	text-align: right;
+	padding: 1rem;
+	background-color: #272727;
+	width: 100%;
 }
 
 #visFilter,
 #visKategorier {
-    margin-bottom: 0.5rem;
+	margin-bottom: 0.5rem;
 }
 
 /*---TABLET---*/
 
 @media screen and (max-width: 949px) and (min-width: 500px) {
-    #single_oversigt {
-        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-    }
+	#single_oversigt {
+		grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+	}
 }
 
 /*---DESKTOP---*/
 
 @media (min-width: 950px) {
-    #single_oversigt {
-        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-        grid-gap: 2rem 1.2rem;
+	#single_oversigt {
+		grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+		grid-gap: 2rem 1.2rem;
 
-    }
+	}
 
-    /*grid i den sorte tekst bremme under kortene*/
-    .produkt_text_baggrund {
-        display: grid;
-        grid-template-columns: 1fr 0.4fr;
-        grid-template-rows: 1fr 1fr;
-    }
+	/*grid i den sorte tekst bremme under kortene*/
+	.produkt_text_baggrund {
+		display: grid;
+		grid-template-columns: 1fr 0.4fr;
+		grid-template-rows: 1fr 1fr;
+	}
 
-    /*styling af article: fonte, knap og billeder */
-    #produktliste img.billede {
-        object-fit: cover;
-        height: 76%;
-    }
+	/*styling af article: fonte, knap og billeder */
+	#produktliste img.billede {
+		object-fit: cover;
+		height: 76%;
+	}
 
-    #produktliste .title {
-        grid-row-start: 1;
-        grid-row-end: span 1;
-        grid-column-start: 1;
-        grid-column-end: span 1;
+	#produktliste .title {
+		grid-row-start: 1;
+		grid-row-end: span 1;
+		grid-column-start: 1;
+		grid-column-end: span 1;
 
-    }
+	}
 
-    #produktliste .pris {
-        font-size: 1rem;
-        grid-row-start: 2;
-        grid-row-end: span 1;
-        grid-column-start: 1;
-        grid-column-end: span 2;
-    }
+	#produktliste .pris {
+		font-size: 1rem;
+		grid-row-start: 2;
+		grid-row-end: span 1;
+		grid-column-start: 1;
+		grid-column-end: span 2;
+	}
 
-    #produktliste .lagertal {
-        font-size: 0.8rem;
-        grid-row-start: 1;
-        grid-row-end: span 1;
-        grid-column-start: 2;
-        grid-column-end: span 1;
-    }
-
-
-    #produktliste .se_kort_knap {
-        position: absolute;
-        bottom: 0%;
-        margin: 3%;
-    }
+	#produktliste .lagertal {
+		font-size: 0.8rem;
+		grid-row-start: 1;
+		grid-row-end: span 1;
+		grid-column-start: 2;
+		grid-column-end: span 1;
+	}
 
 
-    /*FILTRERING AF FILTER, PRODUKT OG SØG EFTER: styling af filtrerings sektionen med grid i bremmen*/
-
-    #nav-mobil {
-        display: grid;
-        grid-template-columns: 1fr 0.5fr 0.3fr;
-        text-align: left;
-        padding-bottom: 0;
-    }
-
-    #visFilter {
-        place-self: center start;
-        margin-left: 30px;
-    }
-
-    #visFilter_right {
-        grid-column-start: 3;
-        place-self: center end;
-        margin-right: 30px;
-    }
-
-    .produkt_nav_h3 {
-        display: block;
-        place-self: center end;
-    }
-
-    .produkt_nav_h3 h3 {
-        padding: 12px 20px 12px 20px;
-        font-weight: bold;
-        font-family: 'Cormorant', serif;
-        color: #F1F0E8;
-        margin: 0;
-        font-size: 0.83ram;
-    }
-
-    /*styling af knapperne*/
-    .knapper_dark_filter {
-        background-color: #272727;
-        color: #F1F0E8;
-        padding: 12px 20px 12px 20px;
-        font-weight: bold;
-        font-family: 'Cormorant', serif;
-        font-size: 1rem;
-    }
-
-    .knapper_dark_filter:hover {
-        background-color: #272727;
-        color: #AD9261;
-    }
-
-    a .knapper_dark_katagori {
-        font-size: 1.2rem;
-    }
-
-    .filter_knapper {
-        width: 96%;
-
-    }
+	#produktliste .se_kort_knap {
+		position: absolute;
+		bottom: 0%;
+		margin: 3%;
+	}
 
 
-    /* FILTRERING DROPDOWN UNDER FILTER OG SØG EFTER: styling af dropdown*/
+	/*FILTRERING AF FILTER, PRODUKT OG SØG EFTER: styling af filtrerings sektionen med grid i bremmen*/
 
-    #visKategorier {
-        display: none;
-    }
+	#nav-mobil {
+		display: grid;
+		grid-template-columns: 1fr 0.5fr 0.3fr;
+		text-align: left;
+		padding-bottom: 0;
+	}
 
-    .filtrering {
-        display: none;
-    }
+	#visFilter {
+		place-self: center start;
+		margin-left: 30px;
+	}
 
+	#visFilter_right {
+		grid-column-start: 3;
+		place-self: center end;
+		margin-right: 30px;
+	}
 
-    .sidebar-display_left {
-        width: 50%;
-        padding-right: 0;
-        margin-top: 90px;
+	.produkt_nav_h3 {
+		display: block;
+		place-self: center end;
+	}
 
-    }
+	.produkt_nav_h3 h3 {
+		padding: 12px 20px 12px 20px;
+		font-weight: bold;
+		font-family: 'Cormorant', serif;
+		color: #F1F0E8;
+		margin: 0;
+		font-size: 0.83ram;
+	}
 
-    .sidebar-display_right {
-        width: 50%;
-        padding-right: 0;
-        margin-top: 90px;
+	/*styling af knapperne*/
+	.knapper_dark_filter {
+		background-color: #272727;
+		color: #F1F0E8;
+		padding: 12px 20px 12px 20px;
+		font-weight: bold;
+		font-family: 'Cormorant', serif;
+		font-size: 1rem;
+	}
 
-    }
+	.knapper_dark_filter:hover {
+		background-color: #272727;
+		color: #AD9261;
+	}
 
-    .opdeling {
-        width: 30vw;
-    }
+	a .knapper_dark_katagori {
+		font-size: 1.2rem;
+	}
 
+	.filter_knapper {
+		width: 96%;
 
-    #nav-desk {
-        display: block;
-        background-color: #272727;
-        width: 100%;
-    }
-
-    .sidebar-display_left {
-        position: absolute;
-        height: 100%;
-        background-color: #272727;
-        display: block;
-        color: #F1F0E8;
-        padding-left: 6%;
-        padding-top: 2%;
-        z-index: 30;
-        top: 42%;
-    }
-
-
-    .sidebar-display_right {
-        position: absolute;
-        height: 50%;
-        width: 100vw;
-        background-color: #272727;
-        display: block;
-        color: #F1F0E8;
-        padding-left: 6%;
-        padding-top: 2%;
-        z-index: 30;
-        top: 45%;
-    }
+	}
 
 
-    /*IDAS FORSØG PÅ AT LAVE FILTERINGS KNAPPERNE*/
-    .filter {
-        width: 96%;
-    }
+	/* FILTRERING DROPDOWN UNDER FILTER OG SØG EFTER: styling af dropdown*/
 
-    .filtrering-desk {
-        width: 98%;
-        width: 100vw;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        margin: 0 auto;
-        max-width: 1200px;
-        padding: 30px 50px 0px 50px;
-    }
+	#visKategorier {
+		display: none;
+	}
+
+	.filtrering {
+		display: none;
+	}
+
+
+	.sidebar-display_left {
+		width: 50%;
+		padding-right: 0;
+		margin-top: 90px;
+
+	}
+
+	.sidebar-display_right {
+		width: 50%;
+		padding-right: 0;
+		margin-top: 90px;
+
+	}
+
+	.opdeling {
+		width: 30vw;
+	}
+
+
+	#nav-desk {
+		display: block;
+		background-color: #272727;
+		width: 100%;
+	}
+
+	.sidebar-display_left {
+		position: absolute;
+		height: 100%;
+		background-color: #272727;
+		display: block;
+		color: #F1F0E8;
+		padding-left: 6%;
+		padding-top: 2%;
+		z-index: 30;
+		top: 42%;
+	}
+
+
+	.sidebar-display_right {
+		position: absolute;
+		height: 50%;
+		width: 100vw;
+		background-color: #272727;
+		display: block;
+		color: #F1F0E8;
+		padding-left: 6%;
+		padding-top: 2%;
+		z-index: 30;
+		top: 45%;
+	}
+
+
+	/*IDAS FORSØG PÅ AT LAVE FILTERINGS KNAPPERNE*/
+	.filter {
+		width: 96%;
+	}
+
+	.filtrering-desk {
+		width: 98%;
+		width: 100vw;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		margin: 0 auto;
+		max-width: 1200px;
+		padding: 30px 50px 0px 50px;
+	}
 
 
 
@@ -1760,8 +1760,8 @@ a.wp-block-button__link:not(.has-background) {
 /* -------------------------- FORSIDE / INDEX START ----------------------------- */
 
 .knapper_dark a {
-    font-weight: bold;
-    font-family: 'Cormorant', serif;
+	font-weight: bold;
+	font-family: 'Cormorant', serif;
 }
 
 /*Sektionernes margin og max-width*/
@@ -1770,62 +1770,62 @@ a.wp-block-button__link:not(.has-background) {
 #forside_trejde_sektion,
 #forside_fjerde_sektion,
 #forside_femte_sektion {
-    max-width: 1400px;
-    margin: 50px auto;
-    padding: 2% 5% 2% 5%;
+	max-width: 1400px;
+	margin: 50px auto;
+	padding: 2% 5% 2% 5%;
 }
 
 /*FORSIDE SPLASH*/
 
 .forside_splach_container {
-    width: 100vw;
-    height: 80vh;
+	width: 100vw;
+	height: 80vh;
 }
 
 .forside_video {
-    width: 100vw;
-    height: 80vh;
-    object-fit: cover;
-    background-color: #272727;
+	width: 100vw;
+	height: 80vh;
+	object-fit: cover;
+	background-color: #272727;
 }
 
 .forside_kant_bjerg {
-    height: 11vh;
-    width: 100vw;
+	height: 11vh;
+	width: 100vw;
 }
 
 #forside_splach {
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 .forside_splash_knap {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    position: absolute;
-    width: 100vw;
-    bottom: 14vw;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	position: absolute;
+	width: 100vw;
+	bottom: 14vw;
 }
 
 .forside_center_knap {
-    grid-column-start: 2;
-    grid-column-end: span 1;
-    margin: 0 auto;
+	grid-column-start: 2;
+	grid-column-end: span 1;
+	margin: 0 auto;
 }
 
 #forside_ikoner_wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 }
 
 .forside_ikoner_container {
-    margin: 0 auto;
-    text-align: center;
-    width: 100px;
+	margin: 0 auto;
+	text-align: center;
+	width: 100px;
 }
 
 .forside_leverings_ikon,
 .forside_events_ikon {
-    display: none;
+	display: none;
 }
 
 /*FØRSTE SEKTION: nyeste kort*/
@@ -1833,412 +1833,418 @@ a.wp-block-button__link:not(.has-background) {
 
 .titel_alternativ,
 .h2_acc {
-    color: #F1F0E8;
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 0;
+	color: #F1F0E8;
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-bottom: 0;
 }
 
 .pris_alternativ,
 .p_acc {
-    color: #AD9261;
-    font-size: 1rem;
-    margin-bottom: 0;
+	color: #AD9261;
+	font-size: 1rem;
+	margin-bottom: 0;
 }
 
 .forside_figure_ny .se_kort_knap {
-    position: absolute;
-    right: 6px;
-    bottom: 6px;
-    z-index: 40;
+	position: absolute;
+	right: 6px;
+	bottom: 6px;
+	z-index: 40;
 }
 
 
 
 .billede_forside {
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
-    width: 100%;
-    background-size: contain;
+	border-top-left-radius: 5%;
+	border-top-right-radius: 5%;
+	width: 100%;
+	background-size: contain;
 }
 
 /*Styling af hovereffekten på kort og produkter så den sorte bremme forsvinder med mus over bilelde*/
 /*Styler højden på billeder i mobil*/
 
 .forside_single_kob {
-    position: relative;
-    height: 57vh;
+	position: relative;
+	height: 57vh;
 }
 
 .forside_single_kob .baggrund_kort {
-    position: absolute;
-    bottom: 0;
-    background-color: rgba(39, 39, 39, 0.96);
-    width: 100%;
-    padding: 20px;
-    height: 30%;
-    transition: .5s ease;
-    overflow: hidden;
-    margin-bottom: -6%;
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(39, 39, 39, 0.96);
+	width: 100%;
+	padding: 20px;
+	height: 30%;
+	transition: .5s ease;
+	overflow: hidden;
+	margin-bottom: -6%;
 }
 
 article:hover .baggrund_kort {
-    height: 0%;
-    padding: 0px 20px 0px 20px;
+	height: 0%;
+	padding: 0px 20px 0px 20px;
 }
 
 /*billede baggrunden på kortet*/
 
 .forside_figure_ny .billed_placering {
-    background-color: #272727;
-    height: 100%;
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
+	background-color: #272727;
+	height: 100%;
+	border-top-left-radius: 5%;
+	border-top-right-radius: 5%;
 }
 
 /*Slider opsætning, fungere både på mobil og destiop*/
 
 .forside_figure_ny {
-    cursor: pointer;
+	cursor: pointer;
 }
 
 .forside_image-container {
-    overflow-x: auto;
-    overflow-y: hidden;
-    scroll-snap-type: x mandatory;
-    display: flex;
-    gap: 20px;
-    padding: 0px 27px 0px 0px;
+	overflow-x: auto;
+	overflow-y: hidden;
+	scroll-snap-type: x mandatory;
+	display: flex;
+	gap: 20px;
+	padding: 0px 27px 0px 0px;
 }
 
 .forside_image-container .forside_figure_ny {
-    flex-basis: 90%;
-    flex-shrink: 0;
-    scroll-snap-align: center;
+	flex-basis: 90%;
+	flex-shrink: 0;
+	scroll-snap-align: center;
 }
 
 /*ANDEN SEKTION: bliv en del af universet*/
 
 #forside_anden_sektion {
-    background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/06/del_af_universet-_kanter-1.png);
-    background-size: cover;
-    max-width: none;
-    width: 100%;
-    margin: 80px 0 90px 0;
+	background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/06/del_af_universet-_kanter-1.png);
+	background-size: cover;
+	max-width: none;
+	width: 100%;
+	margin: 80px 0 90px 0;
 }
 
 .forside_anden_sektion_knap {
-    background-color: #AD9261;
-    color: #F1F0E8;
-    border-radius: 28px;
-    padding: 12px 20px 12px 20px;
-    font-weight: bold;
-    z-index: 40;
-    margin: 35px auto;
-    width: 126px;
+	background-color: #AD9261;
+	color: #F1F0E8;
+	border-radius: 28px;
+	padding: 12px 20px 12px 20px;
+	font-weight: bold;
+	z-index: 40;
+	margin: 35px auto;
+	width: 126px;
 }
 
 .forside_anden_sektion_tekst h1 {
-    text-align: center;
+	text-align: center;
 }
 
 .forside_anden_sektion_styl {
-    color: #F1F0E8;
-    text-align: left;
+	color: #F1F0E8;
+	text-align: left;
 }
 
 .forside_anden_sektion_styl h1 {
-    text-align: center;
+	text-align: center;
 }
 
 .forside_anden_sektion_tekst {
-    display: grid;
-    padding: 20vw 5% 20vw 5%;
+	display: grid;
+	padding: 20vw 5% 20vw 5%;
 }
 
 /*TREJDE SKETION: styling af trejde sektion*/
 /*Styling af hovereffekten på kort så den sorte bremme forsvinder med mus over bilelde*/
 
 .forside_image-container figure {
-    position: relative;
+	position: relative;
 }
 
 .trejde_sektion_figcuption {
-    position: absolute;
-    bottom: 0;
-    background-color: rgba(39, 39, 39, 0.96);
-    width: 100%;
-    padding: 20px;
-    height: 40%;
-    transition: .5s ease;
-    overflow: hidden;
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(39, 39, 39, 0.96);
+	width: 100%;
+	padding: 20px;
+	height: 40%;
+	transition: .5s ease;
+	overflow: hidden;
 }
 
 .forside_figure_ny img {
-    background-size: cover;
-    width: 100%;
+	background-size: cover;
+	width: 100%;
 }
 
 .forside_figure_ny:hover .trejde_sektion_figcuption {
-    height: 0%;
-    padding: 0px 20px 0px 20px;
+	height: 0%;
+	padding: 0px 20px 0px 20px;
 }
 
 .trejde_sektion_knap {
-    position: absolute;
-    left: 52%;
-    bottom: 3%;
-    z-index: 40;
+	position: absolute;
+	left: 52%;
+	bottom: 3%;
+	z-index: 40;
 }
 
 /*FJERDE SEKTION: styling af fjerde sektion*/
 
 #forside_fjerde_sektion img {
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
-    width: 100%;
+	border-top-left-radius: 5%;
+	border-top-right-radius: 5%;
+	width: 100%;
 }
 
 .fjerde_sektion_figcuption {
-    position: absolute;
-    bottom: 0;
-    background-color: rgba(39, 39, 39, 0.96);
-    width: 100%;
-    height: 29%;
-    transition: .5s ease;
-    overflow: hidden;
-    padding: 2%;
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(39, 39, 39, 0.96);
+	width: 100%;
+	height: 29%;
+	transition: .5s ease;
+	overflow: hidden;
+	padding: 2%;
 }
 
 .forside_figure_event:hover .fjerde_sektion_figcuption {
-    height: 100%;
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
+	height: 100%;
+	border-top-left-radius: 5%;
+	border-top-right-radius: 5%;
 }
 
 .forside_figure_event {
-    flex-basis: 100%;
-    flex-shrink: 0;
-    scroll-snap-align: center;
-    max-width: 385px;
-    margin: 0 auto;
+	flex-basis: 100%;
+	flex-shrink: 0;
+	scroll-snap-align: center;
+	max-width: 385px;
+	margin: 0 auto;
 }
 
 .forside_figure_event img {
-    background-color: black;
+	background-color: black;
 }
 
 /*FEMTE SEKTION: styling af femte sektion*/
 
 #forside_femte_sektion {
-    position: relative;
-    background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/forside-om_os1.png);
-    background-size: cover;
-    max-width: none;
-    width: 100%;
-    padding-top: 60px;
-    padding-bottom: 50px;
+	position: relative;
+	background-image: url(http://kasperdyhl.dk/tier1mtg/wp-content/uploads/2021/05/forside-om_os1.png);
+	background-size: cover;
+	max-width: none;
+	width: 100%;
+	padding-top: 60px;
+	padding-bottom: 50px;
 }
 
 #forside_femte_sektion .bottom img {
-    width: 6rem;
-    margin: 1rem;
+	width: 6rem;
+	margin: 1rem;
 }
 
 .forside_femte_sektion .bottom {
-    margin-top: 75px;
-    text-align: center;
+	margin-top: 75px;
+	text-align: center;
 }
 
 .forside_femte_sektion .left,
 .forside_femte_sektion .rigtht {
-    margin-top: 10%;
+	margin-top: 10%;
 }
 
 .forside_femte_sektion_knap {
-    z-index: 40;
+	z-index: 40;
 }
 
 /*SJETTE SEKTION*/
 
 .forside_sjette_sektion_grid {
-    position: relative;
+	position: relative;
 }
 
 .forside_sjette_sektion_grid .left {
-    text-align: left;
-    padding: 5%;
+	text-align: left;
+	padding: 5%;
 }
 
 /*----- så blomsten i bunden går i ét med footer-----*/
 
 section .forside_sjette_sektion_grid {
-    margin-bottom: -8px;
+	margin-bottom: -8px;
 }
 
 .forside_sjette_sektion_grid .right {
-    text-align: right;
+	text-align: right;
 }
 
 .forside_sjette_sektion_knap:hover {
-    background-color: #272727;
-    color: #AD9261;
+	background-color: #272727;
+	color: #AD9261;
 }
 
 /*desktop*/
 
 @media (min-width: 950px) {
 
-    /*Sektionernes margin og max-width*/
-    /* #forside_first_section,
+	/*Sektionernes margin og max-width*/
+	/* #forside_first_section,
     #forside_trejde_sektion,
     #forside_fjerde_sektion,
     .forside_femte_sektion {
         padding: 0%;
     }*/
 
-    /*OVERSKRIFTERNE TIL HVER SEKTION*/
-    #forside_first_section h1,
-    #forside_trejde_sektion h1,
-    #forside_fjerde_sektion h1 {
-        margin-bottom: 0;
-    }
+	/*OVERSKRIFTERNE TIL HVER SEKTION*/
+	#forside_first_section h1,
+	#forside_trejde_sektion h1,
+	#forside_fjerde_sektion h1 {
+		margin-bottom: 0;
+	}
 
-    /*VIDEO SPLASH*/
-    /*FØRSTE SEKTION OG KORT*/
-    .til_kort_side_nav {
-        text-align: end;
-    }
+	/*VIDEO SPLASH*/
+	/*FØRSTE SEKTION OG KORT*/
+	.til_kort_side_nav {
+		text-align: end;
+	}
 
-    .forside_single_kob .baggrund_kort {
-        height: 25%;
-        margin-bottom: 0;
-    }
+	.forside_single_kob .baggrund_kort {
+		height: 25%;
+		margin-bottom: 0;
+	}
 
-    .se_kort_knap {
-        position: absolute;
-        bottom: 3%;
-        z-index: 40;
-    }
+	.se_kort_knap {
+		position: absolute;
+		bottom: 3%;
+		z-index: 40;
+	}
 
-    .forside_image-container .forside_figure_ny {
-        flex-basis: 27%;
-    }
+	.forside_image-container .forside_figure_ny {
+		flex-basis: 27%;
+	}
 
-    .forside_image-container {
-        padding: 0px;
-    }
+	.forside_image-container {
+		padding: 0px;
+	}
 
-    .forside_splash_knap {
-        bottom: 8vw;
-    }
+	.forside_splash_knap {
+		bottom: 8vw;
+	}
 
-    .forside_kant_bjerg {
-        margin: 0;
-    }
+	.forside_kant_bjerg {
+		margin: 0;
+	}
 
-    #forside_ikoner_wrapper {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        margin-left: 17%;
-        margin-right: 17%;
-    }
+	#forside_ikoner_wrapper {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		margin-left: 17%;
+		margin-right: 17%;
+	}
 
-    .forside_ikoner_container {
-        margin: 0 auto;
-        text-align: center;
-        width: 40px;
-    }
+	.forside_ikoner_container {
+		margin: 0 auto;
+		text-align: center;
+		width: 40px;
+	}
 
-    .forside_leverings_ikon,
-    .forside_events_ikon,
-    .forside_ikoner_container {
-        display: block;
-        width: 100px;
-    }
+	.forside_leverings_ikon,
+	.forside_events_ikon,
+	.forside_ikoner_container {
+		display: block;
+		width: 100px;
+	}
 
-    /*ANDEN SEKTION*/
-    #forside_anden_sektion {}
+	/*ANDEN SEKTION*/
+	#forside_anden_sektion {}
 
-    #forside_anden_sektion .universTekst {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 3vw;
-    }
+	#forside_anden_sektion .universTekst {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 3vw;
+	}
 
-    .forside_anden_sektion_tekst {
-        padding: 90px 20px;
-        margin: 0 auto;
-        max-width: 1000px;
-    }
+	.forside_anden_sektion_tekst {
+		padding: 90px 20px;
+		margin: 0 auto;
+		max-width: 1000px;
+	}
 
-    .trejde_sektion_knap {
-        left: 58%;
-    }
+	.trejde_sektion_knap {
+		left: 58%;
+	}
 
-    /*FJERDE SEKTION ASS*/
-    #forside_fjerde_sektion {
-        margin: 120px auto;
-    }
+	/*FJERDE SEKTION ASS*/
+	#forside_fjerde_sektion {
+		margin: 120px auto;
+	}
 
-    /*FEMTE SEKTIONstyling af femte sektion*/
-    #forside_femte_sektion {}
+	/*FEMTE SEKTIONstyling af femte sektion*/
+	#forside_femte_sektion {}
 
-    .forside_femte_sektion {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-auto-rows: 1fr 0.35fr;
-        grid-column-gap: 40px;
-    }
+	.forside_femte_sektion {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-auto-rows: 1fr 0.35fr;
+		grid-column-gap: 40px;
+	}
 
-    .forside_femte_sektion .left {
-        grid-column-start: 1;
-        grid-column-end: span 1;
-        grid-row-start: 1;
-        grid-row-end: span 1;
-    }
+	.forside_femte_sektion .left {
+		grid-column-start: 1;
+		grid-column-end: span 1;
+		grid-row-start: 1;
+		grid-row-end: span 1;
+	}
 
-    .forside_femte_sektion .rigtht {
-        grid-column-start: 2;
-        grid-column-end: span 1;
-        grid-row-start: 1;
-        grid-row-end: span 1;
-        padding-top: 7%;
-    }
+	.forside_femte_sektion .rigtht {
+		grid-column-start: 2;
+		grid-column-end: span 1;
+		grid-row-start: 1;
+		grid-row-end: span 1;
+		padding-top: 7%;
+	}
 
-    .forside_femte_sektion .left {
-        padding-top: 5%;
-    }
+	.forside_femte_sektion .left {
+		padding-top: 5%;
+	}
 
-    .forside_femte_sektion .bottom {
-        grid-column-start: 1;
-        grid-column-end: span 2;
-        grid-row-start: 2;
-        grid-row-end: span 1;
-        place-self: center;
-        margin: 0%;
-    }
+	.forside_femte_sektion .bottom {
+		grid-column-start: 1;
+		grid-column-end: span 2;
+		grid-row-start: 2;
+		grid-row-end: span 1;
+		place-self: center;
+		margin: 0%;
+	}
 
-    /*SJETTE SEKTION*/
-    .forside_sjette_sektion_grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
+	/*SJETTE SEKTION*/
+	.forside_sjette_sektion_grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
 
-    .forside_sjette_sektion_grid .left {
-        place-self: center;
-        margin-left: 15%;
-        padding: 0%;
-    }
+	.forside_sjette_sektion_grid .left {
+		place-self: center;
+		margin-left: 15%;
+		padding: 0%;
+	}
 }
 
 @media (min-width: 1200px) {
 
-    .forside_splash_knap {
-        bottom: 6vw;
-    }
+	.forside_splash_knap {
+		bottom: 6vw;
+	}
 }
 
+@media (min-width: 1300px) {
+
+	.forside_splash_knap {
+		bottom: 50px;
+	}
+}
 
 /* -------------------------- FORSIDE / INDEX SLUT ----------------------------- */
 /* -------------------------- TEKST ----------------------------- */
