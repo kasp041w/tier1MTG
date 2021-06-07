@@ -1772,7 +1772,7 @@ a.wp-block-button__link:not(.has-background) {
 #forside_femte_sektion {
     max-width: 1400px;
     margin: 50px auto;
-    padding: 5%;
+    padding: 2% 5% 2% 5%;
 }
 
 /*FORSIDE SPLASH*/
